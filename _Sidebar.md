@@ -1,0 +1,1 @@
+[TEST](https://github.com/runelite/runelite/wiki/Getting-Started)
