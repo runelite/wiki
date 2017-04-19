@@ -1,3 +1,4 @@
+![](https://puu.sh/vpxc1/5fe318e5b1.png)  
 Welcome to the RuneLite wiki!
 
 There's not much here at the moment, but we're working on it.  
