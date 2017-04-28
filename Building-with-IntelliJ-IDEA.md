@@ -2,7 +2,7 @@ If you've tried to build RuneLite with IntelliJ, you may be getting this error:
  
  ![](http://i.imgur.com/YfGXjOQ.png)
  
- This is caused by IntelliJ's build system being unable to find some of the ASM libraries that RuneLite uses.
+ This is because you did not import the project as a Maven project.
  
  Luckily, there is a fairly quick fix for this.
  
