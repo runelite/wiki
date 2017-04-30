@@ -16,7 +16,7 @@ public final class Client extends GameEngine {
 }
 ```
 
-We can see the orginal "obfuscated name" of the field: cleint.v, and the deobfuscated name, which is exported as isMembers.
+We can see the orginal "obfuscated name" of the field: client.v, and the deobfuscated name, which is exported as isMembers.
 
 In order to have a method to get the value of this field injected into our client, we need to add an import on the respective interface in runescape-api, such as:
 
