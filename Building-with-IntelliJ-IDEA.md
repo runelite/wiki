@@ -1,66 +1,63 @@
-If you've tried to build RuneLite with IntelliJ, you may be getting this error:
- 
- ![](http://i.imgur.com/YfGXjOQ.png)
- 
- This is because you did not import the project as a Maven project.
- 
- Luckily, there is a fairly quick fix for this.
- 
- When checking out from GitHub or manually opening the project in IntelliJ, make sure to select 'Import Project'
- and select 'Maven' under 'Import project from external model'.
+# Challenge
 
-![](http://i.imgur.com/sjDPeMB.png)
+When building RuneLite in IntelliJ IDEA, you might get this error:
+ 
+![](http://i.imgur.com/YfGXjOQ.png)
 
- You'll be met with additional menus like this one:
+# Solution
  
-![](http://i.imgur.com/v6PRPOO.png)
- 
- Just click 'Next' on all of them - assuming you have Java's JDK already installed, there should be
- no issues.
- 
- Now that the project is loaded into IntelliJ, go to the right hand corner and select 'Edit Configurations' 
- from the drop-down.
- 
- ![](http://i.imgur.com/FFYVYMR.png)
- 
- You'll need to create a new Maven configuration, so click on the green + sign and select Maven in the drop-down.
- 
- ![](http://i.imgur.com/iUjpRW8.png)
- 
- Set your 'Working directory' to the project directory, and enter 'install -DskipTests' in the 'Command line' box.
- 
- ![](http://i.imgur.com/DDdpQ37.png)
- 
-  Alternatively, instead of using -DskipTests, in the 'Runner' tab, you can uncheck 'Use Project Settings' and then 
- check 'Skip Tests'.
- 
- Now that the Maven configuration is set up, simply press the green play button next to the configuration dropdown to
- build the project using Maven.
- 
- ![](http://i.imgur.com/FFYVYMR.png)
- 
- ![](http://i.imgur.com/pIU2PnT.png)
- 
- Success! The project should build correctly. If not, make sure you didn't forget the -DskipTests command line argument
- in the configuration.
- 
- You should now be able to compile the client. Click the 'Build Project' button to the left of the configuration dropdown,
- or select Build > Build Project.
- 
- To run the client, all you need to do is find RuneLite.class in the runelite-client folder. Right click on the class and
- select 'Run RuneLite.main()'.
- 
- ![](http://i.imgur.com/w2K9lCH.png)
- 
- The client should boot up.
- 
- ![](http://i.imgur.com/fqoxCXS.png)
- 
- Success! You can switch between running the client and building the Maven project by switching between the 'RuneLite' configuration
- and whatever you name your custom Maven configuration before(by default 'Untitled').
- 
- Happy development!
- 
- 
- 
- 
+This is because you did not import the project as a Maven project. 
+
+Luckily, there is a fairly straight-forward fix for this, divided into a few steps:
+
+## Importing
+
+When checking out from GitHub or manually opening the project in IntelliJ, make sure to select 'Import Project'
+and select 'Maven' under 'Import project from external model':
+
+![](http://i.imgur.com/gSuqzAY.png)
+
+You'll be met with additional menus, just click 'Next' on all of them - there shouldn't be any issues assuming you have the JDK installed.
+
+## Configuration
+
+Now that the project is loaded into IntelliJ, go to the right hand corner and select 'Edit Configurations...' from the drop-down:
+
+![](http://i.imgur.com/MmKople.png)
+
+You'll need to create a new Maven configuration, so click on the green plus sign and select Maven in the drop-down:
+
+![](http://i.imgur.com/iUjpRW8.png)
+
+Set your 'Working directory' to the project directory by pressing the folder button on the right-hand side and selecting 'runelite-parent'. 
+
+Enter `install -DskipTests` in the 'Command line' box:
+
+![](http://i.imgur.com/ekzfg2c.png)
+
+## Building
+
+Now that the Maven configuration is set up, simply press the green play button next to the configuration dropdown to
+build the project using Maven:
+
+![](http://i.imgur.com/85YnqXB.png)
+
+Success! Your Maven build should run correctly:
+
+![](http://i.imgur.com/pIU2PnT.png)
+
+## Running
+
+Now, to run the client, all you need to do is find RuneLite.class in the runelite-client folder. Right click on the class and select 'Run RuneLite.main()':
+
+![](http://i.imgur.com/w2K9lCH.png)
+
+The client should boot up:
+
+![](http://i.imgur.com/fqoxCXS.png)
+
+## Conclusion
+
+Success! You can switch between running the client and building the Maven project by switching between the 'RuneLite' configuration and your custom Maven configuration.
+
+Happy development!
