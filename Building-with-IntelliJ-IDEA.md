@@ -56,6 +56,11 @@ The client should boot up:
 
 ![](http://i.imgur.com/fqoxCXS.png)
 
+NOTE: If the client fails to boot or if the applet does not appear, try to rebuild the project by running the maven builder again. If that also doesn't work, feel free to ask for help in the discord server.
+Example error when client does not boot:
+
+![](https://i.imgur.com/KSf3evR.png)
+
 ## Conclusion
 
 Success! You can switch between running the client and building the Maven project by switching between the 'RuneLite' configuration and your custom Maven configuration.
