@@ -2,7 +2,7 @@
 
 Field and method mappings are stored as annotations on the runescape-client project, which is a deobfuscated and decompiled version of the RuneScape client.
 
-For example, the field isMembers in gamepack #140:
+For example, the field isMembers:
 
 ```java
 @Implements("Client")
@@ -11,7 +11,7 @@ public final class Client extends GameEngine {
 	...
 	@ObfuscatedName("v")
 	@Export("isMembers")
-	static boolean isMembers = false;
+	static boolean isMembers;
 	...
 }
 ```
@@ -21,7 +21,7 @@ We can see the orginal "obfuscated name" of the field: client.v, and the deobfus
 In order to have a method to get the value of this field injected into our client, we need to add an import on the respective interface in runescape-api, such as:
 
 ```java
-public interface Client extends GameEngine {
+public interface RSClient extends RSGameEngine, Client {
 	...
 	@Import("isMembers")
 	boolean isMembers();
@@ -30,6 +30,8 @@ public interface Client extends GameEngine {
 ```
 
 This pair of Import and Export is what causes the injector to inject a method into class client to get the value of isMembers.
+
+Then, to expose it to runelite-api, so that runelite-client can see it, add the method to its interface Client too. Generally, runelite-api is a subset of runescape-api, with the majority of its methods implemented automatically by the injector. However, it is also mixed with the runelite-mixins which can provide some higher level wrappers around things (commonly enums instead of ints). runescape-api is meant to be 1:1 with the deobfuscated client.
 
 The injector is run when the project named Injector is built. It takes the vanilla gamepack, the annotations on runecsape-client and runescape-api, and injects methods and hooks as appropriate.
 It then produces the injected jar, which is an artifact of the build. This artifact is what runelite-client has a dependency on, which is the client that it loads on startup.
@@ -43,7 +45,7 @@ The [updater project](https://github.com/runelite/updater) performs the updates 
 
 First, the updater takes the vanilla jar and runs the deobfuscator on it. This produces the deobfuscated jar, which has most of the obfuscation removed, and can be easily de-compiled, re-compiled, and runs correctly.
 
-Next, the updater takes the old runescape-client, with its annotations, and passes it and the deobfuscated jar to the mapper. The mapper uses various levels of kungfoo, that is best described in another wiki article, to copy the annotations to the correct methods/fields/classes in the new jar, and renames them according to the exported name. This produces the mapped jar.
+Next, the updater takes the old runescape-client, with its annotations, and passes it and the deobfuscated jar to the mapper. The mapper maps the common fields and methods between the two jars and copies the annotations to the correct methods/fields/classes in the new jar, and renames them according to the exported name. This produces the mapped jar.
 
 Then, the updater runs [FernFlower](https://github.com/runelite/fernflower) on the mapped jar to decompile it, and commits the new code to the runescape-client project in the RuneLite repository.
 
