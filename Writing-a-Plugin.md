@@ -20,7 +20,7 @@ Then, to generate a new plugin using Netbeans:
 Or, to generate a new plugin using the command line:
 
 ```
-$ mvn archetype:generate -DarchetypeGroupId=net.runelite -DarchetypeArtifactId=runelite-plugin-archetype -DarchetypeVersion=$VERSION -DarchetypeRepository=http://repo.runelite.net
+$ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -DarchetypeGroupId=net.runelite -DarchetypeArtifactId=runelite-plugin-archetype -DarchetypeVersion=$VERSION -DarchetypeRepository=http://repo.runelite.net
 ```
 
 Replacing $VERSION with the version of RuneLite you have (eg. 1.2.8).
