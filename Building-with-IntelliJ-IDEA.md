@@ -66,3 +66,21 @@ Example error when client does not boot:
 Success! You can switch between running the client and building the Maven project by switching between the 'RuneLite' configuration and your custom Maven configuration.
 
 Happy development!
+
+# Challenge
+
+When viewing the project in IntelliJ IDEA you may come across this error:
+
+![](https://i.imgur.com/a1YDonV.png)
+
+# Solution
+
+This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
+
+## Installing Lombok Plugin
+
+Navigate to the plugins tab within the IntelliJ IDEA settings. Browse repositories for the Lombok Plugin. Install it and restart IntelliJ IDEA. 
+
+## Conclusion
+
+Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
