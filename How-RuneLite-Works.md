@@ -31,7 +31,20 @@ public interface RSClient extends RSGameEngine, Client {
 
 This pair of Import and Export is what causes the injector to inject a method into class client to get the value of isMembers.
 
-Then, to expose it to runelite-api, so that runelite-client can see it, add the method to its interface Client too. Generally, runelite-api is a subset of runescape-api, with the majority of its methods implemented automatically by the injector. However, it is also mixed with the runelite-mixins which can provide some higher level wrappers around things (commonly enums instead of ints). runescape-api is meant to be 1:1 with the deobfuscated client.
+Then, to expose it to runelite-api, so that runelite-client can see it, add the method to its interface Client too. 
+
+```java
+public interface Client {
+	...
+	boolean isMembers();
+}
+```
+
+### Exporting Static fields
+
+Use the same approach as above, however since the class a static field resides in is dynamic depending on the deobfuscation, if you wish to Import the field in runescape-api it must go in the Client class as a non-static member.
+
+Generally, runelite-api is a subset of runescape-api, with the majority of its methods implemented automatically by the injector. However, it is also mixed with the runelite-mixins which can provide some higher level wrappers around things (commonly enums instead of ints). runescape-api is meant to be 1:1 with the deobfuscated client.
 
 The injector is run when the project named Injector is built. It takes the vanilla gamepack, the annotations on runescape-client and runescape-api, and injects methods and hooks as appropriate.
 It then produces the injected jar, which is an artifact of the build. This artifact is what runelite-client has a dependency on, which is the client that it loads on startup.
