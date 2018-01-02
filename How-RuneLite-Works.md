@@ -43,6 +43,7 @@ public interface Client {
 ### Exporting Static fields
 
 Use the same approach as above, however since the class a static field resides in is dynamic depending on the deobfuscation, if you wish to Import the field in runescape-api it must go in the Client class as a non-static member.
+Also be aware that static methods that are in classes which have only static members and no instantiated fields cannot be tracked using the deobber and therefore cannot be imported. 
 
 Generally, runelite-api is a subset of runescape-api, with the majority of its methods implemented automatically by the injector. However, it is also mixed with the runelite-mixins which can provide some higher level wrappers around things (commonly enums instead of ints). runescape-api is meant to be 1:1 with the deobfuscated client.
 
