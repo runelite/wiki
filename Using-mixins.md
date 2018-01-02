@@ -68,8 +68,6 @@ If we want to invoke the original method in the new code, we'll have to `@Copy` 
 `rl$` is prepended to replaced method names as a convention.
 
 ```java
-package net.runelite.mixins;
-
 @Mixin(RSClient.class)
 public abstract class RSClientMixin implements RSClient
 {
@@ -92,8 +90,6 @@ public abstract class RSClientMixin implements RSClient
 **NOTE:** Changing the default value of fields (the value at time of first initialization) is not supported.
 
 ```java
-package net.runelite.mixins;
-
 @Mixin(RSClient.class)
 public abstract class RSClientMixin implements RSClient
 {
@@ -116,8 +112,6 @@ public abstract class RSClientMixin implements RSClient
 If you would like to use fields injected by other mixins, you can use shadowing.
 
 ```java
-package net.runelite.mixins;
-
 @Mixin(RSClient.class)
 public abstract class RSClientMixin implements RSClient
 {
@@ -127,8 +121,6 @@ public abstract class RSClientMixin implements RSClient
 ```
 
 ```java
-package net.runelite.mixins;
-
 @Mixin(RSActor.class)
 public abstract class RSActorMixin implements RSActor
 {
