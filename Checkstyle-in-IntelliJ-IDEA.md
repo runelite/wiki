@@ -9,7 +9,7 @@ When submitting pull requests, you may notice build errors in the Travis CI. Che
 To start, create a new build configuration to be used for checkstyle. Follow the instructions in the `Configuration` section in the [Building with IntelliJ-IDEA](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA#configuration) wiki article.
 
 After the last step in the 'Configuration' section, click on the 'Runner' tab.
-![alt](https://gyazo.com/b43761a4e744e515b6549511a4333b07)
+![alt](https://i.gyazo.com/b43761a4e744e515b6549511a4333b07.png)
 
 Uncheck the 'use project settings' checkbox (red rectangle), and then press the plus button (blue square) to add a build property.
 
