@@ -4,6 +4,8 @@ See [contributing.md](https://github.com/runelite/runelite/blob/master/CONTRIBUT
 * Tabs, not spaces.
 * Brace placement is always next line.
 
+See [Checkstyle with IntelliJ IDEA](https://github.com/runelite/runelite/wiki/Checkstyle-with-IntelliJ-IDEA) on how to set up an IntelliJ build configuration with automatic checkstyle.
+
 # Imports
 
 We also don't like wildcard imports, so please turn those off:
