@@ -87,8 +87,6 @@ public abstract class RSClientMixin implements RSClient
 
 ## Field injection
 
-**NOTE:** Changing the default value of fields (the value at time of first initialization) is not supported.
-
 ```java
 @Mixin(RSClient.class)
 public abstract class RSClientMixin implements RSClient
@@ -106,6 +104,9 @@ public abstract class RSClientMixin implements RSClient
         }
 }
 ```
+
+Static fields always have their default value injected. Non-static fields will only have their default values
+injected if there is a constructor annotated with `@Inject`
 
 ## Field shadowing
 
