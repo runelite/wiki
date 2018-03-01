@@ -34,12 +34,14 @@ The JDBC driver that the HTTP Service will use to connect to our database. Downl
 Most of the MySQL configuration was taken care of in the installer, but there are a couple items left. Open up MySQL Workbench, create new databases named "runelite" and "runelite-cache", and make sure that the "runelite" user we created durning the install is able to modify it. The easiest way to do this is by copying and pasting the following SQL statements into the SQL file in the center of the window and clicking the lightning bolt to execute them. Make sure you substitute the password you chose earlier during the install.
 
     create database runelite;
-    create database `runelite-cache`;
+    create database `runelite-cache2`;
+    create database `runelite-tracker`;
     grant all on runelite.* to 'runelite'@'localhost' identified by '<PASSWORD_GOES_HERE>';
-    grant all on `runelite-cache`.* to 'runelite'@'localhost' identified by '<PASSWORD_GOES_HERE>';
+    grant all on `runelite-cache2`.* to 'runelite'@'localhost' identified by '<PASSWORD_GOES_HERE>';
+    grant all on `runelite-tracker`.* to 'runelite'@'localhost' identified by '<PASSWORD_GOES_HERE>';
     flush privileges;
 
-![](https://i.imgur.com/nLS5QK7.png)
+![](https://i.imgur.com/vQLEiwO.png)
 
 We're done with MySQL until it's time to verify the database connection is working.
 
@@ -55,19 +57,32 @@ To start off, we'll be editing some configuration files located in the Tomcat in
             validationQuery="/* ping */"
     />
 
-    <Resource name="jdbc/runelite-cache" auth="Container" type="javax.sql.DataSource"
+    <Resource name="jdbc/runelite-cache2" auth="Container" type="javax.sql.DataSource"
             maxActive="50" maxIdle="30" maxWait="10000"
             username="runelite" password="<PASSWORD_GOES_HERE>"
             driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://localhost:3306/runelite-cache"
+            url="jdbc:mysql://localhost:3306/runelite-cache2"
             testOnBorrow="true"
             validationQuery="/* ping */"
     />
 
-    <Environment name="runelite-oauth-client-id" value="moo" type="java.lang.String"/>
-    <Environment name="runelite-oauth-client-secret" value="moo" type="java.lang.String"/>
+    <Resource name="jdbc/runelite-tracker" auth="Container" type="javax.sql.DataSource"
+            maxActive="50" maxIdle="30" maxWait="10000"
+            username="runelite" password="<PASSWORD_GOES_HERE>"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/runelite-tracker"
+            testOnBorrow="true"
+            validationQuery="/* ping */"
+    />
 
-![](https://i.imgur.com/v8phoje.png)
+    <Environment name="oauth.client-id" value="moo" type="java.lang.String"/>
+    <Environment name="oauth.client-secret" value="moo" type="java.lang.String"/>
+    <Environment name="minio.endpoint" value="http://10.96.22.171:9000" type="java.lang.String"/>
+    <Environment name="minio.accesskey" value="AM54M27O4WZK65N6F8IP" type="java.lang.String"/>
+    <Environment name="minio.secretkey" value="/PZCxzmsJzwCHYlogcymuprniGCaaLUOET2n6yMP" type="java.lang.String"/>
+    <Environment name="minio.bucket" value="runelite" type="java.lang.String"/>
+
+![](https://i.imgur.com/iz0Dq5V.png)
 
 Next up is `tomcat-users.xml` in the same folder. Copy and paste the following into the `<tomcat-users><tomcat-users/>` tags:
 
