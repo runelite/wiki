@@ -3,8 +3,7 @@
 
 ## Basic Client Usuage
 ### Settings
-[XP Globes Configuration](https://github.com/runelite/runelite/wiki/XP-Globes-Configuration)
-
+[XP Globes Configuration](https://github.com/runelite/runelite/wiki/XP-Globes-Configuration)   
 [Report Button Utils Configuration](https://github.com/runelite/runelite/wiki/Report-Button-Utils-Configuration)
 
 ## Development
