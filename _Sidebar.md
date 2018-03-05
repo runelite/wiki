@@ -1,5 +1,12 @@
-## RuneLite Wiki
+# RuneLite Wiki
 [Home](https://github.com/runelite/runelite/wiki)
+
+## Basic Client Usuage
+### Settings
+[XP Globes Configuration](https://github.com/runelite/runelite/wiki/XP-Globes-Configuration)
+[Report Button Utils Configuration](https://github.com/runelite/runelite/wiki/Report-Button-Utils-Configuration)
+
+## Development
 ### Getting started
 [Building with IntelliJ IDEA](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA)  
 [Code Conventions](https://github.com/runelite/runelite/wiki/Code-Conventions)  
