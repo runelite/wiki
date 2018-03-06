@@ -8,7 +8,11 @@ Enables a bigger zoom range than default
 
 Expands the Zoom Limit
 
-## Expand outer Zoom Limit
+## Vertical Camera
+
+
+
+## Expand inner Zoom Limit
 
 Expands the Zoom Limit
 
