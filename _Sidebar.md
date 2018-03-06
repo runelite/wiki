@@ -14,6 +14,8 @@
     * [[Screenshot]]
     * [[Special Attack Orb]]
     * [[Team Capes]]
+    * [[Username Syncer]]
+    * [[Woodcutting]]
     * [[XP Globes]]
     * [[XP Tracker]]
 * **Developer's Guide**
