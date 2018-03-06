@@ -1,10 +1,4 @@
-# Special Attack Orb
+## Special Attack Orb
+Configures whether the special attack orb is shown next to the minimap  
 
 ![Special Attack Orb](https://i.imgur.com/dCbY3uT.png)
-
-# Settings
-## ON / OFF
-
-![Special Attack Orb](https://i.imgur.com/dCbY3uT.png)
-
-Displays the Special Attack Orb, where you can see the Energy Left.
