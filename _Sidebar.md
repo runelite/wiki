@@ -15,6 +15,7 @@
     * [[Special Attack Orb]]
     * [[Team Capes]]
     * [[XP Globes]]
+    * [[XP Tracker]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
