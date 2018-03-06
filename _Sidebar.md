@@ -1,6 +1,6 @@
 # Table of Contents
-* **User's Guide**
-  * **Configuration**
+* **User Guide**
+  * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
     * [[Attack Indicator]]
