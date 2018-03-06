@@ -5,6 +5,7 @@ The Barrows plugin contains useful features to help you in the Barrows minigame
 ### Show Minimap in tunnels
 When selected, the plugin will draw a custom minimap when in the tunnels  
 It shows monsters, walls, doors you are able to go through (green), and the ladder (orange)  
+ 
 ![Barrows tunnel minimap](https://i.imgur.com/crAsTaz.png)
 
 ### Show Brothers location  
