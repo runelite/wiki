@@ -1,10 +1,10 @@
 # Table of Contents
 * **User's Guide**
   * **Configuration**
-    * [[Hiscore Configuration]]
-    * [[Report Button Utils Configuration]]
-    * [[RuneLite Configuration]]
-    * [[XP Globes Configuration]]
+    * [[Hiscore]]
+    * [[Report Button Utils]]
+    * [[RuneLite]]
+    * [[XP Globes]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
