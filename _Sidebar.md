@@ -1,8 +1,9 @@
 # Table of Contents
 * **User's Guide**
   * **Configuration**
-    * [[XP Globes Configuration]]
+    * [[Hiscores Configuration]]
     * [[Report Button Utils Configuration]]
+    * [[XP Globes Configuration]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
