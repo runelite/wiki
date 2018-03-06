@@ -1,19 +1,19 @@
-# Report Button Utils Configuration
+## Report Button Utils Configuration
 
 ![Report button preview](https://i.imgur.com/mFvT5gD.png)
 
-# Settings
-## Display Options
+## Settings
+### Display Options
 
-You can switch between showing following options:
+You can switch between the following options:
 
 `OFF:`
- Report button, like in vanilla client   
+ The default report button  
 `LOGIN TIMER:`
  Shows the time online since login   
 `UTC TIME:`
- Shows the standard UTC (Coordinated universal time) time.   
+ Shows the standard UTC (Coordinated Universal Time) time   
 `JAGEX HQ TIME:`
- Shows the time at Jagex HQ (GMT)   
+ Shows the time at Jagex HQ (currently GMT)   
 `LOCAL TIME:`
  Shows your local time
