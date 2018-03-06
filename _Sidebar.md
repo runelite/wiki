@@ -3,10 +3,13 @@
   * **Configuration**
     * [[Camera Zoom Unlimiter]]
     * [[Hiscore]]
-    * [[Info panel]]
+    * [[Info Panel]]
+    * [[Low Detail]]
     * [[Report Button Utils]]
     * [[RuneLite]]
+    * [[Screenshot]]
     * [[Special Attack Orb]]
+    * [[Team Capes]]
     * [[XP Globes]]
 * **Developer's Guide**
   * **Setting up development environment**
