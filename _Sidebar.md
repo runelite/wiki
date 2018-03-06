@@ -8,6 +8,7 @@
     * [[Hiscore]]
     * [[Info Panel]]
     * [[Low Detail]]
+    * [[Mouse Highlight]]
     * [[Report Button Utils]]
     * [[RuneLite]]
     * [[Screenshot]]
