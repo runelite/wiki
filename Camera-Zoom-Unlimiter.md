@@ -1,19 +1,15 @@
-# Camera Zoom Unlimiter Configuration
+## Camera Zoom Unlimiter Configuration
 
-![Camera Zoom Unlimiter Configuration](https://i.imgur.com/gKNvCbN.png)
-Enables a bigger zoom range than default
+Enables a bigger zoom range than default  
 
-# Settings
-## Expand outer Zoom Limit
+![Camera Zoom Unlimiter Configuration](https://i.imgur.com/gKNvCbN.png)  
 
-Expands the Zoom Limit
+## Settings
+### Expand Outer Zoom Limit
+Allows you to zoom out further
 
-## Vertical Camera
+### Expand Inner Zoom Limit
+Allows you to zoom in further
 
-
-
-## Expand inner Zoom Limit
-
-Expands the Zoom Limit
-
-
+### Vertical Camera
+When the camera moves vertically, this option allows it to move higher than default 
