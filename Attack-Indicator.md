@@ -1,9 +1,9 @@
-# Attack Indicators Configuration
+## Attack Indicators Configuration
 Enables the Attack Indicator
 
 ![Attack Indicator](https://i.imgur.com/q3ddy8Z.png)
-# Settings
-## Warn for ______
+## Settings
+### Warn for ______
 This plugin contains various options for warning you when using a certain style you might want to avoid  
 The plugin will warn you by highlighting the Attack Indicator style in red
 
