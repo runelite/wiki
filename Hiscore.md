@@ -1,5 +1,6 @@
 ## Hiscore Configuration
-Configures whether or not the Hiscore button and panel are displayed on the client  
+Displays a button to open the Hiscore panel
+
 
 ![Hiscore panel](https://i.imgur.com/JYqUYov.png)
 ## Settings
