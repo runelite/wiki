@@ -1,7 +1,7 @@
 # Table of Contents
 * **User's Guide**
   * **Configuration**
-    * [[Camera Zoom Unlimited]]
+    * [[Camera Zoom Unlimiter]]
     * [[Hiscore]]
     * [[Info panel]]
     * [[Report Button Utils]]
