@@ -1,0 +1,2 @@
+## Username Syncer Configuration
+If enabled, this plugin will save your username to the config, and allows it to be synced with the cloud and across multiple PCs if you are signed in with the [Account](https://github.com/runelite/runelite/wiki/Account) plugin
