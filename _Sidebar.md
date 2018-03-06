@@ -4,6 +4,7 @@
     * [[Account]]
     * [[Agility]]
     * [[Attack Indicator]]
+    * [[Barrows]]
     * [[Camera Zoom Unlimiter]]
     * [[Hiscore]]
     * [[Info Panel]]
