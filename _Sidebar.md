@@ -2,6 +2,7 @@
 * **User's Guide**
   * **Configuration**
     * [[Account]]
+    * [[Attack Indicator]]
     * [[Camera Zoom Unlimiter]]
     * [[Hiscore]]
     * [[Info Panel]]
