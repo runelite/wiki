@@ -5,6 +5,7 @@
     * [[Info panel]]
     * [[Report Button Utils]]
     * [[RuneLite]]
+    * [[Special Attack Orb]]
     * [[XP Globes]]
 * **Developer's Guide**
   * **Setting up development environment**
