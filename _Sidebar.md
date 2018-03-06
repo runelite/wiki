@@ -2,6 +2,7 @@
 * **User's Guide**
   * **Configuration**
     * [[Account]]
+    * [[Agility]]
     * [[Attack Indicator]]
     * [[Camera Zoom Unlimiter]]
     * [[Hiscore]]
