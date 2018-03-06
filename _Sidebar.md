@@ -3,6 +3,7 @@
   * **Configuration**
     * [[Hiscore Configuration]]
     * [[Report Button Utils Configuration]]
+    * [[RuneLite Configuration]]
     * [[XP Globes Configuration]]
 * **Developer's Guide**
   * **Setting up development environment**
