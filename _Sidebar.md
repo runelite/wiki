@@ -2,6 +2,7 @@
 * **User's Guide**
   * **Configuration**
     * [[Hiscore]]
+    * [[Info panel]]
     * [[Report Button Utils]]
     * [[RuneLite]]
     * [[XP Globes]]
