@@ -1,26 +1,11 @@
 # Hiscore Configuration
 
-![RuneLite Configuration](https://i.imgur.com/D5yN1Yy.png)
+![Hiscore Configuration](https://i.imgur.com/RXD9Vkt.png)
 
 # Settings
-## Game size
+## Player option
 
-Allows to resize your client to a different size
+![Hiscore Configuration](https://i.imgur.com/RXD9Vkt.png)
 
-## Enable client always on top
+Shows the lookup option when rightclicking another player.
 
-The client will stay visible and infront of all other programms as long as this is checked.
-
-##  Enable custom window chrome
-
-The window chrome will be set to your standard (like all other programs).
-
-## Enable sound on notifications
-
-Allows RuneLite to play a sound on notification, like IdleNotifier.
-
-## Enable chat commands recolor
-
-![Chat commands recolor](https://i.imgur.com/DM7uwWP.png)
-
-Makes Chat commands easier to read, due recoloring important information.
