@@ -1,6 +1,4 @@
-# Low Detail Configuration
+## Low Detail Configuration
 
-Enables the game in low detail, usefull when alot people have to be rendered.
-
-# Settings
+The game will run in low detail, reducing memory usage
 
