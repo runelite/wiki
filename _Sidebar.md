@@ -14,6 +14,7 @@
     * [[Screenshot]]
     * [[Special Attack Orb]]
     * [[Team Capes]]
+    * [[Timers]]
     * [[Username Syncer]]
     * [[Woodcutting]]
     * [[XP Globes]]
