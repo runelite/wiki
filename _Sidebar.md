@@ -1,7 +1,7 @@
 # Table of Contents
 * **User's Guide**
   * **Configuration**
-    * [[Hiscores Configuration]]
+    * [[Hiscore Configuration]]
     * [[Report Button Utils Configuration]]
     * [[XP Globes Configuration]]
 * **Developer's Guide**
