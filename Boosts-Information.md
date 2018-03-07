@@ -1,5 +1,5 @@
-## Boosts Plugin Configuration  
-The Boosts plugin will give you useful information about stat boosts and drains in the top-left of the game window  
+## Boosts Information Plugin Configuration  
+The Boosts Information plugin will give you useful information about stat boosts and drains in the top-left of the game window  
 By default, the panel will show the boosted stats in a list, in `boostedlevel`/`level` format  
 
 ![Default Boost Config](https://i.imgur.com/xo3ztaB.png)
