@@ -15,7 +15,7 @@
     * [[Hiscore]]
     * [[Info Panel]]
     * [[Low Detail]]
-    * [[Mouse Highlight]]
+    * [[Mouse Tooltips]]
     * [[Prayer Flicking]]
     * [[Report Button Utils]]
     * [[RuneLite]]
