@@ -4,7 +4,7 @@
     * [[Account]]
     * [[Agility]]
     * [[Attack Indicator]]
-    * [[Barrows]]
+    * [[Barrows Brothers]]
     * [[Boosts]]
     * [[Camera Zoom Unlimiter]]
     * [[Chat Commands]]
