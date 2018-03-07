@@ -3,7 +3,7 @@
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
-    * [[Attack Indicator]]
+    * [[Attack Indicators]]
     * [[Barrows Brothers]]
     * [[Boosts]]
     * [[Camera Zoom Unlimiter]]
