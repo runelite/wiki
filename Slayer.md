@@ -12,4 +12,4 @@ When checked, this will display your task in an infobox to the top-left of the g
 Along with a mouse tooltip on hover containing your points and streak  
 ![Task points and streak tooltip](https://i.imgur.com/7lXCMeu.png)
 
-Note that RuneLite gets the information on your Slayer task when you receive the task and keeps its own counter for display in the infobox. This means RuneLite will only be aware of your task if you have received the task from your Slayer master while using RuneLite. This also means RuneLite's counter can become out of sync with the real counter, for instance when you make a few kills when not using RuneLite.
+Note that RuneLite gets the information on your Slayer task when you receive the task or when you check the Slayer gem. RuneLite keeps its own counter for display in the infobox. This also means RuneLite's counter can become out of sync with the real counter, for instance when you make a few kills when not using RuneLite.
