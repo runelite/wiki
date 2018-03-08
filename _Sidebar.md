@@ -21,7 +21,6 @@
     * [[RuneLite]]
     * [[Screenshot]]
     * [[Slayer]]
-    * [[Special Attack Orb]]
     * [[Team Capes]]
     * [[Timers]]
     * [[Username Syncer]]
