@@ -1,4 +1,4 @@
-## Report Button Utils Configuration
+## Report Button Configuration
 
 ![Report button preview](https://i.imgur.com/mFvT5gD.png)
 
