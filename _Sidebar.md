@@ -18,7 +18,7 @@
     * [[Low Detail]]
     * [[Mouse Tooltips]]
     * [[Prayer Flicking]]
-    * [[Report Button Utils]]
+    * [[Report Button]]
     * [[RuneLite]]
     * [[Screenshot]]
     * [[Slayer]]
