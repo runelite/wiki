@@ -1,4 +1,4 @@
-## Hiscore Configuration
+## HiScore Configuration
 Displays a button to open the Hiscore panel
 
 
