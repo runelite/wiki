@@ -1,4 +1,4 @@
-## Camera Zoom Unlimiter Configuration
+## Camera Zoom Configuration
 
 Enables a bigger zoom range than default  
 
