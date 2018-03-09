@@ -13,7 +13,7 @@
     * [[Clan Chat]]
     * [[Combat Level]]
     * [[Discord]]
-    * [[Hiscore]]
+    * [[HiScore]]
     * [[Info Panel]]
     * [[Low Detail]]
     * [[Mouse Tooltips]]
