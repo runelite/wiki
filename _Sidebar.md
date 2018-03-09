@@ -6,7 +6,7 @@
     * [[Attack Indicators]]
     * [[Barrows Brothers]]
     * [[Boosts Information]]
-    * [[Camera Zoom Unlimiter]]
+    * [[Camera Zoom]]
     * [[Chambers of Xeric]]
     * [[Chat Commands]]
     * [[Chat History]]
