@@ -16,7 +16,7 @@ Showing the scout overlay will enable the use of the raids scouter that will aid
 
 ![](https://user-images.githubusercontent.com/35824069/36713836-c378264a-1b8f-11e8-868d-21d5e9d49526.png)
 
-
+Enabling the scout overlay outside lobby will allow you to leave the lobby (if you need to bank, for example) and have the overlay still active.
 ## Configuring the scouter
 All these settings are not case-sensitive, and require complete room names (as shown on the overlay) to match. Adding more entries is comma separated unless stated otherwise.
 ### Whitelisted rooms
