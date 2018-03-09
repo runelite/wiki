@@ -7,6 +7,7 @@
     * [[Barrows Brothers]]
     * [[Boosts Information]]
     * [[Camera Zoom Unlimiter]]
+    * [[Chambers of Xeric]]
     * [[Chat Commands]]
     * [[Chat History]]
     * [[Clan Chat]]
