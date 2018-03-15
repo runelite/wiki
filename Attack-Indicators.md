@@ -16,8 +16,7 @@ The styles you can warn for are:
 * Ranged
 * Magic
 
-## Removed Warned Styles
-### **NB: There is currently a bug ([#860](https://github.com/runelite/runelite/issues/860)) where the styles will not be removed unless they are selected as warned prior to selecting the removal option. For now, this can be fixed by deselecting and reselecting the removal option.**  
+## Removed Warned Styles 
 Any styles that are warned will be hidden and unselectable
 
 ![remove warned styles](https://i.imgur.com/1k0MiXl.png)
