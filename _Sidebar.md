@@ -36,3 +36,4 @@
   * [[How RuneLite works]]
   * [[Using mixins]]
   * [[Running the Runelite HTTP API Service]]
+  * [[Config data types]]
