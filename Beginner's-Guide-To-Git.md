@@ -3,8 +3,8 @@ For a more general guide, see [this page](http://rogerdudler.github.io/git-guide
 #### Things to remember
 
 * Keep work outside of `master`. Work should take place in topic branches, and have a pull request made to bring it into RuneLite's `master` branch.
-* Branch names are generally all-lowercase-with-dashes-between-words
-* Commit messages should use present-tense imperative verbs. (e.g. "change x to y", not "changed x to y")
+* Branch names are generally all-lowercase-with-dashes-between-words.
+* Commit messages should use present-tense imperative verbs. (e.g. "change x to y", not "changed x to y").
 
 ## Workflow
 
