@@ -1,7 +1,7 @@
 Cheat sheet for using the Git command line!
 
 ```• Stuff in ALL_CAPS needs to be filled in.
-• Never work in your master branch, it should always be a copy of runelite/master
+• Never work in your master branch, it should always be a copy of upstream/master
 • Branch names are generally all-lowercase-with-dashes-between-words
 • Commit messages should use present-tense imperative verbs. (Change, not Changed)
 
@@ -73,14 +73,14 @@ Check differences in pull conflicts
 
 Fetch branches from remote (do this before rebasing)
     git fetch REMOTE_NAME
-    git fetch runelite
+    git fetch upstream
 
 Switch to master branch
     git checkout master
 
-Rebase changes from runelite to local copy
+Rebase changes from upstream to local copy
     git rebase REMOTE_NAME/BRANCH_NAME
-    git rebase runelite/master
+    git rebase upstream/master
 
 Rebase local branch from local master branch
     git rebase BRANCH_NAME
