@@ -37,4 +37,4 @@
   * [[Using mixins]]
   * [[Running the Runelite HTTP API Service]]
   * [[Config data types]]
-  * [[How 2 Git]]
+  * [[Beginner's Guide To Git]]
