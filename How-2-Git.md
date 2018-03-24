@@ -14,11 +14,10 @@ You want to download *your* repo that you forked from the main project.
 
 Add remote (You should add the main project as a remote)
     git remote add REMOTE_NAME https://github.com/SOME_PERSON/SOME_PROJECT.git
-    git remote add runelite https://github.com/runelite/runelite.git
+    git remote add upstream https://github.com/runelite/runelite.git
 
-Rename remote (I like to rename origin to my GitHub username)
+Rename remote
     git remote rename OLD_REMOTE_NAME NEW_REMOTE_NAME
-    git remote rename origin YOUR_USERNAME
 
 Check remotes
     git remote -v
