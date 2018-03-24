@@ -1,5 +1,7 @@
 For a more general guide, see [this page](http://rogerdudler.github.io/git-guide/).
 
+For a cheat sheet, see [[this page|Git Cheat Sheet]].
+
 #### Things to remember
 
 * Keep work outside of `master`. Work should take place in topic branches, and have a pull request made to bring it into RuneLite's `master` branch.
