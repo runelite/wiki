@@ -84,4 +84,5 @@ Rebase changes from runelite to local copy
 
 Rebase local branch from local master branch
     git rebase BRANCH_NAME
-    git rebase master```
+    git rebase master
+```
