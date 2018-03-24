@@ -1,9 +1,9 @@
 Cheat sheet for using the Git command line!
 
 ```• Stuff in ALL_CAPS needs to be filled in.
-• Never work in your master branch, it should always be a local copy of runelite/master
+• Never work in your master branch, it should always be a copy of runelite/master
 • Branch names are generally all-lowercase-with-dashes-between-words
-• Commit messages should use present-tense imperative verbs. (Change/Fix, not Changed/Fixed)
+• Commit messages should use present-tense imperative verbs. (Change, not Changed)
 
 ------------
 
