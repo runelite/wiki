@@ -32,7 +32,7 @@ Create a new branch (will copy from your current branch)
     git checkout -b BRANCH_NAME
 
 Change current branch
-    git checkout branch-name
+    git checkout BRANCH_NAME
 
 Check branches
     git branch -v
