@@ -87,6 +87,5 @@ Switch to working branch
     git checkout BRANCH_NAME
 
 Rebase local branch from local master branch
-    git rebase BRANCH_NAME
     git rebase master
 ```
