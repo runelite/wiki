@@ -72,20 +72,18 @@ Check differences in pull conflicts
 
 ------------
 
-Fetch branches from remote (do this before rebasing)
-    git fetch REMOTE_NAME
+Fetch branches from upstream (do this before rebasing)
     git fetch upstream
 
 Switch to master branch
     git checkout master
 
 Rebase changes from upstream to local copy
-    git rebase REMOTE_NAME/BRANCH_NAME
     git rebase upstream/master
 
 Switch to working branch
     git checkout BRANCH_NAME
 
-Rebase local branch from local master branch
+Rebase local working branch from local master branch
     git rebase master
 ```
