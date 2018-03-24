@@ -10,6 +10,7 @@ Cheat sheet for using the Git command line!
 Download a repo from github to work on it locally (From parent folder)
 You want to download *your* repo that you forked from the main project.
     git clone https://github.com/SOME_PERSON/SOME_PROJECT.git
+    git clone https://github.com/runelite/runelite.git
 
 Add remote (You should add the main project as a remote)
     git remote add REMOTE_NAME https://github.com/SOME_PERSON/SOME_PROJECT.git
