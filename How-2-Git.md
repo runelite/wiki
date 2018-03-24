@@ -7,7 +7,7 @@ Cheat sheet for using the Git command line!
 
 ------------
 
-Download a repo from github to work on it locally (From parent folder, new subfolder will be created)
+Download a repo from github to work on it locally (From parent folder)
 You want to download *your* repo that you forked from the main project.
     git clone https://github.com/SOME_PERSON/SOME_PROJECT.git
 
@@ -15,7 +15,7 @@ Add remote (You should add the main project as a remote)
     git remote add REMOTE_NAME https://github.com/SOME_PERSON/SOME_PROJECT.git
     git remote add runelite https://github.com/runelite/runelite.git
 
-Rename remote (Clone will automatically set up a remote called origin, I rename it to my github username)
+Rename remote (I like to rename origin to my GitHub username)
     git remote rename OLD_REMOTE_NAME NEW_REMOTE_NAME
     git remote rename origin ShaunDreclin
 
