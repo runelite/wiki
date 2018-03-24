@@ -83,6 +83,9 @@ Rebase changes from upstream to local copy
     git rebase REMOTE_NAME/BRANCH_NAME
     git rebase upstream/master
 
+Switch to working branch
+    git checkout BRANCH_NAME
+
 Rebase local branch from local master branch
     git rebase BRANCH_NAME
     git rebase master
