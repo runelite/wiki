@@ -18,7 +18,7 @@ Add remote (You should add the main project as a remote)
 
 Rename remote (I like to rename origin to my GitHub username)
     git remote rename OLD_REMOTE_NAME NEW_REMOTE_NAME
-    git remote rename origin ShaunDreclin
+    git remote rename origin YOUR_USERNAME
 
 Check remotes
     git remote -v
