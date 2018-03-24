@@ -8,11 +8,11 @@ For a more general guide, see [this page](http://rogerdudler.github.io/git-guide
 
 ## Workflow
 
-### Fork runelite
+### Fork runelite if you haven't
 
 Click the "fork" button in the upper right of the page. That will create a copy of the project, just for you, under your username.
 
-### Download your fork
+### Download your fork if you haven't
 
 Execute, in the directory you want to work within:
 
@@ -21,7 +21,7 @@ Execute, in the directory you want to work within:
 
 That will create a "runelite" directory in `some/directory/`. If you are using IntelliJ IDEA, follow [this guide](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA) to get the project building.
 
-### Add the `upstream` remote
+### Add the `upstream` remote if you haven't
 
 Execute, in the "runelite" directory you created earlier:
 
