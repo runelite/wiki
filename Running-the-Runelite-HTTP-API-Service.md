@@ -81,6 +81,9 @@ To start off, we'll be editing some configuration files located in the Tomcat in
     <Environment name="minio.accesskey" value="AM54M27O4WZK65N6F8IP" type="java.lang.String"/>
     <Environment name="minio.secretkey" value="/PZCxzmsJzwCHYlogcymuprniGCaaLUOET2n6yMP" type="java.lang.String"/>
     <Environment name="minio.bucket" value="runelite" type="java.lang.String"/>
+    <Environment name="runelite.twitter.consumerkey" value="moo" type="java.lang.String"/>
+    <Environment name="runelite.twitter.secretkey" value="cow" type="java.lang.String"/>
+    <Environment name="runelite.twitter.listid" value="968949795153948673" type="java.lang.String"/>
 
 ![](https://i.imgur.com/iz0Dq5V.png)
 
