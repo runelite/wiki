@@ -1,6 +1,6 @@
 ## Getting started
 
-RuneLite is currently built on [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). We use the Lombok library for logging and some annotations, which (as of 1.16.20) throws illegal reflective access errors when building on JDK 9 or above. The project itself makes use of Java 8 language features except for [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins), which are limited to Java 6.
+RuneLite is currently built on [JDK 9](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html). We use the Lombok library for logging and some annotations, which (as of 1.16.20) throws illegal reflective access errors that JDK 10 now rejects. The project itself targets Java 8 language features except for [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins), which are limited to Java 6.
 
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
 
