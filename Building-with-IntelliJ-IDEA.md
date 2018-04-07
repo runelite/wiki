@@ -1,43 +1,57 @@
-# Challenge
+## Getting started
 
-When building RuneLite in IntelliJ IDEA, you might get this error:
- 
-![](http://i.imgur.com/YfGXjOQ.png)
+RuneLite is currently built on [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). We use the Lombok library for logging and some annotations, which (as of 1.16.20) throws illegal reflective access errors when building on JDK 9 or above. The project itself makes use of Java 8 language features except for [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins), which are limited to Java 6.
 
-# Solution
- 
-This is because you did not import the project as a Maven project. 
+For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to contribute anything you want to.
 
-Luckily, there is a fairly straight-forward fix for this, divided into a few steps:
+## Importing the project
 
-## Importing
+After launching IntelliJ IDEA, create a new project by clicking on **Check out from Version Control** and select **Git**. You'll be prompted to enter the repository URL.
 
-When checking out from GitHub or manually opening the project in IntelliJ, make sure to select 'Import Project'
-and select 'Maven' under 'Import project from external model':
+You can either checkout the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork:
+
+![](https://user-images.githubusercontent.com/37604308/38454682-0fad8f26-3aaf-11e8-9ca3-327ebd667675.png)
+
+Now hit **Clone** and wait for IntelliJ to download the project files.
+
+After checking out from GitHub (or manually opening the project in IntelliJ), make sure to select **Import Project**
+and choose **Maven** under **Import project from external model**:
 
 ![](http://i.imgur.com/gSuqzAY.png)
 
-You'll be met with additional menus, just click 'Next' on all of them - there shouldn't be any issues assuming you have the JDK installed.
+You'll be met with additional menus, just click **Next** on all of them - there shouldn't be any issues assuming you have the JDK installed.
+
+## Installing Lombok
+
+When first viewing the project in IntelliJ IDEA you may come across this error:
+
+![](https://i.imgur.com/a1YDonV.png)
+
+This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
+
+Navigate to the **Plugins** tab under the **Settings** menu. Click **Browse repositories...** and search for **Lombok Plugin** to find it. Install the plugin and restart IntelliJ IDEA.
+
+Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
 
 ## Configuration
 
-Now that the project is loaded into IntelliJ, go to the right hand corner and select 'Edit Configurations...' from the drop-down:
+Now that the project is loaded into IntelliJ, go to the toolbar and select **Edit Configurations...** from the drop-down arrow:
 
 ![](http://i.imgur.com/MmKople.png)
 
-You'll need to create a new Maven configuration, so click on the green plus sign and select Maven in the drop-down:
+You'll need to create a new Maven configuration, so click on the green plus sign and select **Maven** in the drop-down:
 
 ![](http://i.imgur.com/iUjpRW8.png)
 
-Set your 'Working directory' to the project directory by pressing the folder button on the right-hand side and selecting 'runelite-parent'. 
+Set your **Working directory** to the project directory by clicking the folder button on the right-hand side and selecting **runelite-parent**. 
 
-Enter `install -DskipTests` in the 'Command line' box:
+Enter `install -DskipTests` in the **Command line** box:
 
 ![](http://i.imgur.com/ekzfg2c.png)
 
 ## Building
 
-Now that the Maven configuration is set up, simply press the green play button next to the configuration dropdown to
+Now that the Maven configuration is set up, simply click the green play button next to the configuration dropdown to
 build the project using Maven:
 
 ![](http://i.imgur.com/85YnqXB.png)
@@ -48,7 +62,7 @@ Success! Your Maven build should run correctly:
 
 ## Running
 
-Now, to run the client, all you need to do is find RuneLite.class in the runelite-client folder. Right click on the class and select 'Run RuneLite.main()':
+Now, to run the client, all you need to do is find RuneLite.class in the runelite-client folder. Right click on the class and select **Run RuneLite.main()**:
 
 ![](http://i.imgur.com/w2K9lCH.png)
 
@@ -56,7 +70,8 @@ The client should boot up:
 
 ![](http://i.imgur.com/fqoxCXS.png)
 
-NOTE: If the client fails to boot or if the applet does not appear, try to rebuild the project by running the maven builder again. If that also doesn't work, feel free to ask for help in the discord server.
+NOTE: If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server.
+
 Example error when client does not boot:
 
 ![](https://i.imgur.com/KSf3evR.png)
@@ -66,21 +81,3 @@ Example error when client does not boot:
 Success! You can switch between running the client and building the Maven project by switching between the 'RuneLite' configuration and your custom Maven configuration.
 
 Happy development!
-
-# Challenge
-
-When viewing the project in IntelliJ IDEA you may come across this error:
-
-![](https://i.imgur.com/a1YDonV.png)
-
-# Solution
-
-This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
-
-## Installing Lombok Plugin
-
-Navigate to the plugins tab within the IntelliJ IDEA settings. Browse repositories for the Lombok Plugin. Install it and restart IntelliJ IDEA. 
-
-## Conclusion
-
-Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
