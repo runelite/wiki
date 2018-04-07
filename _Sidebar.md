@@ -37,5 +37,5 @@
     * [[Git Cheat Sheet]]
   * [[How RuneLite works]]
   * [[Using RuneLite's mixins]]
+  * [[Creating plugin config panels]]
   * [[Running the Runelite HTTP API Service]]
-  * [[Plugin config data types]]
