@@ -28,6 +28,7 @@
     * [[Woodcutting]]
     * [[XP Globes]]
     * [[XP Tracker]]
+  * [[DPI scaling on Windows]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
