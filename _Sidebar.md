@@ -5,6 +5,7 @@
     * [[Agility]]
     * [[Animation Smoothing]]
     * [[Attack Indicators]]
+    * [[Bank Tags]]
     * [[Barrows Brothers]]
     * [[Boosts Information]]
     * [[Camera Zoom]]
