@@ -18,5 +18,7 @@ Enables the Lap Count infobox, by default to the top-left hand corner of the cli
 
 Hides the Agility infobox after the user-defined number of minutes has passed through inactivity in the Agility skill.
 
+## 3. Overlay Color
 
+Changes the color of the Agility click box overlay.
 
