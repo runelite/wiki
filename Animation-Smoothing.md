@@ -5,7 +5,9 @@
 Enables the Animation Smoothing effect that is previewed below.
 
 Woodcutting:
+
 ![gif](https://thumbs.gfycat.com/WelldocumentedAromaticButterfly-max-1mb.gif)
 
 Fletching:
+
 ![gif](https://thumbs.gfycat.com/UntidyThickHorseshoecrab-max-1mb.gif)
