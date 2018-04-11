@@ -3,6 +3,7 @@
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
+    * [[Animation Smoothing]]
     * [[Attack Indicators]]
     * [[Barrows Brothers]]
     * [[Boosts Information]]
