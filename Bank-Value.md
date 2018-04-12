@@ -1,7 +1,6 @@
 ## Bank Value Configuration
 
-![Bank value configuration listing](https://i.imgur.com/YrRKKOj.png)  
-![Bank value configuration options](https://i.imgur.com/QuL2OkF.png)
+![Bank value configuration listing](https://i.imgur.com/YrRKKOj.png)
 
 Displays Grand Exchange and/or High Alchemy value of bank tabs
 
