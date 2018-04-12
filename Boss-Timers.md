@@ -1,6 +1,6 @@
 ## Boss Timers Configuration
 
-![Boss Timers configuration listing](https://i.imgur.com/rixaLp3.png)
+![Boss Timers configuration listing](https://i.imgur.com/SJBrLcD.png)
 
 Displays boss spawn timer overlays
 
