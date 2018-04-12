@@ -8,17 +8,19 @@ Enables the Agility Interface.
 
 By clicking on the settings icon next to the green tick, you can customise the plugin.
 
-## 1. Show Lap Count
+## Settings
+
+### 1. Show Lap Count
 
 ![LapCount](https://i.imgur.com/bdEbstA.png)
 
 Enables the Lap Count infobox, by default to the top-left hand corner of the client. This displays your Total Laps, and your Laps till level.
 
-## 2. Hide Lap Count (minutes)
+### 2. Hide Lap Count (minutes)
 
 Hides the Agility infobox after the user-defined number of minutes has passed through inactivity in the Agility skill.
 
-## 3. Overlay Color
+### 3. Overlay Color
 
 Changes the color of the Agility click box overlay.
 
