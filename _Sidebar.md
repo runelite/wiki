@@ -6,6 +6,7 @@
     * [[Animation Smoothing]]
     * [[Attack Indicators]]
     * [[Bank Tags]]
+    * [[Bank Value]]
     * [[Barrows Brothers]]
     * [[Boosts Information]]
     * [[Camera Zoom]]
