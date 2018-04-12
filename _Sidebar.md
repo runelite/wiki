@@ -7,6 +7,7 @@
     * [[Attack Indicators]]
     * [[Bank Tags]]
     * [[Bank Value]]
+    * [[Barbarian Assault]]
     * [[Barrows Brothers]]
     * [[Boosts Information]]
     * [[Camera Zoom]]
