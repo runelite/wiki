@@ -18,4 +18,6 @@ Allows you to zoom out further as shown below.
 ![zoom out](https://thumbs.gfycat.com/BarrenDiscreteBobwhite-max-1mb.gif)
 
 ### Vertical Camera
-When the camera moves vertically, this option allows it to move higher than default 
+When the camera moves vertically, this option allows it to move higher than default, as shown below.
+
+![vertical zoom](https://thumbs.gfycat.com/RemorsefulMisguidedBobolink-max-1mb.gif)
