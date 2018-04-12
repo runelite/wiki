@@ -18,6 +18,7 @@
     * [[Chat History]]
     * [[Clan Chat]]
     * [[Combat Level]]
+    * [[Daily Task Indicator]]
     * [[Discord]]
     * [[HiScore]]
     * [[Info Panel]]
