@@ -9,6 +9,7 @@
     * [[Bank Value]]
     * [[Barbarian Assault]]
     * [[Barrows Brothers]]
+    * [[Blast Furnace]]
     * [[Boosts Information]]
     * [[Camera Zoom]]
     * [[Chambers of Xeric]]
