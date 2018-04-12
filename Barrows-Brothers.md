@@ -1,4 +1,7 @@
 ## Barrows Plugin Configuration
+
+![barrows](https://i.imgur.com/rXJblKB.png)
+
 The Barrows plugin contains useful features to help you in the Barrows minigame
 
 ## Settings
