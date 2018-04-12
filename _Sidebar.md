@@ -35,6 +35,7 @@
     * [[Woodcutting]]
     * [[XP Globes]]
     * [[XP Tracker]]
+  * [[Rejected or Rolled Back Features]]
   * [[DPI scaling on Windows]]
 * **Developer's Guide**
   * **Setting up development environment**
