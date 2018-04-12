@@ -1,6 +1,6 @@
 ## Bank Tags Configuration
 
-![Bank Tags Configuration](https://i.imgur.com/FHZxSqX.png)
+![Bank Tags Configuration](https://i.imgur.com/jlmViCs.png)
 
 Enables tagging of bank items and searching of bank tags
 
