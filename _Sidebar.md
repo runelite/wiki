@@ -11,6 +11,7 @@
     * [[Barrows Brothers]]
     * [[Blast Furnace]]
     * [[Boosts Information]]
+    * [[Boss Timers]]
     * [[Camera Zoom]]
     * [[Chambers of Xeric]]
     * [[Chat Commands]]
