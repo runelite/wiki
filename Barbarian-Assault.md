@@ -1,6 +1,6 @@
 ## Barbarian Assault Configuration
 
-![Bank value configuration listing](https://i.imgur.com/DB0Dlxo.png)
+![Barbarian Assault configuration listing](https://i.imgur.com/DB0Dlxo.png)
 
 Displays a timer to the next call change during Barbarian Assault
 
