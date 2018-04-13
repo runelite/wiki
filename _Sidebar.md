@@ -4,7 +4,7 @@
     * [[Account]]
     * [[Agility]]
     * [[Animation Smoothing]]
-    * [[Attack Indicators]]
+    * [[Attack Styles]]
     * [[Bank Tags]]
     * [[Bank Value]]
     * [[Barbarian Assault]]
