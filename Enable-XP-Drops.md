@@ -1,8 +1,5 @@
-So, you're gaining some experience but it's not showing it? Here's why!
+Are you not showing an experience drops? That's not a bug so don't worry okay! Rune Lite doesn't have a Plugin that makes a new XP drop system; Rune Lite actually uses OSRS' own system. So here's how we can get your experience drops to show if they aren't.
 
-Rune Lite doesn't (as of the moment at least) have a custom Plugin content for XP Drops, Rune Lite currently uses the default xp drop system, which by itself has lots of customization, which is also perhaps the reason why not to re-create the wheel so to speak.
-
-Anyways, here's some picture snippets on how to add your experience drops if they're not showing.
 
 ![](https://i.imgur.com/W9ul33p.png)
 
