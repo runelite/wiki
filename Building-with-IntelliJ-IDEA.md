@@ -1,14 +1,14 @@
 ## Getting started
 
-RuneLite is currently built on [JDK 9](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html). We use the Lombok library for logging and some annotations, which (as of 1.16.20) throws illegal reflective access errors that JDK 10 now rejects. The project itself targets Java 8 language features except for [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins), which are limited to Java 6.
-
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
+
+RuneLite is currently built on [JDK 9](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html), which you should install before trying to build the project. We use the Lombok library for logging and some annotations, which (as of 1.16.20) throws illegal reflective access errors that JDK 10 rejects. The RuneLite codebase supports language features up to Java 8, except for [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins), which are limited to Java 6.
 
 ## Importing the project
 
 After launching IntelliJ IDEA, create a new project by clicking on **Check out from Version Control** and select **Git**. You'll be prompted to enter the repository URL.
 
-You can either checkout the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork:
+You can either checkout the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one:
 
 ![](https://user-images.githubusercontent.com/37604308/38454682-0fad8f26-3aaf-11e8-9ca3-327ebd667675.png)
 
