@@ -1,4 +1,4 @@
-## Attack Indicators Configuration
+## Attack Styles Configuration
 
 ![att](https://i.imgur.com/WzmY2gm.png)
 
