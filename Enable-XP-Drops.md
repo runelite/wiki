@@ -14,3 +14,7 @@ My current settings:
 You can further customize your orb entirely via the XP Glove plugin, here's my plugin settings for that!
 
 ![](https://i.imgur.com/7DexXZN.png)
+
+More information on XP Gloves can be found here:
+
+https://github.com/runelite/runelite/wiki/XP-Globes
