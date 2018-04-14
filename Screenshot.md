@@ -3,7 +3,8 @@
 ![Screenshot button](https://i.imgur.com/hj2xd3J.png)
 
 Enables the screenshot button  
-Pictures are saved to `C:\Users\<Username>\.runelite\screenshots\<RS Username>\YYYY-MM-DD-HH-MM-SS.jpg`
+
+The screenshot folder can be accessed by right clicking the screenshot button.
 
 ## Settings
 
