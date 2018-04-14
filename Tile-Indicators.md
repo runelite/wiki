@@ -1,6 +1,7 @@
 ## Tile Indicators Configuration
 
 ![Setting bar](https://i.imgur.com/vxblpe0.png)
+
 ![Skill icon enabled](https://i.imgur.com/73agl2H.gif)
 
 
