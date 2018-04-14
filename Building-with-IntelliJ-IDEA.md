@@ -62,6 +62,8 @@ Success! Your Maven build should run correctly:
 
 ![](http://i.imgur.com/pIU2PnT.png)
 
+**NOTE**: Many users have reported issues where RuneLite fails to run after the next step. Running the Maven build a second time should make it work.
+
 ## Running
 
 Now, to run the client, all you need to do is find RuneLite.class in the runelite-client folder. Right click on the class and select **Run RuneLite.main()**:
@@ -72,7 +74,7 @@ The client should boot up:
 
 ![](http://i.imgur.com/fqoxCXS.png)
 
-NOTE: If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server.
+**NOTE**: If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server.
 
 Example error when client does not boot:
 
