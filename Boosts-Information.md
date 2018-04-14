@@ -24,3 +24,8 @@ This will expand the plugin to include skill boosts as well as combat boosts
 This will change the list-style infobox into tiles  
 
 ![Tile indicator boosts](https://i.imgur.com/MwFkkxv.png)
+
+### Move indicators 
+Hold alt, click and drag tile indicators to move them around the screen
+
+![](https://i.imgur.com/GrhKhmz.png)
