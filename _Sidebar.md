@@ -31,6 +31,7 @@
     * [[Screenshot]]
     * [[Slayer]]
     * [[Team Capes]]
+    * [[Tile Indicators]]
     * [[Timers]]
     * [[Username Syncer]]
     * [[Woodcutting]]
