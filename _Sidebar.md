@@ -34,6 +34,7 @@
     * [[Timers]]
     * [[Username Syncer]]
     * [[Woodcutting]]
+    * [[XP Drop]]
     * [[XP Globes]]
     * [[XP Tracker]]
   * [[DPI scaling on Windows]]
