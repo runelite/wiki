@@ -8,7 +8,9 @@ RuneLite is currently built on [JDK 9](http://www.oracle.com/technetwork/java/ja
 
 After launching IntelliJ IDEA, create a new project by clicking on **Check out from Version Control** and select **Git**. You'll be prompted to enter the repository URL.
 
-You can either checkout the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one:
+You can either checkout the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.
+
+**NOTE**: If you plan to make a Pull Request, you must fork the the RuneLite repository, and clone from your fork.
 
 ![](https://user-images.githubusercontent.com/37604308/38454682-0fad8f26-3aaf-11e8-9ca3-327ebd667675.png)
 
