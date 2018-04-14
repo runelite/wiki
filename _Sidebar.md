@@ -20,6 +20,7 @@
     * [[Combat Level]]
     * [[Daily Task Indicator]]
     * [[Discord]]
+    * [[Fishing]]
     * [[HiScore]]
     * [[Info Panel]]
     * [[Low Detail]]
