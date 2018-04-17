@@ -16,7 +16,7 @@ See screenshot below for correct values for mentioned 2 fields.
 
 IntelliJ's default Code Style will optimize and re-order imports. To disable the re-ordering of imports, remove the section in the Import Layout list. 
 
-Also remove the entries in `Packages to Use Import with '*'` to stop the replacement of f.e `import java.awt.Canvas` with `import java.awt.*`.
+Also remove the entries in `Packages to Use Import with '*'` to stop the replacement of i.e `import java.awt.Canvas` with `import java.awt.*`.
 
 ![screenshot](https://i.imgur.com/XlJzIKv.png)
 
