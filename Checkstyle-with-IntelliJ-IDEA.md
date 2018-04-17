@@ -24,5 +24,6 @@ To install the plugin, go to File->Settings->Plugins. Click Browse Repositories,
 
 After installing and restarting IDEA, then go to File->Settings->Other Settings->Checkstyle. Under Configuration File, click +, and select the checkstyle.xml from your RuneLite folder.
 
-![checkstyle location](https://i.imgur.com/9gWqQjm.png)
+Make sure you check the Active box next to your checkstyle to enable it.
 
+![checkstyle location](https://i.imgur.com/9gWqQjm.png)
