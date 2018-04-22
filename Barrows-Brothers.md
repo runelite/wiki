@@ -1,17 +1,14 @@
-## Barrows Plugin Configuration
+# Barrows Brothers Configuration
 
-![barrows](https://i.imgur.com/rXJblKB.png)
-
-The Barrows plugin contains useful features to help you in the Barrows minigame
+[![Client View](https://thumbs.gfycat.com/UnfortunatePointlessAnchovy-size_restricted.gif)](https://gfycat.com/UnfortunatePointlessAnchovy)
 
 ## Settings
-### Show Minimap in tunnels
-When selected, the plugin will draw a custom minimap when in the tunnels  
-It shows monsters, walls, doors you are able to go through (green), and the ladder (orange)  
- 
-![Barrows tunnel minimap](https://i.imgur.com/crAsTaz.png)
 
-### Show Brothers location  
-This option will draw the first letter of each brother name on their respective hills on the minimap  
+### 1. Show Brothers location
 
-![Barrows hill minimap](https://i.imgur.com/7PQdzcn.png)
+(Default On) This displays the first letter of the Barrows Brothers name on the minimap above each their hill.
+
+### 2. Show Minimap in tunnels
+
+(Default On) This unhides the minimap in the Barrows tunnels and also displays which doors are able to open.
+
