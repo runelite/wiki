@@ -12,4 +12,8 @@
 
 (Default 5) This configurable time frame allows the user to choose how long of inactivity to the Agility skill it takes to remove the Agility Infobox.
 
+### 3. Overlay Color [Pick a color]
+
+(Default Green) Here you can choose what colour the overlay is for the entire clickable obstacle.
+
 
