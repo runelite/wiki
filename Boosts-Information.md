@@ -1,31 +1,22 @@
-## Boosts Information Plugin Configuration  
+# Boost Information Configuration
 
-![boost](https://i.imgur.com/JaNikeu.png)
-
-The Boosts Information plugin will give you useful information about stat boosts and drains in the top-left of the game window  
-By default, the panel will show the boosted stats in a list, in `boostedlevel`/`level` format  
-
-![Default Boost Config](https://i.imgur.com/xo3ztaB.png)
+[![Client View](https://thumbs.gfycat.com/PotablePertinentCranefly-size_restricted.gif)](https://gfycat.com/PotablePertinentCranefly)
 
 ## Settings
-### Use Relative Boosts  
-If enabled, the stat boost will display as `+number` your stat is **currently boosted by**, rather than your boosted level  
 
-![](https://i.imgur.com/IDg3xZE.png)
-![](https://i.imgur.com/2NOBwjb.png)
+### 1. Enable Skill Boosts
 
-### Enable Skill Boosts  
-This will expand the plugin to include skill boosts as well as combat boosts  
+(Default On) This shows your skill boosts (Fishing, Firemaking etc...) as well as your combat skill boosts.
 
-![Skill boost](https://i.imgur.com/iwv6jHh.png)
-![Relative Skill boost](https://i.imgur.com/jF0whj4.png)
+### 2. Use Relative Boosts
 
-### Display as indicators  
-This will change the list-style infobox into tiles  
+(Default Off) When enabled this stops displaying your boosted stat level and instead displays the amount you have increased or decreased (e.g +4/-4).
 
-![Tile indicator boosts](https://i.imgur.com/MwFkkxv.png)
+### 3. Display as indicators.
 
-### Move indicators 
-Hold alt, click and drag tile indicators to move them around the screen
+(Default Off) When enabled, this will display your boosts in separate skill boxes, instead of a list view.
 
-![](https://i.imgur.com/GrhKhmz.png)
+### 4. Display next change
+
+(Default On) Displays a countdown from 60 seconds (1 minute). Once 60 seconds has passed, the boosted skill will increase or decrease 1 stat closer to your original skill stat level.
+
