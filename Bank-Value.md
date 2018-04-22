@@ -1,10 +1,6 @@
 ## Bank Value Configuration
 
-![Bank value configuration listing](https://i.imgur.com/1Tmn2kA.png)
-
-Displays Grand Exchange and/or High Alchemy value of bank tabs
-
-![Bank value shown in the bank header](https://i.imgur.com/tNODHxH.png)
+[![Client View](https://thumbs.gfycat.com/VigorousAbandonedGnu-size_restricted.gif)](https://gfycat.com/VigorousAbandonedGnu)
 
 ## Settings
 
