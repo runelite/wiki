@@ -1,4 +1,4 @@
-
+**As of launcher release 1.5.0, Windows should automatically DPI scale RuneLite correctly. The below instructions are no longer necessary.**
 
 # Change DPI scaling in windows
 
