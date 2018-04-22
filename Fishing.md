@@ -1,6 +1,6 @@
 # Fishing Configuration
 
-[![GfyCat Fishing](https://thumbs.gfycat.com/FrightenedVainBarracuda-size_restricted.gif)](https://giant.gfycat.com/FrightenedVainBarracuda.webm)
+[![GfyCat Fishing](https://thumbs.gfycat.com/FrightenedVainBarracuda-size_restricted.gif)](https://gfycat.com/FrightenedVainBarracuda)
 
 ![Imgur](https://i.imgur.com/GEzrTRT.png)
 
