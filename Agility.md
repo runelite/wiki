@@ -1,26 +1,15 @@
 # Agility Configuration
 
-![Agility Plugin](https://i.imgur.com/Gr363lu.png)
-
-Enables the Agility Interface.
-
-![agilityinterface](https://i.imgur.com/vylEkBc.png)
-
-By clicking on the settings icon next to the green tick, you can customise the plugin.
+[![Client View](https://thumbs.gfycat.com/BestDismalFantail-size_restricted.gif)](https://gfycat.com/BestDismalFantail)
 
 ## Settings
 
-### 1. Show Lap Count
+### 1. Show Lap count
 
-![LapCount](https://i.imgur.com/bdEbstA.png)
+(Default On) Displays in the top-left hand corner your total laps, and laps till level information.
 
-Enables the Lap Count infobox, by default to the top-left hand corner of the client. This displays your Total Laps, and your Laps till level.
+### 2. Hide Lap Count (minutes) [Configurable Box]
 
-### 2. Hide Lap Count (minutes)
+(Default 5) This configurable time frame allows the user to choose how long of inactivity to the Agility skill it takes to remove the Agility Infobox.
 
-Hides the Agility infobox after the user-defined number of minutes has passed through inactivity in the Agility skill.
-
-### 3. Overlay Color
-
-Changes the color of the Agility click box overlay.
 
