@@ -1,4 +1,7 @@
 # Fishing Configuration
+
+[![GfyCat Fishing](https://thumbs.gfycat.com/FrightenedVainBarracuda-size_restricted.gif)](https://giant.gfycat.com/FrightenedVainBarracuda.webm)
+
 ![Imgur](https://i.imgur.com/GEzrTRT.png)
 
 enables the Fishing interface. 
