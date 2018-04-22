@@ -1,23 +1,15 @@
-# Animation Smoothing Configuration
+# Smooth Animation Configuration
 
-![Animation Smoothing](https://i.imgur.com/mCIyNir.png)
-
-Enables the Animation Smoothing effect that is previewed below.
-
-
-Woodcutting:
-
-![gif](https://thumbs.gfycat.com/WelldocumentedAromaticButterfly-max-1mb.gif)
-
-Fletching:
-
-![gif](https://thumbs.gfycat.com/UntidyThickHorseshoecrab-max-1mb.gif)
+[![Client View](https://thumbs.gfycat.com/MadQuestionableDegus-size_restricted.gif)](https://gfycat.com/MadQuestionableDegus)
 
 ## Settings
 
-### Smooth Player Animations
-Enable/Disable 
-### Smooth NPC Animations
-Enable/Disable 
-### Smooth Objects Animations
-Enable/Disable 
+### 1. Smooth [Animations]
+
+You can disable any of these options but, only the enabled options will show smooth animations.
+
+* (Default On) Smooth Player Animations
+* (Default On) Smooth NPC Animations
+* (Default On) Smooth Object Animations
+
+
