@@ -1,39 +1,33 @@
 # Fishing Configuration
 
-[![GfyCat Fishing](https://thumbs.gfycat.com/FrightenedVainBarracuda-size_restricted.gif)](https://gfycat.com/FrightenedVainBarracuda)
-
-![Imgur](https://i.imgur.com/GEzrTRT.png)
-
-enables the Fishing interface. 
+[![Client View](https://thumbs.gfycat.com/FrightenedVainBarracuda-size_restricted.gif)](https://gfycat.com/FrightenedVainBarracuda)
 
 ## Settings
 
-### 1. Show Fishing session stats
+### 1. Display Fish icons
 
-![Imgur](https://i.imgur.com/lrS4q9v.png)
+(Default On) This option displays the type of fish you can catch above the fishing spot, Disabling this option, shows text (e.g "Shark, Bass") instead.
 
-Enables the Fishing infobox in the default top left location
-The infobox shows your status (Fishing/NOT Fishing), Caught fish and fish/hr.
+### 2. Reset stats (minutes) [Edit Box]
 
-#### Reset stats (minutes)
+(Default 5) This configurable time frame allows the user to choose how long of inactivity to the fishing skill it takes to remove the Fishing Infobox.
 
-![Imgur](https://i.imgur.com/Wj1p4zo.png)
+### 3. Show [Type of Fish] 
 
-The amount of allowed idle time before the Fishing stats are reset.
+(Default On)
+* Show Barbarian fish
+* Show Shark
+* Show Karambwan
+* Show Shrimp/Anchovies
+* Show Monkfish
+* Show Minnow fish
+* Show Salmon/Trout
+* Show Lobster/Swordfish/Tuna
+* Show Anglerfish
+* Show Infernal Eel
+* Show Karambwanji 
 
-### 2. Show Fish Locations (customizable)
+### 4. Show Fishing session stats
 
-![Imgur](https://i.imgur.com/rh65jt7.png)
-
-Shows an overlay of the Fishing location with the names of the fish in that spot.
-
-You can choose which fish you see.
-
-![Imgur](https://i.imgur.com/qWhB2cT.png)
-
-### 3. Show Fish icons
-
-![Imgur](https://i.imgur.com/4uEn0bb.png)
-
-This shows an icon instead of the text on the Fishing locations.
+(Default On) This will display in the top left-hand corner a Fishing Infobox, which will display the amount of caught fish and a calculation for the amount of fish caught per hour.
 
