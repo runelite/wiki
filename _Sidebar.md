@@ -13,6 +13,7 @@
     * [[Boosts Information]]
     * [[Boss Timers]]
     * [[Camera Zoom]]
+    * [[Cannon]]
     * [[Chambers of Xeric]]
     * [[Chat Commands]]
     * [[Chat History]]
