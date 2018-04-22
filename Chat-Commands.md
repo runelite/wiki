@@ -1,4 +1,7 @@
 ## Chat Commands Plugin Configuration
+
+[![Client View](https://thumbs.gfycat.com/BiodegradableLegitimateBaldeagle-size_restricted.gif)](https://gfycat.com/BiodegradableLegitimateBaldeagle)
+
 The chat commands plugin enables you to quickly access information about your account and items through chat commands  
 Current commands include `!total`, `!lvl <skill>`, and `!price <item>`  
 
