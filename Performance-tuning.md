@@ -1,4 +1,4 @@
-Due to issues with some hardware, hardware acceleration is disabled by default on RuneLite because it is causing artifacts with some graphic cards.
+Due to issues with some hardware, hardware acceleration is disabled by default on RuneLite because it causes artifacts with some graphic cards.
 
 If you are experiencing sloppy camera or getting lower FPS, you can enable the hardware acceleration manually. You can choose between `OPENGL` and `DIRECTDRAW` mode. OpenGL mode is cross-platform, and DirectDraw works only on Windows. On Windows DirectDraw should have larger impact than OpenGL, but you can experiment with both.
 
