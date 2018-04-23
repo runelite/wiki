@@ -41,6 +41,7 @@
     * [[XP Tracker]]
     * [[WikiFormatTest]]
   * [[DPI scaling on Windows]]
+  * [[Enabling-ddraw-(direct-draw)]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
