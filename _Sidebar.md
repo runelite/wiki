@@ -40,7 +40,6 @@
     * [[XP Drop]]
     * [[XP Globes]]
     * [[XP Tracker]]
-    * [[WikiFormatTest]]
   * [[DPI scaling on Windows]]
 * **Developer's Guide**
   * **Setting up development environment**
