@@ -1,6 +1,15 @@
-## Mouse Tooltips Configuration
+# Mouse Tooltips Configuration
 
-Enables tooltips when hovering over options/items in game  
+[![Client View](https://thumbs.gfycat.com/HotCharmingKakarikis-size_restricted.gif)](https://gfycat.com/HotCharmingKakarikis)
+
 The plugin will render _most_ text that is typically displayed in the top left corner, except common options like "Walk here", "Cancel", "Continue" and "Move" (for sliding puzzles)
 
-![mousehighlight](https://i.imgur.com/CeW38r4.png)
+## Settings
+
+### 1. Interface Tooltips
+
+(Default On) Displays interface tooltips.
+
+### 2. Chatbox Tooltips
+
+(Default On) Displays tooltips in the chatbox.
