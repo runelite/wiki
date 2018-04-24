@@ -2,7 +2,13 @@ Due to issues with some hardware, hardware acceleration is disabled by default o
 
 If you are experiencing sloppy camera or getting lower FPS, you can enable the hardware acceleration manually. You can choose between `OPENGL` and `DIRECTDRAW` mode. OpenGL mode is cross-platform, and DirectDraw works only on Windows. On Windows DirectDraw should have larger impact than OpenGL, but you can experiment with both.
 
-## Enabling hardware acceleration on Windows
+## .bat script to enable ddraw
+
+If you are on Windows using the official installer, download and run the this:
+
+[Runelite-DDraw.bat](files/runelite-ddraw.bat)
+
+## Enabling hardware acceleration on Windows manually
 
 You can enable DirectDraw acceleration by adding ` --mode=DIRECTDRAW` to the end of `Target:` in the RuneLite shortcut properties:
 
