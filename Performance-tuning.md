@@ -4,7 +4,7 @@ If you are experiencing sloppy camera or getting lower FPS, you can enable the h
 
 ## .bat script to enable ddraw
 
-If you are on Windows using the official installer, download and run the this:
+If you are on Windows using the official installer, download and run this:
 
 [Runelite-DDraw.bat](files/runelite-ddraw.bat)
 
