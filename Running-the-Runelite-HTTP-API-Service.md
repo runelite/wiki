@@ -1,10 +1,12 @@
 # Why would I want to do this?
 
-In order to work on the Runelite HTTP API and Service you're going to want to run a local copy on your machine so you can test the changes you make. Please note this guide will assume you're running Windows; the major steps should be the same no matter what platform you're on but the specifics will vary.
+In order to work on the Runelite HTTP API and Service you're going to want to run a local copy on your machine so you can test the changes you make.
 
 # Installing Software
 
 ## MySQL Server
+
+### Windows
 
 We're going to need a copy of MySQL installed on our dev machine to run the database the HTTP Service uses. Start by [downloading the MySQL installer](https://dev.mysql.com/downloads/windows/installer/). Run the installer, agree to the license, and you should arrive at a screen like this:
 
@@ -20,13 +22,68 @@ Click "Execute" and the installer will begin downloading and installing the subp
 
 On this screen, we're going to choose the MySQL root password and create a user for Runelite to connect to the database with. The passwords can be whatever you like, just make sure to remember what you set them to. If you're planning to actually expose this server to the internet it's a good idea to follow the guide on [securing the initial MySQL accounts](https://dev.mysql.com/doc/refman/5.7/en/default-privileges.html) in the official documentation. Once you've created the accounts, click next until the installer is finished.
 
+### Mac OS
+
+Download the latest version of MySQL for Mac [here](https://dev.mysql.com/downloads/mysql/). Follow the window on how to install, it's pretty simple to get it setup. When prompted set a password for this server, as this is just for testing purposes, I'd recommend just using a simple password for now.
+
+If you didn't change the path of where to install MySQL then it will be located here `/usr/local/`. In this example, version `8.0.11` was installed and can be seen here:
+```
+$ /usr/local/mysql-8.0.11-macos10.13-x86_64
+```
+But for ease of mind, this is sym-linked to `/usr/local/mysql`.
+
+To actually run MySQL you want to execute the following:
+```
+$ mysql -u root -p
+```
+Where you will be prompt to enter in the password you set up.
+
+**NB** - If you get the `command not found: mysql` run the following:
+```
+$ echo PATH=${PATH}:/usr/local/mysql/bin >> ~/.bashrc
+```
+
+Once you're in MySQL, you want to then create another user for runelite.
+```
+mysql> CREATE USER 'runelite'@'localhost' IDENTIFIED BY 'another_password';
+Query OK, 0 rows affected
+```
+___
+
 ## Apache Tomcat 7
+
+### Windows
 
 Next up is Tomcat, we'll install the Windows Service installer from the [Tomcat project site](https://tomcat.apache.org/download-70.cgi). For this installer, just click next until it's finished.
 
+### MacOS
+
+You can download the `.tar.gz` file from the same website [here](https://tomcat.apache.org/download-70.cgi). Once downloaded you can unpack it as such:
+```
+$ cd ~/Downloads ; tar xvf apache-tomcat-7.0.86.tar.gz ; mv apache-tomcat-7.0.86 ~/Applications
+```
+
+Once you've moved it in the `~/Applications` folder, run the following to start up your apache tomcat, and head to `localhost:8080` on your browser, and you should meet the following page _(Once you've verified it's installed correctly stop the process as you'll configure it properly later)_.
+
+```
+$ ~/Applications/apache-tomcat-7.0.86/bin/catalina.sh run
+```
+
+![](https://i.imgur.com/XbleMlO.png)
+___
+
 ## MySQL Connector/J
 
-The JDBC driver that the HTTP Service will use to connect to our database. Download from the [MySQL project website](https://dev.mysql.com/downloads/connector/j/). Theoretically this can be anywhere on the `CLASSPATH` environment variable but I had better luck simply putting it in `C:\Program Files\Apache Software Foundation\Tomcat 7.0\lib\` (assuming a default Tomcat install).
+The JDBC driver that the HTTP Service will use to connect to our database. Download from the [MySQL project website](https://dev.mysql.com/downloads/connector/j/). 
+
+**Windows**  
+Theoretically this can be anywhere on the `CLASSPATH` environment variable but I had better luck simply putting it in `C:\Program Files\Apache Software Foundation\Tomcat 7.0\lib\` (assuming a default Tomcat install).
+
+**Mac OS**  
+When navigating to the above link, you want to select `Platform Independent` and download the `.tar.gz` version. Once downloaded, run the following:
+```
+$ cd ~/Downloads ; tar xvf mysql-connector-java-8.0.11.tar.gz ; mv mysql-connector-java-8.0.11 ~/ ; export CLASSPATH=~/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar:$CLASSPATH
+```
 
 # Configuration
 
@@ -46,7 +103,18 @@ Most of the MySQL configuration was taken care of in the installer, but there ar
 We're done with MySQL until it's time to verify the database connection is working.
 
 ## Tomcat
-To start off, we'll be editing some configuration files located in the Tomcat installation directory. Since these files are in `C:\Program Files\` you'll need to launch your text editor with administrator permissions to modify the files, the installer defaults to `C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\`. First up is `context.xml`, copy and paste the following into the `<context><context/>` tags. Don't forget to substitute your MySQL database user password!
+To start off, we'll be editing some configuration files located in the Tomcat installation directory. 
+
+**Windows**  
+Since these files are in `C:\Program Files\` you'll need to launch your text editor with administrator permissions to modify the files, the installer defaults to `C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\`. 
+
+**Mac OS**   
+If following the above installation instructions, this will be located at
+```
+$ ~/Applications/apache-tomcat-7.0.86/conf
+```
+
+First up is `context.xml`, copy and paste the following into the `<context><context/>` tags. Don't forget to substitute your MySQL database user password!
 
     <Resource name="jdbc/runelite" auth="Container" type="javax.sql.DataSource"
             maxActive="50" maxIdle="30" maxWait="10000"
