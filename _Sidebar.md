@@ -1,6 +1,5 @@
 # Table of Contents
 * **User Guide**
-  * [[Performance tuning]]
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
