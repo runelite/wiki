@@ -82,7 +82,7 @@ Theoretically this can be anywhere on the `CLASSPATH` environment variable but I
 **Mac OS**  
 When navigating to the above link, you want to select `Platform Independent` and download the `.tar.gz` version. Once downloaded, run the following:
 ```
-$ cd ~/Downloads ; tar xvf mysql-connector-java-8.0.11.tar.gz ; mv mysql-connector-java-8.0.11 ~/ ; export CLASSPATH=~/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar:$CLASSPATH
+$ cd ~/Downloads ; tar xvf mysql-connector-java-8.0.11.tar.gz ; mv mysql-connector-java-8.0.11 ~/ ; echo $CLASSPATH=${CLASSPATH}:/Users/richard/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar >> ~/.bashrc
 ```
 
 # Configuration
