@@ -39,7 +39,7 @@
     * [[XP Drop]]
     * [[XP Globes]]
     * [[XP Tracker]]
-  * [[DPI scaling on Windows]]
+  * [[Disable Hardware Acceleration]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
