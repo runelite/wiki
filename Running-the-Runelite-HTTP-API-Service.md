@@ -183,6 +183,6 @@ You can also test making requests to your local instance with a request like <ht
 
 # Configuring Runelite to use the local API
 
-In order to test your changes to the HTTP Service module with the Runelite client, you'll need to change the base API URL. This is (currently) found in [`net.runelite.http.api.RuneliteAPI`](../blob/0cdac95b534f6a16ea0a9d87109d5793479e4bc3/http-api/src/main/java/net/runelite/http/api/RuneliteAPI.java#L45-46). For example:
+In order to test your changes to the HTTP Service module with the Runelite client, you'll need to change the base API URL. This is found in [`net.runelite.http.api.RuneliteAPI`](../blob/0cdac95b534f6a16ea0a9d87109d5793479e4bc3/http-api/src/main/java/net/runelite/http/api/RuneliteAPI.java#L45-46). For example:
 
-![](https://i.imgur.com/UxPaPLp.png)
+![](https://i.imgur.com/yHxJKcn.png)
