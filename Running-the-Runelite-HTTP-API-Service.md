@@ -8,7 +8,7 @@ In order to work on the Runelite HTTP API and Service you're going to want to ru
 
 ### Windows
 
-We're going to need a copy of MySQL installed on our dev machine to run the database the HTTP Service uses. Start by [downloading the MySQL installer](https://dev.mysql.com/downloads/windows/installer/). Run the installer, agree to the license, and you should arrive at a screen like this:
+We're going to need a copy of MySQL 5.7.22 installed on our dev machine to run the database the HTTP Service uses. Start by [downloading the MySQL installer](https://dev.mysql.com/downloads/file/?id=478035). Run the installer, agree to the license, and you should arrive at a screen like this:
 
 ![](https://i.imgur.com/MFgufkk.png)
 
@@ -24,7 +24,7 @@ On this screen, we're going to choose the MySQL root password and create a user 
 
 ### Mac OS
 
-Download the latest version of MySQL for Mac [here](https://dev.mysql.com/downloads/mysql/). Follow the window on how to install, it's pretty simple to get it setup. When prompted set a password for this server, as this is just for testing purposes, I'd recommend just using a simple password for now.
+Download version 5.7.22 of MySQL for Mac [here](https://dev.mysql.com/downloads/mysql/). Follow the window on how to install, it's pretty simple to get it setup. When prompted set a password for this server, as this is just for testing purposes, I'd recommend just using a simple password for now.
 
 If you didn't change the path of where to install MySQL then it will be located here `/usr/local/`. In this example, version `8.0.11` was installed and can be seen here:
 ```
