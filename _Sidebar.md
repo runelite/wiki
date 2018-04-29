@@ -20,6 +20,7 @@
     * [[Clan Chat]]
     * [[Combat Level]]
     * [[Daily Task Indicator]]
+    * [[Default World]]
     * [[Discord]]
     * [[Fishing]]
     * [[HiScore]]
