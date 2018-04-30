@@ -3,7 +3,7 @@
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
-    * [[Animation Smoothing]
+    * [[Animation Smoothing]]
     * [[Attack Styles]]
     * [[Bank Tags]]
     * [[Bank Value]]
