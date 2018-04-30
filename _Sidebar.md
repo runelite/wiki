@@ -26,6 +26,7 @@
     * [[Fishing]]
     * [[HiScore]]
     * [[Info Panel]]
+    * [[Kingdom of Miscellania]]
     * [[Low Detail]]
     * [[Mouse Tooltips]]
     * [[Prayer Flicking]]
