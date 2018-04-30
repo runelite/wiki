@@ -25,7 +25,7 @@
     * [[Demonic Gorillas - Editing Needed]]
     * [[Discord]]
     * [[Entity Hider]]
-    * [[Examine - Editing Needed]]
+    * [[Examine]]
     * [[Fairy Ring Helper - Editing Needed]]
     * [[Farming Tracker]]
     * [[Fight Cave - Editing Needed]]
