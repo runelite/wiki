@@ -24,7 +24,7 @@
     * [[Default World]]
     * [[Demonic Gorillas - Editing Needed]]
     * [[Discord]]
-    * [[Entity Hider - Editing Needed]]
+    * [[Entity Hider]]
     * [[Examine - Editing Needed]]
     * [[Fairy Ring Helper - Editing Needed]]
     * [[Farming Tracker]]
