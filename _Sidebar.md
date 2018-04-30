@@ -22,6 +22,7 @@
     * [[Daily Task Indicator]]
     * [[Default World]]
     * [[Discord]]
+    * [[Farming Tracker]]
     * [[Fishing]]
     * [[HiScore]]
     * [[Info Panel]]
