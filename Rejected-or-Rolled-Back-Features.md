@@ -9,5 +9,5 @@ Jagex has requested removal of certain features, and current discussion of featu
 
 #### Menu Entry Swapping
 * `Deposit X/Withdraw X`: Too powerful to implement. Jagex will implement if they want to (see [#1647](https://github.com/runelite/runelite/issues/1647))
-* `Pickpocket`: Not supported by other clients, and absurdly powerful when blackjacking
+* `Pickpocket` on non-H.A.M. members: Not supported by other clients, and absurdly powerful when blackjacking
 * `Build/Remove` on POH hotspots: This would allow zero-movement Construction skilling without special cursor positioning (try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
