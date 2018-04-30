@@ -10,7 +10,7 @@
 
 ### 2. Hide Players 2D
 
-(Default On) Hides other players.
+(Default On) Hides other players' 2D elements such as chat, health bars, and prayers.
 
 ### 3. Hide Friends
 
@@ -26,7 +26,7 @@
 
 ### 6. Hide Local Players 2D
 
-(Default Off) Hides yourself, similar to the "::renderself" command in OSRS.
+(Default Off) Hides your own 2D elements such as chat, health bars, and prayers
 
 ### 7. Hide NPC
 
@@ -34,7 +34,7 @@
 
 ### 8. Hide NPC 2D
 
-(Default On) Hides NPC's.
+(Default On) Hides NPC's 2D elements such as chat, health bars, and prayers.
 
 ### 9. Hide Attackers
 
