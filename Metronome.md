@@ -8,4 +8,4 @@ This plugin plays a metronome that can be set to a specific tick delay to aid in
 
 **2. Enable Tock**
 
-(Default Off) Enables alternating metronome beats to differentiate between cycles of ticks. 
+(Default Off) Enables alternating metronome beats to differentiate between cycles of ticks.
