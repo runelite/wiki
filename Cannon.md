@@ -20,6 +20,6 @@
 
 (Default Off) When enabled, this displays the amount of cannonballs loaded into the cannon.
 
-### 5. Show double hit spots
+### 5. Empty cannon notification
 
 (Default On) This alerts you when your cannon is out of cannonballs. 
