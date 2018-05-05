@@ -4,6 +4,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * AoE Plugin: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release))
 * In-game Zulrah Helper: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release), relevant discussion in [#1386](https://github.com/runelite/runelite/issues/1386))
 * Volcanic Mine Helper: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release))
+* Dyanmic Puro-Puro spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful. (see [#2371](https://github.com/runelite/runelite/issues/2371))
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
