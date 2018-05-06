@@ -29,3 +29,6 @@ Configures whether screenshots are taken of level ups
 
 ### Upload To Imgur
 Configures whether screenshots will be uploaded to Imgur and the link copied to your clipboard after being taken
+
+### Screenshot with [Insert]
+Configures whether pressing the Insert key will take a screenshot.
