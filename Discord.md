@@ -6,8 +6,8 @@ This plugin integrates the RuneLite client with Discord, showing your status and
 ![Discord plugin](https://i.imgur.com/vBI7aFM.png)  
 
 ## Settings
-### Action timeout (minutes)
-How long (in minutes) after inactivity your Discord status will reset  
-
 ### New action delay (seconds)
 How long (in seconds) to wait before a new action is considered valid as a status
+
+### Action timeout (minutes)
+How long (in minutes) after inactivity your Discord status will reset  
