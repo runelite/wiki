@@ -6,7 +6,7 @@ See [contributing.md](https://github.com/runelite/runelite/blob/master/CONTRIBUT
 
 See [Checkstyle with IntelliJ IDEA](https://github.com/runelite/runelite/wiki/Checkstyle-with-IntelliJ-IDEA) on how to set up an IntelliJ build configuration with automatic checkstyle.
 
-To setup IntelliJ Idea with correct project code-style, download [this xml](http://ix.io/1891/xml) and [follow this guide](https://www.jetbrains.com/help/idea/2017.1/code-style.html) to import it into your IDE.
+To setup IntelliJ Idea with correct project code-style, download [this xml](http://ix.io/19Bk/xml) and [follow this guide](https://www.jetbrains.com/help/idea/2017.1/code-style.html) to import it into your IDE.
 
 # Imports
 
