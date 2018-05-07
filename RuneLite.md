@@ -23,19 +23,32 @@ Select which way notifications will be sent.
 
 Toggles whether to send notification if you have the client focused.
 
+### Request focus on notification
 
-###  Enable custom window chrome
+Toggles whether to bring client to front upon being notified.
 
-The client will use a custom RuneLite title bar, untick this to use your default OS title bar
+### Dynamic Overlay Font
 
-### Enable sound on notifications
+Choose which font type to use for all in-game overlays.
 
-Allows RuneLite to play a sound on notification, like IdleNotifier
+### Display infoboxes vertically
 
-### Enable chat commands recolor
+Stack infoboxes vertically instead of horizontally.
 
-Chat commands will be recolored and highlighted, making them easier to read
+### Infobox wrap count
 
-![Chat commands recolor](https://i.imgur.com/DM7uwWP.png)
+Configures the amount of infoboxes shown before wrapping.
+
+### Contain in screen
+
+Makes the client stay contained in the screen when attempted to move out of it.
+
+### Remember client position
+
+Save the position and size of the client after exiting.
+
+
+
+
 
 
