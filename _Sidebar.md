@@ -30,6 +30,7 @@
     * [[Farming Tracker]]
     * [[Fight Cave]]
     * [[Fishing]]
+    * [[Friend Notes]]
     * [[Grand Exchange]]
     * [[Ground Items]]
     * [[Ground Markers]]
