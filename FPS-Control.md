@@ -18,5 +18,5 @@
 
 ### 3. Draw FPS indicator
 
-* (Default On) Just like the ::DisaplyFPS command, this will display an FPS counter in the top right-hand corner of the client.
+* (Default On) Just like the ::DisplayFPS command, this will display an FPS counter in the top right-hand corner of the client.
 
