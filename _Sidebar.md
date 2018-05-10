@@ -72,6 +72,7 @@
     * [[Runecraft]]
     * [[Screenshot]]
     * [[Slayer]]
+    * [[Special Attack Counter]]
     * [[Stretched Fixed Mode]]
     * [[Team Capes]]
     * [[Tile Indicators]]
