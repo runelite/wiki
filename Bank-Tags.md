@@ -1,6 +1,6 @@
 ## Bank Tags Configuration
 
-[![Client View](https://thumbs.gfycat.com/LeadingConcernedAsiansmallclawedotter-size_restricted.gif)](https://gfycat.com/LeadingConcernedAsiansmallclawedotter)
+[![Client View](https://thumbs.gfycat.com/BewitchedNewInchworm-size_restricted.gif)](https://gfycat.com/BewitchedNewInchworm)
 
 Enables tagging of bank items and searching of bank tags
 
