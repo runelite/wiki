@@ -26,6 +26,7 @@
     * [[Discord]]
     * [[Entity Hider]]
     * [[Examine]]
+    * [[FPS Control]]
     * [[Fairy Ring Helper]]
     * [[Farming Tracker]]
     * [[Fight Cave]]
