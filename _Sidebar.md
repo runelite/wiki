@@ -4,6 +4,7 @@
     * [[Account]]
     * [[Agility]]
     * [[Animation Smoothing]]
+    * [[Anti Drag]]
     * [[Attack Styles]]
     * [[Bank Tags]]
     * [[Bank Value]]
