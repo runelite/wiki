@@ -85,6 +85,7 @@
     * [[XP Globes]]
     * [[XP Tracker]]
   * [[Disable Hardware Acceleration]]
+  * [[Disable Hardware Acceleration Remake]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
