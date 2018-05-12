@@ -16,4 +16,23 @@
 
 (Default Green) Here you can choose what colour the overlay is for the entire clickable obstacle.
 
+### 4. Highlight Marks of Grace 
+
+Enable/disable the highlighting of retrievable Marks of Grace
+
+### 5. Mark Highlight Color
+
+Color of highlighted Marks of Grace
+
+### 6. Highlight Agility Shortcuts
+
+Enable/disable the highlighting of Agility shortcuts
+
+### 7. Show Trap Overlay
+
+Enable/disable the highlighting of traps on Agility courses
+
+### 8. Trap Overlay Color 
+
+Color of Agility trap overlay
 
