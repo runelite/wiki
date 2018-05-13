@@ -75,7 +75,6 @@
     * [[Screenshot]]
     * [[Slayer]]
     * [[Special Attack Counter]]
-    * [[Status Widgets]]
     * [[Stretched Fixed Mode]]
     * [[Team Capes]]
     * [[Tile Indicators]]
