@@ -73,7 +73,6 @@
     * [[RuneLite]]
     * [[Runecraft]]
     * [[Screenshot]]
-    * [[Shift Click Configuration]]
     * [[Slayer]]
     * [[Special Attack Counter]]
     * [[Status Widgets]]
