@@ -1,4 +1,4 @@
-## Account Plugin
+## Account Plugin Configuration
 
 ![Account Plugin](https://i.imgur.com/cFaerCK.png)
 
