@@ -11,7 +11,7 @@ If you are on Windows using the official installer, download and run the link be
 * [Runelite-NoDDraw.bat | GitHub Download](files/runelite-no-ddraw.bat)
 * [Runelite-NoDDraw.bat | Mega Mirror](https://mega.nz/#!xyYDgRYS!f6ShaNg6ULtuEsRdLk_Zm_QRzuU-x9SmihIMfVY_Vc0)
 
-Or save the text below, save as a .bat file and run.
+Or copy the text below, save as a .bat file and run.
 ```
 start "" "%localappdata%\RuneLite\RuneLite.exe" --mode=OFF
 exit
