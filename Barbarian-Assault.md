@@ -1,4 +1,4 @@
-## Barbarian Assault Configuration
+# Barbarian Assault Configuration
 
 ![Barbarian Assault configuration listing](https://i.imgur.com/DB0Dlxo.png)
 
