@@ -1,4 +1,4 @@
-## Bank Tags Configuration
+# Bank Tags Configuration
 
 [![Client View](https://thumbs.gfycat.com/BewitchedNewInchworm-size_restricted.gif)](https://gfycat.com/BewitchedNewInchworm)
 
