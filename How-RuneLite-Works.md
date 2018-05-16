@@ -1,6 +1,6 @@
 # Importing and Exporting Fields and Methods
 
-Field and method mappings are stored as annotations on the runescape-client project, which is a deobfuscated and decompiled version of the RuneScape client.
+Field and method mappings are stored as annotations on the runescape-client project, which is a deobfuscated and decompiled version of the RuneScape client which is now one of the closed source parts of the project.
 
 For example, the field isMembers:
 
@@ -18,7 +18,7 @@ public final class Client extends GameEngine {
 
 We can see the orginal "obfuscated name" of the field: client.v, and the deobfuscated name, which is exported as isMembers.
 
-In order to have a method to get the value of this field injected into our client, we need to add an import on the respective interface in runescape-api, such as:
+In order to have a method to get the value of this field injected into our client, we need to add an import on the respective interface in runescape-api (also private), such as:
 
 ```java
 public interface RSClient extends RSGameEngine, Client {
@@ -45,12 +45,12 @@ public interface Client {
 Use the same approach as above, however since the class a static field resides in is dynamic depending on the deobfuscation, if you wish to Import the field in runescape-api it must go in the Client class as a non-static member.
 Also be aware that static methods that are in classes which have only static members and no instantiated fields cannot be tracked using the deobber and therefore cannot be imported. 
 
-Generally, runelite-api is a subset of runescape-api, with the majority of its methods implemented automatically by the injector. However, it is also mixed with the runelite-mixins which can provide some higher level wrappers around things (commonly [enums instead of ints](https://github.com/runelite/runelite/wiki/Using-mixins)). runescape-api is meant to be 1:1 with the deobfuscated client.
+Generally, runelite-api is a subset of runescape-api (closed), with the majority of its methods implemented automatically by the injector. However, it is also mixed with the runelite-mixins which can provide some higher level wrappers around things (commonly [enums instead of ints](https://github.com/runelite/runelite/wiki/Using-mixins)). runescape-api is meant to be 1:1 with the deobfuscated client.
 
 The injector is run when the project named Injector is built. It takes the vanilla gamepack, the annotations on runescape-client and runescape-api, and injects methods and hooks as appropriate.
 It then produces the injected jar, which is an artifact of the build. This artifact is what runelite-client has a dependency on, which is the client that it loads on startup.
 
-runelite-client does not download the gamepack from the RuneScape servers, or inject it at runtime.
+runelite-client does not download the gamepack from the RuneScape servers, or inject it at runtime!
 
 # How the update pipeline works
 
