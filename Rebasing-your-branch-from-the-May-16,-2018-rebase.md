@@ -28,7 +28,7 @@ Now it's time to update our branches.
 ```
 git checkout my-awesome-feature
 ```
-Run `git status` and COUNT the number of commits YOU made until the previous version of master. Typically you will see a "merge pull request" type of commit.
+Run `git log` and COUNT the number of commits YOU made until the previous version of master. Typically you will see a "merge pull request" type of commit.
 
 In most cases you will have have one commit.
 
