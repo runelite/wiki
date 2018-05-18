@@ -51,6 +51,14 @@ If it didn't go as well as planned, you can reset your branch to what you have a
 ### Pushing
 If it did go well, it's time to force push your branch with `git push --force`. Now if you look at your PR, it should be back to normal.
 
+### Cleaning up your local history
+In order to remove all dangling branches after you done rebasing all your pull requests, to cleanup all branches that you dont care about, download [this script](http://ix.io/1aJM) and save it as `git-branch-cleanup`. Then, navigate to your repository and run
+
+```bash
+git checkout master
+git-branch-cleanup -D
+```
+
 This info mostly came from a [stackoverflow](https://stackoverflow.com/a/31882353) post.
 
 If there are any mistakes, or any way to make this easier, please update this wiki!
