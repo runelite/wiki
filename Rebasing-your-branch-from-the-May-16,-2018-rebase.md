@@ -42,7 +42,7 @@ git rebase --onto upstream/master my-awesome-feature~3 my-awesome-feature # reba
 ```
 
 ### Testing
-After running this, do another `git status` and check if it looks good.
+After running this, do a `git log` and check if the history looks good.
 
 Now, make sure your rebase worked by actually testing it in RuneLite!
 
