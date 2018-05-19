@@ -6,7 +6,7 @@
 
 ### 1. Drag Delay [Numerical Value]
 
-(Default 30) This setting defines how long the anti-drag plugin will work in milliseconds until it allows the item to move with the mouse.
+(Default 30) This setting defines how long the anti-drag plugin will work in client ticks (20 milliseconds) until it allows the item to move with the mouse.
 
 ### 2. On Shift Only
 
