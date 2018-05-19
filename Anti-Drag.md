@@ -1,7 +1,5 @@
 # Anti Drag Configuration
 
-**This is a feature preview and not yet available in the client as of May 17, 2018**
-
 [![Client View](https://thumbs.gfycat.com/DefensiveLargeAustraliansilkyterrier-size_restricted.gif)](https://gfycat.com/DefensiveLargeAustraliansilkyterrier)
 
 ## Settings
