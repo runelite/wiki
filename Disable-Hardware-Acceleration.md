@@ -31,4 +31,6 @@ java -jar %localappdata%\RuneLite\RuneLite.jar --mode=OFF
 ```
 
 In linux, If you downloaded the client via the Arch User Repository (AUR) for linux execute this command:
-`echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite`
+```
+echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
+```
