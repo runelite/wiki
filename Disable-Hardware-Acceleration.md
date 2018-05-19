@@ -30,7 +30,7 @@ In Windows, you would run cmd.exe (Windows Key + R) and paste this into the comm
 java -jar %localappdata%\RuneLite\RuneLite.jar --mode=OFF
 ```
 
-In linux, If you downloaded the client via the Arch User Repository (AUR) for linux execute this command:
+In linux, If you downloaded the client via the Arch User Repository (AUR) execute this command:
 ```
 echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
 ```
