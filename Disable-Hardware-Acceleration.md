@@ -30,11 +30,11 @@ In Windows, you would run cmd.exe (Windows Key + R) and paste this into the comm
 java -jar %localappdata%\RuneLite\RuneLite.jar --mode=OFF
 ```
 
-In linux, If you downloaded the client via the Arch User Repository (AUR) execute this command:
+In Linux, If you downloaded the client via the Arch User Repository (AUR) execute this command:
 ```
 echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
 ```
-If you're using another distro and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
+If you're using another distribution and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
 ```
 [Desktop Entry]
 Encoding=UTF-8
