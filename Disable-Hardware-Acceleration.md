@@ -34,3 +34,13 @@ In linux, If you downloaded the client via the Arch User Repository (AUR) execut
 ```
 echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
 ```
+If you're using another distro and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
+```
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=java -jar path/to/RuneLite.jar --mode=off
+Name=RuneLite
+Comment=RuneLite launcher
+```
+Replace `path/to/RuneLite.jar` with wherever you downloaded the file.
