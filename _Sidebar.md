@@ -44,6 +44,7 @@
     * [[Implings]]
     * [[Info Panel]]
     * [[Instance Map]]
+    * [[Interface Styles]]
     * [[Item Prices]]
     * [[Item Stats]]
     * [[Jewellery Count]]
