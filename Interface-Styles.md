@@ -1,4 +1,4 @@
-#  Configuration
+# Interface Styles Configuration
 
 [![Client View](https://thumbs.gfycat.com/ElegantFocusedHippopotamus-size_restricted.gif)](https://gfycat.com/ElegantFocusedHippopotamus)
 
