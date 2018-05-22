@@ -54,7 +54,7 @@
     * [[Menu Entry Swapper]]
     * [[Metronome]]
     * [[Minimap]]
-    * [[Motherload Mine]]
+    * [[Motherlode Mine]]
     * [[Mouse Tooltips]]
     * [[NPC Indicators]]
     * [[News Feed]]
