@@ -14,6 +14,11 @@ This is how it can look in-game with settings above:
 
 ![XP drop preview](https://i.imgur.com/WWc80RZ.png)
 
+## Goals
+Goals are also configured using the vanilla interface
+
+![XP goal setting](https://vignette.wikia.nocookie.net/2007scape/images/b/b1/XP_Drops%2C_Jad_Pet_%26_Slayer_%283%29.png/revision/latest?cb=20150806114813)
+ 
 ## Settings
 ---
 ### Hide skill icons
