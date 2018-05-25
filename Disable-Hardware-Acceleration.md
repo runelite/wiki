@@ -82,6 +82,9 @@ In the terminal, type:
 #!/bin/sh
 java -jar /path/to/RuneLite.jar --mode=OFF
 ```
+
+Press `ctrl+x` to exit, `y` if asked to save.
+
 Replace `/path/to/RuneLite.jar` with the directory location your RuneLite.jar is located. In my case, RuneLite.jar was located in my `Documents` folder.
 
 ![Run Command](https://i.imgur.com/RvCXBTG.png)
