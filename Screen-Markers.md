@@ -14,7 +14,7 @@ Opens Color Selections in a new window.
 Selecting a color changes the color for the marker dynamically.
 
 ![Toggle Background Transparency](https://i.imgur.com/OcwIXR0.png) **Toggle Background Transparency:**
-Fills in the box with the selected _Fill Color_ from _Edit Fill Color_ section.
+Fills in the box with the selected `Fill Color` from `Edit Fill Color` section.
 
 
 
@@ -33,4 +33,4 @@ Use of Screen Markers when doing Blast Furnace.
 
 ![Blast Furnace Setup - Fill Color](https://i.imgur.com/wfJPI5b.png)
 
-With _Toggle Background Transparency_ enabled
+With `Toggle Background Transparency` enabled.
