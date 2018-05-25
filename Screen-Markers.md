@@ -1,9 +1,12 @@
-## Info: 
+# Screen Markers Configuration
+
+![](https://i.imgur.com/CepxKQ5.png)
+
 Screen Markers allows you draw boxes on top of your Runescape client.
 
 This can be useful in setting up runs/tasks where it's beneficial to know the precise location of items. 
 
-## Configuration:
+## Settings
 
 ![Edit Border Color](https://i.imgur.com/6qAQpSf.png) **Edit Border Color:**
 Opens Color Selections in a new Window.
