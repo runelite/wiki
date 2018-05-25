@@ -86,3 +86,8 @@ Replace `/path/to/RuneLite.jar` with the directory location your RuneLite.jar is
 
 ![Run Command](https://i.imgur.com/RvCXBTG.png)
 
+If RuneLite.sh is opening in Text Editor, Open `Files > Preferences > Behavior >`
+
+`Files` is your file manager
+
+Under `Executable Text Files`, Select `Run them` to run all .sh files, or `Ask what to do` if you want to choose to run or view all .sh files.
