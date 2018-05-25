@@ -73,6 +73,7 @@
     * [[RuneLite]]
     * [[Runecraft]]
     * [[Screenshot]]
+    * [[Screen Markers]]
     * [[Shift Anti Drag]]
     * [[Slayer]]
     * [[Special Attack Counter]]
