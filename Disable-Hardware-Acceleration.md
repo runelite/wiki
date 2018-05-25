@@ -25,15 +25,30 @@ If you downloaded the `.jar` version of the launcher, run this:
 java -jar Location-of-RuneLite.jar --mode=OFF
 ```
 
-In Windows, you would run cmd.exe (Windows Key + R) and paste this into the command prompt.
+***
+
+### Windows
+Run cmd.exe (Windows Key + R) and paste this into the command prompt.
 ```
 java -jar %localappdata%\RuneLite\RuneLite.jar --mode=OFF
 ```
 
-In Linux, If you downloaded the client via the Arch User Repository (AUR) execute this command:
+***
+
+### Linux
+**ARCH:**
+
+If you downloaded the client via the Arch User Repository (AUR) execute this command:
 ```
 echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
 ```
+
+***
+
+**Other Distro:**
+
+**To create shortcut to run from launcher:**
+
 If you're using another distribution and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
 ```
 [Desktop Entry]
@@ -43,4 +58,31 @@ Exec=java -jar path/to/RuneLite.jar --mode=off
 Name=RuneLite
 Comment=RuneLite launcher
 ```
-Replace `path/to/RuneLite.jar` with wherever you downloaded the file.
+Replace _path/to/RuneLite.jar_ with wherever you downloaded the file.
+
+
+***
+
+
+**To run RuneLite directly from the desktop:**
+
+Open terminal and type:
+```
+nano /home/user/Desktop/RuneLite.sh
+```
+Replace `user` with your username, in my case I replaced `user` with `zetix`
+
+![Desktop Shortcut](https://i.imgur.com/rbA5Ykk.png)
+
+This should open up an empty terminal for the RuneLite.sh file we are going to create
+
+In the terminal, type:
+
+```
+#!/bin/sh
+java -jar /path/to/RuneLite.jar --mode=OFF
+```
+Replace `/path/to/RuneLite.jar` with the directory location your RuneLite.jar is located. In my case, RuneLite.jar was located in my `Documents` folder.
+
+![Run Command](https://i.imgur.com/RvCXBTG.png)
+
