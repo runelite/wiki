@@ -1,3 +1,5 @@
+**Important!** Before attempting the steps below, make sure you have installed the latest RuneLite Launcher! If you are unsure, simply reinstall the launcher.
+
 As of RuneLite Launcher 1.5.1, RuneLite attempts to enable hardware acceleration based on your operating system. If you are having hardware-acceleration issues (such as artifacting) you can disable it by following one of the 3 instructions below.
 
 ## 1. Creating a shortcut, and then adding "--mode=OFF" (without quotes) at the end of the target box. (Video below)
