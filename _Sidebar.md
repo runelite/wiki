@@ -100,5 +100,6 @@
   * [[How RuneLite works]]
   * [[Using RuneLite's mixins]]
   * [[Creating plugin config panels]]
+  * [[Using the client developer tools]]
   * [[Running the Runelite HTTP API Service]]
 * [[Rejected or Rolled Back Features]]
