@@ -32,7 +32,8 @@ Also remove the entries in `Packages to Use Import with '*'` to stop the replace
 ***
 
 The following gives an example of well formatted code:
-```/*
+```
+/*
  * Copyright (c) 2017, Adam <Adam@sigterm.info>
  * All rights reserved.
  *
