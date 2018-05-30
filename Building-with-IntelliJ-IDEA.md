@@ -85,7 +85,3 @@ Example error when client does not boot:
 Success! You can switch between running the client and building the Maven project by switching between the **RuneLite** configuration and your custom Maven configuration.
 
 Happy development!
-
-## Ubuntu 18.04 and Newer Distros
-
-Newer distros seem to be using OpenJDK 10 as their default Java. At the moment, the stable version of Lombok does not fully support OpenJDK 10 (their edge version does). If you are on Ubuntu 18.04, install `openjdk-8-jdk` and in Intellij, under File->Project Structure->Project, set the Project SDK to `/usr/lib/jvm/java-8-openjdk-amd64` (and set project language level to 8). You should now be able to build RuneLite (and of course run maven again).
