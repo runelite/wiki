@@ -12,7 +12,7 @@ the clientscripts can preemptively set a var that it expects to change, as a way
 VarBits are like VarPs, but they have a variable size. Each VarBit has a static size defined in the cache.
 They are typically used in newer content, as they are more efficient in terms of size. They have most of the
 same capabilities as VarPs, including client side prediction, as they are implemented ontop of VarPlayers.
-See more in [How VarBits work internally](#How-VarBits-work-internally)
+See more in [How VarBits work internally](#how-varbits-work-internally)
 
 VarClientInts and VarClientStrs are client side only variables, used almost exclusively by clientscripts.
 They have the ability to be stored to disk, but only some do so. These are used for things like the current
