@@ -1,6 +1,6 @@
 # Special Attack Counter Configuration
 
-![](https://user-images.githubusercontent.com/13276766/38902003-cbbeceae-429e-11e8-9181-10a3e2753caf.png)
+![](https://i.imgur.com/94Z4uus.png)
 
 This plugin will track the following special attacks used on any NPC:
 
