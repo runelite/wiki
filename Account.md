@@ -1,7 +1,10 @@
 # Account Plugin Configuration
 
-![Account Plugin](https://i.imgur.com/cFaerCK.png)
+![Account Plugin](https://i.imgur.com/HUqNxBi.png)
 
-Enables the green Login Button ![LOGIN_IMAGE](https://i.imgur.com/pVeVdBU.png) on the right-hand side of the RuneLite Client. When clicked, this will open a new web page for you to sync your RuneLite config settings with your Google account in the cloud, allowing for the same config to be used across multiple PCs.
+This plugin enables the green login button on the right-hand or top-side part of Runelite. 
 
-To Logout, and to stop syncing your settings, click the red Logout Button. ![LOGOUT_IMAGE](https://i.imgur.com/LwwsBJs.png)
+- ![LOGIN_IMAGE](https://i.imgur.com/pVeVdBU.png) - When clicked this button will open a new web page for you to sync your RuneLite config settings with your Google account in the cloud. This will allow you to use the same config settings across multiple PCs.
+
+
+- ![LOGOUT_IMAGE](https://i.imgur.com/LwwsBJs.png) - To logout, and to stop syncing your settings, click the red logout button. 
