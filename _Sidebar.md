@@ -101,5 +101,6 @@
   * [[Using RuneLite's mixins]]
   * [[Creating plugin config panels]]
   * [[Using the client developer tools]]
+  * [[VarPlayers, VarBits, and VarClients]]
   * [[Running the Runelite HTTP API Service]]
 * [[Rejected or Rolled Back Features]]
