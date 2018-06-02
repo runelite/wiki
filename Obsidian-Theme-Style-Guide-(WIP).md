@@ -4,11 +4,7 @@ Hello, with this page I attempt to help developers integrate their UI designs in
 Obsidian is a new theme for the RuneLite client that attempts to give it a unified modern look, it was initially designed by me (@psikoi) in April 2018 and currently maintained by me and hopefully you! This theme is darker, flatter, simpler and re-uses UI elements to ease the user experience with familiarity. It is inspired by Google's Material Design guidelines and various modern flat design guidelines.
 
 
-
-## Elements
-
-
-### Colors
+## Colors
 
 **DARKER_GRAY_COLOR: rgb(30, 30, 30)** <br> This color is to be used on section/element backgrounds that overlay the base plugin background. This is also the color of the client's border.
 
@@ -28,12 +24,11 @@ Obsidian is a new theme for the RuneLite client that attempts to give it a unifi
 
 
 
-### Custom Components
+## Custom Components
 
-### Layout and positioning
+## Layout and positioning
 
-### White space (margins and padding)
-
+## White space (margins and padding)
 
 
 ## Conclusion
