@@ -103,5 +103,5 @@
   * [[Using the client developer tools]]
   * [[VarPlayers, VarBits, and VarClients]]
   * [[Running the Runelite HTTP API Service]]
-  * [[[WIP] Obsidian Theme   Design Style Guide]]
+  * [[(WIP) Obsidian Theme, Design Style Guide]]
 * [[Rejected or Rolled Back Features]]
