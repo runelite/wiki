@@ -15,8 +15,6 @@ After installing full OpenJDK package you should be able to again use RuneLite o
 
 *nix (MacOS & Linux included) systems use MIME (Multipurpose Internet Mail Extensions) to determine what file actually is, using MIME eliminates the need to have file extensions. OpenJDK package on Fedora does not register itself to MIME list & does not create .desktop file association, so you can't traditionally double-click file and suppose for it to open.
 
-Firstly we create a .desktop file. 
-
 1. Create text file with such contents:
 ```
 [Desktop Entry]
