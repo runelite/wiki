@@ -1,7 +1,7 @@
 Hello, with this page I attempt to help developers integrate their UI designs into our global client look and feel, which we call Obsidian Theme.
 
 ## What is the Obsidian Theme?
-Obsidian is a new theme for the RuneLite client that attempts to give it a unified modern look, it was initially designed by me (@psikoi) in April 2018 and currently maintained by me and hopefully you! This theme is darker, flatter, simpler and re-used UI elements to ease the user experience with familiarity. It is inspired by Google's Material Design guidelines and various modern flat design guidelines.
+Obsidian is a new theme for the RuneLite client that attempts to give it a unified modern look, it was initially designed by me (@psikoi) in April 2018 and currently maintained by me and hopefully you! This theme is darker, flatter, simpler and re-uses UI elements to ease the user experience with familiarity. It is inspired by Google's Material Design guidelines and various modern flat design guidelines.
 
 
 
