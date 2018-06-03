@@ -1,5 +1,6 @@
 # Table of Contents
 * **User Guide**
+  * [[General Features]]
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
