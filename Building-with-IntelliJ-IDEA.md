@@ -2,7 +2,7 @@
 
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
 
-RuneLite is currently built on [JDK 9](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html). Do note that JDK 9 has reached end of support, as a result this version is no longer available. Please download the latest version of [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) **instead**, which you should install before trying to build the project. We use the Lombok library for logging and some annotations, which (as of 1.16.20) throws illegal reflective access errors that JDK 10 rejects. The RuneLite codebase supports language features up to Java 8, except for [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins), which are limited to Java 6.
+RuneLite is currently built on [JDK 10](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html), but you can use any version from JDK 8 onwards, as the codebase only supports language features up to Java 8. [RuneLite mixins](https://github.com/runelite/runelite/wiki/Using-RuneLite's-mixins) are the exception - these are are limited to Java 6.
 
 ## Importing the project
 
