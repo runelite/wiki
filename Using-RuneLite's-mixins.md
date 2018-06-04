@@ -1,3 +1,5 @@
+# NOTE: The Mixins are public, but the injector is not, and so it is not possible to build a client with modified mixins at this time.
+
 Mixins tell the application that modifies the game's code, the injector, to add, edit and proxy methods and fields according to what the mixins say.
 
 They are often used to wrap the game's classes into more useful classes. For example, the game uses arrays for containing the NPCs, and `getNpcs()` in RSClientMixin provides a way to get the NPCs in a more user friendly way.
