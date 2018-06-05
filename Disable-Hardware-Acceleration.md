@@ -56,7 +56,7 @@ If you're using another distribution and downloaded the `RuneLite.jar` file, you
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Exec=java -jar path/to/RuneLite.jar --mode=off
+Exec=java -jar path/to/RuneLite.jar --mode=OFF
 Name=RuneLite
 Comment=RuneLite launcher
 ```
