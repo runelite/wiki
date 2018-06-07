@@ -6,6 +6,8 @@ Screen Markers allows you draw boxes on top of your Runescape client.
 
 This can be useful in setting up runs/tasks where it's beneficial to know the precise location of items. 
 
+The screenmarkers can be moved with the **Alt key** just like most other overlays and infoboxes.
+
 ## Settings
 
 ![Edit Border Color](https://i.imgur.com/6qAQpSf.png) **Edit Border Color:**
