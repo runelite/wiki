@@ -1,6 +1,6 @@
 ## Screenshot Configuration
 
-![Screenshot button](https://i.imgur.com/hj2xd3J.png)
+![Screenshot button](https://i.imgur.com/1urgNte.png)
 
 Enables the screenshot button  
 
