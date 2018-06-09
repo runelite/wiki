@@ -1,6 +1,6 @@
 ## XP Drop Configuration
 
-![Setting bar](https://i.imgur.com/HRPgmf9.png)
+![Setting bar](https://i.imgur.com/Lk5tOwF.png)
 
 Allows you to customize the way XP drops are displayed. RuneLite is using vanilla experience drops, so make sure to enable it here:
 
