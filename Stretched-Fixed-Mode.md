@@ -1,6 +1,6 @@
 # Stretched Fixed Mode Configuration
 
-[![Client View](https://thumbs.gfycat.com/IncredibleSatisfiedBull-size_restricted.gif)](https://gfycat.com/IncredibleSatisfiedBull)
+[![Client View](https://thumbs.gfycat.com/PoshPalatableHogget-size_restricted.gif)](https://gfycat.com/PoshPalatableHogget)
 
 ## Settings
 
@@ -8,6 +8,10 @@
 
 (Default Off) When enabled, it makes the client look sharper.
 
-### 2. Keep Aspect Ratio
+### 2. Integer Scaling
 
-(Default On) It is recommended that you keep this setting on for regular use.
+(Default Off) When enabled, uses a whole number scale factor.
+
+### 3. Keep Aspect Ratio
+
+(Default Off) When enabled, it will keep the aspect ratio while stretching.
