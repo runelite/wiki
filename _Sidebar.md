@@ -23,6 +23,7 @@
     * [[Clue Scrolls]]
     * [[Combat Level]]
     * [[Daily Task Indicator]]
+    * [[Death Indicator]]
     * [[Default World]]
     * [[Demonic Gorillas]]
     * [[Discord]]
