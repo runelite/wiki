@@ -186,3 +186,66 @@ You can also test making requests to your local instance with a request like <ht
 In order to test your changes to the HTTP Service module with the Runelite client, you'll need to change the base API URL. This is found in [`net.runelite.http.api.RuneliteAPI`](../blob/0cdac95b534f6a16ea0a9d87109d5793479e4bc3/http-api/src/main/java/net/runelite/http/api/RuneliteAPI.java#L45-46). For example:
 
 ![](https://i.imgur.com/yHxJKcn.png)
+
+# Setting up OAuth support
+
+In order to login to the client while using the local API you will need to create OAuth 2.0 credentials, add them to your Tomcat config, build and deploy the RuneLite OAuth Servlet, and update the http-service OAuth redirect url to reference localhost instead of runelite.net.
+
+### Creating OAuth 2.0 Credentials
+
+Before we go any further we are going to create Google API credentials. See [Setting up OAuth 2.0](https://support.google.com/googleapi/answer/6158849) or [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/OAuth2) for more information about OAuth 2.0.
+
+Step 1) Visit https://console.cloud.google.com/apis/credentials and click the create credentials button
+
+![](https://i.imgur.com/e0i71Us.png)
+
+Step 2) Select the OAuth client ID option
+
+![](https://i.imgur.com/2iMK0MP.png)
+
+Step 3) Select Web Application and add `http://localhost:8080/oauth/` as a Redirect URI
+
+![](https://i.imgur.com/aZIxIP4.png)
+
+Step 4) Create the credentials and copy the Client ID and Secret
+
+![](https://i.imgur.com/X4DlLgf.png)
+
+### Adding OAuth Credentials to Config
+
+We need to edit the `conf/context.xml` file inside the folder you installed Tomcat Apache into. See [Tomcat](#tomcat) section for more information.
+
+Once you are editing that file you need to replace the `moo` in both of these lines with the necessary values and save the file. Restart your server for the changes to take effect.
+
+```
+    <Environment name="oauth.client-id" value="moo" type="java.lang.String"/>
+    <Environment name="oauth.client-secret" value="moo" type="java.lang.String"/>
+```
+to
+
+```
+    <Environment name="oauth.client-id" value="1067619782264-qv124o7racu5v6id4vog8f65np8o9k3.apps.googleusercontent.com" type="java.lang.String"/>
+    <Environment name="oauth.client-secret" value="sId2PfoPW4nJG9rv3Td5VI4P" type="java.lang.String"/>
+```
+
+### Build and Deploy the OAuth Servlet
+
+Download the RuneLite OAuth Servlet here: https://github.com/runelite/runelite-oauth
+
+Build the project using Maven with the `install` command line parameter set.
+
+Deploy `oauth.war` if it wasn't automatically deployed. (Same method as deploying the snapshot.war file)
+
+### Update http-service OAuth Redirect URI
+
+Navigate to the `AccountService.java` file inside the runelite project 
+
+Exact Path: `http-service\src\main\java\net\runelite\http\service\account\AccountService.java`
+
+Update `RL_OAUTH_URL` to be `http://localhost:8080/oauth/`
+![](https://i.imgur.com/P49WkXm.png)
+
+Re-run maven on the project to rebuild the snapshot.war and then redeploy it to the server.
+
+You should now be able to login to the client while running the local API.
+
