@@ -1,0 +1,1 @@
+When enabled, will automatically update your stats on CML whenever you log out. 
