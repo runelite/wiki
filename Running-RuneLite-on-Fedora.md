@@ -1,4 +1,5 @@
-# It's known that RuneLite does not run out-of-box well on any Fedora installation.
+It's known that RuneLite does not run out-of-box well on any Fedora installation.
+
 ## Problems with OpenJDK Java on Fedora Linux
 As of Fedora 18 release regular OpenJDK Java was split up into two different programs:
 * Regular OpenJDK
