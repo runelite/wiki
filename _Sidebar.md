@@ -91,7 +91,7 @@
     * [[XP Globes]]
     * [[XP Tracker]]
   * [[Disable Hardware Acceleration]]
-  * [[Running RuneLite on Fedora]]
+  * [[Running RuneLite on Fedora Linux]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
