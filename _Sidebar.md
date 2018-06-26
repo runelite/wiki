@@ -47,6 +47,7 @@
     * [[Instance Map]]
     * [[Interface Styles]]
     * [[Inventory Tags]]
+    * [[Inventory Viewer]]
     * [[Item Charges]]
     * [[Item Prices]]
     * [[Item Stats]]
