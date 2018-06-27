@@ -10,4 +10,4 @@ Show a widget containing the name of the NPC you are currently fighting, its cur
 
 Displays a combat stat comparison panel when interacting with other players. (Following, trading, challenging, attacking, etc.)
 
-![Player comparison table](https://user-images.githubusercontent.com/2199511/41796406-eebf136a-7655-11e8-877e-8143cab695c5.png)
+![Player comparison table](https://user-images.githubusercontent.com/2199511/42000476-4b5e88be-7a50-11e8-936f-b7788133a414.png)
