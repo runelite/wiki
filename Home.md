@@ -1,6 +1,6 @@
 ![](https://puu.sh/vpxc1/5fe318e5b1.png)
 
-## Welcome to the RuneLite wiki!
+## Welcome to the [RuneLite](http://www.runelite.net) wiki!
 
 This wiki is used to answer commonly-asked questions about the client. See the sidebar on the right side for links to plugin and guides. Developers scroll further down for documentation and resources.
 
