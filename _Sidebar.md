@@ -22,6 +22,7 @@
     * [[Clan Chat]]
     * [[Clue Scrolls]]
     * [[Combat Level]]
+    * [[Corporeal Beast]]
     * [[Daily Task Indicator]]
     * [[Death Indicator]]
     * [[Default World]]
