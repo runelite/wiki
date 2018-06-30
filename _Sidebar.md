@@ -26,7 +26,7 @@
     * [[Clue Scrolls]]
     * [[Combat Level]]
     * [[Corporeal Beast]]
-    * [[Crystal Math Labs]
+    * [[Crystal Math Labs]]
     * [[Daily Task Indicator]]
     * [[Death Indicator]]
     * [[Default World]]
