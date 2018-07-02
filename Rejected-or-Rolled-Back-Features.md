@@ -21,3 +21,4 @@ Jagex has requested removal of certain features, and current discussion of featu
 * `Pickpocket` on non-H.A.M. members: Not supported by other 3rd party clients, and absurdly powerful when blackjacking
 * `Build/Remove` on POH hotspots: This would allow zero-movement Construction skilling without special cursor positioning (try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
 * `Hide hidden items`: This would make it so that all items on your hidden items list in grounditems would not show the take option. This would push the meta on many things and would make looting too easy. As such it is not going to be added.
+* `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
