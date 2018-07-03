@@ -12,6 +12,9 @@
 - [How can I configure shift click or swap menu entries?](#how-can-i-configure-shift-click-or-swap-menu-entries)
 - [What is open source?](#what-is-open-source)
 - [Will using RuneLite get me banned?](#will-using-runelite-get-me-banned)
+- [How often is RuneLite updated?](#how-often-is-runelite-updated)
+- [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
+- [Is there a "Beta" version of RuneLite?](#is-there-a-beta-version-of-runelite)
 - [How do I build RuneLite?](#how-do-i-build-runelite)
 
 # Common Bugs
