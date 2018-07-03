@@ -1,5 +1,6 @@
 # Table of Contents
 * **User Guide**
+  * [[FAQ]]
   * [[General Features]]
   * **Plugin Configuration**
     * [[Account]]
