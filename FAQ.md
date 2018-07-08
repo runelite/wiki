@@ -1,10 +1,7 @@
 # FAQs
 
 - [Common Bugs](#common-bugs)
-  - [Screen Flickering or Artifacts](#screen-flickering-or-artifacts)
-  - [Launcher stuck at 0%](#launcher-stuck-at-0)
-  - [Can't sync RuneLite](#cant-sync-runelite)
-  - [Client freezing](#client-freezing)
+  - [Troubleshooting problems with the clients](#troubleshooting-problems-with-the-client)
 - [Feature Requests](#feature-requests)
   - [Rejected or Rolled Back Features](#rejected-or-rolled-back-features)
 - [How do I enable XP drops and zoom unlimiter?](#how-do-i-enable-xp-drops-and-zoom-unlimiter)
@@ -19,26 +16,8 @@
 
 # Common Bugs
 
-## Screen Flickering or Artifacts
-See https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration.
-
-## Launcher stuck at 0%
-There can be several reasons why the launcher is stuck. Try each suggestion before asking for #support in the Discord.
-- If this issue has started recently, try downloading a newer version of the launcher.
-- Try restarting your computer. (These odd issues is why after installing an application, they sometimes ask you to restart your computer.)
-- Check to see if your anti-virus is blocking the launcher from running, or quarenteening the files the launcher is trying to download.
-- Can you access http://static.runelite.net/bootstrap.json, http://repo.runelite.net/, https://oldschool.runescape.com/? If not, then either your firewall, anti-virus, or your ISP is blocking those sites for some reason.
-
-## Can't sync RuneLite
-When you try to click the green door icon on top of the client, it does nothing.  
-If you are on Linux, you can try running the command below:
-```
-printf '\xfe\xed\xfe\xed\x00\x00\x00\x02\x00\x00\x00\x00\xe2\x68\x6e\x45\xfb\x43\xdf\xa4\xd9\x92\xdd\x41\xce\xb6\xb2\x1c\x63\x30\xd7\x92' | sudo tee /etc/ssl/certs/java/cacerts
-sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
-```
-([source](https://stackoverflow.com/a/50103533))  
-If you are on Windows, we don't know how to fix it at the moment. Try running with Java 8 if you are using the All Platforms version of RuneLite.  
-See https://github.com/runelite/runelite/issues/2603
+## Troubleshooting problems with the client
+See [[Troubleshooting problems with the client]]
 
 # Feature Requests
 
