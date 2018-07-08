@@ -36,7 +36,7 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 
 This most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th, redownload it from https://runelite.net. 
 
-## Client freezing
+### Client freezing
 
 This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
 
