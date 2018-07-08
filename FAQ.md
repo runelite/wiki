@@ -40,10 +40,6 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 If you are on Windows, we don't know how to fix it at the moment. Try running with Java 8 if you are using the All Platforms version of RuneLite.  
 See https://github.com/runelite/runelite/issues/2603
 
-## Client freezing
-This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead.  
-See https://github.com/runelite/runelite/issues/3999
-
 # Feature Requests
 
 ## Rejected or Rolled Back Features
