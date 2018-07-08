@@ -1,8 +1,6 @@
 # Table of Contents
 - [Common Bugs](#common-bugs)
-  - [Troubleshooting problems with the client](#troubleshooting-problems-with-the-client)
 - [Feature Requests](#feature-requests)
-  - [Rejected or Rolled Back Features](#rejected-or-rolled-back-features)
 - [How do I enable XP drops and zoom unlimiter?](#how-do-i-enable-xp-drops-and-zoom-unlimiter)
 - [How do I use inventory tags?](#how-do-i-use-inventory-tags)
 - [How can I configure shift click or swap menu entries?](#how-can-i-configure-shift-click-or-swap-menu-entries)
@@ -13,23 +11,20 @@
 - [How do I build RuneLite?](#how-do-i-build-runelite)
 
 ## Common Bugs
-
-### [[Troubleshooting problems with the client]]
+See [[Troubleshooting problems with the client]]
 
 ## Feature Requests
-
-### [[Rejected or Rolled Back Features]]
+See [[Rejected or Rolled Back Features]]
 
 ## How do I enable XP drops and zoom unlimiter?
 We use the game's xp drops and zoom system, so enable those in the game. The zoom unlimiter plugin works by unlimiting the game's zoom feature.  
-See https://github.com/runelite/runelite/wiki/XP-Drop  
-See https://github.com/runelite/runelite/wiki/Camera-Zoom
+See [[XP Drop]] and [[Camera Zoom]]
 
 ## How do I use inventory tags?
-See https://github.com/runelite/runelite/wiki/Inventory-Tags
+See [[Inventory Tags]]
 
 ## How can I configure shift click or swap menu entries?
-See https://github.com/runelite/runelite/wiki/Menu-Entry-Swapper
+See [[Menu Entry Swapper]]
 
 ## What is open source?
 RuneLite being open source means that the code can be inspected by anybody.  
