@@ -1,6 +1,7 @@
 # Table of Contents
 * **User Guide**
   * [[FAQ]]
+  * [[Troubleshooting problems with the client]]
   * [[General Features]]
   * **Plugin Configuration**
     * [[Account]]
