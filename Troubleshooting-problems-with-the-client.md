@@ -40,6 +40,6 @@ This most likely means that launcher is trying to use Ipv6 instead of Ipv4 when 
 
 This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
 
-### FPS is low or client has weird artifacts
+### FPS problems, screen Flickering or artifacts
 
 Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
