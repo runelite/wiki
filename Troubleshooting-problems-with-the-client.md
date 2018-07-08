@@ -3,11 +3,11 @@ If your client or launcher is not launching or is misbehaving, try one of the st
 # Table Of Contents
 - [Launcher stuck at 0%](#launcher-stuck-at-0)
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
-- [SSLException in `application.log`](#sslexception-in-applicationlog)
-- [ConnectionException in `launcher.log`](#connectionexception-in-launcherlog)
-- [IllegalArgumentException: Malformed \uxxxx in `application.log`](#illegalargumentexception-malformed-uxxxx-in-applicationlog)
 - [Client freezing](#client-freezing)
-- [FPS problems, screen Flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
+- [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
+- [Problems with logging in to RuneLite and accessing API](#problems-with-logging-in-to-runeLite-and-accessing-api)
+- [Launcher immediatelly closing](#launcher-immediatelly-closing)
+- [Client not launching or settings being reset](#client-not-launching-or-settings-being-reset)
 
 ## Launcher stuck at 0%
 
@@ -28,10 +28,18 @@ brew install glew
 
 Now client should launch properly. [Related issue is here](https://github.com/runelite/launcher/issues/17).
 
-## SSLException in `application.log`
 
-This probably means that you do not have your Java certificates properly set-up.
-Workaround is [here](https://stackoverflow.com/a/50103533).
+## Client freezing
+
+This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
+
+## FPS problems, screen flickering or artifacts
+
+Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+
+## Problems with logging in to RuneLite and accessing API
+
+If you see `SSLException` in `application.log` this probably means that you do not have your Java certificates properly set-up. Workaround is [here](https://stackoverflow.com/a/50103533).
 TLDR:
 
 ```
@@ -41,18 +49,10 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 
 [Related issue is here](https://github.com/runelite/runelite/issues/2603).
 
-## ConnectionException in `launcher.log`
+## Launcher immediatelly closing
 
-This most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th, redownload it from https://runelite.net.
+If you see `ConnectionException` in `launcher.log` this most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th, redownload it from https://runelite.net.
 
-## IllegalArgumentException: Malformed \uxxxx in `application.log`
+## Client not launching or settings being reset
 
-If your client is not launching (launcher closing immediately but nothing opens) open %userprofile%.runelite\settings.properties on Windows or $HOME/.runelite/settings.properties on Linux and check if it contains weird \u0000 symbols at bottom. If yes, delete them and save the file.
-
-## Client freezing
-
-This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
-
-## FPS problems, screen Flickering or artifacts
-
-Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+If you see something like `IllegalArgumentException: Malformed \uxxxx` in `application.log` and your client is not launching (launcher closing immediately but nothing opens) open %userprofile%.runelite\settings.properties on Windows or $HOME/.runelite/settings.properties on Linux and check if it contains weird \u0000 symbols at bottom. If yes, delete them and save the file.
