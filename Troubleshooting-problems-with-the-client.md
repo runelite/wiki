@@ -3,11 +3,11 @@ If your client or launcher is not launching or is misbehaving, try one of the st
 # Table Of Contents
 - [Launcher stuck at 0%](#launcher-stuck-at-0)
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
-- [Client freezing](#client-freezing)
-- [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 - [Problems with logging in to RuneLite and accessing API](#problems-with-logging-in-to-runeLite-and-accessing-api)
 - [Launcher immediatelly closing](#launcher-immediatelly-closing)
 - [Client not launching or settings being reset](#client-not-launching-or-settings-being-reset)
+- [Client freezing](#client-freezing)
+- [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 
 ## Launcher stuck at 0%
 
@@ -28,15 +28,6 @@ brew install glew
 
 Now client should launch properly. [Related issue is here](https://github.com/runelite/launcher/issues/17).
 
-
-## Client freezing
-
-This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
-
-## FPS problems, screen flickering or artifacts
-
-Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
-
 ## Problems with logging in to RuneLite and accessing API
 
 If you see `SSLException` in `application.log` this probably means that you do not have your Java certificates properly set-up. Workaround is [here](https://stackoverflow.com/a/50103533).
@@ -56,3 +47,11 @@ If you see `ConnectionException` in `launcher.log` this most likely means that l
 ## Client not launching or settings being reset
 
 If you see something like `IllegalArgumentException: Malformed \uxxxx` in `application.log` and your client is not launching (launcher closing immediately but nothing opens) open `%userprofile%.runelite\settings.properties` on **Windows** or `$HOME/.runelite/settings.properties` on **macOS`** and **Linux** and check if it contains weird `\u0000` symbols at bottom. If yes, delete them and save the file.
+
+## Client freezing
+
+This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
+
+## FPS problems, screen flickering or artifacts
+
+Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
