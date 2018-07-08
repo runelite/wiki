@@ -1,6 +1,6 @@
 ## Daily Task Indicator Configuration
 
-![Daily Task Indicator configuration listing](https://i.imgur.com/NY5uXrl.png)
+![Daily Task Indicator configuration listing](https://i.imgur.com/e8e7xLO.png)
 
 Displays chat notification(s) upon login for daily tasks
 
