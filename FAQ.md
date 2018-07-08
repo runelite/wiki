@@ -1,7 +1,7 @@
 # FAQs
 
 - [Common Bugs](#common-bugs)
-  - [Troubleshooting problems with the clients](#troubleshooting-problems-with-the-client)
+  - [Troubleshooting problems with the client](#troubleshooting-problems-with-the-client)
 - [Feature Requests](#feature-requests)
   - [Rejected or Rolled Back Features](#rejected-or-rolled-back-features)
 - [How do I enable XP drops and zoom unlimiter?](#how-do-i-enable-xp-drops-and-zoom-unlimiter)
@@ -16,13 +16,11 @@
 
 # Common Bugs
 
-## Troubleshooting problems with the client
-See [[Troubleshooting problems with the client]]
+## [[Troubleshooting problems with the client]]
 
 # Feature Requests
 
-## Rejected or Rolled Back Features
-See https://github.com/runelite/runelite/wiki/Rejected-or-Rolled-Back-Features.
+## [[Rejected or Rolled Back Features]]
 
 # How do I enable XP drops and zoom unlimiter?
 We use the game's xp drops and zoom system, so enable those in the game. The zoom unlimiter plugin works by unlimiting the game's zoom feature.  
