@@ -10,7 +10,6 @@
 - [Will using RuneLite get me banned?](#will-using-runelite-get-me-banned)
 - [How often is RuneLite updated?](#how-often-is-runelite-updated)
 - [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
-- [Is there a "Beta" version of RuneLite?](#is-there-a-beta-version-of-runelite)
 - [How do I build RuneLite?](#how-do-i-build-runelite)
 
 ## Common Bugs
@@ -46,12 +45,6 @@ If you're using the launcher, count on seeing updates every week on Thursday. Th
 
 ## Where can I find the logs, screenshots, or configurations?
 To find logs, either open screenshot directory (by right-clicking "Camera" button) and navigate 1 directory up and then open logs folder, or navigate to `%userprofile%\.runelite\logs` on Windows or `$HOME/.runelite/logs` on Linux and macOS.
-
-## Is there a "Beta" version of RuneLite?
-Yes there is. It's called a SNAPSHOT release.  
-Before using it, PLEASE keep in mind that it's essentially a BETA. THIS ASSUMES YOU KNOW WHAT YOU ARE DOING! Things are always subject to change! There can be bugs. We'd prefer if players use the snapshot only for reporting issues with new features or to find bugs. If you use the snapshot, and find a bug, please check if the bug exists in the current release of RuneLite and if the bug has already been reported. If not, you can report the bug, but PLEASE mention that you were using the snapshot.  
-Anyways, similar to [disabling hardware acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration), use the option `--version=x.x.x-SNAPSHOT`, where `x` is to be replaced with the next version of RuneLite. Typically, the third `x` will be incremented by 1. You will have to manually update this number after every update, or else RuneLite will be broken.  
-If you have issues with this, this is one of the few cases where we avoid giving support, since using the snapshot version ASSUMES YOU KNOW WHAT YOU ARE DOING!
 
 ## How do I build RuneLite?
 See the sidebar for "Developer's Guide".
