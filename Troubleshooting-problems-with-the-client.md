@@ -2,7 +2,7 @@ If your client or launcher is not launching or is misbehaving, try one of the st
 
 # Table Of Contents
 - [Launcher stuck at 0%](#launcher-stuck-at-0)
-- [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macOS-tray)
+- [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
 - [SSLException in `application.log`](#sslexception-in-applicationlog)
 - [ConnectionException in `launcher.log`](#connectionexception-in-launcherlog)
 - [Client freezing](#client-freezing)
