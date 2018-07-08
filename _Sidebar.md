@@ -2,6 +2,7 @@
 * **User Guide**
   * [[FAQ]]
   * [[Troubleshooting problems with the client]]
+  * [[Disable Hardware Acceleration]]
   * [[General Features]]
   * **Plugin Configuration**
     * [[Account]]
@@ -101,8 +102,6 @@
     * [[XP Drop]]
     * [[XP Globes]]
     * [[XP Tracker]]
-  * [[Disable Hardware Acceleration]]
-  * [[Running RuneLite on Fedora Linux]]
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
