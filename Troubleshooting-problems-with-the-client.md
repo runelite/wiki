@@ -5,6 +5,7 @@ If your client or launcher is not launching or is misbehaving, try one of the st
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
 - [SSLException in `application.log`](#sslexception-in-applicationlog)
 - [ConnectionException in `launcher.log`](#connectionexception-in-launcherlog)
+- [IllegalArgumentException: Malformed \uxxxx in `application.log`](#illegalargumentexception-malformed-uxxxx-in-applicationlog)
 - [Client freezing](#client-freezing)
 - [FPS problems, screen Flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 
@@ -42,7 +43,11 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 
 ## ConnectionException in `launcher.log`
 
-This most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th, redownload it from https://runelite.net. 
+This most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th, redownload it from https://runelite.net.
+
+## IllegalArgumentException: Malformed \uxxxx in `application.log`
+
+If your client is not launching (launcher closing immediately but nothing opens) open %userprofile%.runelite\settings.properties on Windows or $HOME/.runelite/settings.properties on Linux and check if it contains weird \u0000 symbols at bottom. If yes, delete them and save the file.
 
 ## Client freezing
 
