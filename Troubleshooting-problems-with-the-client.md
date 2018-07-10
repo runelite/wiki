@@ -48,7 +48,7 @@ If you see `ConnectionException` in `launcher.log` this most likely means that l
 
 ## Client not launching or settings being reset
 
-If you see something like `IllegalArgumentException: Malformed \uxxxx` in `application.log` and your client is not launching (launcher closing immediately but nothing opens) open `%userprofile%.runelite\settings.properties` on **Windows** or `$HOME/.runelite/settings.properties` on **macOS** and **Linux** and check if it contains weird `\u0000` symbols at bottom. If yes, delete them and save the file.
+If you see something like `IllegalArgumentException: Malformed \uxxxx` in `application.log` and your client is not launching (launcher closing immediately but nothing opens) open `%userprofile%\.runelite\settings.properties` on **Windows** or `$HOME/.runelite/settings.properties` on **macOS** and **Linux** and check if it contains weird `\u0000` symbols at bottom. If yes, delete them and save the file.
 
 ## Client freezing
 
