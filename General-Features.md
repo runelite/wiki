@@ -11,6 +11,6 @@ It's possible to move overlays and infoboxes by holding the **Alt key** and drag
 ![](https://thumbs.gfycat.com/AgedTimelyChafer-max-1mb.gif)
 
 ## Hiding the sidebar
-It's possible to hide the sidebar by pressing the left arrow next to the minimize button. To show the sidebar again press the right arrow.
+It's possible to hide the sidebar by pressing the left arrow next to the minimize button. To show the sidebar again press the right arrow. This can also be done using the shortcut keys ctrl+F11.
 
 ![](https://thumbs.gfycat.com/BraveWideeyedAiredaleterrier-max-1mb.gif)
