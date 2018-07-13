@@ -42,4 +42,4 @@ If you're using the launcher, count on seeing updates every week on Thursday. Th
 To find logs, either open screenshot directory (by right-clicking "Camera" button) and navigate 1 directory up and then open logs folder, or navigate to `%userprofile%\.runelite\logs` on Windows or `$HOME/.runelite/logs` on Linux and macOS.
 
 ## How do I build RuneLite?
-See the sidebar for "Developer's Guide".
+See [[Building with IntelliJ IDEA]].
