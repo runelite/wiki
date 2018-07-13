@@ -13,9 +13,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 
 ## Launcher stuck at 0%
 
-First check your logs if it do not contains any **403** errors. If yes, you are out of luck, that means that CloudFlare potentionally marked you as dangerous entity and is trying to present captcha to you, but this captcha cannot be filled from launcher.
-
-If above does not apply to you and you downloaded launcher before July 7th, redownload it from https://runelite.net. [Related issue is here](https://github.com/runelite/launcher/issues/18).
+If you downloaded launcher before July 7th (before version 1.6.0), redownload it from https://runelite.net. [Related issue is here](https://github.com/runelite/launcher/issues/18).
 
 ## Client bouncing up and down in macOS tray
 
