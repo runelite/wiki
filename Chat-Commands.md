@@ -3,7 +3,7 @@
 [![Client View](https://thumbs.gfycat.com/BiodegradableLegitimateBaldeagle-size_restricted.gif)](https://gfycat.com/BiodegradableLegitimateBaldeagle)
 
 The chat commands plugin enables you to quickly access information about your account and items through chat commands  
-Current commands include `!total`, `!lvl <skill>`, and `!price <item>`  
+Current commands include `!total`, `!lvl <skill>`,`!price <item>`, and `!kc <boss>`. 
 
 ### Skill Abbreviations
 Some skill names can be substituted for shorthand versions  
