@@ -1,4 +1,4 @@
-# Fairy Ring Helper Configuration
+# Fairy Rings Configuration
 
 [![Client View](https://thumbs.gfycat.com/CaringEntireGourami-size_restricted.gif)](https://gfycat.com/CaringEntireGourami)
 
