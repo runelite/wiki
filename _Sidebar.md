@@ -38,7 +38,7 @@
     * [[Entity Hider]]
     * [[Examine]]
     * [[FPS Control]]
-    * [[Fairy Ring Helper]]
+    * [[Fairy Rings]]
     * [[Farming Tracker]]
     * [[Fight Cave]]
     * [[Fishing]]
