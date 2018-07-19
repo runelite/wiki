@@ -93,6 +93,7 @@
     * [[Special Attack Counter]]
     * [[Stretched Fixed Mode]]
     * [[Team Capes]]
+    * [[Tears Of Guthix]]
     * [[Tile Indicators]]
     * [[Timers]]
     * [[Tithe Farm]]
