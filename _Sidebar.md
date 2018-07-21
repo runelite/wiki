@@ -3,7 +3,7 @@
   * [[FAQ]]
   * [[Troubleshooting problems with the client]]
   * [[Disable Hardware Acceleration]]
-  * [[Change DPI Scaling]]
+  * [[Change DPI Scaling (Windows)]]
   * [[General Features]]
   * **Plugin Configuration**
     * [[Account]]
