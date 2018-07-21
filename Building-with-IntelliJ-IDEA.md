@@ -47,7 +47,7 @@ You'll need to create a new Maven configuration, so click on the green plus sign
 
 Set your **Working directory** to the project directory by clicking the folder button on the right-hand side and selecting **runelite-parent**. 
 
-Enter `install -DskipTests` in the **Command line** box:
+Enter `install -DskipTests -U` in the **Command line** box:
 
 ![](http://i.imgur.com/ekzfg2c.png)
 
