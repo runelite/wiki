@@ -22,4 +22,4 @@
 
 ### 5. Boost Amount Threshold
 
-The number of boosted levels at which to send a notification when reached; 0 disables a notification.
+(Default 0) The number of boosted levels at which to send a notification when reached; 0 disables a notification.
