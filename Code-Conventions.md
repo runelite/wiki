@@ -32,9 +32,10 @@ Also remove the entries in `Packages to Use Import with '*'` to stop the replace
 ***
 
 The following gives an example of well formatted code:
-```
+
+```java
 /*
- * Copyright (c) 2017, Adam <Adam@sigterm.info>
+ * Copyright (c) 2018, Tomas Slusny <slusnucky@gmail.com>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -57,131 +58,45 @@ The following gives an example of well formatted code:
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.runelite.client.plugins.account;
+package net.runelite.client.plugins.tileindicators;
 
-import com.google.common.eventbus.Subscribe;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.concurrent.ScheduledExecutorService;
-import javax.imageio.ImageIO;
+import com.google.inject.Provides;
 import javax.inject.Inject;
-import javax.swing.JOptionPane;
-import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.events.SessionClose;
-import net.runelite.api.events.SessionOpen;
-import net.runelite.client.account.AccountSession;
-import net.runelite.client.account.SessionManager;
+import net.runelite.client.config.ConfigManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
-import net.runelite.client.ui.NavigationButton;
-import net.runelite.client.ui.TitleToolbar;
-import net.runelite.client.util.RunnableExceptionLogger;
+import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Account",
-	loadWhenOutdated = true
+	name = "Tile Indicators",
+	description = "Highlight the tile you are currently moving to",
+	tags = {"highlight", "overlay"},
+	enabledByDefault = false
 )
-@Slf4j
-public class AccountPlugin extends Plugin
+public class TileIndicatorsPlugin extends Plugin
 {
 	@Inject
-	private SessionManager sessionManager;
+	private OverlayManager overlayManager;
 
 	@Inject
-	private TitleToolbar titleToolbar;
+	private TileIndicatorsOverlay overlay;
 
-	@Inject
-	private ScheduledExecutorService executor;
-
-	private NavigationButton loginButton;
-	private NavigationButton logoutButton;
-
-	private static final BufferedImage LOGIN_IMAGE, LOGOUT_IMAGE;
-
-	static
+	@Provides
+	TileIndicatorsConfig provideConfig(ConfigManager configManager)
 	{
-		try
-		{
-			synchronized (ImageIO.class)
-			{
-				LOGIN_IMAGE = ImageIO.read(AccountPlugin.class.getResourceAsStream("login_icon.png"));
-				LOGOUT_IMAGE = ImageIO.read(AccountPlugin.class.getResourceAsStream("logout_icon.png"));
-			}
-		}
-		catch (IOException e)
-		{
-			throw new RuntimeException(e);
-		}
+		return configManager.getConfig(TileIndicatorsConfig.class);
 	}
 
 	@Override
 	protected void startUp() throws Exception
 	{
-		loginButton = NavigationButton.builder()
-			.icon(LOGIN_IMAGE)
-			.tooltip("Login to RuneLite")
-			.onClick(this::loginClick)
-			.build();
-
-		logoutButton = NavigationButton.builder()
-			.icon(LOGOUT_IMAGE)
-			.tooltip("Logout of RuneLite")
-			.onClick(this::logoutClick)
-			.build();
-
-		addAndRemoveButtons();
-	}
-
-	private void addAndRemoveButtons()
-	{
-		titleToolbar.removeNavigation(loginButton);
-		titleToolbar.removeNavigation(logoutButton);
-		titleToolbar.addNavigation(sessionManager.getAccountSession() == null
-			? loginButton
-			: logoutButton);
+		overlayManager.add(overlay);
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-		titleToolbar.removeNavigation(loginButton);
-		titleToolbar.removeNavigation(logoutButton);
-	}
-
-	private void loginClick()
-	{
-		executor.execute(RunnableExceptionLogger.wrap(sessionManager::login));
-	}
-
-	private void logoutClick()
-	{
-		if (JOptionPane.YES_OPTION == JOptionPane.showConfirmDialog(null,
-				"Are you sure you want to logout from RuneLite?", "Logout Confirmation",
-				JOptionPane.YES_NO_OPTION))
-		{
-			sessionManager.logout();
-		}
-	}
-
-	@Subscribe
-	public void onSessionClose(SessionClose e)
-	{
-		addAndRemoveButtons();
-	}
-
-	@Subscribe
-	public void onSessionOpen(SessionOpen sessionOpen)
-	{
-		AccountSession session = sessionManager.getAccountSession();
-
-		if (session.getUsername() == null)
-		{
-			return; // No username yet
-		}
-
-		log.debug("Session opened as {}", session.getUsername());
-
-		addAndRemoveButtons();
+		overlayManager.remove(overlay);
 	}
 }
 ```
