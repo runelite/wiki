@@ -17,6 +17,36 @@ Some skill names can be substituted for shorthand versions
 `rc`, `runecrafting` -> `Runecraft`  
 `con` -> `Construction`
 
+### Skill Abbreviations
+Some boss names can be substituted for shorthand versions
+`Corporeal Beast` -> `corp`
+`jad` -> `TzTok-Jad`
+`kq` -> `Kalphite Queen`
+`chaos ele` -> `Chaos Elemental`
+`crazy arch` -> `Crazy Archaeologist`
+`deranged arch` -> `Deranged Archaeologist`
+`mole` -> `Giant Mole`
+`vetion` -> `Vet'ion`
+`vene` -> `Venenatis`
+`kbd` -> `King Black Dragon`
+`vork` -> `Vorkath`
+`sire` -> `Abyssal Sire`
+`cerb` -> ``
+`supreme` -> `Dagannoth Supreme`
+`rex` -> `Dagannoth Rex`
+`prime` -> `Dagannoth Prime`
+`wt` -> `Wintertodt`
+`barrows` -> `Barrows Chests`
+`dusk`, `dawn`, `gargs` -> `Grotesque Guardians`
+`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`
+`zuk`, `inferno`, -> `TzKal-Zuk`
+`sara`, `saradomin`, `zilyana`, ´zily´ -> `Commander Zilyana`
+`zammy`, `zamorak`, `kril`, ´kril trutsaroth´ -> `K'ril Tsutsaroth`
+`arma`, `kree`, `kreearra`, ´armadyl´ -> `Kree'arra`
+`bando`, `bandos`, `graardor` -> `General Graardor`
+`cox`, `xeric`, `chambers`, ´olm´, ´raids´ -> `Chambers of Xeric`
+`tob`, `theatre`, `verzik`, ´verzik vitur´, ´raids 2´ -> `Theatre of Blood`
+
 ## Settings
 ### Price Command
 Turns the `!price` command on or off  
