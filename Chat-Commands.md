@@ -31,7 +31,7 @@ Some boss names can be substituted for shorthand versions
 `kbd` -> `King Black Dragon`
 `vork` -> `Vorkath`
 `sire` -> `Abyssal Sire`
-`cerb` -> ``
+`cerb` -> `Cerberus`
 `supreme` -> `Dagannoth Supreme`
 `rex` -> `Dagannoth Rex`
 `prime` -> `Dagannoth Prime`
