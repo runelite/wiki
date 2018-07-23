@@ -40,12 +40,12 @@ Some boss names can be substituted for shorthand versions
 `dusk`, `dawn`, `gargs` -> `Grotesque Guardians`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `zuk`, `inferno`, -> `TzKal-Zuk`  
-`sara`, `saradomin`, `zilyana`, ´zily´ -> `Commander Zilyana`  
-`zammy`, `zamorak`, `kril`, ´kril trutsaroth´ -> `K'ril Tsutsaroth`  
-`arma`, `kree`, `kreearra`, ´armadyl´ -> `Kree'arra`  
+`sara`, `saradomin`, `zilyana`, `zily` -> `Commander Zilyana`  
+`zammy`, `zamorak`, `kril`, `kril trutsaroth` -> `K'ril Tsutsaroth`  
+`arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
-`cox`, `xeric`, `chambers`, ´olm´, ´raids´ -> `Chambers of Xeric`  
-`tob`, `theatre`, `verzik`, ´verzik vitur´, ´raids 2´ -> `Theatre of Blood`  
+`cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
+`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`  
 
 ## Settings
 ### Price Command
