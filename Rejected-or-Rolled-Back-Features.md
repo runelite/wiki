@@ -7,7 +7,6 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Dynamic Puro-Puro Spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful (see [#2371](https://github.com/runelite/runelite/issues/2371))
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * General Anti-Drag: People complained and we decided to remove it as no other clients have it (see [#3200](https://github.com/runelite/runelite/issues/3200)
-* Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
@@ -17,6 +16,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Highlighting "Offline" Friends: Not included to respect players with their messaging mode set to Private (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
 * No Theatre of Blood plugins, at Jagex's request
+* Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
 * One-way safe spot plugins: Too strong for PvP scenarios
 
 #### Menu Entry Swapping
