@@ -35,6 +35,7 @@
     * [[Death Indicator]]
     * [[Default World]]
     * [[Demonic Gorillas]]
+    * [[Diary Requirements]]
     * [[Discord]]
     * [[Entity Hider]]
     * [[Examine]]
