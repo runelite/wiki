@@ -19,7 +19,7 @@ Some skill names can be substituted for shorthand versions
 
 ### Skill Abbreviations  
 Some boss names can be substituted for shorthand versions  
-`Corporeal Beast` -> `corp`  
+`corp` -> `Corporeal Beast`  
 `jad` -> `TzTok-Jad`  
 `kq` -> `Kalphite Queen`  
 `chaos ele` -> `Chaos Elemental`  
