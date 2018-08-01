@@ -31,7 +31,7 @@ When first viewing the project in IntelliJ IDEA you may come across this error:
 
 This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
 
-Navigate to the **Plugins** tab under the **File** and then **Settings** menu. Click **Browse repositories...** and search for **Lombok Plugin** to find it. Install the plugin and restart IntelliJ IDEA.
+Navigate to the **Plugins** tab under the **File > Settings** menu. Click the **Browse repositories...** button and search for **Lombok Plugin** to find it. Install the plugin and restart IntelliJ IDEA.
 
 Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
 
