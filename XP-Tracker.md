@@ -1,6 +1,7 @@
 ## XP Tracker Configuration
 Configures whether or not to display the XP tracker plugin icon
-![Xp tracker plugin icon](https://i.imgur.com/3zRnau2.png)
+
+![Xp tracker plugin icon](https://i.imgur.com/3zRnau2.png)  
 ![XP Tracker Plugin Panel](https://i.imgur.com/pbTzb7N.png)
 
 When open, this panel will display information about the XP you have gained during your session, including:
