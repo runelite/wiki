@@ -60,7 +60,13 @@ Exec=java -jar path/to/RuneLite.jar --mode=OFF
 Name=RuneLite
 Comment=RuneLite launcher
 ```
-Replace _path/to/RuneLite.jar_ with wherever you downloaded the file.
+Replace _path/to/RuneLite.jar_ with wherever you downloaded the file. 
+
+Additionally you can run the following command to automatically add the shortcut, although remember to edit the path like previously mentioned.
+
+```
+printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=java -jar path/to/RuneLite.jar --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
+```
 
 
 ***
