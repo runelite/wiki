@@ -1,4 +1,4 @@
-# Farming Tracker Configuration
+# Time Tracking Configuration
 
 [![Client View](https://thumbs.gfycat.com/ShorttermCooperativeGalapagosmockingbird-size_restricted.gif)](https://gfycat.com/ShorttermCooperativeGalapagosmockingbird)
 
