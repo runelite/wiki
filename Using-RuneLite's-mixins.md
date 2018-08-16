@@ -147,4 +147,4 @@ So if we have a mixin annotated with `@Mixin(RSClient.class)`, the mixin operati
 
 More specifically, for method injection, the injector will add the the mixin's `public List<NPC> getNpcs()` implementation to the game's `Client` class so that we have an implementation that we can call.
 
-The mixin injector test is [here](https://github.com/UniquePassive/runelite/blob/master/runescape-client-injector-plugin/src/test/java/net/runelite/injector/MixinInjectorTest.java), and it shows a little about what is injected when mixins are used.
+//The mixin injector test is [here](https://github.com/UniquePassive/runelite/blob/master/runescape-client-injector-plugin/src/test/java/net/runelite/injector/MixinInjectorTest.java), and it shows a little about what is injected when mixins are used.
