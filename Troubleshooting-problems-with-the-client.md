@@ -5,10 +5,11 @@ To find logs, either open screenshot directory (if you have access to client by 
 # Table Of Contents
 - [Launcher stuck at 0%](#launcher-stuck-at-0)
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
-- [Problems with logging in to RuneLite and accessing API](#problems-with-logging-in-to-runeLite-and-accessing-api)
+- [Problems with accessing API](#problems-with-accessing-api)
 - [Launcher immediatelly closing](#launcher-immediatelly-closing)
 - [Client not launching or settings being reset](#client-not-launching-or-settings-being-reset)
 - [Client freezing](#client-freezing)
+- [Client closing when loading)[#client-closing-when-loading]
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 
 ## Launcher stuck at 0%
@@ -28,7 +29,7 @@ brew install glew
 
 Now client should launch properly. [Related issue is here](https://github.com/runelite/launcher/issues/17).
 
-## Problems with logging in to RuneLite and accessing API
+## Problems with accessing API
 
 If you see `SSLException` in `application.log` this probably means that you do not have your Java certificates properly set-up. Workaround is [here](https://stackoverflow.com/a/50103533).
 TLDR:
@@ -51,6 +52,10 @@ If you see something like `IllegalArgumentException: Malformed \uxxxx` in `appli
 ## Client freezing
 
 This seems to be an issue with Java 10 when users are using the All Platform version of RuneLite. Try using Java 8 instead. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
+
+## Client closing when loading
+
+This looks like corrupted jagex cache issue. Try to delete `%userprofile%\jagexcache` on **Windows** or `$HOME/jagexcache` on **macOS** and **Linux**.
 
 ## FPS problems, screen flickering or artifacts
 
