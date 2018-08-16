@@ -9,7 +9,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 - [Launcher immediatelly closing](#launcher-immediatelly-closing)
 - [Client not launching or settings being reset](#client-not-launching-or-settings-being-reset)
 - [Client freezing](#client-freezing)
-- [Client closing when loading)[#client-closing-when-loading]
+- [Client closing when loading](#client-closing-when-loading)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 
 ## Launcher stuck at 0%
