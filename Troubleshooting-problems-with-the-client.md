@@ -11,6 +11,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 - [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
+- [Corrupt image on macOS](#corrupt-image-on-macos)
 
 ## Launcher stuck at 0%
 
@@ -60,3 +61,7 @@ This looks like corrupted jagex cache issue. Try to delete `%userprofile%\jagexc
 ## FPS problems, screen flickering or artifacts
 
 Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+
+## Corrupt image on macOS
+
+This means that your OS is simply preventing the downloaded .dmg to open. Usually just right-click and pressing open works. Otherwise OS update is required. Alternative is to use "Download for all platforms" from official RuneLite website.
