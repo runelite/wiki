@@ -1,3 +1,5 @@
+In addition to list below make sure to check [list of closed issues and pull requests labeled as `wontfix`](https://github.com/runelite/runelite/issues?utf8=%E2%9C%93&q=label%3Awontfix).
+
 Jagex has requested removal of certain features, and current discussion of feature requests on Discord and GitHub concluded that RuneLite's stance on these features are as follows:
 
 #### Removed in the past
