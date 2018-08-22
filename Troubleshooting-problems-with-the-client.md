@@ -4,32 +4,19 @@ To find logs, either open screenshot directory (if you have access to client by 
 
 # Table Of Contents
 - [Launcher stuck at 0%](#launcher-stuck-at-0)
-- [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
 - [Problems with accessing API](#problems-with-accessing-api)
 - [Launcher immediatelly closing](#launcher-immediatelly-closing)
 - [Settings being reset](#settings-being-reset)
 - [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
+- [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
 - [Corrupt image on macOS](#corrupt-image-on-macos)
 - [Client not launching on Linux](#client-not-launching-on-linux)
 
 ## Launcher stuck at 0%
 
 If you downloaded launcher before July 7th (before version 1.6.0), redownload it from https://runelite.net. [Related issue is here](https://github.com/runelite/launcher/issues/18).
-
-## Client bouncing up and down in macOS tray
-
-This is caused by missing software for OpenGL in your system. You can either [disable hardware acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration) or install required software.
-
-To install the software, open your terminal and install homebrew (https://brew.sh/) and then type:
-
-```
-brew install glfw3
-brew install glew
-```
-
-Now client should launch properly. [Related issue is here](https://github.com/runelite/launcher/issues/17).
 
 ## Problems with accessing API
 
@@ -62,6 +49,19 @@ This looks like corrupted jagex cache issue. Try to delete `%userprofile%\jagexc
 ## FPS problems, screen flickering or artifacts
 
 Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+
+## Client bouncing up and down in macOS tray
+
+This is caused by missing software for OpenGL in your system. You can either [disable hardware acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration) or install required software.
+
+To install the software, open your terminal and install homebrew (https://brew.sh/) and then type:
+
+```
+brew install glfw3
+brew install glew
+```
+
+Now client should launch properly. [Related issue is here](https://github.com/runelite/launcher/issues/17).
 
 ## Corrupt image on macOS
 
