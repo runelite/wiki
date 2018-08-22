@@ -12,7 +12,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 - [Client closing when loading](#client-closing-when-loading)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 - [Corrupt image on macOS](#corrupt-image-on-macos)
-- [Client not launching on Linux(#client-not-launching-on-linux)
+- [Client not launching on Linux](#client-not-launching-on-linux)
 
 ## Launcher stuck at 0%
 
