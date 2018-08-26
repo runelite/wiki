@@ -20,6 +20,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * No Inferno plugins
 * Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
 * One-way safe spot plugins: Too strong for PvP scenarios (see [#3646](https://github.com/runelite/runelite/issues/3646))
+* Hiding of friends/ignored people: Can be very strong in multi pking
 
 #### Menu Entry Swapping
 * `Deposit X/Withdraw X`: Too powerful to implement. Jagex will implement if they want to (see [#1647](https://github.com/runelite/runelite/issues/1647))
