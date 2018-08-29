@@ -69,4 +69,4 @@ This means that your OS is simply preventing the downloaded .dmg to open. Usuall
 
 ## Client not launching on Linux
 
-This looks like bug with JDK 10+. The solution is either to downgrade to JDK 8 (or 9) or to delete `/usr/lib/jvm/java-11-openjdk-amd64/conf/accessibility.properties` (for JDK 11 on Ubuntu, for 10 the path should be similar). See [related issue](https://github.com/runelite/runelite/issues/5040#issuecomment-414883721) and [related JDK bug](https://bugs.openjdk.java.net/browse/JDK-8204862).
+This looks like bug with JDK 10+. The solution is either to downgrade to JDK 8 (or 9) or to delete `/usr/lib/jvm/java-11-openjdk-amd64/conf/accessibility.properties` (for JDK 11 on Ubuntu, for 10 the path should be similar). See [related issue](https://github.com/runelite/runelite/issues/5040#issuecomment-414881841) and [related JDK bug](https://bugs.openjdk.java.net/browse/JDK-8204862).
