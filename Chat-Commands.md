@@ -17,7 +17,7 @@ Some skill names can be substituted for shorthand versions
 `rc`, `runecrafting` -> `Runecraft`  
 `con` -> `Construction`
 
-### Skill Abbreviations  
+### Boss Abbreviations  
 Some boss names can be substituted for shorthand versions  
 `corp` -> `Corporeal Beast`  
 `jad` -> `TzTok-Jad`  
