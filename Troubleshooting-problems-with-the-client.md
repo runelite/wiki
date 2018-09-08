@@ -12,7 +12,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
 - [Corrupt image on macOS](#corrupt-image-on-macos)
-- [Client stuck at "Loaded update list" on Linx)[#client-stuck-at-loaded-update-list-on-linux]
+- [Client stuck at "Loaded update list" on Linux](#client-stuck-at-loaded-update-list-on-linux)
 - [Client not launching on Linux](#client-not-launching-on-linux)
 
 ## Launcher stuck at 0%
