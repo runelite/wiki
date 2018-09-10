@@ -27,7 +27,7 @@
     * [[Chat History]]
     * [[Chat Notifications]]
     * [[Clan Chat]]
-    * [[Clue Scrolls]]
+    * [[Clue Scroll]]
     * [[Combat Level]]
     * [[Corporeal Beast]]
     * [[Crystal Math Labs]]
