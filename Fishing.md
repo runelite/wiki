@@ -25,7 +25,9 @@
 * Show Lobster/Swordfish/Tuna
 * Show Anglerfish
 * Show Infernal Eel
-* Show Karambwanji 
+* Show Karambwanji
+* Show Karambwan
+* Show Dark Crab
 
 ### 4. Show Fishing session stats
 
