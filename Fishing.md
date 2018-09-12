@@ -12,24 +12,7 @@
 
 (Default 5) This configurable time frame allows the user to choose how long of inactivity to the fishing skill it takes to remove the Fishing Infobox.
 
-### 3. Show [Type of Fish] 
-
-(Default On)
-* Show Barbarian fish
-* Show Shark
-* Show Karambwan
-* Show Shrimp/Anchovies
-* Show Monkfish
-* Show Minnow fish
-* Show Salmon/Trout
-* Show Lobster/Swordfish/Tuna
-* Show Anglerfish
-* Show Infernal Eel
-* Show Karambwanji
-* Show Karambwan
-* Show Dark Crab
-
-### 4. Show Fishing session stats
+### 3. Show Fishing session stats
 
 (Default On) This will display in the top left-hand corner a Fishing Infobox, which will display the amount of caught fish and a calculation for the amount of fish caught per hour.
 
