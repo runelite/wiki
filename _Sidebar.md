@@ -102,6 +102,7 @@
     * [[Tithe Farm]]
     * [[Username Syncer]]
     * [[WASD Camera]]
+    * [[Wintertodt]]
     * [[Woodcutting]]
     * [[World Hopper]]
     * [[World Map]]
