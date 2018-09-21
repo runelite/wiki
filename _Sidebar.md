@@ -5,6 +5,7 @@
   * [[Disable Hardware Acceleration]]
   * [[Change DPI Scaling (Windows)]]
   * [[General Features]]
+  * [[Running on the Development Snapshot Version]]
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
