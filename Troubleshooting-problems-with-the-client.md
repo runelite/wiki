@@ -73,12 +73,12 @@ This means that your OS is simply preventing the downloaded .dmg to open. Usuall
 
 This is caused by PulseAudio not being supported for Java. A workaround for this is to use Alsa instead. This can be done by adding the following line to the sound.properties file which is located at $JAVA_HOME/conf/sound.properties:
 
-`
+```
 javax.sound.sampled.Clip=com.sun.media.sound.DirectAudioDeviceProvider
 javax.sound.sampled.Port=com.sun.media.sound.PortMixerProvider
 javax.sound.sampled.SourceDataLine=com.sun.media.sound.DirectAudioDeviceProvider
 javax.sound.sampled.TargetDataLine=com.sun.media.sound.DirectAudioDeviceProvider
-`
+```
 
 Your JAVA_HOME is by default located at /usr/lib/jvm/<Java install here>.
 
