@@ -14,6 +14,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 - [Corrupt image on macOS](#corrupt-image-on-macos)
 - [Client stuck at "Loaded update list" on Linux](#client-stuck-at-loaded-update-list-on-linux)
 - [Client not launching on Linux](#client-not-launching-on-linux)
+- [PulseAudio forcibly taken over by client](#pulseaudio-forcibly-taken-over-by-client)
 
 ## Launcher stuck at 0%
 
@@ -84,3 +85,7 @@ Your JAVA_HOME is by default located at /usr/lib/jvm/<Java install here>.
 ## Client not launching on Linux
 
 This looks like bug with JDK 10+. The solution is either to downgrade to JDK 8 (or 9) or to delete `/usr/lib/jvm/java-11-openjdk-amd64/conf/accessibility.properties` (for JDK 11 on Ubuntu, for 10 the path should be similar). See [related issue](https://github.com/runelite/runelite/issues/5040#issuecomment-414881841) and [related JDK bug](https://bugs.openjdk.java.net/browse/JDK-8204862).
+
+## PulseAudio forcibly taken over by client
+
+If RuneLite is taking over your entire PulseAudio, then you're likely missing "pulseaudio-alsa". Getting that package should resolve any sound conflicts, you can now listen to sounds and play music on your browser again.
