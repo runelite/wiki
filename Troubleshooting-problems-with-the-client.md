@@ -49,6 +49,8 @@ This seems to be an issue with Java 10 when users are using the All Platform ver
 
 This looks like corrupted jagex cache issue. Try to delete `%userprofile%\jagexcache` on **Windows** or `$HOME/jagexcache` on **macOS** and **Linux**.
 
+If that doesn't work try running the jar(all platforms version) with java 11.
+
 ## FPS problems, screen flickering or artifacts
 
 Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
