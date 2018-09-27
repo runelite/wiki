@@ -15,6 +15,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 - [Client stuck at "Loaded update list" on Linux](#client-stuck-at-loaded-update-list-on-linux)
 - [Client not launching on Linux](#client-not-launching-on-linux)
 - [PulseAudio forcibly taken over by client](#pulseaudio-forcibly-taken-over-by-client)
+- [Client crashing on login](#client-crashing-on-login)
 
 ## Launcher stuck at 0%
 
@@ -89,3 +90,7 @@ This looks like bug with JDK 10+. The solution is either to downgrade to JDK 8 (
 ## PulseAudio forcibly taken over by client
 
 If RuneLite is taking over your entire PulseAudio, then you're likely missing "pulseaudio-alsa". Getting that package should resolve any sound conflicts, you can now listen to sounds and play music on your browser again.
+
+## Client crashing on login
+
+This is probably related to some versions of vanilla client, one of the ways to go around this is to login to vanilla (OSRS) client, if that do not solve it, try [Client closing when loading](#client-closing-when-loading).
