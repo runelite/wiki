@@ -96,5 +96,6 @@ If RuneLite is taking over your entire PulseAudio, then you're likely missing "p
 This is probably related to some versions of vanilla client, there are few possible solutions
 
 - Login to vanilla (OSRS) client and move (try teleporting to Lumbridge for example) and then login back to RuneLite
+- Try installing the 32-bit version instead of the 64-bit version
 - Try running the .jar (all platforms) version with latest Java version
 - See [Client closing when loading](#client-closing-when-loading)
