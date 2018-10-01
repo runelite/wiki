@@ -12,7 +12,6 @@ Jagex has requested removal of certain features, and current discussion of featu
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
-* OpenGL: Jagex is working on their own implementation (see [#1165](https://github.com/runelite/runelite/issues/1165))
 * Spellbook Re-ordering and Hiding: Other 3rd party clients do not have these features and it failed a Jagex poll (see [#1038](https://github.com/runelite/runelite/issues/1038))
 * Highlighting "Offline" Friends: Not included to respect players with their messaging mode set to Private (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
