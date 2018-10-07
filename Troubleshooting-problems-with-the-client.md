@@ -68,7 +68,7 @@ Now client should launch properly. [Related issue is here](https://github.com/ru
 
 ## Corrupt image on macOS
 
-This means that your OS is simply preventing the downloaded .dmg to open. Usually just right-click and pressing open works. Otherwise OS update is required. Alternative is to use "Download for all platforms" from official RuneLite website.
+Update to launcher 1.6.1. Launcher versions before 1.6.1 required OSX 10.11+. Alternatively use the "Download for all platforms" from the official RuneLite website.
 
 ## Client stuck at "Loaded update list" on Linux
 
