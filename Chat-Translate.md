@@ -43,7 +43,9 @@ If you have a Google account you can go to the next step.
 
 2. Disable plugin
 3. Enable plugin
-![My GF being nice letting me use her account for testing](https://i.imgur.com/sLbycv4.gifv)
+
+[Gif of plugin in action](https://i.imgur.com/sLbycv4.gifv)
+
 ### Plugin Options
 `Translate To Language` - The language you want to read.
 
