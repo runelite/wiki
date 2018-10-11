@@ -10,6 +10,8 @@ Enables tagging of bank items and searching of bank tags
 
 Enable the ability to add tabs to your bank which allow fast access to tags.
 
+---
+
 ### Setting Tags
 
 On right-clicking items within the bank, an "Edit-tags" menu option is added, showing the number of associated tags (if any)
