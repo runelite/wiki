@@ -6,7 +6,7 @@
 
 ### 1. Show Highlighted Items Only
 
-(Default Off) Highlights any item's on the floor that you have defined in the 'Highlighted Item' text box.
+(Default Off) Highlights any items on the floor that you have defined in the 'Highlighted Item' text box.
 
 ### 2. Show Grand Exchange Prices
 
