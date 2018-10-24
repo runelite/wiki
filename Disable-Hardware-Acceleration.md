@@ -1,12 +1,22 @@
 **Important!** Before attempting the steps below, make sure you have installed the latest RuneLite Launcher! If you are unsure, simply reinstall the launcher.
 
-As of RuneLite Launcher 1.5.1, RuneLite attempts to enable hardware acceleration based on your operating system. If you are having hardware-acceleration issues (such as artifacting) you can disable it by following one of the 3 instructions below.
+As of RuneLite Launcher 1.5.1, RuneLite attempts to enable hardware acceleration based on your operating system. If you are having hardware-acceleration issues (such as artifacting) you can disable it by following one of the instructions below.
 
-## Method 1: Creating a shortcut, and then adding "--mode=OFF" (without quotes) at the end of the target box. (Video below)
+# Table Of Contents
+- [Windows](#windows)
+- [macOS](#macos)
+- [Linux](#linux)
+- [All Platforms](#all-platforms)
+
+## Windows
+
+### Method 1: Creating a shortcut
+
+You can create desktop shortcut with "--mode=OFF" (without quotes) at the end of the target box. (Video below)
 
 [![Client View](https://thumbs.gfycat.com/DamagedWealthyKoalabear-size_restricted.gif)](https://gfycat.com/DamagedWealthyKoalabear)
 
-## Method 2: Using the .bat file below to launch RuneLite. 
+### Method 2: Creating .bat file
 
 If you are on Windows using the official installer, download and run the link below:
 
@@ -19,45 +29,36 @@ start "" "%localappdata%\RuneLite\RuneLite.exe" --mode=OFF
 exit
 ```
 
-## Method 3: Disabling hardware acceleration on other platforms
+### Method 3: Starting the launcher with HW accel disabled from CMD
 
-If you downloaded the `.jar` version of the launcher, run this:
-
-```
-java -jar Location-of-RuneLite.jar --mode=OFF
-```
-
-***
-
-### Mac
-Run Terminal.app and paste this into the command prompt;
-```
-/Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF
-```
-
-***
-
-### Windows
-Run cmd.exe (Windows Key + R) and paste this into the command prompt.
+Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 ```
 java -jar %localappdata%\RuneLite\RuneLite.jar --mode=OFF
 ```
 
-***
+## macOS
 
-### Linux
-**ARCH:**
+Run Terminal.app and paste this into the command prompt:
+
+```
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF
+```
+
+## Linux
+
+### Arch Linux
 
 If you downloaded the client via the Arch User Repository (AUR) execute this command:
+
 ```
 echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
 ```
 
 ***
 
-**Other Distro:**
+### Other distributions
 
-**To create shortcut to run from launcher:**
+#### Method 1: Creating shortcut for the launcher
 
 If you're using another distribution and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
 ```
@@ -76,11 +77,7 @@ Additionally you can run the following command to automatically add the shortcut
 printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=java -jar path/to/RuneLite.jar --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
 ```
 
-
-***
-
-
-**To run RuneLite directly from the desktop:**
+#### Method 2: Running launcher directly from the desktop
 
 Open terminal and type:
 ```
@@ -110,3 +107,11 @@ If RuneLite.sh is opening in Text Editor, Open `Files > Preferences > Behavior >
 `Files` is your file manager
 
 Under `Executable Text Files`, Select `Run them` to run all .sh files, or `Ask what to do` if you want to choose to run or view all .sh files.
+
+## All platforms
+
+If you downloaded the `.jar` version of the launcher, run this:
+
+```
+java -jar Location-of-RuneLite.jar --mode=OFF
+```
