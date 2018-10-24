@@ -29,6 +29,14 @@ java -jar Location-of-RuneLite.jar --mode=OFF
 
 ***
 
+### Mac
+Run Terminal.app and paste this into the command prompt;
+```
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF
+```
+
+***
+
 ### Windows
 Run cmd.exe (Windows Key + R) and paste this into the command prompt.
 ```
