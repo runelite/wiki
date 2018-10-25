@@ -100,6 +100,7 @@
     * [[Time Tracking]]
     * [[Timers]]
     * [[Tithe Farm]]
+    * [[Twitch]]
     * [[Username Syncer]]
     * [[WASD Camera]]
     * [[Wintertodt]]
