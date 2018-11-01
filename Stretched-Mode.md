@@ -1,4 +1,4 @@
-# Stretched Fixed Mode Configuration
+# Stretched Mode Configuration
 
 [![Client View](https://thumbs.gfycat.com/PoshPalatableHogget-size_restricted.gif)](https://gfycat.com/PoshPalatableHogget)
 
