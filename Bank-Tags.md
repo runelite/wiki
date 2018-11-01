@@ -22,6 +22,10 @@ Upon selecting the "Edit-tags" option, the tags will be displayed in a text inpu
 
 ![The tags editing chatbox displayed after selecting the "Edit-tags" menu option](https://i.imgur.com/EhMFXlA.png)
 
+You can tag and un-tag all variations of an item, e.g. all dosages of a particular type of potion, all charges of an Amulet of Glory, or all degraded states of a Barrows equipment piece or piece of crystal equipment, etc. To do so, drag the item onto a tag tab while holding Shift, or add "*" to the end of the tag. 
+
+![Tagging and un-tagging variations of items](https://user-images.githubusercontent.com/5115805/47704264-69b16680-dc23-11e8-8ead-a4934fb9ef38.gif)
+
 ### Searching Tags
 
 When using the bank search feature, tags are automatically included in the search term. To search exclusively for bank tagged items, prefix the search term with "tag:"
