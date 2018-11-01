@@ -93,7 +93,7 @@
     * [[Skill Calculator]]
     * [[Slayer]]
     * [[Special Attack Counter]]
-    * [[Stretched Fixed Mode]]
+    * [[Stretched Mode]]
     * [[Team Capes]]
     * [[Tears Of Guthix]]
     * [[Tile Indicators]]
