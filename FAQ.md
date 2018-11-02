@@ -43,3 +43,6 @@ To find logs, either open screenshot directory (by right-clicking "Camera" butto
 
 ## How do I build RuneLite?
 See [[Building with IntelliJ IDEA]].
+
+## Will there be a Runelite mobile client?
+No. [See this.](https://twitter.com/RuneLiteClient/status/1057301530569777154)
