@@ -9,6 +9,7 @@
 - [How often is RuneLite updated?](#how-often-is-runelite-updated)
 - [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
 - [How do I build RuneLite?](#how-do-i-build-runelite)
+- [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
