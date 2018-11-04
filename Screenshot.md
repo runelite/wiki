@@ -6,6 +6,8 @@ Enables the screenshot button
 
 The screenshot folder can be accessed by right clicking the screenshot button.
 
+The default screenshot folder on Windows is: `C:\Users\*username*\.runelite\screenshots\`
+
 ## Settings
 
 ### Include Client Frame
