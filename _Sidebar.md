@@ -5,6 +5,7 @@
   * [[Disable Hardware Acceleration]]
   * [[Change DPI Scaling (Windows)]]
   * [[General Features]]
+  * [[Rejected or Rolled Back Features]]
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
@@ -125,4 +126,3 @@
   * [[VarPlayers, VarBits, and VarClients]]
   * [[Running the Runelite HTTP API Service]]
   * [[Obsidian Theme Style Guide (WIP)]]
-* [[Rejected or Rolled Back Features]]
