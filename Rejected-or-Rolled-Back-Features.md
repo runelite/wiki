@@ -22,6 +22,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Left-click fill in bank: This can increase xp rates, Jagex mods said they will probably implement this in future (see [#5668](https://github.com/runelite/runelite/issues/5668))
 * Dynamic Puro-Puro Spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful (see [#2371](https://github.com/runelite/runelite/issues/2371))
 * Opponent freeze timers: Not supported by other reputable 3rd party clients, can be very powerful for pking (see [#2011](https://github.com/runelite/runelite/issues/2011))
+* Mobile Client: [Source](https://twitter.com/RuneLiteClient/status/1057301530569777154)
 
 #### Menu Entry Swapping
 * `Pickpocket` on non-H.A.M. members: Not supported by other 3rd party clients, and absurdly powerful when blackjacking
