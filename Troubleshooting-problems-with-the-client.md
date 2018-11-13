@@ -35,7 +35,7 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 
 ## Launcher immediatelly closing
 
-If you see `ConnectionException` in `launcher.log` this most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th, redownload it from https://runelite.net.
+If you see `ConnectionException` in `launcher.log` this most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th 2018, redownload it from https://runelite.net.
 
 ## Settings being reset
 
