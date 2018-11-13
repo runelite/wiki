@@ -19,7 +19,7 @@ To find logs, either open screenshot directory (if you have access to client by 
 
 ## Launcher stuck at 0%
 
-If you downloaded launcher before July 7th (before version 1.6.0), redownload it from https://runelite.net. [Related issue is here](https://github.com/runelite/launcher/issues/18).
+If you downloaded launcher before July 7th 2018 (before version 1.6.0), redownload it from https://runelite.net. [Related issue is here](https://github.com/runelite/launcher/issues/18).
 
 ## Problems with accessing API
 
