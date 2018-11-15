@@ -44,6 +44,7 @@
     * [[Fight Cave]]
     * [[Fishing]]
     * [[Friend Notes]]
+    * [[GPU]]
     * [[Grand Exchange]]
     * [[Ground Items]]
     * [[Ground Markers]]
