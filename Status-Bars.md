@@ -1,6 +1,6 @@
 # Status Bars Configuration
 
-![Status bars plugin preview](https://user-images.githubusercontent.com/5115805/48405424-8759f200-e732-11e8-954c-d76623666b31.gif)
+![Status bars plugin preview](https://user-images.githubusercontent.com/2199511/48529525-1bbe7480-e859-11e8-87c6-11b91676f362.gif)
 
 Draws status bars next to players inventory showing current HP & Prayer and healing amounts
 
