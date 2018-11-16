@@ -26,3 +26,6 @@ It is being considered as an improvement, no ETA.
 
 **Where is the skybox?**
 Skybox and fog are not in the initial release. They are being worked on by a few developers already. No ETA.
+
+**Why can't my camera fly around?**
+The Orb of Oculus functionality is not part of the GPU plugin.
