@@ -15,6 +15,9 @@ Click distance has been limited to 45 tiles.
 Currently there are some issues with integrated graphics cards. You can try updating your drivers and see if that fixes it.
 If you have a dedicated card and are still seeing this issue see [how to set gpu app on Windows 10](https://pureinfotech.com/set-gpu-app-windows-10/)
 
+**My client turns black when I enable the plugin**
+Turn off compatibility mode on the RuneLite launcher
+
 **My stretched fixed mode is broken!**
 Currently the GPU plugin does not work with the stretched mode plugin. It is a known issue and planned for a future release. No ETA.
 
