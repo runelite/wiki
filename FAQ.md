@@ -10,6 +10,7 @@
 - [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
 - [How do I build RuneLite?](#how-do-i-build-runelite)
 - [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
+- [Why does the GPU plugin do X?](#why-does-the-GPU-plugin-do-X)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -47,3 +48,6 @@ See [[Building with IntelliJ IDEA]].
 
 ## Will there be a Runelite mobile client?
 No. [See this.](https://twitter.com/RuneLiteClient/status/1057301530569777154)
+
+## Why does the GPU plugin do X?
+See [[GPU FAQ]].
