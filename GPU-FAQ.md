@@ -5,6 +5,9 @@ There are possibly configurations it does not work correctly on. In particular, 
 **How do I get GPU plugin?**
 Exit your client and launch it again to update. Ensure you are using a supported operating system and graphics card (see above). You can then enable the plugin "GPU" on the plugin sidebar.
 
+**The plugin keeps turning itself off!**
+The plugin will turn off automatically if it is not supported on your current setup.
+
 **Why can't I click as far as I saw before?**
 Click distance has been limited to 45 tiles.
 
