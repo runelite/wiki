@@ -14,3 +14,12 @@ Currently the GPU plugin does not work with the stretched mode plugin.
 
 **When will there be support for mac/linux?**
 The gpu plugin is Windows only for now. The RuneLite team wants it to be available to other operating systems, it is a work in progress with no ETA.
+
+**What is the maximum draw distance?**
+90 tiles.
+
+**Why can't I see all the way to 90 tiles?**
+The client will only display loaded regions regardless of draw distance settings.
+
+**Why doesn't RuneLite draw extra regions?**
+It is being considered as an improvement, no ETA.
