@@ -1,6 +1,7 @@
 # Table of Contents
 * **User Guide**
   * [[FAQ]]
+  * [[GPU-FAQ]]
   * [[Troubleshooting problems with the client]]
   * [[Disable Hardware Acceleration]]
   * [[Change DPI Scaling (Windows)]]
