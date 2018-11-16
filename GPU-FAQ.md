@@ -23,3 +23,6 @@ The client will only display loaded regions regardless of draw distance settings
 
 **Why doesn't RuneLite draw extra regions?**
 It is being considered as an improvement, no ETA.
+
+**Where is the skybox?**
+Skybox and fog are not in the initial release. They are being worked on by a few developers already. No ETA.
