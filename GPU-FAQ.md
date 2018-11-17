@@ -15,6 +15,9 @@ Click distance has been limited to 45 tiles.
 Currently there are some issues with integrated graphics cards. You can try updating your drivers and see if that fixes it.
 If you have a dedicated card and are still seeing this issue see [how to set gpu app on Windows 10](https://pureinfotech.com/set-gpu-app-windows-10/)
 
+If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
+![](https://i.imgur.com/CwEcodJ.png)
+
 **My client turns black when I enable the plugin**
 Try turning off compatibility mode on the RuneLite launcher, running in Administrator mode, turning off fullscreen optimization, or other windows compatibility settings.
 
