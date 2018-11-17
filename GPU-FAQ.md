@@ -1,5 +1,5 @@
 # Requirements
-The GPU plugin requires **Windows (7, 8, or 10)**, a GPU with support for OpenGL 4.3 or newer, and 2GB of VRAM. This requires either an Nvidia GeForce 400 or newer, an AMD Radeon HD 5000 Series or newer, or Intel HD Graphics with an Intel Haswell processor or newer. Also ensure that your GPU drivers are up to date.
+The GPU plugin requires **Windows (7, 8, or 10)**, a GPU with support for OpenGL 4.3 or newer, and 2GB of VRAM. This requires either a Nvidia GeForce 400 or newer, an AMD Radeon HD 5000 Series or newer, or Intel HD Graphics with an Intel Haswell processor or newer. Also, ensure that your GPU drivers are up to date.
 
 There are possibly configurations it does not work correctly on. In particular, we recommend you do not enable it in dangerous situations ingame (HCIM!) until you sufficiently test that it is stable on your system.
 
@@ -9,11 +9,14 @@ Exit your client and launch it again to update. Ensure you are using a supported
 #### The plugin keeps turning itself off!
 The plugin will turn off automatically if it is not supported on your current setup.
 
+#### The game crashes as soon as I turn on the plugin!
+Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+
 #### Why can't I click as far as I saw before?
 Click distance has been limited to 45 tiles.
 
 #### Why am I getting black boxes around tiles?
-Currently there are some issues with integrated graphics cards. You can try updating your drivers and see if that fixes it.
+Currently, there are some issues with integrated graphics cards. You can try updating your drivers and see if that fixes it.
 If you have a dedicated card and are still seeing this issue see [how to set gpu app on Windows 10](https://pureinfotech.com/set-gpu-app-windows-10/).
 If that did not work, you can also try the solution described in the issue below.
 
@@ -25,7 +28,7 @@ If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of Ru
 Try turning off compatibility mode on the RuneLite launcher, running in Administrator mode, turning off fullscreen optimization, or other windows compatibility settings.
 
 #### My stretched fixed mode is broken!
-Currently the GPU plugin does not work with the stretched mode plugin. It is a known issue and planned for a future release. No ETA.
+Currently, the GPU plugin does not work with the stretched mode plugin. It is a known issue and planned for a future release. No ETA.
 
 #### When will there be support for mac/linux?
 The gpu plugin is Windows only for now. The RuneLite team wants it to be available to other operating systems, it is a work in progress with no ETA.
