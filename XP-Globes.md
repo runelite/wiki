@@ -3,6 +3,9 @@ Configures whether to show XP globes for the respective skill when XP is gained
 
 ![Globes preview](https://i.imgur.com/rq3D5gs.png)
 
+## Warning
+The XP Tracker plugin **must** be enabled in order for XP Globes to work. If XP Globes is not working as intended, please check your list of enabled plugins to ensure that XP Tracker is enabled before submitting a bug report.
+
 ## Settings
 ### Enable Tooltips
 Shows a detailed tooltip with level, current XP, and XP to level when hovering on a globe  
