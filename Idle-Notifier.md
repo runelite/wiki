@@ -1,6 +1,6 @@
 # Idle Notifier Configuration
 
-Sends a notification when going idle, or when your hp/prayer reaches a certain threshold. To change notification type, see RuneLite.
+Sends a notification when going idle, or when your hp/prayer reaches a certain threshold. To change whether notifications are sent even when the client is focused (and other settings related to notifications), see the settings for RuneLite.
 
 ## Settings
 
