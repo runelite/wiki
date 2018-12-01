@@ -14,8 +14,8 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Spellbook Re-ordering and Hiding: Other 3rd party clients do not have these features and it failed a Jagex poll (see [#1038](https://github.com/runelite/runelite/issues/1038))
 * Highlighting "Offline" Friends (and generic player highlighting): Not included to respect players with their messaging mode set to Private and to avoid harrasing players (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
-* No Theatre of Blood plugins, at Jagex's request
-* No Inferno plugins
+* Theatre of Blood plugins, at Jagex's request
+* Inferno plugins
 * Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
 * One-way safe spot plugins: Too strong for PvP scenarios (see [#3646](https://github.com/runelite/runelite/issues/3646))
 * Hiding of friends/ignored people: Can be very strong in multi pking
