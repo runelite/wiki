@@ -66,7 +66,7 @@ Success! Your Maven build should run correctly:
 
 ## Running
 
-Now, to run the client, all you need to do is find RuneLite.class in the runelite-client folder. Right click on the class and select **Run RuneLite.main()**:
+Now, to run the client, all you need to do is find the RuneLite class in the runelite-client folder. Right click on the class and select **Run RuneLite.main()**:
 
 ![](http://i.imgur.com/w2K9lCH.png)
 
