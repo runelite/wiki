@@ -26,7 +26,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * PK/Skull warnings
 
 #### Menu Entry Swapping
-* `Deposit X/Withdraw X`: Too powerful to implement. Jagex will implement if they want to (see [#1647](https://github.com/runelite/runelite/issues/1647))
+* `Deposit X/Withdraw X` (with shift+click): Too powerful to implement. Jagex will implement if they want to (see [#1647](https://github.com/runelite/runelite/issues/1647))
 * `Pickpocket` on non-H.A.M. members: Not supported by other 3rd party clients, and absurdly powerful when blackjacking
 * `Build/Remove` on POH hotspots: This would allow zero-movement Construction skilling without special cursor positioning (try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
 * `Hide/reorder ground items`: This would make it so that all items on your hidden items list in grounditems would not show the take option. This would push the meta on many things and would make looting too easy. As such it is not going to be added.
