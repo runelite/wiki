@@ -42,7 +42,6 @@
     * [[Examine]]
     * [[FPS Control]]
     * [[Fairy Rings]]
-    * [[Fight Cave]]
     * [[Fishing]]
     * [[Friend Notes]]
     * [[GPU]]
