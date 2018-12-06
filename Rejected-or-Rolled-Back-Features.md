@@ -8,11 +8,12 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Volcanic Mine Helper: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release))
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * General Anti-Drag: People complained and we decided to remove it as no other clients have it (see [#3200](https://github.com/runelite/runelite/issues/3200))
+* Fight Cave Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
 * Spellbook Re-ordering and Hiding: Other 3rd party clients do not have these features and it failed a Jagex poll (see [#1038](https://github.com/runelite/runelite/issues/1038))
-* Highlighting "Offline" Friends (and generic player highlighting): Not included to respect players with their messaging mode set to Private and to avoid harrasing players (see [#951](https://github.com/runelite/runelite/pull/951))
+* Highlighting "Offline" Friends (and generic player highlighting): Not included to respect players with their messaging mode set to Private and to avoid harassing players (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
 * Theatre of Blood plugins, at Jagex's request
 * Inferno plugins
