@@ -25,7 +25,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Opponent freeze timers: Not supported by other reputable 3rd party clients, can be very powerful for pking (see [#2011](https://github.com/runelite/runelite/issues/2011))
 * Mobile Client: [Source](https://twitter.com/RuneLiteClient/status/1057301530569777154)
 * PK/Skull warnings
-* Things that can be abused for "AFK" agility training (see [#6979])
+* Things that can be abused for "AFK" agility training (see [#6979](https://github.com/runelite/runelite/issues/6979))
 
 #### Menu Entry Swapping
 * `Deposit X/Withdraw X` (with shift+click): Too powerful to implement. Jagex will implement if they want to
