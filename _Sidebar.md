@@ -76,6 +76,7 @@
     * [[News Feed]]
     * [[Nightmare Zone]]
     * [[Notes]]
+    * [[Object Markers]]
     * [[Opponent Information]]
     * [[Pest Control]]
     * [[Player Indicators]]
