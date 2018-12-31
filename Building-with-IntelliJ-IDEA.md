@@ -16,7 +16,7 @@ You can either checkout the RuneLite repository `https://github.com/runelite/run
 
 Now hit **Clone** and wait for IntelliJ to download the project files.
 
-After checking out from GitHub (or manually opening the project in IntelliJ), make sure to select **Import Project**
+After checking out from GitHub (or manually opening the project in IntelliJ), select **File** and select **Close Project** and then, from the Intellij Welcome Screen make sure to select **Import Project**
 and choose **Maven** under **Import project from external model**:
 
 ![](http://i.imgur.com/gSuqzAY.png)
