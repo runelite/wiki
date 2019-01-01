@@ -6,7 +6,7 @@
 
 ### Draw Distance
 
-Draw distance counted in game tiles. Max value is 60.
+Draw distance counted in game tiles. Max value is 90.
 
 ### Remove color banding
 
