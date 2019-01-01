@@ -1,1 +1,1 @@
-https://runelite.net/discord
+Please join our [Discord](https://discord.gg/mePCs8U) if you notice anything wrong or would like to discuss an addition to the wiki.
