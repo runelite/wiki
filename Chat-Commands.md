@@ -3,7 +3,7 @@
 [![Client View](https://thumbs.gfycat.com/BiodegradableLegitimateBaldeagle-size_restricted.gif)](https://gfycat.com/BiodegradableLegitimateBaldeagle)
 
 The chat commands plugin enables you to quickly access information about your account and items through chat commands  
-Current commands include `!total`, `!lvl <skill>`,`!price <item>`, and `!kc <boss>`. 
+Current commands include `!total`, `!lvl <skill>`,`!price <item>`, and `!kc <boss>`.  Note: if the chat commands for !kc do not work in game, you first need to open up an in-game Ring of Wealth's boss kill log for Runelite to register all kill counts.
 
 ### Skill Abbreviations
 Some skill names can be substituted for shorthand versions  
