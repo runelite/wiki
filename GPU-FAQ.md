@@ -34,8 +34,5 @@ The client will only display loaded regions regardless of draw distance settings
 #### Why doesn't RuneLite draw extra regions?
 It is being considered as an improvement, no ETA.
 
-#### Where is the skybox?
-This plugin is scheduled to be released with the update on January 10, 2019.
-
 #### Why can't my camera fly around?
 The Orb of Oculus functionality is not part of the GPU plugin.
