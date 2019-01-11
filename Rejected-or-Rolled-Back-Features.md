@@ -27,6 +27,8 @@ Jagex has requested removal of certain features, and current discussion of featu
 * PK/Skull warnings
 * Things that can be abused for "AFK" agility training (see [#6979](https://github.com/runelite/runelite/issues/6979))
 * Level-based PvP player indicators (eg. highlighting players who can be attacked, or are within X levels range)
+* Alchemical Hydra plugins
+* Any new high-end PvM boss plugins
 
 #### Menu Entry Swapping
 * `Deposit X/Withdraw X` (with shift+click): Too powerful to implement. Jagex will implement if they want to
