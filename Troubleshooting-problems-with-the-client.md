@@ -4,8 +4,9 @@ To find logs, either open screenshot directory (if you have access to client by 
 
 # Table Of Contents
 - [Launcher stuck at 0%](#launcher-stuck-at-0)
+- [Client not launching](#client-not-launching)
 - [Problems with accessing API](#problems-with-accessing-api)
-- [Launcher immediatelly closing](#launcher-immediatelly-closing)
+- [Launcher immediately closing](#launcher-immediately-closing)
 - [Settings being reset](#settings-being-reset)
 - [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
@@ -21,6 +22,14 @@ To find logs, either open screenshot directory (if you have access to client by 
 
 If you downloaded launcher before July 7th 2018 (before version 1.6.0), redownload it from https://runelite.net. [Related issue is here](https://github.com/runelite/launcher/issues/18).
 
+## Client not launching
+
+If you see `error fetching bootstrap` in `launcher.log` you are unable to connect to RL servers to get the bootstrap for startup.
+The error will be accompanied by an exception
+- `ConnectException: Connection timed out` - this is caused by either a firewall blocking the connection or a routing issue, try adding an exception in your firewall for runelite or reseting/changing your current network.
+- `SSLHandshakeException: Received fatal alert: handshake_failure` - this is caused by java certs not matching refer to [Problems with accessing API](#problems-with-accessing-api) or downgrade your java version to 8
+- `SignatureException: Signature length not correct: got 0 but was expecting 512` - this is caused by your router or some other software middle manning the connection to the RL server, try logging into your router to disable that "feature" or contact your isp to ask what they are doing.
+
 ## Problems with accessing API
 
 If you see `SSLException` in `client.log` this probably means that you do not have your Java certificates properly set-up. Workaround is [here](https://stackoverflow.com/a/50103533).
@@ -33,7 +42,7 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 
 [Related issue is here](https://github.com/runelite/runelite/issues/2603).
 
-## Launcher immediatelly closing
+## Launcher immediately closing
 
 If you see `ConnectionException` in `launcher.log` this most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th 2018, redownload it from https://runelite.net.
 
