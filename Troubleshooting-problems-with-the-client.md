@@ -27,6 +27,7 @@ If you downloaded launcher before July 7th 2018 (before version 1.6.0), redownlo
 If you see `error fetching bootstrap` in `launcher.log` you are unable to connect to RL servers to get the bootstrap for startup.
 The error will be accompanied by an exception
 - `ConnectException: Connection timed out` - this is caused by either a firewall blocking the connection or a routing issue, try adding an exception in your firewall for runelite or reseting/changing your current network.
+- `IOException: Server returned HTTP response code: 403` - this means the server has seen your request but is denying you, in our case that would be cloudflare intentionally blocking your connection for whatever reason.  Try changing networks or contacting cloudflare to ask why you are getting blocked.
 - `SSLHandshakeException: Received fatal alert: handshake_failure` - this is caused by java certs not matching refer to [Problems with accessing API](#problems-with-accessing-api) or downgrade your java version to 8
 - `SignatureException: Signature length not correct: got 0 but was expecting 512` - this is caused by your router or some other software middle manning the connection to the RL server, try logging into your router to disable that "feature" or contact your isp to ask what they are doing.
 
