@@ -16,6 +16,9 @@ Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/
 If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
 ![](https://i.imgur.com/CwEcodJ.png)
 
+#### When i turn on Anti Aliasing weird lines appear
+If you have an AMD graphics card, roll back the driver to version 18.12.1
+
 #### I'm getting incredibly high memory usage while using the GPU!
 If you have an AMD graphics card, roll back the driver to version 18.12.1
 
