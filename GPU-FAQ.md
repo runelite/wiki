@@ -16,6 +16,9 @@ Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/
 If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
 ![](https://i.imgur.com/CwEcodJ.png)
 
+#### I'm getting incredibly high memory usage while using the GPU!
+If you have an AMD graphics card, roll back the driver to version 18.12.1
+
 #### My client turns black when I enable the plugin!
 Try turning off compatibility mode on the RuneLite launcher, running in Administrator mode, turning off fullscreen optimization, or other Windows compatibility settings.
 
