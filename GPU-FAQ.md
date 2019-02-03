@@ -25,6 +25,9 @@ If you have an AMD graphics card, roll back the driver to version 18.12.1
 #### My client turns black when I enable the plugin!
 Try turning off compatibility mode on the RuneLite launcher, running in Administrator mode, turning off fullscreen optimization, or other Windows compatibility settings.
 
+### Client is freezing atfer enabling GPU plugin
+If you are on linux, downgrade mesa to version 18.2.5 and Java to version 8.
+
 #### When will there be support for macOS?
 The GPU plugin is Windows/Linux only for now. The RuneLite team wants it to be available to other operating systems, it is a work in progress with no ETA.
 
