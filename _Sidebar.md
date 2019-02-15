@@ -83,6 +83,7 @@
     * [[Pest Control]]
     * [[Player Indicators]]
     * [[Player-owned House]]
+    * [[Poison]]
     * [[Prayer]]
     * [[Puzzle Solver]]
     * [[Regeneration Meter]]
