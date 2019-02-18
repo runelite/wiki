@@ -45,3 +45,6 @@ It is being considered as an improvement, no ETA.
 
 #### Why can't my camera fly around?
 The Orb of Oculus functionality is not part of the GPU plugin.
+
+### I have weird lines all over the screen
+Try disabling anti-aliasing in your GPU properties and in RuneLite, or reset your GPU properties to default.
