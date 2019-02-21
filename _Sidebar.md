@@ -109,6 +109,7 @@
     * [[Tithe Farm]]
     * [[Twitch]]
     * [[WASD Camera]]
+    * [[Wiki]]
     * [[Wintertodt]]
     * [[Woodcutting]]
     * [[World Hopper]]
