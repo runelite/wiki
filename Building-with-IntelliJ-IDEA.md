@@ -12,14 +12,15 @@ You can either checkout the RuneLite repository `https://github.com/runelite/run
 
 **NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
 
-![](https://user-images.githubusercontent.com/37604308/38454682-0fad8f26-3aaf-11e8-9ca3-327ebd667675.png)
+![clone](https://user-images.githubusercontent.com/2199511/53376401-1099db00-3956-11e9-8621-030f94331da9.png)
 
 Now hit **Clone** and wait for IntelliJ to download the project files.
 
 After checking out from GitHub (or manually opening the project in IntelliJ), select **File** and select **Close Project** and then, from the Intellij Welcome Screen make sure to select **Import Project**
 and choose **Maven** under **Import project from external model**:
 
-![](http://i.imgur.com/gSuqzAY.png)
+![import project directory selection](https://user-images.githubusercontent.com/2199511/53376402-1099db00-3956-11e9-9b1c-bfd3424e9121.png)
+![import project type](http://i.imgur.com/gSuqzAY.png)
 
 You'll be met with additional menus, just click **Next** on all of them - there shouldn't be any issues assuming you have the JDK installed.
 
