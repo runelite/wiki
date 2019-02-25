@@ -48,10 +48,10 @@ Run Terminal.app and paste this into the command prompt:
 
 ### Arch Linux
 
-If you downloaded the client via the Arch User Repository (AUR) execute this command:
+If you downloaded the client via the `runelite-launcher` package in Arch User Repository (AUR) execute this command:
 
 ```
-echo " --mode=OFF" | sudo tee -a /usr/sbin/runelite
+echo " --mode=OFF" | sudo tee -a /usr/bin/runelite-launcher
 ```
 
 ***
