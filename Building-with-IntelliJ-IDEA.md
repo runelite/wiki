@@ -1,4 +1,14 @@
-## Getting started
+# Table of Contents
+
+* [Getting started](#getting-started)
+  - [Importing the project](#importing-the-project)
+  - [Installing Lombok](#installing-lombok)
+  - [Building the project](#building-the-project)
+  - [Running the project](#running-the-project)
+  - [Conclusion](#conclusion)
+* [Troubleshooting](#troubleshooting)
+
+# Getting started
 
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
 
@@ -6,83 +16,101 @@ You can build RuneLite locally using [JDK 8](http://www.oracle.com/technetwork/j
 
 ## Importing the project
 
-After launching IntelliJ IDEA, create a new project by clicking on **Check out from Version Control** and select **Git**. You'll be prompted to enter the repository URL.
+After launching IntelliJ IDEA for first time, you will see IntelliJ welcome window. You will now need to clone RuneLite repository from git:
 
-You can either checkout the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.
+![welcome-import-git](https://i.imgur.com/bALnvDY.png)
+
+After clicking on that you will be greeted with prompt. You can either enter the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.
 
 **NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
 
-![clone](https://user-images.githubusercontent.com/2199511/53376401-1099db00-3956-11e9-8621-030f94331da9.png)
+The prompt should look something like this (if you have issues with finding git.exe see [Troubleshooting](#troubleshooting) section):
 
-Now hit **Clone** and wait for IntelliJ to download the project files.
+![welcome-clone-project](https://i.imgur.com/bQTTpV0.png)
 
-After checking out from GitHub (or manually opening the project in IntelliJ), select **File** and select **Close Project** and then, from the Intellij Welcome Screen make sure to select **Import Project**
-and choose **Maven** under **Import project from external model**:
+Click *Test* to verify if your entered URL is correct and then click on *Clone*. Now IntelliJ should start cloning the repository:
 
-![import project directory selection](https://user-images.githubusercontent.com/2199511/53376402-1099db00-3956-11e9-9b1c-bfd3424e9121.png)
-![import project type](http://i.imgur.com/gSuqzAY.png)
+![welcome-cloning-project](https://i.imgur.com/3jv107G.png)
 
-You'll be met with additional menus, just click **Next** on all of them - there shouldn't be any issues assuming you have the JDK installed.
+After the cloning process is done you should be greeted with prompt asking you if you want to open the project, just click *Yes*:
+
+![after-clone-yes-no](https://i.imgur.com/EvIbCBS.png)
+
+If everything went well, you should be able to see something like this:
+
+![after-clone-fresh-project](https://i.imgur.com/JOAFeMi.png)
 
 ## Installing Lombok
 
 When first viewing the project in IntelliJ IDEA you may come across this error:
 
-![](https://i.imgur.com/a1YDonV.png)
+![missing-lombok-errors](https://i.imgur.com/a1YDonV.png)
 
 This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
 
-Navigate to the **Plugins** tab under the **File > Settings** menu (**IntelliJ IDEA > Preferences** for Mac). Click the **Browse repositories...** button and search for **Lombok Plugin** to find it. Install the plugin and restart IntelliJ IDEA.
+Navigate to the **Plugins** tab under the **File > Settings** menu (**IntelliJ IDEA > Preferences** for Mac). Click the **Marketplace** button and search for **Lombok** to find it. Install the plugin and restart IntelliJ IDEA.
+
+![installing-lombok](https://i.imgur.com/PxzpCcO.png)
 
 Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
 
-## Configuration
+## Building the project
 
-Now that the project is loaded into IntelliJ, go to the toolbar and select **Edit Configurations...** from the drop-down arrow:
+RuneLite is using [Maven](https://maven.apache.org/) as build tool. It is used for dependency management, resource generation, running tests and any other tooling needed to properly build, run and deploy RuneLite.
 
-![](http://i.imgur.com/MmKople.png)
+So, to actually run RuneLite, we first need to invoke Maven.
 
-You'll need to create a new Maven configuration, so click on the green plus sign and select **Maven** in the drop-down:
+Locate *Maven* on right-side of the screen until you open something like this:
 
-![](http://i.imgur.com/iUjpRW8.png)
+![project-maven-view](https://i.imgur.com/xIRxBN1.png)
 
-Set your **Working directory** to the project directory by clicking the folder button on the right-hand side and selecting **runelite-parent**. 
+Standard maven goal is *Install* so let's run that. Locate *Runelite (root)* project in dropdown and navigate to `RuneLite (root) -> Lifecycle -> Install` and right-click the option and select `Run Maven Build`:
 
-Enter `install -DskipTests -U` in the **Command line** box:
+![run-maven-install](https://i.imgur.com/MxTMK6o.png)
 
-![](http://i.imgur.com/ekzfg2c.png)
+You can now save this build step as *Run configuration*, just right click *Install* again and select *Create..*, window like this should pop-up, so just hit *Ok*:
 
-## Building
+![project-maven-install-save](https://i.imgur.com/vdJoJ7L.png)
 
-Now that the Maven configuration is set up, simply click the green play button next to the configuration dropdown to
-build the project using Maven:
+Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesnt). So, still in same Maven window, just click the Refresh icon:
 
-![](http://i.imgur.com/85YnqXB.png)
+![project-maven-refresh](https://i.imgur.com/L2SmWtF.png)
 
-Success! Your Maven build should run correctly:
+## Running the project
 
-![](http://i.imgur.com/pIU2PnT.png)
+Now locate *Project* in sidebar and click that open project view, and expand the tree to `runelite/runelite-client/src/main/java/net/runelite/client`. And all you need to do now is right-click `RuneLite` class and select run, and you are done, RuneLite should open:
 
-**NOTE**: Many users have reported issues where RuneLite fails to run after the next step. Running the Maven build a second time should make it work.
+![project-view-run-main](https://i.imgur.com/RXkMc48.png)
 
-## Running
-
-Now, to run the client, all you need to do is find the RuneLite class in the runelite-client folder. Right click on the class and select **Run RuneLite.main()**:
-
-![](http://i.imgur.com/w2K9lCH.png)
-
-The client should boot up:
-
-![](http://i.imgur.com/fqoxCXS.png)
-
-**NOTE**: If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server.
-
-Example error when client does not boot:
-
-![](https://i.imgur.com/KSf3evR.png)
+If you are having any issues with this step see [Troubleshooting](#troubleshooting) section.
 
 ## Conclusion
 
-Success! You can switch between running the client and building the Maven project by switching between the **RuneLite** configuration and your custom Maven configuration.
+Success! You can switch between running the client and building the Maven project by switching between the **RuneLite** configuration and your custom Maven configuration (should be named *runelite-parent [install]* by default):
+
+![select-run-config](https://i.imgur.com/zKSqojU.png)
+
+# Troubleshooting
+
+If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
+
+#### Make sure your branch is up to date with master
+
+To sync your fork simply run
+
+```
+git checkout master && git fetch upstream && git rebase upstream/master && git checkout - && git rebase -
+```
+or update the project from IntelliJ:
+
+![update-project](https://i.imgur.com/69R580v.png) 
+
+#### Run maven with -U
+
+Typically your arguments will look like `clean install -DskipTests -U`
+
+#### Make sure IntelliJ is picking up changes from Maven
+
+If you are unsure, run: *Maven Projects* > *Reimport all maven projects* in IntelliJ (or *Ctrl* + *Shift* + *A* and type *Reimport all maven project*).
 
 Happy development!
