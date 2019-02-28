@@ -92,6 +92,8 @@ Success! You can switch between running the client and building the Maven projec
 
 # Troubleshooting
 
+If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [https://git-scm.com/downloads](go here and select your OS version).
+
 If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
 
 #### Make sure your branch is up to date with master
