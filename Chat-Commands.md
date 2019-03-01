@@ -17,6 +17,10 @@ Some skill names can be substituted for shorthand versions
 `rc`, `runecrafting` -> `Runecraft`  
 `con` -> `Construction`
 
+### Slayer
+Displays current task, amount killed, amount left, and location if applicable
+`!task`
+
 ### Boss Abbreviations  
 Some boss names can be substituted for shorthand versions  
 `corp` -> `Corporeal Beast`  
@@ -45,6 +49,7 @@ Some boss names can be substituted for shorthand versions
 `arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
+`cox cm`, xeric cm`, chambers cm`, olm cm`,  `raids cm` -> `Chambers of Xeric: Challenge Mode`
 `tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`  
 
 ## Settings
