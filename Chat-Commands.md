@@ -19,6 +19,7 @@ Some skill names can be substituted for shorthand versions
 
 ### Slayer
 Displays current task, amount killed, amount left, and location if applicable
+
 `!task`
 
 ### Boss Abbreviations  
@@ -50,7 +51,24 @@ Some boss names can be substituted for shorthand versions
 `bando`, `bandos`, `graardor` -> `General Graardor`  
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
 `cox cm`, xeric cm`, chambers cm`, olm cm`,  `raids cm` -> `Chambers of Xeric: Challenge Mode`
-`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`  
+`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood` 
+
+### Personal Bests
+Personal bests are stored for boss that keeps personal best data in game. The list can be obtained by going to an adventurer's log in a POH and checking the "counters" section.
+`!pb vorkath`
+`!pb zulrah`
+`!pb hespori`
+`!pb jad`
+`!pb inferno`
+`!pb galvek`
+`!pb gargs`, `!pb grotesque guardians`
+`!pb hydra`, `!pb alchemical hydra`
+
+
+
+### Quest Points
+
+`!qp` 
 
 ## Settings
 ### Price Command
