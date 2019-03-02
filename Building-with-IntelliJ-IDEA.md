@@ -68,6 +68,7 @@ Standard maven goal is *Install* so let's run that. Locate *Runelite (root)* pro
 
 ![run-maven-install](https://i.imgur.com/MxTMK6o.png)
 
+If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
 You can now save this build step as *Run configuration*, just right click *Install* again and select *Create..*, window like this should pop-up, so just hit *Ok*:
 
 ![project-maven-install-save](https://i.imgur.com/vdJoJ7L.png)
@@ -92,7 +93,19 @@ Success! You can switch between running the client and building the Maven projec
 
 # Troubleshooting
 
+## Missing JDK
+If you are getting errors about missing JDK, make sure to install JDK 8 (see start of this page) and then navigate to *File* -> *Project Structure* like this:
+
+![missing-jdk-project-structure](https://i.imgur.com/IzAKzOH.png)
+
+Then press *+* button and *Add JDK* and locate directory of your installed JDK:
+
+![missing-jdk-add](https://i.imgur.com/ZRHDAk3.png)
+
+## Missing git
 If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [https://git-scm.com/downloads](go here and select your OS version).
+
+## Client failing to start
 
 If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
 
