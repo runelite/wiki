@@ -7,6 +7,9 @@
   - [Running the project](#running-the-project)
   - [Conclusion](#conclusion)
 * [Troubleshooting](#troubleshooting)
+  - [Missing git](#missing-git)
+  - [Missing JDK](#missing-jdk)
+  - [Client failing to start](#client-failing-to-start)
 
 # Getting started
 
@@ -93,7 +96,12 @@ Success! You can switch between running the client and building the Maven projec
 
 # Troubleshooting
 
+## Missing git
+
+If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [https://git-scm.com/downloads](go here and select your OS version).
+
 ## Missing JDK
+
 If you are getting errors about missing JDK, make sure to install JDK 8 (see start of this page) and then navigate to *File* -> *Project Structure* like this:
 
 ![missing-jdk-project-structure](https://i.imgur.com/IzAKzOH.png)
@@ -101,9 +109,6 @@ If you are getting errors about missing JDK, make sure to install JDK 8 (see sta
 Then press *+* button and *Add JDK* and locate directory of your installed JDK:
 
 ![missing-jdk-add](https://i.imgur.com/ZRHDAk3.png)
-
-## Missing git
-If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [https://git-scm.com/downloads](go here and select your OS version).
 
 ## Client failing to start
 
