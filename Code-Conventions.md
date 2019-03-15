@@ -19,7 +19,7 @@ See [Checkstyle with IntelliJ IDEA](https://github.com/runelite/runelite/wiki/Ch
 
 We also don't like overhaul of wildcard imports, so please turn those off
 1. By changing `Class count to use import with '*'` to 999
-2. By changing `Names count to use static imports with ''*'` to 10 (static imports for f.e. ItemIDs with wildcards are preferred)
+2. By changing `Names count to use static imports with '*'` to 10 (static imports for f.e. ItemIDs with wildcards are preferred)
 
 See screenshot below for correct values for mentioned 2 fields.
 
