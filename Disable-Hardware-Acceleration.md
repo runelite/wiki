@@ -49,21 +49,21 @@ Run Terminal.app and paste this into the command prompt:
 
 ### Method 1: Creating shortcut for the launcher
 
-If you're using another distribution and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
+If you're using another distribution and downloaded the `RuneLite.AppImage` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
 ```
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Exec=java -jar path/to/RuneLite.jar --mode=OFF
+Exec=./path/to/RuneLite.AppImage --mode=OFF
 Name=RuneLite
 Comment=RuneLite launcher
 ```
-Replace _path/to/RuneLite.jar_ with wherever you downloaded the file. 
+Replace _path/to/RuneLite.AppImage_ with wherever you downloaded the file. 
 
 Additionally you can run the following command to automatically add the shortcut, although remember to edit the path like previously mentioned.
 
 ```
-printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=java -jar path/to/RuneLite.jar --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
+printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=./path/to/RuneLite.AppImage --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
 ```
 
 ### Method 2: Running launcher directly from the desktop
@@ -82,14 +82,12 @@ In the terminal, type:
 
 ```
 #!/bin/sh
-java -jar /path/to/RuneLite.jar --mode=OFF
+./path/to/RuneLite.AppImage --mode=OFF
 ```
 
 Press `ctrl+x` to exit, `y` if asked to save.
 
 Replace `/path/to/RuneLite.jar` with the directory location your RuneLite.jar is located. In my case, RuneLite.jar was located in my `Documents` folder.
-
-![Run Command](https://i.imgur.com/RvCXBTG.png)
 
 If RuneLite.sh is opening in Text Editor, Open `Files > Preferences > Behavior >`
 
