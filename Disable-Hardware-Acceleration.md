@@ -7,6 +7,7 @@ As of RuneLite Launcher 1.5.1, RuneLite attempts to enable hardware acceleration
 - [macOS](#macos)
 - [Linux](#linux)
 - [All Platforms](#all-platforms)
+- [Unofficial Distributions](#unofficial-distributions)
 
 ## Windows
 
@@ -46,19 +47,7 @@ Run Terminal.app and paste this into the command prompt:
 
 ## Linux
 
-### Arch Linux
-
-If you downloaded the client via the `runelite-launcher` package in Arch User Repository (AUR) execute this command:
-
-```
-echo " --mode=OFF" | sudo tee -a /usr/bin/runelite-launcher
-```
-
-***
-
-### Other distributions
-
-#### Method 1: Creating shortcut for the launcher
+### Method 1: Creating shortcut for the launcher
 
 If you're using another distribution and downloaded the `RuneLite.jar` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
 ```
@@ -77,7 +66,7 @@ Additionally you can run the following command to automatically add the shortcut
 printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=java -jar path/to/RuneLite.jar --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
 ```
 
-#### Method 2: Running launcher directly from the desktop
+### Method 2: Running launcher directly from the desktop
 
 Open terminal and type:
 ```
@@ -108,7 +97,25 @@ If RuneLite.sh is opening in Text Editor, Open `Files > Preferences > Behavior >
 
 Under `Executable Text Files`, Select `Run them` to run all .sh files, or `Ask what to do` if you want to choose to run or view all .sh files.
 
-#### Method 3: RuneLite installed from Flatpak
+## All platforms
+
+If you downloaded the `.jar` version of the launcher, run this:
+
+```
+java -jar Location-of-RuneLite.jar --mode=OFF
+```
+
+## Unofficial Distributions
+
+### AUR
+
+If you downloaded the client via the `runelite-launcher` package in Arch User Repository (AUR) execute this command:
+
+```
+echo " --mode=OFF" | sudo tee -a /usr/bin/runelite-launcher
+```
+
+### Flatpak
 
 Open Terminal and go to `/var/lib/flatpak/app/net.runelite.RuneLite/current/active/files/bin`
 
@@ -119,12 +126,4 @@ Add `--mode=OFF` at the end of second line and save it, result should look like 
 ```
 #!/bin/sh
 exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar --mode=OFF
-```
-
-## All platforms
-
-If you downloaded the `.jar` version of the launcher, run this:
-
-```
-java -jar Location-of-RuneLite.jar --mode=OFF
 ```
