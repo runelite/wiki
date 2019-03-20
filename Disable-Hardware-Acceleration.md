@@ -108,6 +108,19 @@ If RuneLite.sh is opening in Text Editor, Open `Files > Preferences > Behavior >
 
 Under `Executable Text Files`, Select `Run them` to run all .sh files, or `Ask what to do` if you want to choose to run or view all .sh files.
 
+#### Method 3: RuneLite installed from Flatpak
+
+Open Terminal and go to `/var/lib/flatpak/app/net.runelite.RuneLite/current/active/files/bin`
+
+Use you favorite code editor (Vim, Nano etc.) and edit the file with SUDO `sudo vi runelite`
+
+Add `--mode=OFF` at the end of second line and save it, result should look like this:
+
+```
+#!/bin/sh
+exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar --mode=OFF
+```
+
 ## All platforms
 
 If you downloaded the `.jar` version of the launcher, run this:
