@@ -53,7 +53,9 @@ If you see something like `IllegalArgumentException: Malformed \uxxxx` in `clien
 
 ## Client freezing
 
-A [Java bug](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8202580) can result in freezes when users are using the All Platform version of RuneLite with Java 10. Try using Java 8, *or* Java 11 and newer. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
+A [Java bug](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8202580) can result in freezes when users are using the All Platform version of RuneLite (.jar) with Java 10. Try using Java 8, *or* Java 11 and newer. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
+
+Ubuntu 18.04 users should install openjdk-8-jre. Arch Linux users should install jre8-openjdk.
 
 ## Client closing when loading
 
