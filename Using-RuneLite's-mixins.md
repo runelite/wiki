@@ -96,7 +96,7 @@ public abstract class RSClientMixin implements RSClient
 	@Inject
 	public static int foo;
 
-        @Inject
+    @Inject
 	@Override
 	public Actor bar()
 	{
