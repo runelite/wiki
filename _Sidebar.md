@@ -86,6 +86,7 @@
     * [[Poison]]
     * [[Prayer]]
     * [[Puzzle Solver]]
+    * [[Quest List]]
     * [[Regeneration Meter]]
     * [[Reorder Prayers]]
     * [[Report Button]]
