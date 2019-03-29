@@ -1,6 +1,6 @@
 # Agility Configuration
 
-[![Client View](https://thumbs.gfycat.com/BestDismalFantail-size_restricted.gif)](https://gfycat.com/BestDismalFantail)
+![Client View](https://user-images.githubusercontent.com/40111569/55203968-6521b780-519b-11e9-8708-81f96f18f4e1.gif)
 
 ## Settings
 
