@@ -1,6 +1,6 @@
 # NPC Indicator Configuration
 
-[![Client View](https://thumbs.gfycat.com/InfamousTatteredJenny-size_restricted.gif)](https://gfycat.com/InfamousTatteredJenny)
+[![Client View](https://user-images.githubusercontent.com/40111569/55202639-3c4af380-5196-11e9-98f9-4977589c3992.gif)](https://user-images.githubusercontent.com/40111569/55202639-3c4af380-5196-11e9-98f9-4977589c3992.gif)
 
 ## Settings
 
