@@ -36,3 +36,11 @@ Enable/disable the highlighting of traps on Agility courses
 
 Color of Agility trap overlay
 
+### 9. Agility Arena notifier
+
+Notify on ticket location change in Agility Arena
+
+### 10. Agility Arena timer
+
+Configured whether Agility Arena timer is displayed
+
