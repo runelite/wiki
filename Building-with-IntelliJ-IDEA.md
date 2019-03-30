@@ -74,7 +74,7 @@ Standard maven goal is *Install* so let's run that. Locate *Runelite (root)* pro
 If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
 You can now save this build step as *Run configuration*, just right click *Install* again and select *Create..*, window like this should pop-up, so just hit *Ok* (you can append `-DskipTests` for faster builds):
 
-![project-maven-install-save](https://i.imgur.com/vdJoJ7L.png)
+![project-maven-install-save](https://i.imgur.com/7HZFnPl.png)
 
 Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesnt). So, still in same Maven window, just click the Refresh icon:
 
