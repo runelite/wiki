@@ -1,6 +1,6 @@
 # Attack Styles Configuration
 
-[![Client View](https://thumbs.gfycat.com/BriskApprehensiveAmethystsunbird-size_restricted.gif)](BriskApprehensiveAmethystsunbird)
+[![Client View](https://user-images.githubusercontent.com/40111569/55271210-29f4b680-5277-11e9-8292-a2cbbb0f1009.gif)](https://user-images.githubusercontent.com/40111569/55271210-29f4b680-5277-11e9-8292-a2cbbb0f1009.gif)
 
 ## Settings
 
@@ -18,6 +18,10 @@ If any of these boxes are enabled, when you use that attack style, the infobox t
 * (Default Off) Warn for ranged
 * (Default Off) Warn for magic
 
-### 3. Remove warned styles
+### 3. Hide auto retaliate
+
+(Default Off) Hides auto retaliate from the combat options tab.
+
+### 4. Remove warned styles
 
 (Default Off) When enabled, this will remove any of the attack styles that are enabled above in the 'Warn for [Attack Style]' options from the 'Combat Options' tab in Old School RuneScape.
