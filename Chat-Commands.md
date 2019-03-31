@@ -50,7 +50,7 @@ Some boss names can be substituted for shorthand versions
 `arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
-`cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm` -> `Chambers of Xeric: Challenge Mode`
+`cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm` -> `Chambers of Xeric: Challenge Mode`  
 `tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood` 
 
 ### Personal Bests
