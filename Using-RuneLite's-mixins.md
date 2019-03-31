@@ -100,10 +100,10 @@ public abstract class RSClientMixin implements RSClient
 	@Override
 	public Actor bar()
 	{
-                // this injected method "bar()" has access to the injected field "foo"
+        // this injected method "bar()" has access to the injected field "foo"
 		foo = 1; 
 		System.out.println(foo);
-        }
+    }
 }
 ```
 
