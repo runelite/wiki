@@ -31,6 +31,10 @@ The error will be accompanied by an exception
 - `SSLHandshakeException: Received fatal alert: handshake_failure` - this is caused by java certs not matching refer to [Problems with accessing API](#problems-with-accessing-api) or downgrade your java version to 8
 - `SignatureException: Signature length not correct: got 0 but was expecting 512` - this is caused by your router or some other software middle manning the connection to the RL server, try logging into your router to disable that "feature" or contact your isp to ask what they are doing.
 
+If you see `Error loading RS!` in the `client.log` you are unable to get the osrs client from jagex.
+The error will be accompanied by an exception
+- `SocketTimeoutException: timeout` - this means the connection took too long to either connect or receive any data, most of the time caused by a slow of inconsistent internet connection, you can try resetting your network or maybe using a vpn.
+
 ## Problems with accessing API
 
 If you see `SSLException` in `client.log` this probably means that you do not have your Java certificates properly set-up. Workaround is [here](https://stackoverflow.com/a/50103533).
