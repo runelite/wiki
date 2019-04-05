@@ -2,9 +2,9 @@ Client scripts are used by Jagex for building interfaces and also to handle inpu
 
 ### rs2asm
 
-`rs2asm` consists of a header file and the body of the script, which consists of instructions and labels. 
+`rs2asm` consists of a header and the body of the script, which consists of instructions and labels. 
 
-The control flow instructions used in rs2asm are, for the most part, very similar to instructions used in the JVM bytecode. They deal with pushing integers, strings, and local variables onto the stack, pulling them off the stack, and then conditional jumps that operate on variables on the stack. Besides the control flow instructions, there are many game specific instructions that perform various operations in the engine and possibly return values for use in the script.
+The control flow instructions used in `rs2asm` are, for the most part, very similar to instructions used in the JVM bytecode. The client's script VM maintains two stacks (strings and integers), and the control flow instructions deal with pushing integers, strings, and local variables onto the stacks, pulling them off the stacks, and then conditional jumps that operate on variables on the stacks. Besides the control flow instructions, there are many game specific instructions that perform various operations in the engine and possibly return values for use in the script.
 
 ### Adding new scripts
 
@@ -16,7 +16,7 @@ Any changes to scripts require rebuilding with maven, as the scripts need to be 
 
 ### runelite_callback
 
-Besides editing the instructions of scripts, RuneLite can also interact with them by inserting a callback which calls back to Java with an event name. `runelite_callback` uses the last string placed onto the stack as the event name.
+Besides editing the instructions of scripts, RuneLite can also interact with them by inserting a callback which calls back to Java with an event name. `runelite_callback` uses the last string placed onto the string stack as the event name.
 
 An example of its use:
 
@@ -27,7 +27,7 @@ runelite_callback
 
 In Java, this will post a `ScriptCallbackEvent` to the event bus, which can then be registered to in plugins. The stacks can be viewed and manipulated in Java with `client.getStringStack()`, `client.getIntStack()`, `client.getStringStackSize()`, and `client.getIntStackSize()`.
 
-`runelite_callback` also provides a way to debug the stack -
+`runelite_callback` also provides a way to debug the stacks -
 
 ```
 iconst               3
