@@ -33,7 +33,7 @@ The error will be accompanied by an exception
 
 If you see `Error loading RS!` in the `client.log` you are unable to get the osrs client from jagex.
 The error will be accompanied by an exception
-- `SocketTimeoutException: timeout` - this means the connection took too long to either connect or receive any data, most of the time caused by a slow of inconsistent internet connection, you can try resetting your network or maybe using a vpn.
+- `SocketTimeoutException: timeout` - this means the connection took too long to either connect or receive any data, most of the time caused by a slow or inconsistent internet connection, you can try resetting your network or maybe using a VPN.
 
 ## Problems with accessing API
 
