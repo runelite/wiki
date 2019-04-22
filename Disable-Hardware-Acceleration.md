@@ -105,12 +105,12 @@ java -jar Location-of-RuneLite.jar --mode=OFF
 
 ## Unofficial Distributions
 
-### AUR
+### `runelite-launcher` AUR package
 
 If you downloaded the client via the `runelite-launcher` package in Arch User Repository (AUR) execute this command:
 
 ```
-echo " --mode=OFF" | sudo tee -a /usr/bin/runelite-launcher
+`sudo sed -i 's/"$@"/-mode=OFF \0/g' $(which runelite-launcher)`
 ```
 
 ### Flatpak
