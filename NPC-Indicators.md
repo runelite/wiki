@@ -24,15 +24,12 @@ You can also tag multiple NPC's by using a comma after the name. E.g. _TzHaar*, 
 
 ### 3. Highlight Colour [Choose a Colour]
 
-(Default Cyan) This is the colour that will be used when you manually type a name into the _NPCs to Highlight_ box.
+(Default Cyan) This is the colour that will be used for all highlighted NPCs
 
-### 4. Tag Colour [Choose a Colour]
-
-(Default Cyan) This is the colour that will be used when you right click and select the tag option in the context menu.
-### 5. Draw names above NPC.
+### 4. Draw names above NPC.
 
 (Default Off) Draws the NPC's name above their model.
 
-### 6. Draw names on minimap.
+### 5. Draw names on minimap.
 
 (Default Off) Draws the NPC's name above their location on the minimap.
