@@ -32,6 +32,7 @@
     * [[Clue Scroll]]
     * [[Combat Level]]
     * [[Corporeal Beast]]
+    * [[Custom Cursor]]
     * [[Crystal Math Labs]]
     * [[Daily Task Indicator]]
     * [[Death Indicator]]
