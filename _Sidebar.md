@@ -61,6 +61,7 @@
     * [[Inventory Tags]]
     * [[Inventory Viewer]]
     * [[Item Charges]]
+    * [[Item Identification]]
     * [[Item Prices]]
     * [[Item Stats]]
     * [[Kingdom of Miscellania]]
