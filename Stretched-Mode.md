@@ -15,3 +15,7 @@
 ### 3. Keep Aspect Ratio
 
 (Default Off) When enabled, it will keep the aspect ratio while stretching.
+
+### 4. Resizable Scaling (%)
+
+Magnifies the UI by the specified amount when the game is in resizable mode.
