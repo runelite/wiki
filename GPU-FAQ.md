@@ -28,6 +28,8 @@ Try turning off compatibility mode on the RuneLite launcher, running in Administ
 #### Client is freezing after enabling GPU plugin
 If you are on linux, downgrade mesa to version 18.2.8 and Java to version 8.
 
+If you're on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they'll have random numbers after the `tst`). 
+
 #### When will there be support for macOS?
 The GPU plugin is Windows/Linux only for now. The RuneLite team wants it to be available to other operating systems, it is a work in progress with no ETA.
 
