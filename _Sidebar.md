@@ -40,6 +40,7 @@
     * [[Demonic Gorillas]]
     * [[Diary Requirements]]
     * [[Discord]]
+    * [[Emojis]]
     * [[Entity Hider]]
     * [[Examine]]
     * [[FPS Control]]
