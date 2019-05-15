@@ -5,7 +5,7 @@ Substitutes typed emoticons to display emojis in the game chat panel and above p
 # Emoji Reference
 
 | Emoji | Trigger | Emoji | Trigger | Emoji | Trigger |
-| ------------- | ------------- |     :---:      |     :---:      |          ---: | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 🙂  | :)  | 😂 | =') | 🤠 | 3:) |
 | 😊 | ^\_^ | 😀 | :D | 😄 | =D |
 | 😉 | ;) | 😝 | X-P | 😛 | :P |
