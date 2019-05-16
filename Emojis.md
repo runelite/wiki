@@ -6,20 +6,20 @@ Substitutes typed emoticons to display emojis in the game chat panel and above p
 
 | Emoji | Trigger | Emoji | Trigger | Emoji | Trigger |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 🙂  | :)  | 😂 | =') | 🤠 | 3:) |
-| 😊 | ^\_^ | 😀 | :D | 😄 | =D |
-| 😉 | ;) | 😝 | X-P | 😛 | :P |
-| 😋 | =P~ | 🤗 | >:D< | 😤 | :> |
-| 🤔 | :‑? | 😕 | :/ | 😐 | =\| |
-| 😑 | :\| | 😒 | :-\| | 🙁 | :( |
-| ☹️ | =( | 😢 | :'( | 😭 | :\_(  |
-| 😳 | :$ | 🤐 | :-# | 😣 | >_< |
-| 😎 | 8-) | 😇 | O:) | 😈 | >:) |
-| 😡 | >:( | 😯 | :‑O | 😮 | :O |
-| 😱 | :-@ | 🙈 | X_X | 💃 | \\:D/ |
-| 👌 | (Ok) | 👍 | (Y) | 👎 | (N) |
-| ❤ | <3 | 💔 | </3 | 💤 | Zzz |
-| 🐟 | <>< | 😸 | :3 | 🐶 | =3 |
-| 🦀 | V(;,;)V | 🍴 | --E | 🍳 | --(o) |
-| 🎉 | @@@ | 💦 | ;; | 👀 | O.O |
-| 💩 | \~@\~ |
+| ![slight_smile](https://user-images.githubusercontent.com/2979691/57862390-2e0d7100-77f0-11e9-9c91-f0c58f7a0b48.png)  | :)  | ![joy](https://user-images.githubusercontent.com/2979691/57862407-31a0f800-77f0-11e9-839b-17db0414bc59.png) | =') | ![cowboy](https://user-images.githubusercontent.com/2979691/57862435-39609c80-77f0-11e9-9d93-405508c5db5a.png) | 3:) |
+| ![blush](https://user-images.githubusercontent.com/2979691/57862444-3d8cba00-77f0-11e9-9b79-633abb67864f.png) | ^\_^ | ![smile](https://user-images.githubusercontent.com/2979691/57862389-2d74da80-77f0-11e9-8dc3-8116a7521ae6.png) | :D | ![grinning](https://user-images.githubusercontent.com/2979691/57862414-336abb80-77f0-11e9-9131-969b16333183.png) | =D |
+| ![wink](https://user-images.githubusercontent.com/2979691/57862366-26e66300-77f0-11e9-8c62-c818c5384e69.png) | ;) | ![stuck_out_tongue_closed_eyes](https://user-images.githubusercontent.com/2979691/57862380-29e15380-77f0-11e9-8e8a-4d8e9006080b.png) | X-P | ![stuck_out_tongue](https://user-images.githubusercontent.com/2979691/57862383-2c43ad80-77f0-11e9-9ab4-b648f50dda61.png) | :P |
+| ![yum](https://user-images.githubusercontent.com/2979691/57862365-26e66300-77f0-11e9-9c02-b2e2e9a37058.png) | =P~ | ![hugging](https://user-images.githubusercontent.com/2979691/57862410-32d22500-77f0-11e9-81ed-8c1ec65e0cb5.png) | >:D< | ![triumph](https://user-images.githubusercontent.com/2979691/57862372-28b02680-77f0-11e9-952a-68f8b7314c29.png) | :> |
+| ![thinking](https://user-images.githubusercontent.com/2979691/57862376-2948bd00-77f0-11e9-80e1-7d7d25e75778.png) | :‑? | ![confused](https://user-images.githubusercontent.com/2979691/57862438-3a91c980-77f0-11e9-863c-da4432041554.png) | :/ | ![neutral_face](https://user-images.githubusercontent.com/2979691/57862405-31086180-77f0-11e9-83cb-3b2e63dec2e5.png) | =\| |
+| ![expressionless](https://user-images.githubusercontent.com/2979691/57862426-3665ac00-77f0-11e9-8b19-f3070259dd75.png) | :\| | ![unamused](https://user-images.githubusercontent.com/2979691/57862369-277ef980-77f0-11e9-88cd-48efff7b4f0a.png) | :-\| | ![slight_frown](https://user-images.githubusercontent.com/2979691/57862392-2e0d7100-77f0-11e9-9045-e4f59dbb34db.png) | :( |
+| ![frowning2](https://user-images.githubusercontent.com/2979691/57862416-336abb80-77f0-11e9-8b94-af45fc77e3c5.png) | =( | ![cry](https://user-images.githubusercontent.com/2979691/57862429-36fe4280-77f0-11e9-9e21-276fbba57f4b.png) | :'( | ![sob](https://user-images.githubusercontent.com/2979691/57862384-2c43ad80-77f0-11e9-9279-1ebd264ada88.png) | :\_(  |
+| ![flushed](https://user-images.githubusercontent.com/2979691/57862423-3665ac00-77f0-11e9-820e-683fad2a3adf.png) | :$ | ![zipper_mouth](https://user-images.githubusercontent.com/2979691/57862364-26e66300-77f0-11e9-9398-d5d693a4deee.png) | :-# | ![persevere](https://user-images.githubusercontent.com/2979691/57862401-2fd73480-77f0-11e9-8210-af725b968d94.png) | >_< |
+| ![sunglasses](https://user-images.githubusercontent.com/2979691/57862379-2948bd00-77f0-11e9-980c-61648817ea84.png) | 8-) | ![innocent](https://user-images.githubusercontent.com/2979691/57862408-32d22500-77f0-11e9-9c0a-f7e24d7e4e8c.png) | O:) | ![smiling_imp](https://user-images.githubusercontent.com/2979691/57862387-2d74da80-77f0-11e9-8696-e09479689ab7.png) | >:) |
+| ![rage](https://user-images.githubusercontent.com/2979691/57862398-2ea60780-77f0-11e9-99d6-b81968a1a6aa.png) | >:( | ![hushed](https://user-images.githubusercontent.com/2979691/57862409-32d22500-77f0-11e9-81fe-981c9962b3e8.png) | :‑O | ![open_mouth](https://user-images.githubusercontent.com/2979691/57862403-2fd73480-77f0-11e9-9b60-32587a9074dc.png) | :O |
+| ![scream](https://user-images.githubusercontent.com/2979691/57862396-2ea60780-77f0-11e9-853c-7df0462a67cf.png) | :-@ | ![see_no_evil](https://user-images.githubusercontent.com/2979691/57862394-2e0d7100-77f0-11e9-9a49-e5cd96852c27.png) | X_X | ![dancer](https://user-images.githubusercontent.com/2979691/57862428-36fe4280-77f0-11e9-9f1e-c7823b78bbb3.png) | \\:D/ |
+| ![ok_hand](https://user-images.githubusercontent.com/2979691/57862404-31086180-77f0-11e9-8cd3-2d3fa940b069.png) | (Ok) | ![thumbsup](https://user-images.githubusercontent.com/2979691/57862373-28b02680-77f0-11e9-8c72-376c76c5f828.png) | (Y) | ![thumbsdown](https://user-images.githubusercontent.com/2979691/57862375-28b02680-77f0-11e9-8081-dfde1303b3f9.png) | (N) |
+| ![hearts](https://user-images.githubusercontent.com/2979691/57862412-32d22500-77f0-11e9-98a6-b6979c260c3c.png) | <3 | ![broken_heart](https://user-images.githubusercontent.com/2979691/57862440-3b2a6000-77f0-11e9-951b-68c0290851bb.png) | </3 | ![zzz](https://user-images.githubusercontent.com/2979691/57862363-26e66300-77f0-11e9-8439-4190ca5b4373.png) | Zzz |
+| ![fish](https://user-images.githubusercontent.com/2979691/57862424-3665ac00-77f0-11e9-8b84-ad3dcf266dfd.png) | <>< | ![cat](https://user-images.githubusercontent.com/2979691/57862439-3b2a6000-77f0-11e9-828b-afdd28664c02.png) | :3 | ![dog](https://user-images.githubusercontent.com/2979691/57862427-36fe4280-77f0-11e9-9601-0d47098373f3.png) | =3 |
+| ![crab](https://user-images.githubusercontent.com/2979691/57862433-38c80600-77f0-11e9-81d7-c9d292e86007.png) | V(;,;)V | ![fork_and_knife](https://user-images.githubusercontent.com/2979691/57862421-35cd1580-77f0-11e9-9e2e-f2e5d47bffa5.png) | --E | ![cooking](https://user-images.githubusercontent.com/2979691/57862436-39609c80-77f0-11e9-9905-34680d0ee695.png) | --(o) |
+| ![party_popper](https://user-images.githubusercontent.com/2979691/57862402-2fd73480-77f0-11e9-9b59-dcb196e0e1c1.png) | @@@ | ![sweat](https://user-images.githubusercontent.com/2979691/57862378-2948bd00-77f0-11e9-9ffe-efa04b0b28d1.png) | ;; | ![eyes](https://user-images.githubusercontent.com/2979691/57862425-3665ac00-77f0-11e9-84e6-74a602c640e5.png) | O.O |
+| ![pile_of_poo](https://user-images.githubusercontent.com/2979691/57862399-2fd73480-77f0-11e9-9878-b588c8f2b480.png) | \~@\~ |
