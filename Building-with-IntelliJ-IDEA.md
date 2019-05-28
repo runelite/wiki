@@ -110,7 +110,7 @@ Then press *+* button and *Add JDK* and locate directory of your installed JDK:
 
 ![missing-jdk-add](https://i.imgur.com/ZRHDAk3.png)
 
-## Client failing to start
+## Client failing to start / Client stuck while loading
 
 If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
 
