@@ -63,7 +63,7 @@ Then you can run the following command to automatically add the shortcut.
 printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=/usr/bin/RuneLite.AppImage --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
 ```
 
-Now you you can run the RuneLite.AppImage file and hardware acceleration will be disabled.
+Now you you can run RuneLite and hardware acceleration should be disabled.
 
 If the command above does not work you can do the following:
 
