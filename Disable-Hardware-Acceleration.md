@@ -49,21 +49,32 @@ Run Terminal.app and paste this into the command prompt:
 
 ### Method 1: Creating shortcut for the launcher
 
-If you're using another distribution and downloaded the `RuneLite.AppImage` file, you can add an entry to your launcher. Put this into `~/.local/share/applications/runelite.desktop`.
+If you're using another distribution and downloaded the `RuneLite.AppImage` file, you can add an entry to your launcher to disable hardware acceleration.
+
+open a terminal where you downloaded RuneLite.AppImage and type:
+mv RuneLite.AppImage /usr/bin
+
+Then you can run the following command to automatically add the shortcut.
+
+```
+printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=/usr/bin/RuneLite.AppImage --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
+```
+
+Now you should be able to launch RuneLite with hardware acceleration disabled.
+
+
+If the command above for some reason does not work you can do the following:
+
+From your home directory navigate to .local/share/applications/
+
+open another terminal and type `touch runelite.desktop` and put this into the file:
+
 ```
 [Desktop Entry]
-Encoding=UTF-8
 Type=Application
-Exec=./path/to/RuneLite.AppImage --mode=OFF
+Exec=/usr/bin/RuneLite.AppImage --mode=OFF
 Name=RuneLite
-Comment=RuneLite launcher
-```
-Replace _path/to/RuneLite.AppImage_ with wherever you downloaded the file. 
-
-Additionally you can run the following command to automatically add the shortcut, although remember to edit the path like previously mentioned.
-
-```
-printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=./path/to/RuneLite.AppImage --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
+Comment=RuneLite Launcher;
 ```
 
 ### Method 2: Running launcher directly from the desktop
@@ -87,7 +98,7 @@ In the terminal, type:
 
 Press `ctrl+x` to exit, `y` if asked to save.
 
-Replace `/path/to/RuneLite.jar` with the directory location your RuneLite.jar is located. In my case, RuneLite.jar was located in my `Documents` folder.
+Replace `/path/to/RuneLite.AppImage` with the directory location your RuneLite.jar is located. In my case, RuneLite.jar was located in my `Documents` folder.
 
 If RuneLite.sh is opening in Text Editor, Open `Files > Preferences > Behavior >`
 
