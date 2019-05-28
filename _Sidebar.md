@@ -25,6 +25,7 @@
     * [[Chambers of Xeric]]
     * [[Chat Color]]
     * [[Chat Commands]]
+    * [[Chat Filter]]
     * [[Chat History]]
     * [[Chat Notifications]]
     * [[Chat Timestamps]]
