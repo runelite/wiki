@@ -51,8 +51,11 @@ Run Terminal.app and paste this into the command prompt:
 
 If you're using another distribution and downloaded the `RuneLite.AppImage` file, you can add an entry to your launcher to disable hardware acceleration.
 
-open a terminal where you downloaded RuneLite.AppImage and type:
+Open a terminal where you downloaded RuneLite.AppImage and type: 
+
+```
 mv RuneLite.AppImage /usr/bin
+```
 
 Then you can run the following command to automatically add the shortcut.
 
@@ -60,14 +63,19 @@ Then you can run the following command to automatically add the shortcut.
 printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=/usr/bin/RuneLite.AppImage --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' >> ~/.local/share/applications/runelite.desktop
 ```
 
-Now you should be able to launch RuneLite with hardware acceleration disabled.
+Now you you can run the RuneLite.AppImage file and hardware acceleration will be disabled.
 
-
-If the command above for some reason does not work you can do the following:
+If the command above does not work you can do the following:
 
 From your home directory navigate to .local/share/applications/
 
-open another terminal and type `touch runelite.desktop` and put this into the file:
+open a terminal and type:
+
+```
+touch runelite.desktop
+```
+
+then put this into the file:
 
 ```
 [Desktop Entry]
