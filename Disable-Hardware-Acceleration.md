@@ -65,6 +65,9 @@ printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=/usr/bin/RuneLit
 
 Now you you can run RuneLite and hardware acceleration should be disabled.
 
+
+
+
 If the command above does not work you can do the following:
 
 From your home directory navigate to .local/share/applications/
