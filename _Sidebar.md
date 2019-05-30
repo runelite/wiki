@@ -78,6 +78,7 @@
     * [[Minimap]]
     * [[Motherlode Mine]]
     * [[Mouse Tooltips]]
+    * [[Music List]]
     * [[NPC Indicators]]
     * [[News Feed]]
     * [[Nightmare Zone]]
