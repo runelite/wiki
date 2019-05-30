@@ -32,6 +32,7 @@
     * [[Clan Chat]]
     * [[Clue Scroll]]
     * [[Combat Level]]
+    * [[Cooking]]
     * [[Corporeal Beast]]
     * [[Custom Cursor]]
     * [[Crystal Math Labs]]
