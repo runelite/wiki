@@ -8,6 +8,10 @@ The Blast Furnace plugin draws an overlay showing bars available in the furnace 
 
 ## Settings
 
-### Show Conveyor belt clickbox
+### 1. Show Conveyor belt clickbox
 
-Displays an overlay of the clickbox for the ore conveyor belt
+Displays an overlay of the clickbox for the ore conveyor belt.
+
+### 2. Show bar dispenser clickbox
+
+Displays an overlay of the clickbox for the bar dispenser.
