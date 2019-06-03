@@ -12,7 +12,7 @@
     * [[Animation Smoothing]]
     * [[Attack Styles]]
     * [[Bank Tags]]
-    * [[Bank Value]]
+    * [[Bank]]
     * [[Barbarian Assault]]
     * [[Barrows Brothers]]
     * [[Blast Furnace]]
