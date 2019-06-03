@@ -18,12 +18,12 @@
 
 ### 4. Disable left click bank inventory
 
-(Default Off) Disables left-click on the bank inventory button in the bank interface. Left-clicks will act as a right click instead.
+(Default Off) Disables left-click on the bank inventory button in the bank and deposit box interface. Left-clicks will act as a right click instead. 
 
 ### 5. Disable left click bank equipment
 
-(Default Off) Disables left-click on the bank equipment button in the bank interface. Left-clicks will act as a right click instead.
+(Default Off) Disables left-click on the bank equipment button in the bank and deposit box interface. Left-clicks will act as a right click instead.
 
 ### 6. Disable left click bank looting bag
 
-(Default Off) Disables left-click on the bank looting bag button in the bank interface. Left-clicks will act as a right click instead.
+(Default Off) Disables left-click on the bank looting bag button in the bank and deposit box interface. Left-clicks will act as a right click instead.
