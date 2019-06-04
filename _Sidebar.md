@@ -61,6 +61,7 @@
     * [[Info Panel]]
     * [[Instance Map]]
     * [[Interface Styles]]
+    * [[Inventory Grid]]
     * [[Inventory Tags]]
     * [[Inventory Viewer]]
     * [[Item Charges]]
