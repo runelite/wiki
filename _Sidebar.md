@@ -77,6 +77,7 @@
     * [[Menu Entry Swapper]]
     * [[Metronome]]
     * [[Minimap]]
+    * [[Mining]]
     * [[Motherlode Mine]]
     * [[Mouse Tooltips]]
     * [[Music List]]
