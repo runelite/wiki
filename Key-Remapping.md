@@ -4,7 +4,7 @@ The Key Remapping plugin enables a "Press Enter to Chat" mode, and allows the ca
 
 ### Remap Camera
 
-Whether to remap the camera. This also controls the "Press Enter to Chat" functionality.
+Whether to remap the camera.
 
 ### Up key
 
