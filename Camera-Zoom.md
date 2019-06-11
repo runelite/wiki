@@ -4,7 +4,10 @@
 
 ## Settings
 ### Expand Inner Zoom Limit
-(Default Off) Allows you to zoom out in.
+(Default Off) Allows you to zoom in further.
+
+### Expand Outer Zoom Limit
+(Default 0) Allows you to increase or decrease the furthest distance that you can zoom out.
 
 ### Vertical Camera
 (Default Off) When the camera moves vertically, this option allows it to move higher than default.
