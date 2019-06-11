@@ -9,6 +9,7 @@
   * **Plugin Configuration**
     * [[Account]]
     * [[Agility]]
+    * [[Ammo]]
     * [[Animation Smoothing]]
     * [[Attack Styles]]
     * [[Bank Tags]]
