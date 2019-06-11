@@ -6,20 +6,32 @@ Sends a notification when going idle, or when your hp/prayer reaches a certain t
 
 ### 1. Idle Animation Notification
 
-Toggles notifying you when stopping skilling animations such as mining, fishing, or creating battlestaves
+Toggles notifying you when stopping skilling animations such as mining, fletching, or creating battlestaves.
 
-### 2. Combat Idle Notifications
+### 2. Idle Interaction Notifications
 
-Toggles notifying you when going out of combat, and when your hp/prayer reaches the threshold
+Toggles notifying you when you stop interacting with an NPC which includes combat and fishing.
 
-### 3. Idle Notification Delay
+### 3. Idle logout notifications
 
-Choose how long your animation has to be stopped before sending a notification. Don't set it too low as some animations have long delays.
+Toggled notifying you when you don't interact with the client for too long.
 
-### 4. Hitpoints Notification Threshold 
+### 4. Idle Notification Delay
 
-Choose hp threshold to send a notification. NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite
+Choose how long your animation or interaction has to be stopped before sending a notification. Don't set it too low as some animations have long delays.
 
-### 4. Prayer Notification Threshold
+### 5. Hitpoints Notification Threshold 
 
-Choose prayer threshold to send a notification
+Choose hp threshold to send a notification. NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite.
+
+### 6. Prayer Notification Threshold
+
+Choose prayer threshold to send a notification.
+
+### 7. Oxygen Notification Threshold
+
+Choose oxygen threshold (during underwater activities) below which to send a notification.
+
+### 8. Special Attack Energy Notification Threshold
+
+Choose special attack percentage regeneration threshold at which send a notification.
