@@ -15,3 +15,7 @@ Smooths out the color banding that is present in the CPU renderer.
 ### Anti Aliasing
 
 Configures the anti-aliasing mode.
+
+### Fog depth
+
+Distance from the edge of scene at which to start drawing fog. Max value is 100.
