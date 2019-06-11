@@ -82,6 +82,7 @@
     * [[Motherlode Mine]]
     * [[Mouse Tooltips]]
     * [[Music List]]
+    * [[NPC Aggression Timer]]
     * [[NPC Indicators]]
     * [[News Feed]]
     * [[Nightmare Zone]]
