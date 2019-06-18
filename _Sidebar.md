@@ -69,6 +69,7 @@
     * [[Item Identification]]
     * [[Item Prices]]
     * [[Item Stats]]
+    * [[Items Kept on Death]]
 	* [[Key Remapping]]
     * [[Kingdom of Miscellania]]
     * [[Kourend Library]]
