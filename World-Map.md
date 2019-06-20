@@ -24,6 +24,10 @@ Indicate shortcuts you do not have the level to use on the icon
 
 Show icons at the destinations for teleports in the Standard Spellbook
 
+### Show minigame name in tooltip
+
+Display the name of the minigame in the icon tooltip
+
 ### Show Ancient Magicks destinations
 
 Show icons at the destinations for teleports in the Ancient Spellbook
@@ -47,3 +51,23 @@ Show icons at the destinations for teleports from scrolls
 ### Show misc teleport locations
 
 Show icons at the destinations from miscellaneous teleport items
+
+### Show quest names and status
+
+Indicates the name of quests and shows completion status
+
+### Show farming patch type
+
+Display the type of farming patches in the icon tooltip
+
+### Show rare tree type
+
+Display the type of rare tree in the icon tooltip
+
+### Indicate unavailable trees
+
+Indicate rare trees you do not have the level to cut on the icon
+
+### Show transportation tooltips
+
+Indicates type and destination of transportation
