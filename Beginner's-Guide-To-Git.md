@@ -33,16 +33,15 @@ That will add a remote (a place you can access that has a copy of the repository
 
 ### Update your local copy
 
-If RuneLite updates, you can pull down the latest changes to your `master` branch by running:
+To incorporate the latest changes from RuneLite in your local copy, first check out the local branch you want to update. For example, you can check out your master branch by running:
+
+    git checkout master
+
+Next, you can pull down the latest changes to the branch you have checked out by running:
 
     git pull upstream master
 
-Which will get the latest copy of the code for RuneLite. Merge it into your own `master` by running
-
-    git checkout master
-    git merge upstream/master
-
-If there are merge conflicts, consult the document linked above or ask on Discord.
+Which will get the latest code from RuneLite's master branch. If there are merge conflicts, consult the document linked above or ask on Discord.
 
 ### Create a branch to work in
 
