@@ -23,7 +23,7 @@ List of words to be filtered using regex matching, separated by new lines.
 
 ### Example: 
 * Filtered Words: Blah.\+
-* Phase Typed: Blah + Blah = 2Blah
+* Phrase Typed: Blah + Blah = 2Blah
   - Censored Words: ****** ****** 2Blah
   - Censored Message: Hey, everyone, I tried to say something very silly!
   - Remove Message: (Message does not get posted)
