@@ -1,5 +1,5 @@
-### Coding Format
-A full code formatting example is available at the end of this page.
+## Coding Format
+A full code formatting example is available [at the end of this page](#example).
 
 We follow standard Java conventions with the following notable exceptions:
 * Tabs, not spaces.
@@ -11,11 +11,19 @@ The following are some common mistakes not covered by the code style check:
 * A single blank line separating logical blocks.
 * An extra tab on multi line annotations.
 
-See [Checkstyle with IntelliJ IDEA](https://github.com/runelite/runelite/wiki/Checkstyle-with-IntelliJ-IDEA) on how to set up an IntelliJ build configuration with automatic checkstyle.
+## IntelliJ Integration
 
-**To setup IntelliJ Idea with correct project code-style, download [this xml](http://ix.io/1jNP) and [follow this guide](https://www.jetbrains.com/help/idea/2017.1/code-style.html) to import it into your IDE**.
+The easiest way to follow our style is to use IntelliJ's formatter. To install it, simply download [this xml](http://ix.io/1jNP) and [follow this guide](https://www.jetbrains.com/help/idea/2017.1/code-style.html) to import it into your IDE. Then you can press `Ctrl+Alt+L` to format the current document.
 
-# Imports
+If you don't like tools formatting your code for you, you can add a maven run configuration that runs checkstyle.
+Simply create a new `Maven` run configuration, and set the command line to `-Dcheckstyle.skip=false checkstyle:check`
+
+You can also install the Checkstyle-IDEA plugin, and it will checkstyle as you type. To install the plugin, go to File->Settings->Plugins. Click Browse Repositories, search for Checkstyle-IDEA, and install it.
+
+After installing and restarting IDEA, then go to File->Settings->Other Settings->Checkstyle. Under Configuration File, click +, and select the checkstyle.xml from your RuneLite folder. Make sure you check the Active box next to your checkstyle to enable it.
+![checkstyle location](https://i.imgur.com/9gWqQjm.png)
+
+## Imports
 
 We also don't like overhaul of wildcard imports, so please turn those off
 1. By changing `Class count to use import with '*'` to 999
@@ -29,7 +37,7 @@ Also remove the entries in `Packages to Use Import with '*'` to stop the replace
 
 ![screenshot](https://i.imgur.com/XlJzIKv.png)
 
-***
+## Example
 
 The following gives an example of well formatted code:
 
