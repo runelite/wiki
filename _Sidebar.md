@@ -136,7 +136,6 @@
 * **Developer's Guide**
   * **Setting up development environment**
     * [[Building with IntelliJ IDEA]]
-    * [[Checkstyle with IntelliJ IDEA]]
     * [[Code Conventions]]
   * **Using Git with RuneLite**
     * [[Beginner's Guide To Git]]
