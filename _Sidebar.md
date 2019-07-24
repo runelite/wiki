@@ -141,7 +141,6 @@
     * [[Beginner's Guide To Git]]
     * [[Git Cheat Sheet]]
     * [[Rebasing your branch from the May 16, 2018 rebase]]
-  * [[Using RuneLite's mixins]]
   * [[Working with client scripts]]
   * [[Creating plugin config panels]]
   * [[Using the client developer tools]]
