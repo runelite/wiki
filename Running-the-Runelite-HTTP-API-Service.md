@@ -117,7 +117,7 @@ $ ~/Applications/apache-tomcat-7.0.86/conf
 First up is `context.xml`, copy and paste the following into the `<context><context/>` tags. Don't forget to substitute your MySQL database user password!
 
     <Resource name="jdbc/runelite" auth="Container" type="javax.sql.DataSource"
-            maxActive="50" maxIdle="30" maxWait="10000"
+            maxTotal="50" maxIdle="30" maxWaitMillis="10000"
             username="runelite" password="<PASSWORD_GOES_HERE>"
             driverClassName="com.mysql.jdbc.Driver"
             url="jdbc:mysql://localhost:3306/runelite"
@@ -126,7 +126,7 @@ First up is `context.xml`, copy and paste the following into the `<context><cont
     />
 
     <Resource name="jdbc/runelite-cache2" auth="Container" type="javax.sql.DataSource"
-            maxActive="50" maxIdle="30" maxWait="10000"
+            maxTotal="50" maxIdle="30" maxWaitMillis="10000"
             username="runelite" password="<PASSWORD_GOES_HERE>"
             driverClassName="com.mysql.jdbc.Driver"
             url="jdbc:mysql://localhost:3306/runelite-cache2"
@@ -135,7 +135,7 @@ First up is `context.xml`, copy and paste the following into the `<context><cont
     />
 
     <Resource name="jdbc/runelite-tracker" auth="Container" type="javax.sql.DataSource"
-            maxActive="50" maxIdle="30" maxWait="10000"
+            maxTotal="50" maxIdle="30" maxWaitMillis="10000"
             username="runelite" password="<PASSWORD_GOES_HERE>"
             driverClassName="com.mysql.jdbc.Driver"
             url="jdbc:mysql://localhost:3306/runelite-tracker"
