@@ -29,7 +29,7 @@ Try turning off compatibility mode on the RuneLite launcher, running in Administ
 If you have a program called playstv, turn it off.
 
 #### Client is freezing after enabling GPU plugin
-If you are on linux, downgrade mesa to version 18.2.8 and Java to version 8.
+If you are on Linux, update Mesa to version 19.1.3 or later.
 
 If you're on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they'll have random numbers after the `tst`).  This may need to be done during RuneLite startup if the GPU plugin is still set to enabled.
 
