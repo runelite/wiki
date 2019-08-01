@@ -115,3 +115,7 @@ Decrease this number if you accidentally hide ground items often. (0 = Disabled)
 ### Collapse ground item menu entries
 
 Collapses ground item menu entries together and appends count
+
+### Show despawn timers
+
+Shows a green timer for items you have dropped or received as loot which counts down until the items appear to other players. Shows a yellow timer for items you have dropped or received as loot that counts down until they despawn
