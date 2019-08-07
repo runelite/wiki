@@ -147,3 +147,15 @@ Add `--mode=OFF` at the end of second line and save it, result should look like 
 #!/bin/sh
 exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar --mode=OFF
 ```
+
+### Snap
+
+Open Terminal and go to `/var/lib/snapd/desktop/applications`
+
+Use you favorite code editor (Vim, Nano etc.) and edit the file with SUDO `sudo nano rslauncher_runelite.desktop`
+
+Add `--mode=OFF` at the "Exec" line and save it, result should look like this:
+
+```
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/rslauncher_runelite.desktop /snap/bin/rslauncher.runelite %U --mode=OFF
+```
