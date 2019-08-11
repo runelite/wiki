@@ -33,6 +33,9 @@ If you are on Linux, update Mesa to version 19.1.3 or later.
 
 If you're on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they'll have random numbers after the `tst`).  This may need to be done during RuneLite startup if the GPU plugin is still set to enabled.
 
+#### Client is crashing when I enable the plugin
+If you are on Linux, try running the client with Java 10 instead of 11/12.
+
 #### When will there be support for macOS?
 The GPU plugin is Windows/Linux only for now. The RuneLite team wants it to be available to other operating systems, it is a work in progress with no ETA.
 
