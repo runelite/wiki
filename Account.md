@@ -13,3 +13,4 @@ This plugin enables the green login button on the right-hand or top-side part of
 1. While logged in, click the ![INFO_BUTTON](https://i.imgur.com/UzCmcUM.png) icon in the sidebar.
 2. Choose the option to import local settings. ![IMPORT_LOCAL_SETTINGS](https://i.imgur.com/euNE2v6.png)
 3. Click yes in the dialog, doing so will overwrite all of your remotely stored settings.
+4. Restart client
