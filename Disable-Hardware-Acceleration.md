@@ -87,6 +87,26 @@ Exec=/usr/bin/RuneLite.AppImage --mode=OFF
 Name=RuneLite
 Comment=RuneLite Launcher;
 ```
+On some Linux distributions, the AppImages can be automatically handled/moved/renamed to a known location once they are opened. If the AppImage has already been opened in the past, it is possible the .desktop file already exists in ~/.local/share/applications/ directory and points to the AppImage in the known location. To guarantee results download the AppImage and repeat the steps above except replace the printf command with the following (single '>' rather than '>>):
+
+```
+printf '[Desktop Entry]\nEncoding=UTF-8\nType=Application\nExec=/usr/bin/RuneLite.AppImage --mode=OFF\nName=RuneLite\nComment=RuneLite launcher' > ~/.local/share/applications/runelite.desktop
+```
+
+At this point, the .desktop file should have been correctly generated and placed in the correct directory. Now, you should be able to open the program as normal. To verify the file is correct, run the following:
+
+```
+tail ~/.local/share/applications/runelite.desktop
+```
+
+and verify it looks like the following:
+```
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/RuneLite.AppImage --mode=OFF
+Name=RuneLite
+Comment=RuneLite Launcher;
+```
 
 ### Method 2: Running launcher directly from the desktop
 
