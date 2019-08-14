@@ -12,6 +12,8 @@ The plugin will turn off automatically if it is not supported on your current se
 #### The game crashes as soon as I turn on the plugin!
 Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
 
+If you are on Linux, you might want to try running the client with Java 10 instead of 11/12.
+
 #### I meet the **ALL** the requirements, but it still won't turn on or is very laggy?
 If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
 ![](https://i.imgur.com/CwEcodJ.png)
@@ -32,9 +34,6 @@ If you have a program called playstv, turn it off.
 If you are on Linux, update Mesa to version 19.1.3 or later.
 
 If you're on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they'll have random numbers after the `tst`).  This may need to be done during RuneLite startup if the GPU plugin is still set to enabled.
-
-#### Client is crashing when I enable the plugin
-If you are on Linux, try running the client with Java 10 instead of 11/12.
 
 #### When will there be support for macOS?
 The GPU plugin is Windows/Linux only for now. The RuneLite team wants it to be available to other operating systems, it is a work in progress with no ETA.
