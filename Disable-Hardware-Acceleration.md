@@ -173,5 +173,5 @@ exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar --mode=OFF
 Open Terminal and copy the following command, pressing enter
 
 ```
-echo "opts=--mode=OFF" > ~/snap/rslauncher/current/runelite-user-config
+echo "runesnap_game_options=--mode=OFF" > ~/snap/rslauncher/current/runelite-user-config
 ```
