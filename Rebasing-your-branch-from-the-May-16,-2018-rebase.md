@@ -10,7 +10,7 @@ Described below is the "git way" to rebase your branch. Alternatively, you may m
 * You have your branches already pushed to GitHub! If not, do so now.
 
 ## Guide
-The following process will delete all uncommitted or staged work in your local master branch. You may wish to backup your local folder before doing this.
+The following process will delete all uncommitted and locally-staged work in your local project. You may wish to backup your local folder before doing this.
 
 ### Updating upstream/master
 First, reset the upstream master to the current version.
