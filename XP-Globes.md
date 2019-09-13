@@ -1,6 +1,5 @@
 ## XP Globes Configuration
 Configures whether to show XP globes for the respective skill when XP is gained  
-	XP Left, Actions left, and XP/hr can bo toggled on or off for display in the tooltip
 
 ![Globes preview](https://i.imgur.com/rq3D5gs.png)
 
@@ -10,6 +9,7 @@ The XP Tracker plugin **must** be enabled in order for XP Globes to work. If XP 
 ## Settings
 ### Enable Tooltips
 Shows a detailed tooltip with level, current XP, and XP to level when hovering on a globe  
+	XP Left, Actions left, and XP/hr can bo toggled on or off for display in the tooltip
 
 ![Enable Tooltips](https://i.imgur.com/3nBEOWN.png)
 
