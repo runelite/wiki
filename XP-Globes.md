@@ -1,5 +1,6 @@
 ## XP Globes Configuration
 Configures whether to show XP globes for the respective skill when XP is gained  
+	XP Left, Actions left, and XP/hr can bo toggled on or off for display in the tooltip
 
 ![Globes preview](https://i.imgur.com/rq3D5gs.png)
 
