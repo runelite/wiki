@@ -70,4 +70,4 @@ Indicate rare trees you do not have the level to cut on the icon
 
 ### Show transportation tooltips
 
-Indicates type and destination of transportation
+Indicates type and destination of transportation, clicking them (if an unambiguous teleport) will jump your world map to the destination location
