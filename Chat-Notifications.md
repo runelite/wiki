@@ -11,7 +11,7 @@ Hightlights any instance of your username in chat
 
 ### Highlight words
 
-Highlights a custom set of words using Regex. Entries in this field should be separated by commas. (`, `)
+Highlights a custom set of words. Entries in this field should be separated by commas. (`, `)
 
 ### Notify on own name
 
