@@ -18,7 +18,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Theatre of Blood plugins, at Jagex's request
 * Inferno plugins
 * Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
-* One-way safe spot plugins: Too strong for PvP scenarios (see [#3646](https://github.com/runelite/runelite/issues/3646))
+* ~~One-way safe spot plugins: Too strong for PvP scenarios (see [#3646](https://github.com/runelite/runelite/issues/3646))~~ - this has been patched out by Jagex with the LMS update
 * Hiding of friends/ignored people: Can be very strong in multi pking
 * Left-click fill in bank: This can increase xp rates, Jagex mods said they will probably implement this in future (see [#5668](https://github.com/runelite/runelite/issues/5668))
 * Dynamic Puro-Puro Spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful (see [#2371](https://github.com/runelite/runelite/issues/2371))
