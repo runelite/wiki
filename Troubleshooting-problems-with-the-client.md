@@ -26,6 +26,8 @@ If you downloaded launcher before July 7th 2018 (before version 1.6.0), redownlo
 
 ## Client not launching
 
+If you're on Windows 10, update `KB4515384` is known to cause issues with Java applications. Try uninstalling it if your `launcher.log` isn't showing more than 2 lines.
+
 If you see `error fetching bootstrap` in `launcher.log` you are unable to connect to RL servers to get the bootstrap for startup.
 The error will be accompanied by an exception
 - `ConnectException: Connection timed out` - this is caused by either a firewall blocking the connection or a routing issue, try adding an exception in your firewall for runelite, reseting/changing your current network, or use a VPN.
