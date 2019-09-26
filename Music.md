@@ -1,6 +1,6 @@
 Adds search and filter for the music list
 
-![Music List plugin filtering](https://runelite.net/img/blog/1.5.25-Release/music-filter.png)
+![Music plugin filtering](https://runelite.net/img/blog/1.5.25-Release/music-filter.png)
 
 ## Usage
 
