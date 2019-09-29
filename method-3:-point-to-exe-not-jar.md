@@ -34,7 +34,7 @@ exit
 
 Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 ```
-java -jar %localappdata%\RuneLite\RuneLite.jar --mode=OFF
+java -jar %localappdata%\RuneLite\RuneLite.exe --mode=OFF
 ```
 
 ## macOS
