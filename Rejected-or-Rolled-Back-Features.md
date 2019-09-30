@@ -6,6 +6,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * AoE Plugin: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release))
 * In-game Zulrah Helper: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release), relevant discussion in [#1386](https://github.com/runelite/runelite/issues/1386))
 * Volcanic Mine Helper: Removed at Jagex's request (see [1.2.13 blog](https://runelite.net/blog/show/2018-01-25-1.2.13-Release))
+* Demonic Gorilla plugin - removed at Jagex's request (https://secure.runescape.com/m=news/a-message-about-unofficial-clients?oldschool=1)
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * General Anti-Drag: People complained and we decided to remove it as no other clients have it (see [#3200](https://github.com/runelite/runelite/issues/3200))
 * Fight Cave Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
