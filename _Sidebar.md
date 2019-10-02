@@ -40,7 +40,6 @@
     * [[Daily Task Indicator]]
     * [[Death Indicator]]
     * [[Default World]]
-    * [[Demonic Gorillas]]
     * [[Diary Requirements]]
     * [[Discord]]
     * [[Emojis]]
