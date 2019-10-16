@@ -5,6 +5,8 @@ the VM arguments `-ea`.
 
 It is also recommended to add `--debug` to your program arguments to get extra logging output
 
-To do this in IntelliJ, you need to edit your run configuration to look as follows:
+To do this in IntelliJ, you need to edit your run configuration:
+![](https://i.imgur.com/6AUCi9E.png)
 
+Specify the settings as follows:
 ![](https://puu.sh/AJGze/376d472dfc.png)
