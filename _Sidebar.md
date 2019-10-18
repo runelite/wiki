@@ -99,6 +99,7 @@
     * [[Prayer]]
     * [[Puzzle Solver]]
     * [[Quest List]]
+    * [[Random Events]]
     * [[Regeneration Meter]]
     * [[Reorder Prayers]]
     * [[Report Button]]
