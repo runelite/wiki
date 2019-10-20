@@ -19,6 +19,7 @@ To find logs, do one of the following things:
 - [Client not launching on Linux](#client-not-launching-on-linux)
 - [PulseAudio forcibly taken over by client](#pulseaudio-forcibly-taken-over-by-client)
 - [Client crashing on login](#client-crashing-on-login)
+- [java.net.ProtocolException on Mac OSX](#javanetprotocolexception-on-mac-osx)
 
 ## Launcher stuck at 0%
 
@@ -119,3 +120,7 @@ This is probably related to some versions of vanilla client, there are few possi
 - Try installing the 32-bit version instead of the 64-bit version
 - Try running the .jar (all platforms) version with latest Java version
 - See [Client closing when loading](#client-closing-when-loading)
+
+## java.net.ProtocolException on Mac OSX
+
+This is caused by having SOCKS proxy enabled on your network settings
