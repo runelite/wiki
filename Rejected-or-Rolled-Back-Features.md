@@ -11,7 +11,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * General Anti-Drag: People complained and we decided to remove it as no other clients have it (see [#3200](https://github.com/runelite/runelite/issues/3200))
 * Fight Cave Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
 * Cerberus plugin - [see Jagex statement](https://secure.runescape.com/m=news/another-message-about-unofficial-clients?oldschool=1)
-* Prayer reoder plugin - [see Jagex statement](https://secure.runescape.com/m=news/another-message-about-unofficial-clients?oldschool=1)
+* Prayer reorder plugin - [see Jagex statement](https://secure.runescape.com/m=news/another-message-about-unofficial-clients?oldschool=1)
 
 
 #### Not currently being considered
