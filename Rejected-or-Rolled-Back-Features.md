@@ -10,13 +10,16 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * General Anti-Drag: People complained and we decided to remove it as no other clients have it (see [#3200](https://github.com/runelite/runelite/issues/3200))
 * Fight Cave Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
+* Cerberus plugin (see Jagex statement)[https://secure.runescape.com/m=news/a=13/another-message-about-unofficial-clients?oldschool=1]
+* Prayer reoder plugin (see Jagex statement)[https://secure.runescape.com/m=news/a=13/another-message-about-unofficial-clients?oldschool=1]
+
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
 * Spellbook Re-ordering and Hiding: Other 3rd party clients do not have these features and it failed a Jagex poll (see [#1038](https://github.com/runelite/runelite/issues/1038))
 * Highlighting "Offline" Friends (and generic player highlighting): Not included to respect players with their messaging mode set to Private and to avoid harassing players (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
-* Theatre of Blood plugins, at Jagex's request
+* Theatre of Blood plugins
 * Inferno plugins
 * Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
 * ~~One-way safe spot plugins: Too strong for PvP scenarios (see [#3646](https://github.com/runelite/runelite/issues/3646))~~ - this has been patched out by Jagex with the LMS update
@@ -35,7 +38,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 
 #### Menu Entry Swapping
 * `Shift+click Deposit/Withdraw`: Affects XP rates too much on bankstanding skills.
-* ~~`Pickpocket` on non-H.A.M. members: Not supported by other 3rd party clients, and absurdly powerful when blackjacking~~ - revoked, see [#2017](https://github.com/runelite/runelite/issues/2017)
+* ~~`Pickpocket` on non-H.A.M. members: Not supported by other 3rd party clients, and absurdly powerful when blackjacking~~ - ~~~revoked, see [#2017](https://github.com/runelite/runelite/issues/2017)~~~ - un-revoked - see (see Jagex statement)[https://secure.runescape.com/m=news/a=13/another-message-about-unofficial-clients?oldschool=1]
 * `Build/Remove` on POH hotspots: This would allow zero-movement Construction skilling without special cursor positioning (try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
 * `Hide/reorder ground items`: This would make it so that all items on your hidden items list in grounditems would not show the take option. This would push the meta on many things and would make looting too easy. As such it is not going to be added.
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC). This includes removing ground items that are hidden or grayed out.
