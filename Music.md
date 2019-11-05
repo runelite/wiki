@@ -7,16 +7,9 @@ Adds search and filter for the music list
 
 Clicking on the status button will cycle through displaying unlocked, locked, and all music tracks. Clicking on the search button will open a search dialog which will filter the visible music tracks based on the input.
 
+The plugin will also allow you to control the in-game volume with more granularity.
 ## Settings
 
-### 1. Music Volume [Edit Number]
+### 1. Mute others' area sounds
 
-(Default 0) This option allows for more granular control of the in-game music volume.
-
-### 2. Sound Effect Volume [Edit Number]
-
-(Default 0) This option allows for more granular control of the in-game sound effect volume.
-
-### 3. Area Sound Effect Volume [Edit Number]
-
-(Default 0) This option allows for more granular control of the in-game area sound effect volume.
+(Default Off) Mute area sounds caused by other players
