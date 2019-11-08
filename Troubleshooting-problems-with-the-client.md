@@ -28,7 +28,9 @@ If you downloaded launcher before July 7th 2018 (before version 1.6.0), redownlo
 
 ## Client not launching
 
-If you're on Windows 10, update `KB4515384` is known to cause issues with Java applications. Try uninstalling it if your `launcher.log` isn't showing more than 2 lines.
+If Launcher.log only displays launcher version and setting hardware accel type
+- Windows 10 update `KB4515384` is known to cause issues with Java applications, try uninstalling it
+- `RivaTuner Statistics` apparently also causes this so try disabling that, [related issue here](https://github.com/runelite/runelite/issues/10192).
 
 If you see `error fetching bootstrap` in `launcher.log` you are unable to connect to RL servers to get the bootstrap for startup.
 The error will be accompanied by an exception
