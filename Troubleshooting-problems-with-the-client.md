@@ -13,6 +13,7 @@ To find logs, do one of the following things:
 - [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
+- [Client .dmg or .app not opening on macOS](#client-dmg-or-app-not-opening-on-macos)
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
 - [Corrupt image on macOS](#corrupt-image-on-macos)
 - [Client stuck at "Loaded update list" on Linux](#client-stuck-at-loaded-update-list-on-linux)
@@ -73,6 +74,10 @@ This looks like corrupted jagex cache issue. Try to delete `%userprofile%\jagexc
 ## FPS problems, screen flickering or artifacts
 
 Be sure to check out this [guide on how to disable Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+
+## Client .dmg or .app not opening on macOS
+
+If .dmg or .app is not opening when double clicked (because of unknown publisher or some other issue) try right-click open.
 
 ## Client bouncing up and down in macOS tray
 
