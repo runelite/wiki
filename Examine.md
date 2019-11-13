@@ -1,8 +1,12 @@
 # Examine Configuration
 
+Indicates the average GE and high-alch values of an item when examined
+
 [![Client View](https://thumbs.gfycat.com/AdventurousSoulfulFishingcat-size_restricted.gif)](https://gfycat.com/AdventurousSoulfulFishingcat)
 
 ## Settings
+
+**Configurations can be accessed within the [Chat Color](https://github.com/runelite/runelite/wiki/Chat-Color) configurations**
 
 ### 1. Examine Messages Colour [Pick a colour]
 
