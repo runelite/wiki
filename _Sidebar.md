@@ -71,6 +71,7 @@
 	* [[Key Remapping]]
     * [[Kingdom of Miscellania]]
     * [[Kourend Library]]
+    * [[League Chat Icons]]
     * [[Login Screen]]
     * [[Loot Tracker]]
     * [[Low Detail]]
