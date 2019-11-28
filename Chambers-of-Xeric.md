@@ -17,17 +17,29 @@ Showing the scout overlay will enable the use of the raids scouter that will aid
 ![](https://user-images.githubusercontent.com/35824069/36713836-c378264a-1b8f-11e8-868d-21d5e9d49526.png)
 
 Enabling the scout overlay outside lobby will allow you to leave the lobby (if you need to bank, for example) and have the overlay still active.
+
 ## Configuring the scouter
 All these settings are not case-sensitive, and require complete room names (as shown on the overlay) to match. Adding more entries is comma separated unless stated otherwise.
+
 ### Whitelisted rooms
 This will show the room names on the scout overlay in green if they match any of the whitelisted ones. 
+
 ### Blacklisted rooms
 This will show any blacklisted room on  the overlay in red, so you can easily distinguish when you have a room you don't want.
+
 ### Whitelisted rotations
 In order to use this, it requires its respective checkbox to be enabled.
 This allows you to specify your preferred boss rotations for the scouter. Any boss rotation not whitelisted, or if there's an extra boss at the end, it will show the rooms in red (see preview image).
 
-To add your rotations the input is as follows (example): `[muttadiles, shamans, mystics][vespula, tekton, vasa]`, each rotation encapsulated in `[ ]` brackets.
+To add your rotations the input is as follows (example):
+
+```
+muttadiles, shamans, mystics
+vespula, tekton, vasa
+```
+
+Each rotation should appear on a new line.
+
 ### Whitelisted layouts
 In order to use this, it requires its respective checkbox to be enabled.
 This allows you to specify certain rotations to scout for. If a layout is not matching any of the whitelisted ones, it will show up red on the overlay.
