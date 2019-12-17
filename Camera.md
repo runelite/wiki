@@ -1,4 +1,4 @@
-## Camera Zoom Configuration
+## Camera Configuration
 
 [![Client View](https://thumbs.gfycat.com/RipeCraftyBison-size_restricted.gif)](https://gfycat.com/RipeCraftyBison)
 
