@@ -20,7 +20,7 @@
     * [[Blast Mine]]
     * [[Boosts Information]]
     * [[Boss Timers]]
-    * [[Camera Zoom]]
+    * [[Camera]]
     * [[Cannon]]
     * [[Chambers of Xeric]]
     * [[Chat Color]]
