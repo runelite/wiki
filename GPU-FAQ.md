@@ -59,6 +59,7 @@ Try disabling anti-aliasing in your GPU properties and in RuneLite, or reset you
 
 #### How can I disable GPU plugin if the client does not open?
 In Windows Powershell run the following command:
+
 ```
-(Get-Content $env:userprofile.runelite\settings.properties).replace('runelite.gpuplugin=true', 'runelite.gpuplugin=false') | Set-Content $env:userprofile.runelite\settings.properties
+(Get-Content $env:userprofile\.runelite\settings.properties).replace('runelite.gpuplugin=true', 'runelite.gpuplugin=false') | Set-Content $env:userprofile\.runelite\settings.properties
 ```
