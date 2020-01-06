@@ -10,7 +10,7 @@ Exit your client and launch it again to update. Ensure you are using a supported
 The plugin will turn off automatically if it is not supported on your current setup. If you do meet the troubleshooting steps below.
 
 #### The game crashes as soon as I turn on the plugin!
-Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
+Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration). Otherwise, make sure that your system meets the requirements.
  
 #### I meet the **ALL** the requirements, but it still won't turn on or is very laggy?
 If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
