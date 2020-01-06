@@ -11,9 +11,6 @@ The plugin will turn off automatically if it is not supported on your current se
 
 #### The game crashes as soon as I turn on the plugin!
 Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration).
-
-If you are on Linux, you might want to try running the client with Java 10 instead of 11/12. As Java 10 is unsupported your distribution may well not have packages for it. Follow [the manual installation instructions here](https://stackoverflow.com/a/49507161) if you can't find packages for your distribution.
-
  
 #### I meet the **ALL** the requirements, but it still won't turn on or is very laggy?
 If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
