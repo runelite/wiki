@@ -167,11 +167,3 @@ Add `--mode=OFF` at the end of second line and save it, result should look like 
 #!/bin/sh
 exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar --mode=OFF
 ```
-
-### Snap
-
-Open Terminal and copy the following command, pressing enter
-
-```
-echo "runesnap_game_options=--mode=OFF" > ~/snap/rslauncher/current/runelite-user-config
-```
