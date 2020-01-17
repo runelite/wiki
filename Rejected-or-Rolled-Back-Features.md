@@ -24,7 +24,6 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Prayer hiding: Other clients don't do it and it would remove any possibility of missclicks, seems strong. Generally any hiding of in-game interactive interfaces is usually avoided.
 * ~~One-way safe spot plugins: Too strong for PvP scenarios (see [#3646](https://github.com/runelite/runelite/issues/3646))~~ - this has been patched out by Jagex with the LMS update
 * Hiding of friends/ignored people: Can be very strong in multi pking
-* Left-click fill in bank: This can increase xp rates, Jagex mods said they will probably implement this in future (see [#5668](https://github.com/runelite/runelite/issues/5668))
 * Dynamic Puro-Puro Spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful (see [#2371](https://github.com/runelite/runelite/issues/2371))
 * Opponent freeze timers: Not supported by other reputable 3rd party clients, can be very powerful for pking (see [#2011](https://github.com/runelite/runelite/issues/2011))
 * Mobile Client: [Source](https://twitter.com/RuneLiteClient/status/1057301530569777154)
@@ -37,7 +36,6 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Hiscores for PBs and other information not on the hiscores: Same as the GE Tracker, the data could easily be spoofed, rendering it useless. 
 
 #### Menu Entry Swapping
-* `Shift+click Deposit/Withdraw`: Affects XP rates too much on bankstanding skills.
 * `Pickpocket`: [see Jagex statement](https://secure.runescape.com/m=news/a=13/another-message-about-unofficial-clients?oldschool=1)
 * `Build/Remove` on POH hotspots: [see Jagex statement.](https://secure.runescape.com/m=news/a=13/another-message-about-unofficial-clients?oldschool=1) (Try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
 * `Hide/reorder ground items`: This would make it so that all items on your hidden items list in grounditems would not show the take option. This would push the meta on many things and would make looting too easy. As such it is not going to be added.
