@@ -22,6 +22,9 @@ If you have an AMD graphics card, roll back the driver to version 18.12.1
 #### I'm getting incredibly high memory usage while using the GPU!
 If you have an AMD graphics card, roll back the driver to version 18.12.1
 
+#### The client crashes when I enter a new location
+If you have an AMD graphics card, roll back the driver to version 18.12.1
+
 #### My client turns black when I enable the plugin!
 Try turning off compatibility mode on the RuneLite launcher, running in Administrator mode, turning off fullscreen optimization, or other Windows compatibility settings.
 
