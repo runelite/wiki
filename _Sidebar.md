@@ -34,7 +34,6 @@
   * [[Combat Level]]
   * [[Cooking]]
   * [[Corporeal Beast]]
-  * [[Crystal Math Labs]]
   * [[Custom Cursor]]
   * [[Daily Task Indicator]]
   * [[Death Indicator]]
@@ -132,6 +131,7 @@
   * [[XP Drop]]
   * [[XP Globes]]
   * [[XP Tracker]]
+  * [[XP Updater]]
 
 **Developer's Guide**
 * **Setting up development environment**
