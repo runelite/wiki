@@ -12,6 +12,7 @@
 - [How do I build RuneLite?](#how-do-i-build-runelite)
 - [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
 - [Why does the GPU plugin do X?](#why-does-the-GPU-plugin-do-X)
+- [How do I use the Linux AppImage](#Linux-AppImage)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -55,3 +56,26 @@ No. [See this.](https://twitter.com/RuneLiteClient/status/1057301530569777154)
 
 ## Why does the GPU plugin do X?
 See [[GPU FAQ]].
+
+## Linux AppImage
+The Linux AppImage contains a bundled up combination of Java and RuneLite, that has been established to work well together. It is preferred to running a native Java installation. The AppImage allows most Linux systems, including Intel powered ChromeOS devices running the Linux Beta/Crostini to play RuneLite.
+
+Running the following script in a terminal should be enough to download RuneLite and set up the AppImage to appear in your start menu or application trays, from where it should work like any other app.
+```
+bash -- << EOF
+wget https://github.com/runelite/launcher/releases/download/2.1.0/RuneLite.AppImage -O ~/.local/RuneLite.AppImage
+chmod +x ~/.local/RuneLite.AppImage
+mkdir -p ~/.icons
+wget https://raw.githubusercontent.com/runelite/launcher/master/appimage/runelite.png -O ~/.icons/RuneLite.png
+echo "\
+[Desktop Entry]
+Name=RuneLite
+Comment=An opensource third party client for Old School RuneScape
+Exec=$HOME/.local/RuneLite.AppImage
+Terminal=false
+Type=Application
+Icon=RuneLite.png
+Categories=Games;
+" > ~/.local/share/applications/RuneLite.desktop
+EOF
+```
