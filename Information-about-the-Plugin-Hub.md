@@ -31,7 +31,7 @@ The Plugin Hub can be thought of like a phone's App Store:
 
 ### The plugin hub list isn't loading!
 
-The Plugin Hhub only works on the Release versions of RuneLite. 
+The Plugin Hub only works on the Release versions of RuneLite. 
 If you are running the Release and it's still not working, make sure nothing is blocking RuneLite from accessing `https://repo.runelite.net`.
 
 ### A plugin in the Hub isn't working!
