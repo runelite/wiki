@@ -5,6 +5,7 @@
 * [[Troubleshooting problems with the client]]
 * [[Disable Hardware Acceleration]]
 * [[Change DPI Scaling (Windows)]]
+* [[Information about the Plugin Hub]]
 * [[General Features]]
 * **Plugin Configuration**
   * [[Account]]
