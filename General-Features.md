@@ -22,18 +22,20 @@ If you are logged into the client, passing `--c --sessionfile=<path/to/the/new/s
 
 If you are not logged in, instead pass `--c --config=<path/to/the/new/config/file>`, and your client will use that config file instead of the usual one.
 
-The paths can be relative or absolute.
+The paths can be relative or absolute. If the path is relative, it'll use `.runelite` as the base.
+
+Eg. `--config="example.properties"` will make a file in `<you home directory>/.runelite/examples.properties`
 
 ### Examples
 
 Windows:
 ```
-RuneLite.exe --c --sessionfile="%userprofile%/.runelite/ironman-session"
+RuneLite.exe --c --sessionfile="ironman-session"
 ```
 You can edit your shortcut to add this, similar to how `--mode=OFF` is added when disabling [Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-1-creating-a-shortcut)
 
 
 Linux:
 ```
-./RuneLite.AppImage --c --sessionfile="~/.runelite/ironman-session"
+./RuneLite.AppImage --c --sessionfile="ironman-session"
 ```
