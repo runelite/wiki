@@ -13,7 +13,7 @@ As of RuneLite Launcher 1.5.1, RuneLite attempts to enable hardware acceleration
 
 ### Method 1: Creating a shortcut
 
-You can create desktop shortcut with "--mode=OFF" (without quotes) at the end of the target box. (Video below)
+You can create desktop shortcut with ` --mode=OFF` at the end of the target box. make sure there is a space before the `--`! (Video below)
 
 [![Client View](https://thumbs.gfycat.com/DamagedWealthyKoalabear-size_restricted.gif)](https://gfycat.com/DamagedWealthyKoalabear)
 
