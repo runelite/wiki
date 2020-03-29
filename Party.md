@@ -20,6 +20,10 @@ If you're using the Special Attack Counter plugin, the Party plugin will track t
 
 ![Spec](https://runelite.net/img/blog/1.5.18-Release/party-specs.gif)
 
+If you're using the DPS Counter plugin, the Party plugin will allow you to see the DPS of everyone else in your party as well
+
+![DPS](https://runelite.net/img/blog/1.6.10-Release/dps.png)
+
 # How to Create a Party
 
 To start a party, you need at least 2 people.
