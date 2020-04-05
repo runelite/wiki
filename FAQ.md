@@ -63,9 +63,9 @@ The Linux AppImage contains a bundled up combination of Java and RuneLite, that 
 Running the following script in a terminal should be enough to download RuneLite and set up the AppImage to appear in your start menu or application trays, from where it should work like any other app.
 ```
 bash -- << EOF
+mkdir -p ~/.icons ~/.local/share/applications
 wget https://github.com/runelite/launcher/releases/download/2.1.0/RuneLite.AppImage -O ~/.local/RuneLite.AppImage
 chmod +x ~/.local/RuneLite.AppImage
-mkdir -p ~/.icons ~/.local/share/applications
 wget https://raw.githubusercontent.com/runelite/launcher/master/appimage/runelite.png -O ~/.icons/RuneLite.png
 echo "\
 [Desktop Entry]
