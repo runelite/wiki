@@ -48,8 +48,12 @@ Enables tray notifications.
 Toggles whether to bring client to front upon being notified.
 
 ### Notification sound
+
+Determines what sound to use for system notifications triggered my Runelite.
+
 #### Options
 * Native
+  * Use default system notification sound
 * Custom
   * The custom notification sound can be placed to the root of .runelite-folder in your home directory. The notification must be called `notification.wav` and be in .wav format.
 * Off
