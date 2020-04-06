@@ -47,6 +47,13 @@ Enables tray notifications.
 
 Toggles whether to bring client to front upon being notified.
 
+### Notification sound
+#### Options
+* Native
+* Custom
+  * The custom notification sound can be placed to the root of .runelite-folder in your home directory. The notification must be called `notification.wav` and be in .wav format.
+* Off
+
 ### Enable sound on notifications
 
 Enables the playing of a beep sound when notifications are played.
