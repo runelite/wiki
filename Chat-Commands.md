@@ -70,6 +70,12 @@ Personal bests are stored for boss that keeps personal best data in game. The li
 
 `!qp` 
 
+### Clues
+
+`!clues`- total clues
+
+`!clues [level]` ex. `!clues easy` 
+
 ## Settings
 ### Price Command
 Turns the `!price` command on or off  
