@@ -6,6 +6,8 @@ The Loot Tracker plugin adds a sidebar panel which tracks the contents and value
 
 ### RuneLite Account
 
-While logged in with a RuneLite [Account](https://github.com/runelite/runelite/wiki/Account) the loot tracker will remember your loot across client restarts. This is limited to loot from the last 30 days and approximately the last 1000 items dropped. The 1000 item limit does not apply when the loot tracker is viewed on the website at: https://runelite.net/account/loot-tracker
+While logged in with a RuneLite [Account](https://github.com/runelite/runelite/wiki/Account) the loot tracker will remember your loot across client restarts. Loot for a particular event (such as Barrows, a clue scroll reward, or a drop from Zulrah) will be kept until 30 days after the most recent loot for that specific event. If you receive loot from an event at least once every 30 days the loot will be remembered indefinitely.
+
+The loot can also be reviewed on the website at https://runelite.net/account/loot-tracker
 
 ![website loot tracker](https://user-images.githubusercontent.com/29353990/59304045-6a1ce000-8c8f-11e9-9da8-24a46d034a58.png)
