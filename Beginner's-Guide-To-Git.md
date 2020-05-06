@@ -104,7 +104,7 @@ Commit with a descriptive message saying what you did:
 
 Now that you are in insert mode, type your commit message. Traditionally, the first line is a brief summary of what changes you made, then an empty line, then some text describing the what, how, or why of your change. For example,
 
-    Clarified beginner's guide to git
+    Clarify beginner's guide to git
     
     Added steps, separated sections, and added a section on vi.
     Unsure if the vi section is clear, or if it'll just be confusing.
