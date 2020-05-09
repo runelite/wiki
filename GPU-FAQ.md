@@ -1,22 +1,22 @@
 # Requirements
-The GPU plugin requires Windows (7, 8, or 10), MacOS, or Linux, a GPU with support for OpenGL 4.3 or newer, and 2GB of VRAM. This requires either a Nvidia GeForce 400 or newer, an AMD Radeon HD 5000 Series or newer, or Intel HD Graphics with an Intel Haswell processor or newer. Also, ensure that your GPU drivers are up to date.
+The GPU plugin requires Windows (7, 8, or 10), MacOS, or Linux, a GPU with support for OpenGL 4.3 or newer, and 2GB of VRAM. This requires either a Nvidia GeForce 400 or newer, an AMD Radeon HD 5000 Series or newer, or Intel HD Graphics with an Intel Haswell processor or newer. Ensure your GPU drivers are up to date.
 
-There are possibly configurations it does not work correctly on. In particular, we recommend you do not enable it in dangerous situations ingame (HCIM!) until you sufficiently test that it is stable on your system.
+It is possible there are configurations on which the GPU plugin does not work correctly. In particular, we recommend you do not enable it in dangerous situations ingame (HCIM!) until you sufficiently test whether the plugin is stable on your system.
 
 #### How do I get GPU plugin?
 Exit your client and launch it again to update. Ensure you are using a supported operating system and graphics card (see above). You can then enable the plugin "GPU" on the plugin sidebar.
 
 #### The plugin keeps turning itself off!
-The plugin will turn off automatically if it is not supported on your current setup. If you do meet the troubleshooting steps below.
+The plugin will turn off automatically if it is not supported on your current setup. If your system meets the requirements, but the plugin still turns itself off, see the troubleshooting steps below.
 
 #### The game crashes as soon as I turn on the plugin!
-Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration). Otherwise, make sure that your system meets the requirements.
+Try [disabling Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration). Otherwise, make sure your system meets the requirements.
  
 #### I meet the **ALL** the requirements, but it still won't turn on or is very laggy?
 If you have a Nvidia GPU, make sure you are using the 32 or 64 bit version of RuneLite, not the For All Platforms Version. Then go into NVIDIA Control Panel -> Manage 3D settings -> Program settings. Click Add and find RuneLite on the list, add it. In the drop-down, select High-Performance. When finished, it should look something like this:
 ![](https://i.imgur.com/CwEcodJ.png)
 
-#### When i turn on Anti Aliasing weird lines appear
+#### When I turn on Anti Aliasing weird lines appear
 If you have an AMD graphics card, roll back the driver to version 18.12.1
 
 #### I'm getting incredibly high memory usage while using the GPU!
@@ -34,7 +34,7 @@ If you have a program called playstv, turn it off.
 #### Client is freezing after enabling GPU plugin
 If you are on Linux, update Mesa to version 19.1.3 or later.
 
-If you're on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they'll have random numbers after the `tst`).  This may need to be done during RuneLite startup if the GPU plugin is still set to enabled.
+If you are on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they will have random numbers after the `tst`).  This may need to be done during RuneLite startup if the GPU plugin is still set to enabled.
 
 #### Why can't I click as far as I saw before?
 Click distance has been limited to 45 tiles.
