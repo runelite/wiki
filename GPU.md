@@ -8,7 +8,7 @@
 
 Draw distance counted in game tiles. Max value is 90.
 
-Note: Extended draw distance not currently available on MacOS.
+Note: Extended draw distance (>25) not currently available on MacOS.
 
 ### Remove Color Banding
 
