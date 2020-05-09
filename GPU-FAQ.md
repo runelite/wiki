@@ -1,5 +1,5 @@
 # Requirements
-The GPU plugin requires Windows (7, 8, or 10) or Linux, a GPU with support for OpenGL 4.3 or newer, and 2GB of VRAM. This requires either a Nvidia GeForce 400 or newer, an AMD Radeon HD 5000 Series or newer, or Intel HD Graphics with an Intel Haswell processor or newer. Also, ensure that your GPU drivers are up to date.
+The GPU plugin requires Windows (7, 8, or 10), MacOS, or Linux, a GPU with support for OpenGL 4.3 or newer, and 2GB of VRAM. This requires either a Nvidia GeForce 400 or newer, an AMD Radeon HD 5000 Series or newer, or Intel HD Graphics with an Intel Haswell processor or newer. Also, ensure that your GPU drivers are up to date.
 
 There are possibly configurations it does not work correctly on. In particular, we recommend you do not enable it in dangerous situations ingame (HCIM!) until you sufficiently test that it is stable on your system.
 
@@ -63,3 +63,6 @@ In Windows Powershell run the following command:
 ```
 (Get-Content $env:userprofile\.runelite\settings.properties).replace('runelite.gpuplugin=true', 'runelite.gpuplugin=false') | Set-Content $env:userprofile\.runelite\settings.properties
 ```
+
+#### Why can't I turn on Compute Shaders and get extended draw distance on MacOS?
+Currently, only rasterization is supported due to lack of feature support from versions of OpenGL offered on MacOS. We are still interested in bringing feature parity to all platforms, including MacOS, in time. [Any progress we make toward that goal is noted on our issue tracker.](https://github.com/runelite/runelite/issues/6482)
