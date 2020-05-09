@@ -25,9 +25,6 @@ Display the border of the area in which you can stay without resetting the NPC a
 ### Area lines colour
 Configure the colour of the area lines.
 
-### Hide overlay hint (not recommended)
-Disables the instructions overlay that warns you when you need to teleport to make the plugin work. To display the overlay hint selectively consider disabling [Always active](https://github.com/runelite/runelite/wiki/NPC-Aggression-Timer#always-active) and using the [NPC names](https://github.com/runelite/runelite/wiki/NPC-Aggression-Timer#npc-names) configuration.
-
 # Common problems
 
 ### Why isn't the plugin working?
