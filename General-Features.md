@@ -20,9 +20,9 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 ## Playing with multiple accounts
 Different accounts want different plugins and settings enabled, and this feature allows you to do just that!
 
-If you are logged into the client, passing `--c --sessionfile=<path/to/the/new/session/file>` will allow you to log in with a different Google account, and thus have a separate set of settings whilst retaining all the benefits of logging in.
+If you are logged into the client, passing `--sessionfile=<path/to/the/new/session/file>` will allow you to log in with a different Google account, and thus have a separate set of settings whilst retaining all the benefits of logging in.
 
-If you are not logged in, instead pass `--c --config=<path/to/the/new/config/file>`, and your client will use that config file instead of the usual one.
+If you are not logged in, instead pass `--config=<path/to/the/new/config/file>`, and your client will use that config file instead of the usual one.
 
 The paths can be relative or absolute. If the path is relative, it'll use `.runelite` as the base.
 
@@ -32,12 +32,12 @@ Eg. `--config="example.properties"` will make a file in `<you home directory>/.r
 
 Windows:
 ```
-RuneLite.exe --c --sessionfile="ironman-session"
+RuneLite.exe --sessionfile="ironman-session"
 ```
 You can edit your shortcut to add this, similar to how `--mode=OFF` is added when disabling [Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-1-creating-a-shortcut)
 
 
 Linux:
 ```
-./RuneLite.AppImage --c --sessionfile="ironman-session"
+./RuneLite.AppImage --sessionfile="ironman-session"
 ```
