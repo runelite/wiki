@@ -49,7 +49,7 @@ Toggles whether to bring client to front upon being notified.
 
 ### Notification sound
 
-Determines what sound to use for system notifications triggered my Runelite.
+Determines what sound to use for system notifications triggered by Runelite.
 
 #### Options
 * Native
