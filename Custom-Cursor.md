@@ -1,7 +1,7 @@
 ### Custom Cursor Plugin
 When enabled, will change the image of your cursor on the client.
 
-To add your own, place a file named cursor.png in `%userprofile%\\.runelite\\` on Windows or `~/.runelite/` on Linux/OSX.
+To add your own, place a file named cursor.png in `%userprofile%\.runelite\` on Windows or `~/.runelite/` on Linux/OSX.
 
 **Available Cursors**
 | Cursor  | Name |
