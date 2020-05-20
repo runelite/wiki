@@ -14,7 +14,7 @@ Using the Plugin Hub is very simple
 
 3. Find the plugin you want, and click the install button.
 
-![Step 3](https://user-images.githubusercontent.com/2979691/75092434-58564100-556f-11ea-89a1-3f14f0ee929f.png)
+![Step 3](https://user-images.githubusercontent.com/2979691/82446326-5e8c8880-9a9e-11ea-9a71-175b3617e82e.png)
 
 
 # FAQ / Troubleshooting
