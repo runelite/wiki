@@ -4,8 +4,12 @@ This plugin plays a metronome that can be set to a specific tick delay to aid in
 
 **1. Tick Count**
 
-(Default 1) Sets the tick on which a sound will be played.
+(Default 1) Configures the tick on which a sound will be played.
 
-**2. Enable Tock**
+**2. Tick Volume**
 
-(Default Off) Toggles whether to play two alternating sounds for metronome beats.
+(Default 96) Configures the volume of the tick sound. A value of 0 will disable tick sounds.
+
+**3. Tock Volume**
+
+(Default 0) Configures the volume of the tock sound. A value of 0 will disable alternating sounds.
