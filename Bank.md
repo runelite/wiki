@@ -27,3 +27,11 @@
 ### 6. Disable left click bank looting bag
 
 (Default Off) Disables left-click on the bank looting bag button in the bank and deposit box interface. Left-clicks will act as a right click instead.
+
+### 7. Show seed vault value
+
+(Default Off) Toggles display of the combined value of the seed vault's items.
+
+### 8. Keyboard Bankpin
+
+(Default Off) Allows using the keyboard keys for bank pin input.
