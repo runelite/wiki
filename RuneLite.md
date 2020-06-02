@@ -1,6 +1,6 @@
 ## RuneLite Configuration
 
-![Runelite configuration](https://user-images.githubusercontent.com/29353990/59873926-f5cff400-9394-11e9-81fe-35eefc56c458.png)
+![Runelite configuration](https://user-images.githubusercontent.com/54762282/83223627-5640e700-a149-11ea-9fb0-756942446eb6.png)
 
 ## Settings
 ### Game size
@@ -45,30 +45,23 @@ Enables tray notifications.
 
 ### Request focus on notification
 
-Toggles whether to bring client to front upon being notified.
+Configures the window request type on notification.
+* **Request:** Requests user attention. Brings window to the front (Windows); Bounces RuneLite dock icon (MacOS).
+* **Force:** Forces window to the front.
 
 ### Notification sound
 
-Determines what sound to use for system notifications triggered by Runelite.
+Determines what sound to use for system notifications triggered by RuneLite.
 
-#### Options
-* Native
-  * Use default system notification sound
-* Custom
-  * The custom notification sound can be placed to the root of .runelite-folder in your home directory. The notification must be called `notification.wav` and be in .wav format.
-* Off
-
-### Enable sound on notifications
-
-Enables the playing of a beep sound when notifications are played.
-
+* **Native:** Use default system notification sound
+* **Custom:** The custom notification sound can be placed in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/MacOS. The notification must be called `notification.wav` and be in .wav format.
 ### Enable game message notifications
 
 Notifications will put a message in the chatbox.
 
 ### Flash notification
 
-Flashes the gameframe as a notification.
+Flashes the gameframe when a notification is triggered.
 
 ### Send notifications when focused
 
@@ -76,7 +69,7 @@ Toggles whether to send notification if you have the client focused.
 
 ### Dynamic Overlay Font
 
-Choose which font type to use for in-game overlays such as player names, ground items etc.
+Choose which font type to use for in-game overlays such as player names, ground items, etc.
 
 ### Tooltip Font
 
@@ -101,3 +94,19 @@ Configures the amount of infoboxes shown before wrapping.
 ### Infobox size(px)
 
 Configures the size of infoboxes in pixels.
+
+### Overlay Color
+
+Configures the background color of infoboxes and overlays.
+
+### Block Extra Mouse Buttons
+
+Blocks extra mouse buttons (4 and above).
+
+### Sidebar Toggle Key
+
+The key that will toggle the sidebar. Accepts modifiers.
+
+### Plugin Panel Toggle Key
+
+The key that will toggle the current or last opened plugin panel. Accepts modifiers.
