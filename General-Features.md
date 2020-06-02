@@ -41,3 +41,8 @@ Linux:
 ```
 ./RuneLite.AppImage --clientargs "--config=settings2.properties --sessionfile=session2"
 ```
+
+MacOS:
+```
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--sessionfile=session2"
+```
