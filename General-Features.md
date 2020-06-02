@@ -44,5 +44,5 @@ Linux:
 
 MacOS:
 ```
-/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--sessionfile=session2"
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--config=settings2.properties --sessionfile=session2"
 ```
