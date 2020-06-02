@@ -70,7 +70,7 @@ Run Terminal.app and paste this into the command prompt:
 8. Find the Automator script you just saved, right click and select `Get Info`.
 9. Click on the icon at the top of the info window and paste with `⌘+V`.
 
-![](https://user-images.githubusercontent.com/54762282/83567934-657cb780-a4f0-11ea-891f-8b0964f1a846.png) ![](https://user-images.githubusercontent.com/54762282/83568115-ad034380-a4f0-11ea-822e-c79eea272baf.png)
+     ![](https://user-images.githubusercontent.com/54762282/83570848-c1e1d600-a4f4-11ea-9da2-453ba22d88ab.png)
 ## Linux
 
 ### Method 1: Creating shortcut for the launcher
