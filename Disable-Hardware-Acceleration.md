@@ -39,12 +39,38 @@ Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 
 ## macOS
 
+### Method 1: Terminal
 Run Terminal.app and paste this into the command prompt:
 
 ```
 /Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF
 ```
 
+
+### Method 2: Creating an Automator App shortcut
+1. Launch `Automator` (in the Applications folder).
+2. Choose `Application` as the document type.
+
+     ![Application](https://user-images.githubusercontent.com/54762282/83567067-02d6ec00-a4ef-11ea-8dea-8343bd3515b1.png)
+
+3. Type `shell script` into the search field and double-click on `Run Shell Script` to add a shell script to the application.
+
+![Search Field](https://user-images.githubusercontent.com/54762282/83567464-990b1200-a4ef-11ea-94f2-1d06817d7319.png)
+
+4. Within the text box on the right, type `/Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF`
+
+     ![Script](https://user-images.githubusercontent.com/54762282/83567622-dc658080-a4ef-11ea-82b3-bb8159a0cca6.png)
+
+5. Save the file with `⌘+S` and name it. You can now launch it from your Applications folder.
+6. (Optional) To add an icon to your newly created shortcut, find the original `RuneLite.app` in your Applications folder, right click and select `Get Info`.
+7. Click on the icon at the top of the info window and copy with `⌘+C`.
+
+![](https://user-images.githubusercontent.com/54762282/83567805-32d2bf00-a4f0-11ea-9ef4-91f6a33cb810.png)
+
+8. Find the Automator script you just saved, right click and select `Get Info`.
+9. Click on the icon at the top of the info window and paste with `⌘+V`.
+
+![](https://user-images.githubusercontent.com/54762282/83567934-657cb780-a4f0-11ea-891f-8b0964f1a846.png) ![](https://user-images.githubusercontent.com/54762282/83568115-ad034380-a4f0-11ea-822e-c79eea272baf.png)
 ## Linux
 
 ### Method 1: Creating shortcut for the launcher
