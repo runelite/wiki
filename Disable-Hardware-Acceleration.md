@@ -57,9 +57,12 @@ Run Terminal.app and paste this into the command prompt:
 
 ![Search Field](https://user-images.githubusercontent.com/54762282/83567464-990b1200-a4ef-11ea-94f2-1d06817d7319.png)
 
-4. Within the text box on the right, type `/Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF`
+4. Within the text box on the right, type:
+```
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --mode=OFF
+```
 
-     ![Script](https://user-images.githubusercontent.com/54762282/83567622-dc658080-a4ef-11ea-82b3-bb8159a0cca6.png)
+![Script](https://user-images.githubusercontent.com/54762282/83567622-dc658080-a4ef-11ea-82b3-bb8159a0cca6.png)
 
 5. Save the file with `⌘+S` and name it. You can now launch it from your Applications folder.
 6. (Optional) To add an icon to your newly created shortcut, find the original `RuneLite.app` in your Applications folder, right click and select `Get Info`.
