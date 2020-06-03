@@ -1,27 +1,35 @@
 # Barrows Brothers Configuration
 
-[![Client View](https://thumbs.gfycat.com/UnfortunatePointlessAnchovy-size_restricted.gif)](https://gfycat.com/UnfortunatePointlessAnchovy)
+![Barrows Plugin](https://user-images.githubusercontent.com/54762282/83592523-89f48600-a528-11ea-8106-80499840db6c.png)
 
 ## Settings
 
 ### Show Brothers location
 
-(Default On) This displays the first letter of the Barrows Brothers name on the minimap above each their hill.
+Displays the first letter of the Barrows Brothers' names on the minimap above their respective hills.
+
+<img width="249" src="https://user-images.githubusercontent.com/54762282/83591137-3a608b00-a525-11ea-9f44-9328bc3caa15.png">
 
 ### Show value of Chests
 
-(Default On) This notifies you of the estimated value of each chest you loot.
+Displays total Exchange value of chests when opened.
+
+![](https://user-images.githubusercontent.com/54762282/83592902-68e06500-a529-11ea-8d04-c03c909b9a34.png)
 
 ### Brother location color
+
+Changes the color of the initials displayed on the minimap.
+
 ### Dead Brother loc. color
 
-These define the color of the text displayed above each brother's mound.
+Changes the color of the initials displayed on the minimap once the brother has been killed.
 
 ### Show Puzzle Answer
 
-(Default On) This will show a border around the correct answer for the door.
+Shows a border around the correct answer for the door.
+
+![Barrows-Puzzle](https://user-images.githubusercontent.com/54762282/83591134-37fe3100-a525-11ea-9bbc-53239210c676.png)
 
 ### Show Prayer Drain Timer
 
-(Default On) This shows estimated time till prayer drain.
-
+Shows estimated time until prayer drain.
