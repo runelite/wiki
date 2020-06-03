@@ -4,24 +4,24 @@
 
 ## Settings
 
-### 1. Always show style
+### Always show style
 
-(Default On) This option will disable the attack style infobox in the bottom-right hand corner, which will show you what attack style you are using.
+Displays the attack style infobox that shows which attack style is currently being used.
 
-### 2. Warn for [Attack Style]
+### Warn for [Attack Style]
 
-If any of these boxes are enabled, when you use that attack style, the infobox text will change to the colour red, to warn you off XP gain in this skill.
+If any of these boxes are checked, the infobox text will change to the color red to warn you off XP gain in that respective skill.
 
-* (Default Off) Warn for defence
-* (Default Off) Warn for attack
-* (Default Off) Warn for strength
-* (Default Off) Warn for ranged
-* (Default Off) Warn for magic
+* Warn for defence
+* Warn for attack
+* Warn for strength
+* Warn for ranged
+* Warn for magic
 
-### 3. Hide auto retaliate
+### Hide auto retaliate
 
-(Default Off) Hides auto retaliate from the combat options tab.
+Hides auto retaliate from the combat options tab.
 
-### 4. Remove warned styles
+### Remove warned styles
 
-(Default Off) When enabled, this will remove any of the attack styles that are enabled above in the 'Warn for [Attack Style]' options from the 'Combat Options' tab in Old School RuneScape.
+When enabled, removes any of the selected attack styles in the `Warn for [Attack Style]` options from the `Combat Options` tab in Old School RuneScape.
