@@ -4,43 +4,70 @@
 
 ## Settings
 
-### 1. Show Lap count
+### Show Clickboxes
 
-(Default On) Displays in the top-left hand corner your total laps, and laps till level information.
+Show agility course obstacle clickboxes.
 
-### 2. Hide Lap Count (minutes) [Configurable Box]
+### Show Lap count
 
-(Default 5) This configurable time frame allows the user to choose how long of inactivity to the Agility skill it takes to remove the Agility Infobox.
+Displays an infobox with `Total Laps`, `Laps until goal`, and `Laps per hour`.
 
-### 3. Overlay Color [Pick a color]
+### Hide Lap Count (minutes) [Configurable Box]
 
-(Default Green) Here you can choose what colour the overlay is for the entire clickable obstacle.
+Configures how much time without gained XP until the lap counter is hidden.
 
-### 4. Highlight Marks of Grace 
+### Show Laps Until Goal
 
-Enable/disable the highlighting of retrievable Marks of Grace
+Show number of laps remaining until goal is reached.
 
-### 5. Mark Highlight Color
+### Show Laps per Hour
 
-Color of highlighted Marks of Grace
+Shows how many laps you can expect to complete per hour.
 
-### 6. Highlight Agility Shortcuts
+### Overlay Color [Pick a color]
 
-Enable/disable the highlighting of Agility shortcuts
+Customize the color for Agility obstacle overlays.
 
-### 7. Show Trap Overlay
+### Highlight Marks of Grace 
 
-Enable/disable the highlighting of traps on Agility courses
+Enable/disable the highlighting of retrievable Marks of Grace.
 
-### 8. Trap Overlay Color 
+### Mark Highlight Color
 
-Color of Agility trap overlay
+Color of highlighted Marks of Grace.
 
-### 9. Agility Arena notifier
+### Highlight Portals
 
-Notify on ticket location change in Agility Arena
+Enable/disable the highlighting of Prifddinas portals.
 
-### 10. Agility Arena timer
+### Portals Highlight Color
 
-Configured whether Agility Arena timer is displayed
+Color of the highlighted Prifddinas portals.
 
+### Highlight Agility Shortcuts
+
+Enable/disable the highlighting of Agility shortcuts.
+
+### Show Trap Overlay
+
+Enable/disable the highlighting of traps on Agility courses.
+
+### Trap Overlay Color
+
+Color of Agility trap overlay.
+
+### Agility Arena notifier
+
+Notify on ticket location change in Agility Arena.
+
+### Agility Arena timer
+
+Configured whether Agility Arena timer is displayed.
+
+### Highlight Stick
+
+Highlight the retrievable stick in the Werewolf Agility Course.
+
+### Stick Highlight Color
+
+Color of highlighted stick in the Werewolf Agility Course.
