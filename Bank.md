@@ -4,34 +4,34 @@
 
 ## Settings
 
-### 1. Show Grand Exchange price
+### Show Grand Exchange price
 
-(Default On) Toggles display of the combined Grand Exchange price of the current tab's bank items.
+Toggles display of the combined Grand Exchange price of the current tab's bank items.
 
-### 2. Show high alchemy price
+### Show high alchemy price
 
-(Default Off) Toggles display of the combined high alchemy values of the current tab's bank items.
+Toggles display of the combined high alchemy values of the current tab's bank items.
 
-### 3. Show exact bank value
+### Show exact bank value
 
-(Default Off) Toggles display of the combined exact value of the current tab's bank items rather than a rounded value.
+Toggles display of the combined exact value of the current tab's bank items rather than a rounded value.
 
-### 4. Disable left click bank inventory
+### Disable left click bank inventory
 
-(Default Off) Disables left-click on the bank inventory button in the bank and deposit box interface. Left-clicks will act as a right click instead. 
+Disables left-click on the bank inventory button in the bank and deposit box interface. Left-clicks will act as a right click instead. 
 
-### 5. Disable left click bank equipment
+### Disable left click bank equipment
 
-(Default Off) Disables left-click on the bank equipment button in the bank and deposit box interface. Left-clicks will act as a right click instead.
+Disables left-click on the bank equipment button in the bank and deposit box interface. Left-clicks will act as a right click instead.
 
-### 6. Disable left click bank looting bag
+### Disable left click bank looting bag
 
-(Default Off) Disables left-click on the bank looting bag button in the bank and deposit box interface. Left-clicks will act as a right click instead.
+Disables left-click on the bank looting bag button in the bank and deposit box interface. Left-clicks will act as a right click instead.
 
-### 7. Show seed vault value
+### Show seed vault value
 
-(Default Off) Toggles display of the combined value of the seed vault's items.
+Toggles display of the combined value of the seed vault's items.
 
-### 8. Keyboard Bankpin
+### Keyboard Bankpin
 
-(Default Off) Allows using the keyboard keys for bank pin input.
+Allows the use of keyboard keys for bank pin input.
