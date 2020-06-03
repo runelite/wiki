@@ -1,31 +1,44 @@
-## Camera Configuration
+# Camera Configuration
 
 [![Client View](https://thumbs.gfycat.com/RipeCraftyBison-size_restricted.gif)](https://gfycat.com/RipeCraftyBison)
 
-## Settings
+## Camera
 ### Expand Inner Zoom Limit
-(Default Off) Allows you to zoom in further.
+Allows you to zoom in closer.
 
-### Expand Outer Zoom Limit
-(Default 0, Min -400, Max 400) Allows you to increase or decrease the furthest distance that you can zoom out.
-
+### Expand Outer Zoom Limit 
+Allows you to increase or decrease the furthest distance to which you can zoom out. (Default 0, Min -400, Max 400)
 ### Vertical Camera
-(Default Off) When the camera moves vertically, this option allows it to move higher than default.
+When the camera moves vertically, this option allows it to move higher than default.
 
 ### Control Function
-(Default None) Allows disabling zooming unless the "Control" key is pressed, or allows the "Control" key to reset your zoom level
+Disables zoom unless the `Control` key is pressed, or allows the `Control` key to reset your zoom level.
 
 ### Reset zoom position
-(Default 512, Min -400, Max 1004) Zoom position to be reset to, if the "Reset zoom" option of "Control Function" is selected
+The position to which zoom is reset if the `Reset zoom` option of `Control Function` is selected. (Default 512, Min -400, Max 1004)
 
 ### Zoom Speed
-(Default 25) Speed of zoom
+The speed at which you can zoom the camera. (Default 25)
 
 ### Right click moves camera
-(Default Off) Remaps right click to middle mouse click if there are no menu options
+Remaps right click to middle mouse click if there are no menu options.
 
 ### Ignore Examine
-(Default Off) Ignore the Examine menu entry for right-click moving the camera
+Ignore the Examine menu entry for right-click moving the camera.
 
 ### Middle-button opens menu
-(Default Off) Middle-mouse button always opens the menu
+Middle-mouse button always opens the menu.
+
+### Compass options
+
+Adds Look South, East, and West to the compass' right-click menu.
+
+<img width="103" src="https://user-images.githubusercontent.com/54762282/83596810-9fbb7880-a533-11ea-940d-5b12877f63c9.png">
+
+### Invert Yaw
+
+Moves the camera in the opposite direction when moving horizontally.
+
+### Invert Pitch
+
+Moves the camera in the opposite direction when moving vertically.
