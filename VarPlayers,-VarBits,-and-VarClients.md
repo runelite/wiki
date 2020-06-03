@@ -65,5 +65,3 @@ public int getVar(RSVarbit varbit)
 	return (value >> lsb) & mask;
 }
 ```
-
- These functions were shortened for readability. The actual source is in [`VarbitMixin`](https://github.com/runelite/runelite/blob/master/runelite-mixins/src/main/java/net/runelite/mixins/VarbitMixin.java)
