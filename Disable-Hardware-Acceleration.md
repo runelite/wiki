@@ -39,7 +39,7 @@ Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 
 ### Additional troubleshooting steps
 
-Recently it seems that GPU overlay programs can now cause this aswell, if none of these methods work for you take a look at this issue [comment](https://github.com/runelite/runelite/issues/11727#issuecomment-636641220) and see if anything listed there can help you
+Recently it seems that GPU overlay programs can now cause this as well. If none of the aforementioned methods work for you, take a look at this issue [comment](https://github.com/runelite/runelite/issues/11727#issuecomment-636641220) and see if anything listed there can help you.
 
 ## macOS
 
