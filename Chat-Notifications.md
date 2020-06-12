@@ -28,3 +28,7 @@ Notifies you whenever you are traded
 ### Notify on duel
 
 Notifies you whenever you are challenged to a duel
+
+### Notify on broadcast
+
+Notifies you whenever you receive a broadcast message (e.g., Game update message, OSRS Twitch livestream, Last Man Standing chest location).
