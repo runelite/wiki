@@ -1,8 +1,9 @@
-## RuneLite Configuration
+# RuneLite Configuration
 
-![Runelite configuration](https://user-images.githubusercontent.com/54762282/83223627-5640e700-a149-11ea-9fb0-756942446eb6.png)
+<img width="241" alt="RuneLite Config" src="https://user-images.githubusercontent.com/54762282/84452043-bbeda280-ac22-11ea-841f-40a015bbdb3b.png">
 
-## Settings
+## Window Settings
+
 ### Game size
 
 Allows you to resize your client.
@@ -39,6 +40,16 @@ A confirmation box will prevent you from accidentally closing the client. Can be
 
 Show display name of last logged-in account in the title bar.
 
+### Sidebar Toggle Key
+
+The key that will toggle the sidebar. Accepts modifiers.
+
+### Plugin Panel Toggle Key
+
+The key that will toggle the current or last opened plugin panel. Accepts modifiers.
+
+## Notification Settings
+
 ### Enable tray notifications
 
 Enables tray notifications.
@@ -67,6 +78,8 @@ Flashes the gameframe when a notification is triggered.
 
 Toggles whether to send notification if you have the client focused.
 
+## Overlay Settings
+
 ### Dynamic Overlay Font
 
 Choose which font type to use for in-game overlays such as player names, ground items, etc.
@@ -83,13 +96,13 @@ Choose which font type is used for in-game interface overlays such as opponent i
 
 Require shift to be held down to access overlay right-click menus.
 
+### Tooltip Position
+
+Configures whether to show the tooltip above or below the cursor.
+
 ### Display infoboxes vertically
 
 Stack infoboxes vertically instead of horizontally.
-
-### Infobox wrap count
-
-Configures the amount of infoboxes shown before wrapping.
 
 ### Infobox size(px)
 
@@ -99,14 +112,8 @@ Configures the size of infoboxes in pixels.
 
 Configures the background color of infoboxes and overlays.
 
+## Other
+
 ### Block Extra Mouse Buttons
 
 Blocks extra mouse buttons (4 and above).
-
-### Sidebar Toggle Key
-
-The key that will toggle the sidebar. Accepts modifiers.
-
-### Plugin Panel Toggle Key
-
-The key that will toggle the current or last opened plugin panel. Accepts modifiers.
