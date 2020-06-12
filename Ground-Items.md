@@ -1,8 +1,10 @@
+# Ground Items Configuration
+
 The Ground Items plugin highlights ground items and/or displays their Grand Exchange or High Alchemy information
 
 ![Ground items demonstration](https://runelite.net/img/features/grounditems.png)
 
-## Settings
+## Item Lists
 
 ### Highlighted Items
 
@@ -15,6 +17,8 @@ Configures specifically highlighted ground items.
 Configures hidden ground items. 
 
 * **Format:** `item`, `item`
+
+## Settings
 
 ### Show Highlighted items only
 
