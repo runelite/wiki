@@ -4,45 +4,48 @@
 
 ## Settings
 
-### 1. Remove menu options
-(Default On) This option removes the menu options for randoms that aren't yours.
+### Remove others' menu options
 
-### 2. Notify on Surprise Exam
+Removes the menu options for random events that are not yours.
 
-(Default Off) This option sends a notification whenever Mr. Mordaut wants you in his classroom.
+## Notification Settings
 
-### 3. Notify on Genie
+###  Notify on Surprise Exam
 
-(Default Off) This option sends a notification whenever the Genie wants to give you an Experience Lamp.
+This option sends a notification whenever Mr. Mordaut wants you in his classroom.
 
-### 4. Notify on Drill Demon
+### Notify on Genie
 
-(Default Off) This option sends a notification whenever Sergeant Damien wants you to get some exercise.
+This option sends a notification whenever the Genie wants to give you an Experience Lamp.
 
-### 5. Notify on Freaky Forester
+### Notify on Drill Demon
 
-(Default Off) This option sends a notification whenever the Freaky Forester wants you to kill a pheasant.
+This option sends a notification whenever Sergeant Damien wants you to get some exercise.
 
-### 6. Notify on Kiss the Frog
+### Notify on Freaky Forester
 
-(Default Off) This option sends a notification whenever the frogs want you to kiss their ruling monarch.
+This option sends a notification whenever the Freaky Forester wants you to kill a pheasant.
 
-### 7. Notify on Graveyard
+### Notify on Kiss the Frog
 
-(Default Off) This option sends a notification whenever Leo requires your presence at the Graveyard.
+This option sends a notification whenever the frogs want you to kiss their ruling monarch.
 
-### 8. Notify on Mysterious Old Man
+### Notify on Graveyard
 
-(Default Off) This option sends a notification whenever you are required in the Maze, Mime show or the Mysterious Old Man wants to give you an item.
+This option sends a notification whenever Leo requires your presence at the Graveyard.
 
-### 9. Notify on Evil Bob
+### Notify on Mysterious Old Man
 
-(Default Off) This option sends a notification whenever you are required at Evil Bob's Island.
+This option sends a notification whenever you are required in the Maze, Mime show or the Mysterious Old Man wants to give you an item.
 
-### 10. Notify on Quiz Master
+### Notify on Evil Bob
 
-(Default Off) This option sends a notification whenever you are invited to play a game of Odd One Out.
+This option sends a notification whenever you are required at Evil Bob's Island.
 
-### 11. Notify for all events
+### Notify on Quiz Master
 
-(Default Off) Notify for all events, this overrides any disabled option.
+This option sends a notification whenever you are invited to play a game of Odd One Out.
+
+### Notify for all events
+
+Notify for all events. This overrides any disabled option.
