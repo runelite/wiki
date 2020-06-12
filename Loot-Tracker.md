@@ -1,13 +1,70 @@
+# Loot Tracker
+
+<img width="235" alt="Loot tracker" src="https://user-images.githubusercontent.com/54762282/84464678-2b738a00-ac43-11ea-8678-e8395fde60df.png">
+
 The Loot Tracker plugin adds a sidebar panel which tracks the contents and value of items dropped while killing monsters, other players, and drops from some other activities such as Barrows, Chambers of Xeric, Theatre of Blood, and Clue Scrolls.
 
-![loot tracker sidebar panel](https://user-images.githubusercontent.com/5115805/43480853-b307ce8e-9504-11e8-9a63-fd9313871cc1.png)
+## Usage
 
-![empty loot tracker panel](https://user-images.githubusercontent.com/5115805/43480854-b35dad40-9504-11e8-8108-9bed4d0a77b9.png) ![clue scroll rewards](https://camo.githubusercontent.com/2d71410ec44405dd2ccea652926f57fb006064a5/68747470733a2f2f692e696d6775722e636f6d2f6e4767355970682e706e67) ![Theatre of Blood rewards](https://camo.githubusercontent.com/8d1d6f81d00a6edbe8fff73e1e2916862c485d8d/68747470733a2f2f692e696d6775722e636f6d2f624854374533432e706e67) ![pvp kill rewards](https://camo.githubusercontent.com/d7f42160aa2ef2b0cfb3b3023fb7bb4cb0d038f5/68747470733a2f2f692e696d6775722e636f6d2f52465257414d302e706e67)
+ <img width="25" alt="Collapse" src="https://user-images.githubusercontent.com/54762282/84465088-25ca7400-ac44-11ea-91d5-65c0edca9fbb.png"> Collapse loot
 
-### RuneLite Account
+<img width="52" alt="Group" src="https://user-images.githubusercontent.com/54762282/84465090-25ca7400-ac44-11ea-9571-08652e6cc1fb.png"> Group loot by source or individual kill.
 
-While logged in with a RuneLite [Account](https://github.com/runelite/runelite/wiki/Account) the loot tracker will remember your loot across client restarts. Loot for a particular event (such as Barrows, a clue scroll reward, or a drop from Zulrah) will be kept until 30 days after the most recent loot for that specific event. If you receive loot from an event at least once every 30 days the loot will be remembered indefinitely.
+<img width="28" alt="Hide" src="https://user-images.githubusercontent.com/54762282/84465091-26630a80-ac44-11ea-942a-fd07066c9b73.png"> Show/Hide hidden loot
+
+To show/hide individual items or all loot from a specific NPC, use right-click:
+
+<img width="116" alt="Right click" src="https://user-images.githubusercontent.com/54762282/84464682-2b738a00-ac43-11ea-8051-d67098f8b078.png">
+<br>
+<img width="135" alt="Toggle Item" src="https://user-images.githubusercontent.com/54762282/84464680-2b738a00-ac43-11ea-9efb-3ef0486fa080.png">
+
+
+
+## RuneLite Account
+
+While logged in with a RuneLite [Account](https://github.com/runelite/runelite/wiki/Account), the loot tracker will remember your loot across client restarts. Loot for a particular event (such as Barrows, a clue scroll reward, or a drop from Zulrah) will be kept until 30 days after the most recent loot for that specific event. If you receive loot from an event at least once every 30 days the loot will be remembered indefinitely.
 
 The loot can also be reviewed on the website at https://runelite.net/account/loot-tracker
 
-![website loot tracker](https://user-images.githubusercontent.com/29353990/59304045-6a1ce000-8c8f-11e9-9da8-24a46d034a58.png)
+
+# Loot Tracker Configuration
+
+<img width="242" alt="Screen Shot 2020-06-12 at 12 58 02 AM" src="https://user-images.githubusercontent.com/54762282/84466659-e140d780-ac47-11ea-82bb-019e037dcf0b.png">
+
+## Ignored Entries
+
+### Ignored Loot Sources
+
+Hide specific NPCs or sources of loot in the loot tracker (e.g., Goblin, Barrows Chest, H.A.M. Member).
+
+### Ignored Items
+
+Configures which items should be hidden from the loot tracker.
+
+***
+
+### Price Type
+
+Configures which type of price to use for calculating value.
+
+### Show Price Type
+
+Configures whether to show `GE` or `HA` next to the total values in the loot tracker.
+
+### Show chat message for NPC kills
+
+Adds a chat message with NPC name and kill value when receiving loot.
+
+### Show chat message for PVP kills
+
+Adds a chat message  with player name and kill value when receiving loot from a player kill.
+
+### Submit loot tracker data
+
+Submit loot tracker data to your RuneLite account (requires being logged in).
+
+### Synchronize panel contents
+
+Synchronize your local loot tracker with your server data (requires being logged in).
+
+The panel is filled with portions of your remote data on startup and deleting data in the panel also deletes it on the server.
