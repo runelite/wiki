@@ -1,27 +1,25 @@
-The Key Remapping plugin enables a "Press Enter to Chat" mode, and allows the camera to be controlled with the WASD keys, or other configured keys. Additionally, there is an option to remap F keys to the number row, for if your keyboard lacks F Keys
+# Key Remapping Configuration
 
-## Settings
+Enables `Press Enter to Chat...` mode in the chat box, preventing text input unless Enter is pressed beforehand. Allows for the remapping of keys for camera movement, F-Keys, and Space.
+
+## Camera Remapping
 
 ### Remap Camera
 
-Whether to remap the camera.
+Configures whether the camera movement uses remapped keys. By default, the keys get remapped to WASD, but they can be reconfigured.
 
-### Up key
+<img width="240" alt="WASD" src="https://user-images.githubusercontent.com/54762282/84462902-2b24c000-ac3e-11ea-9691-a9d1b17fff04.png">
 
-The key which will replace up.
-
-### Down key
-
-The key which will replace down.
-
-### Left key
-
-The key which will replace left.
-
-### Right key
-
-The key which will replace right.
+## F Key Remapping
 
 ### Remap F Keys
 
-Whether to remap the the F Keys to the number row. F1 becomes 1, F2 to 2, etc, with F10 is 0, F11 is -, and F12 is =
+Configures whether the F-Keys use remapped keys. 
+
+<img width="239" alt="F Keys" src="https://user-images.githubusercontent.com/54762282/84462899-29f39300-ac3e-11ea-831a-01927a083a3a.png">
+
+## Other
+
+### Space
+
+Configures whether the `Space` key is remapped when in dialogues.
