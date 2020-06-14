@@ -48,6 +48,7 @@
   * [[FPS Control]]
   * [[Fairy Rings]]
   * [[Fishing]]
+  * [[Friend List]]
   * [[Friend Notes]]
   * [[GPU]]
   * [[Grand Exchange]]
