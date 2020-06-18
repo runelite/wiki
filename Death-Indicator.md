@@ -1,4 +1,4 @@
-## Death Indicator Configuration
+# Death Indicator Configuration
 
 The Death Indicator plugin remembers where you've last died, on what world and display death location on the world map
 
@@ -13,6 +13,8 @@ Draw a hint arrow to death location
 ### Death InfoBox
 
 Infobox displaying timer left for reclaiming items, tooltip show what world death was on.
+
+Right click (or Shift-Right click, depending on settings) to remove.
 
 ### Mark on World Map
 
