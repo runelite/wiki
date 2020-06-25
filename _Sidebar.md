@@ -100,6 +100,7 @@
   * [[Poison]]
   * [[Prayer]]
   * [[Puzzle Solver]]
+  * [[Pyramid Plunder]]
   * [[Quest List]]
   * [[Random Events]]
   * [[Regeneration Meter]]
