@@ -140,6 +140,7 @@
   * [[Code Conventions]]
 * **Using Git with RuneLite**
   * [[Beginner's Guide To Git]]
+  * [[Submitting a Pull Request]]
   * [[Git Cheat Sheet]]
   * [[Rebasing your branch from the May 16, 2018 rebase]]
 * [[Working with client scripts]]
