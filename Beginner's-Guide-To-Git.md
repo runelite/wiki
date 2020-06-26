@@ -123,3 +123,5 @@ To get your work back onto your Github, commit your work and run:
     git push origin some-branch-name
 
 Once your work is online, you can make a pull request to bring it back into RuneLite.
+
+*For more information on submitting a Pull Request, see [here](https://github.com/runelite/runelite/wiki/Submitting-a-Pull-Request).*
