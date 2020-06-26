@@ -1,5 +1,5 @@
 
-To do this, navigate to your forked repository on GitHub (i.e. github.com/fakeuse/runelite).
+To do this, navigate to your forked repository on GitHub (i.e. github.com/youruserhere/runelite).
 - *note: if you're already confused see [here](https://github.com/runelite/runelite/wiki/Beginner%27s-Guide-To-Git). This will walk you through forking your own repository of runelite, creating a branch, making edits, and eventually uploading that branch to the web (GitHub).*
 
 You should see something like this:
