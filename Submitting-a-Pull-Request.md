@@ -6,7 +6,8 @@ To do this, navigate to your forked repository on GitHub (i.e. github.com/fakeus
 You should see something like this:
 
 ![pull request example 1](https://user-images.githubusercontent.com/41792400/85898184-ae065880-b7b0-11ea-833f-37bb73af14ee.png)
-- click the green button to open a pull request
+- notice that in this example, the user has pushed a feature branch called 'foo-fix' to their forked repository on GitHub.
+- to begin the process of merging this feature branch into the original runelite repository (runelite:master), click the green button to open a pull request.
 
 ---
 ![pull request example 2](https://user-images.githubusercontent.com/41792400/85898195-b2327600-b7b0-11ea-9247-eb91b9ff1e6f.png)
