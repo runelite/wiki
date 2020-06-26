@@ -51,3 +51,8 @@ After your pull request is merged, you can safely delete your branch and pull th
 `git branch -D foo-fix`
 - update your master with the latest upstream:
 `git pull --ff upstream master`
+
+*Helpful Links*
+- [Contribution Guidelines](https://github.com/runelite/runelite/blob/master/.github/CONTRIBUTING.md#submit)
+- [Git Cheat Sheet](https://github.com/runelite/runelite/wiki/Git-Cheat-Sheet)
+- [Beginner's Guide to Git](https://github.com/runelite/runelite/wiki/Beginner%27s-Guide-To-Git)
