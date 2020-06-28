@@ -19,14 +19,9 @@ You can create desktop shortcut with ` --mode=OFF` at the end of the target box.
 
 ### Method 2: Creating .bat file
 
-If you are on Windows using the official installer, download and run the link below:
-
-* [Runelite-NoDDraw.bat | GitHub Download](files/runelite-no-ddraw.bat)
-* [Runelite-NoDDraw.bat | Mega Mirror](https://mega.nz/#!xyYDgRYS!f6ShaNg6ULtuEsRdLk_Zm_QRzuU-x9SmihIMfVY_Vc0)
-
-Or copy the text below, save as a .bat file and run.
+Copy the text below, save as a .bat file and run.
 ```
-start "" "%localappdata%\RuneLite\RuneLite.exe" --mode=OFF
+start "" "%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --mode=OFF
 exit
 ```
 
@@ -34,10 +29,10 @@ exit
 
 Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 ```
-%localappdata%\RuneLite\RuneLite.exe --mode=OFF
+"%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --mode=OFF
 ```
 
-### Additional troubleshooting steps
+### Method 4: Removing external programs that interfere with RL
 
 Recently it seems that GPU overlay programs can now cause this as well. If none of the aforementioned methods work for you, take a look at this issue [comment](https://github.com/runelite/runelite/issues/11727#issuecomment-636641220) and see if anything listed there can help you.
 
