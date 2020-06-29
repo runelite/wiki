@@ -1,0 +1,1 @@
+Counts damage (per second) by a party
