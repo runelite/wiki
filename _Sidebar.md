@@ -40,6 +40,7 @@
   * [[Default World]]
   * [[Diary Requirements]]
   * [[Discord]]
+  * [[DPS Counter]]
   * [[Emojis]]
   * [[Entity Hider]]
   * [[Examine]]
