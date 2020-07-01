@@ -21,6 +21,7 @@ To find logs, do one of the following things:
 - [PulseAudio forcibly taken over by client](#pulseaudio-forcibly-taken-over-by-client)
 - [Client crashing on login](#client-crashing-on-login)
 - [java.net.ProtocolException on Mac OSX](#javanetprotocolexception-on-mac-osx)
+- [UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries](#unsatisfiedlinkerror-javaaccessbridge-32dll-cant-find-dependent-libraries)
 
 ## Launcher stuck at 0%
 
@@ -131,3 +132,7 @@ This is probably related to some versions of vanilla client, there are few possi
 ## java.net.ProtocolException on Mac OSX
 
 This is caused by having SOCKS proxy enabled on your network settings
+
+## UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries
+
+Delete the `accessibility.properties` file in your home directory (this is found at `C:/Users/<user>/` or `%userprofile%`)
