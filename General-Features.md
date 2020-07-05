@@ -28,21 +28,33 @@ The paths can be relative or absolute. If the path is relative, it'll use `.rune
 
 Eg. `--config="example.properties"` will make a file in `<you home directory>/.runelite/examples.properties`
 
-### Examples
+## Examples
 
-Windows:
+### Windows:
 ```
-RuneLite.exe --clientargs "--config=settings2.properties --sessionfile=session2"
+RuneLite.exe --clientargs "--config=settings2.properties"
+```
+**OR**
+```
+RuneLite.exe --clientargs "--sessionfile=session2"
 ```
 You can edit your shortcut to add this, similar to how `--mode=OFF` is added when disabling [Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-1-creating-a-shortcut). Note that `config` and `sessionfile` are *client arguments* and not *launcher arguments* and so must be forwarded to the client through the launcher by passing them through `--clientargs`.
 
 
-Linux:
+### Linux:
 ```
-./RuneLite.AppImage --clientargs "--config=settings2.properties --sessionfile=session2"
+./RuneLite.AppImage --clientargs "--config=settings2.properties"
+```
+**OR**
+```
+./RuneLite.AppImage --clientargs "--sessionfile=session2"
 ```
 
-MacOS:
+### MacOS:
 ```
-/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--config=settings2.properties --sessionfile=session2"
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--config=settings2.properties"
+```
+**OR**
+```
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--sessionfile=session2"
 ```
