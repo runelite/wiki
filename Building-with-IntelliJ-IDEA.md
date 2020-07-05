@@ -76,7 +76,7 @@ You can now save this build step as *Run configuration*, just right click *Insta
 
 ![project-maven-install-save](https://i.imgur.com/vdJoJ7L.png)
 
-Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesnt). So, still in same Maven window, just click the Refresh icon:
+Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). So, still in same Maven window, just click the Refresh icon:
 
 ![project-maven-refresh](https://i.imgur.com/L2SmWtF.png)
 
