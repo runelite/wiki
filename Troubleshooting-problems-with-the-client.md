@@ -141,7 +141,7 @@ Delete the `accessibility.properties` file in your home directory (this is found
 ## Misaligned Tooltips
 If your mouseover tooltips are misaligned, confirm whether or not you are using a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account), and then follow the appropriate steps:
 
-### Logged in to a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account) ![LOGOUT_IMAGE](https://i.imgur.com/LwwsBJs.png)
+### Logged in to a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account) ![LOGOUT_IMAGE](https://i.imgur.com/LxvaOEL.png)
 1. Close RuneLite.
 2. Open the `Windows Powershell` application and run the following:
 
