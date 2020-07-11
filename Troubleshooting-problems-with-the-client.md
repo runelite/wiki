@@ -150,7 +150,7 @@ Invoke-webrequest -Method DELETE -Uri ("https://api.runelite.net/runelite-" + (I
 ```
 3. Reopen RuneLite.
 
-### Not logged in to a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account) ![LOGIN_IMAGE](https://i.imgur.com/pVeVdBU.png)
+### Not logged in to a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account) ![login_icon](https://user-images.githubusercontent.com/54762282/87227341-564b1e00-c368-11ea-958f-a924ee11fa6c.png)
 1. Close RuneLite.
 2. Open the `Windows PowerShell` application and run the following:
 ```
