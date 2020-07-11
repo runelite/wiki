@@ -136,3 +136,23 @@ This is caused by having SOCKS proxy enabled on your network settings
 ## UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries
 
 Delete the `accessibility.properties` file in your home directory (this is found at `C:/Users/<user>/` or `%userprofile%`)
+
+## Misaligned Tooltips
+If your mouseover tooltips are misaligned, confirm whether or not you are using a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account), and then follow the appropriate steps:
+
+### Logged in to a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account) ![LOGOUT_IMAGE](https://i.imgur.com/LwwsBJs.png)
+1. Close RuneLite.
+2. Open the `Windows Powershell` application and run the following:
+
+```
+Invoke-webrequest -Method DELETE -Uri ("https://api.runelite.net/runelite-" + (Invoke-Webrequest -Method GET -Uri "https://static.runelite.net/bootstrap.json" | ConvertFrom-Json).client.version + "/config/runelite.TooltipOverlay_preferredPosition") -Headers @{ 'RUNELITE-AUTH' = (Get-Content -Raw -Path $env:userprofile\.runelite\session | ConvertFrom-Json).uuid }
+```
+3. Reopen RuneLite.
+
+### Not logged in to a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account) ![LOGIN_IMAGE](https://i.imgur.com/pVeVdBU.png)
+1. Close RuneLite.
+2. Open the `Windows PowerShell` application and run the following:
+```
+(Get-Content $env:userprofile\.runelite\settings.properties) -notmatch "runelite.TooltipOverlay_preferredPosition" | Set-Content $env:userprofile\.runelite\settings.properties
+```
+3. Reopen RuneLite.
