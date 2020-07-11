@@ -195,3 +195,9 @@ Add `--mode=OFF` at the end of second line and save it, result should look like 
 #!/bin/sh
 exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar --mode=OFF
 ```
+
+## Without the launcher (for development)
+
+Add `-Dsun.java2d.noddraw=true -Dsun.java2d.opengl=false` to the JVM arguments. [Check here](https://github.com/runelite/launcher/blob/master/src/main/java/net/runelite/launcher/HardwareAccelerationMode.java#L57) to make sure these flags are up to date.
+
+In intellij this can be done by editing your configuration, and adding those flags to the "VM options" text field.
