@@ -22,6 +22,7 @@ To find logs, do one of the following things:
 - [Client crashing on login](#client-crashing-on-login)
 - [java.net.ProtocolException on Mac OSX](#javanetprotocolexception-on-mac-osx)
 - [UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries](#unsatisfiedlinkerror-javaaccessbridge-32dll-cant-find-dependent-libraries)
+- [Misaligned tooltips](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#misaligned-tooltips)
 
 ## Launcher stuck at 0%
 
