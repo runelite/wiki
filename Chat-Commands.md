@@ -100,7 +100,7 @@ Some boss names can be substituted for shorthand versions:
 `cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm` -> `Chambers of Xeric: Challenge Mode`  
 `tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`    
 `prif`, `prifddinas` -> `Prifddinas Agility Course`    
-`ape atoll agility` -> `Ape Atoll Agility`    
+`aa`, `ape atoll`, `ape atoll agility` -> `Ape Atoll Agility`    
 `hs`, `ghc` -> `Hallowed Sepulchre`  
 
 Note: if the chat commands for !kc do not work in game, you first need to open up an in-game Ring of Wealth's boss kill log for Runelite to register the kill counts.
