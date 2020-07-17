@@ -84,7 +84,6 @@
   * [[Motherlode Mine]]
   * [[Mouse Tooltips]]
   * [[Music]]
-  * [[Music Track Indicator]]
   * [[NPC Aggression Timer]]
   * [[NPC Indicators]]
   * [[News Feed]]
