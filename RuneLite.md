@@ -78,6 +78,10 @@ Flashes the gameframe when a notification is triggered.
 
 Toggles whether to send notification if you have the client focused.
 
+### Notification Flash Color
+
+Sets the color of the notification flashes.
+
 ## Overlay Settings
 
 ### Dynamic Overlay Font
