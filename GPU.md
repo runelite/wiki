@@ -22,6 +22,12 @@ Configures the anti-aliasing mode.
 
 Sampling function to use for the UI in [stretched mode](https://github.com/runelite/runelite/wiki/Stretched-Mode)
 
+#### Nearest Neighbor
+#### Bilinear
+#### Bicubic (Mitchell)
+#### Bicubic (Catmull-Rom)
+#### xBR
+
 ### Fog Depth
 
 Distance from the edge of scene at which to start drawing fog. Max value is 100.
