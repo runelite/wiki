@@ -18,6 +18,10 @@ Smooths out the color banding that is present in the CPU renderer.
 
 Configures the anti-aliasing mode.
 
+### UI Scaling mode
+
+Sampling function to use for the UI in [stretched mode](https://github.com/runelite/runelite/wiki/Stretched-Mode)
+
 ### Fog Depth
 
 Distance from the edge of scene at which to start drawing fog. Max value is 100.
