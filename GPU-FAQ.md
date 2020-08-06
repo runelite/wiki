@@ -62,7 +62,7 @@ Try disabling anti-aliasing in your GPU properties and in RuneLite, or reset you
 Run cmd.exe (Windows Key + R) and paste the following into the command prompt:
 
 ```
-"%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --clientargs "--safe-mode"
+%localappdata%\runelite\runelite.exe --clientargs --safe-mode
 ```
 Once RuneLite fully loads, you can close the client and relaunch as normal; GPU will be disabled.
 
