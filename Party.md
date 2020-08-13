@@ -46,6 +46,8 @@ But why stop there? To add more users to the party, either get them to join the 
 
 ![Channel invite](https://user-images.githubusercontent.com/2979691/55595904-f36ae000-573d-11e9-8c9f-c151dc44590f.png)
 
+**Note: Channel invites can only be used after a party has been created. Always start by having someone join someone else directly**
+
 To leave, shift right click on the party interface and select `Leave`
 
 ### Example
