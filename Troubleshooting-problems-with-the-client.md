@@ -23,6 +23,7 @@ To find logs, do one of the following things:
 - [java.net.ProtocolException on Mac OSX](#javanetprotocolexception-on-mac-osx)
 - [UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries](#unsatisfiedlinkerror-javaaccessbridge-32dll-cant-find-dependent-libraries)
 - [Misaligned tooltips](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#misaligned-tooltips)
+- [Client is outdated](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#client-is-outdated)
 
 ## Launcher stuck at 0%
 
@@ -157,3 +158,7 @@ Invoke-webrequest -Method DELETE -Uri ("https://api.runelite.net/runelite-" + (I
 (Get-Content $env:userprofile\.runelite\settings.properties) -notmatch "runelite.TooltipOverlay_preferredPosition" | Set-Content $env:userprofile\.runelite\settings.properties
 ```
 3. Reopen RuneLite.
+
+## Client is outdated
+
+Usually this means that the game has just updated and RuneLite hasn't yet been updated. Sometimes it can mean RuneLite can't write to the cache directory. Try deleting `%userprofile%\.runelite\cache`
