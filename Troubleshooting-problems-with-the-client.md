@@ -37,7 +37,7 @@ If Launcher.log only displays launcher version and setting hardware accel type
 
 If you see `error fetching bootstrap` in `launcher.log` you are unable to connect to RL servers to get the bootstrap for startup.
 The error will be accompanied by an exception
-- `ConnectException: Connection timed out` - this is caused by either a firewall blocking the connection or a routing issue, try adding an exception in your firewall for runelite, reseting/changing your current network, or use a VPN.
+- `ConnectException: Connection timed out` - this is caused by either a firewall blocking the connection or a routing issue, try adding an exception in your firewall for runelite, reseting/changing your current network, or use a VPN. See [this](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#adding-an-exception-to-the-windows-firewall) for Windows Firewall.
 - `IOException: Server returned HTTP response code: 403` - this means the server has seen your request but is denying you, in our case that would be cloudflare intentionally blocking your connection for whatever reason.  Try changing networks, using a VPN, or contacting cloudflare to ask why you are getting blocked.
 - `SSLHandshakeException: Received fatal alert: handshake_failure` - this is caused by java certs not matching refer to [Problems with accessing API](#problems-with-accessing-api) or downgrade your java version to 8
 - `SignatureException: Signature length not correct: got 0 but was expecting 512` - this is caused by your router or some other software middle manning the connection to the RL server, try logging into your router to disable that "feature" or contact your isp to ask what they are doing.
@@ -75,6 +75,19 @@ Ubuntu 18.04 users should install openjdk-8-jre. Arch Linux users should install
 ## Client closing when loading
 
 This looks like corrupted jagex cache issue. Try to delete `%userprofile%\jagexcache` on **Windows** or `$HOME/jagexcache` on **macOS** and **Linux**.
+
+## Adding an exception to the Windows firewall
+
+In case the log file contains the `ConnectException: Connection timed out` error you can try adding an exception to the Windows firewall for RuneLite:
+Open the `Windows Security` app and Select `Firewall & network protection`:
+
+![](https://user-images.githubusercontent.com/7499230/90973578-8f5bde00-e523-11ea-8259-fc2343e3b7b8.png)
+
+Click `Allow an app through the firewall`:
+
+![](https://user-images.githubusercontent.com/7499230/90973579-8f5bde00-e523-11ea-82e5-427fcd01df65.png)
+
+Click `Change Settings` followed by `Allow another app...` and select `Browse...` in the window that opens. Select your RuneLite shortcut on your desktop or select RuneLite.exe in `"%localappdata%/runelite/`. Click Add and press `OK` and RuneLite will be whitelisted in the Windows Firewall.
 
 ## FPS problems, screen flickering or artifacts
 
