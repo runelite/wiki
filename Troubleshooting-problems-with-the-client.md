@@ -12,6 +12,7 @@ To find logs, do one of the following things:
 - [Settings being reset](#settings-being-reset)
 - [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
+- [Adding an exception to the Windows Firewall](#adding-an-exception-to-the-windows-firewall)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
 - [Client .dmg or .app not opening on macOS](#client-dmg-or-app-not-opening-on-macos)
 - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
