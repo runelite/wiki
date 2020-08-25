@@ -133,6 +133,7 @@
   * [[XP Globes]]
   * [[XP Tracker]]
   * [[XP Updater]]
+  * [[Zalcano]]
 
 **Developer's Guide**
 * **Setting up development environment**
