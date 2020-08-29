@@ -22,7 +22,7 @@ To show/hide individual items or all loot from a specific NPC, use right-click:
 
 ## RuneLite Account
 
-While logged in with a RuneLite [Account](https://github.com/runelite/runelite/wiki/Account), the loot tracker will remember your loot across client restarts. Loot for a particular event (such as Barrows, a clue scroll reward, or a drop from Zulrah) will be kept until 30 days after the most recent loot for that specific event. If you receive loot from an event at least once every 30 days the loot will be remembered indefinitely.
+While logged in with a RuneLite [Account](https://github.com/runelite/runelite/wiki/Account), the loot tracker will remember your loot across client restarts. Loot for a particular event (such as Barrows, a clue scroll reward, or a drop from Zulrah) will be kept until 90 days after the most recent loot for that specific event. If you receive loot from an event at least once every 90 days the loot will be remembered indefinitely.
 
 The loot can also be reviewed on the website at https://runelite.net/account/loot-tracker
 
