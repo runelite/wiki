@@ -136,6 +136,7 @@
   * [[Zalcano]]
 
 **Developer's Guide**
+* [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
 * **Setting up development environment**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
