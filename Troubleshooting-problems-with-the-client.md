@@ -25,6 +25,7 @@ To find logs, do one of the following things:
 - [UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries](#unsatisfiedlinkerror-javaaccessbridge-32dll-cant-find-dependent-libraries)
 - [Misaligned tooltips](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#misaligned-tooltips)
 - [Client is outdated](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#client-is-outdated)
+- [SSLHandshakeException: PKIX path building failed](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
 
 ## Launcher stuck at 0%
 
@@ -176,3 +177,7 @@ Invoke-webrequest -Method DELETE -Uri ("https://api.runelite.net/runelite-" + (I
 ## Client is outdated
 
 Usually this means that the game has just updated and RuneLite hasn't yet been updated. Sometimes it can mean RuneLite can't write to the cache directory. Try deleting `%userprofile%\.runelite\cache`
+
+## `javax.net.ssl.SSLHandshakeException: PKIX path building failed`
+
+Some software or certificate installed on your computer is interrupting the secure connection to download the launcher bootstrap. This may be caused by antivirus software, a root certificate (such as those which may be installed on computers used for work), or any number of other sources. To circumvent this, you can try adjusting your antivirus settings or disabling them temporarily or, if no other workaround will work, by using the `--insecure-skip-tls-verification` launcher flag. (see our page on [disabling hardware acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration) to see how to add a launcher flag)
