@@ -16,4 +16,5 @@ The current timers available are:
 * Magic Imbue
 * Freezes (Bind, Snare, Entangle, Ice spells)
 * Teleblock (full and half)
+* Tzhaar (Inferno and Fight Caves)
 
