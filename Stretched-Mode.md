@@ -6,7 +6,7 @@
 
 ### 1. Increased Performance Mode
 
-(Default Off) When enabled, it makes the client look sharper. Has no effect when [https://github.com/runelite/runelite/wiki/GPU#ui-scaling-mode](GPU Plugin) is enabled. If the UI appears blurry with you may need to configure the [https://github.com/runelite/runelite/wiki/GPU#ui-scaling-mode](GPU Plugin ui scaling mode)
+(Default Off) When enabled, it makes the client look sharper. Has no effect when [GPU Plugin](https://github.com/runelite/runelite/wiki/GPU#ui-scaling-mode) is enabled. If the UI appears blurry with you may need to configure the [GPU Plugin ui scaling mode](https://github.com/runelite/runelite/wiki/GPU#ui-scaling-mode).
 
 ### 2. Integer Scaling
 
