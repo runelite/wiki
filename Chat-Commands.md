@@ -113,7 +113,7 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 `varrock`, `varrock agility` -> `Varrock Rooftop`  
 `canifis`, `canifis agility` -> `Canifis Rooftop`  
 `fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
-`seers`, `seers'`, `seer's` `seers agility`, etc. -> `Seers' Village Rooftop`  
+`seers`, `seers'`, `seer's`, `seers agility`, etc. -> `Seers' Village Rooftop`  
 `pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
 `rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
 `ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`  
