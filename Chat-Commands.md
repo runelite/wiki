@@ -101,11 +101,33 @@ Some boss names can be substituted for shorthand versions:
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
 `cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm` -> `Chambers of Xeric: Challenge Mode`  
 `tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`    
-`prif`, `prifddinas` -> `Prifddinas Agility Course`    
-`aa`, `ape atoll`, `ape atoll agility` -> `Ape Atoll Agility`    
-`hs`, `ghc` -> `Hallowed Sepulchre`  
 
-Note: if the chat commands for !kc do not work in game, you first need to open up an in-game Ring of Wealth's boss kill log for Runelite to register the kill counts.
+Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log for RuneLite to register the kill counts.
+
+#### Agility Course Abbreviations  
+`!kc` can also be used to share your Agility Course lap counts:
+
+`aa`, `ape atoll` -> `Ape Atoll Agility`  
+`draynor`, `draynor agility` -> `Draynor Village Rooftop`  
+`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility` -> `Al-Kharid Rooftop`  
+`varrock`, `varrock agility` -> `Varrock Rooftop`  
+`canifis`, `canifis agility` -> `Canifis Rooftop`  
+`fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
+`seers`, `seers'`, `seer's` `seers agility`, etc. -> `Seers' Village Rooftop`  
+`pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
+`rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
+`ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`  
+`ap`, `pyramid`, -> `Agility Pyramid`  
+`barb`, `barb outpost` -> `Barbarian Outpost`  
+`brimhaven`, `brimhavan agility` -> `Agility Arena`  
+`dorg`, `dorgesh kaan`, `dorgesh-kaan` -> `Dorgesh-Kaan Agility`  
+`gnome stronghold` -> `Gnome Stronghold Agility`  
+`penguin` -> `Penguin Agility`  
+`werewolf` ->  `Werewolf Agility`  
+`skullball` -> `Werewolf SkullBall`  
+`wildy`, `wildy agility` -> `Wilderness Agility`  
+`prif`, `prifddinas` -> `Prifddinas Agility Course`    
+`hs`, `hs [1-5]`, `ghc` -> `Hallowed Sepulchre`  
 
 ### Quest Points Commands
 
