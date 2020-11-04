@@ -1,4 +1,4 @@
-The Plugin Hub is a feature introduced in RuneLite 1.6 that allows niche plugins to be created fast and maintained by their creator without having to go through the normal submission process. This also allows them to be released at any time, instead of having to wait for the client release.
+The [Plugin Hub](https://runelite.net/plugin-hub) is a feature introduced in RuneLite 1.6 that allows niche plugins to be created fast and maintained by their creator without having to go through the normal submission process. This also allows them to be released at any time, instead of having to wait for the client release.
 
 # How to use the Plugin Hub
 
