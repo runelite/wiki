@@ -13,6 +13,7 @@
 - [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
 - [Why does the GPU plugin do X?](#why-does-the-GPU-plugin-do-X)
 - [How do I use the Linux AppImage](#Linux-AppImage)
+- [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -79,3 +80,11 @@ Categories=Games;
 " > ~/.local/share/applications/RuneLite.desktop
 EOF
 ```
+
+## I want to run RuneLite from a USB drive
+
+* Download the latest AdoptOpenJDK JRE version 11 from https://adoptopenjdk.net/ and unzip it onto the drive
+* Download the latest all-platforms jar launcher from https://runelite.net onto the drive
+* Make a .bat file which includes `java -Duser.home=client-home -Djava.io.tmpdir=client-tmp -jar RuneLite.jar --nojvm`. You will probably have to replace `java` with the full path to `java.exe` that was unzipped on the drive.
+
+Now run the .bat file to launch the client. If GPU doesn't work, try adding `-Djogamp.gluegen.UseNativeExeFile=true`
