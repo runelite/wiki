@@ -54,6 +54,7 @@ The Orb of Oculus functionality is not part of the GPU plugin.
 
 ## I have weird lines all over the screen
 Try disabling anti-aliasing in your GPU properties and in RuneLite, or reset your GPU properties to default.
+You can also try disabling any driver settings which override application-specific AA settings, such as those in Nvidia Control Panel.
 
 ## How can I disable GPU plugin if the client does not open?
 
