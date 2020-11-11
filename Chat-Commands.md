@@ -13,13 +13,14 @@ Current commands include:
 * `!kc`
 * `!qp`
 * `!pb`
-* `!gc`
+* `!gc` (Barbarian Assault gamble count)
 * `!duels`
-* `!bh`
-* `!bhrogue`
-* `!lms`
+* `!bh` (Bounty Hunter)
+* `!bhrogue` (Bounty Hunter Rogue)
+* `!lms` (Last Man Standing)
 * `!task`
 * `!cmb`
+* `!lp` (League Points)
 
 # Settings
 <img width="243" alt="Screen Shot 2020-06-18 at 3 31 38 AM" src="https://user-images.githubusercontent.com/54762282/84991224-3bdca680-b114-11ea-9f4a-532b93976a22.png">
