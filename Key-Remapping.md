@@ -23,3 +23,7 @@ Configures whether the F-Keys use remapped keys.
 ### Space
 
 Configures whether the `Space` key is remapped when in dialogues.
+
+### Control
+
+Configures whether the `Control` key is remapped.
