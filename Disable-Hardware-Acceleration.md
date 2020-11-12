@@ -34,7 +34,20 @@ Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 
 ### Method 4: Removing external programs that interfere with RL
 
-Recently it seems that GPU overlay programs can now cause this as well. If none of the aforementioned methods work for you, take a look at this issue [comment](https://github.com/runelite/runelite/issues/11727#issuecomment-636641220) and see if anything listed there can help you.
+Recently it seems that GPU overlay programs can now cause this as well. We recommend removing any of the following you have installed: (please note, this list is not exhaustive--be aware of other installed programs you have which add GPU overlays)
+
+* rivatuner
+* sonic suite
+* cFosSpeed
+* alienware command center
+* LogiOverlay
+* NZXT CAM (must be closed and computer restarted)
+* Wallpaper engine
+* NVIDIA Settings tray application
+* Nahimic
+* Sonic Studio
+* MSI Afterburner
+* Sonic radar 3
 
 ## macOS
 
