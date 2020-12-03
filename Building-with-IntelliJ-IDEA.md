@@ -45,6 +45,9 @@ If everything went well, you should be able to see something like this:
 
 ## Installing Lombok
 
+**NOTE**: Starting with IntellIJ 2020.3 the Lombok plugin is a standard part of the IDE and does not need to be installed separately.
+If you used to have it installed prior to upgrading to 2020.3, you need to *uninstall* it.
+
 When first viewing the project in IntelliJ IDEA you may come across this error:
 
 ![missing-lombok-errors](https://i.imgur.com/a1YDonV.png)
