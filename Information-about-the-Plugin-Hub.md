@@ -8,7 +8,7 @@ Using the Plugin Hub is very simple
 
 ![Step 1](https://user-images.githubusercontent.com/2979691/75092395-f564aa00-556e-11ea-8cd5-f781cfcc6940.png)
 
-2. Scroll down to the bottom of the list and click the `Plugin Hub` button.
+2. Click the `Plugin Hub` button at the bottom of the panel.
 
 ![Step 2](https://user-images.githubusercontent.com/2979691/75092413-2a70fc80-556f-11ea-9812-d639cb3acf73.png)
 
