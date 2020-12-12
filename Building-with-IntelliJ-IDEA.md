@@ -13,6 +13,8 @@
 
 # Getting started
 
+**NOTE**: IntellJ 2020.3 is widely reported to us as not working. Use 2020.2 instead.
+
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
 
 You can build RuneLite locally using [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (or above) as the codebase supports language features up to Java 8.
@@ -44,9 +46,6 @@ If everything went well, you should be able to see something like this:
 ![after-clone-fresh-project](https://i.imgur.com/JOAFeMi.png)
 
 ## Installing Lombok
-
-**NOTE**: Starting with IntellIJ 2020.3 the Lombok plugin is a standard part of the IDE and does not need to be installed separately.
-If you used to have it installed prior to upgrading to 2020.3, you need to *uninstall* it.
 
 When first viewing the project in IntelliJ IDEA you may come across this error:
 
