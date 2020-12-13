@@ -7,7 +7,7 @@ I have a number of features I plan on adding and over the coming weeks including
 
 #### Support:   
 The best way to get support, report an issue or give a suggestion is to join the [Discord](https://discord.gg/ATXSsbbXQV)!  
-Alternatively feel free to leave a comment or open an issue on GitHub
+Alternatively feel free to leave a comment or open an issue on [GitHub](https://github.com/Mrnice98/KillsPerHour)
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
