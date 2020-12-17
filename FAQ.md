@@ -59,13 +59,17 @@ No. [See this.](https://twitter.com/RuneLiteClient/status/1057301530569777154)
 See [[GPU FAQ]].
 
 ## Linux AppImage
-The Linux AppImage contains a bundled up combination of Java and RuneLite, that has been established to work well together. It is preferred to running a native Java installation. The AppImage allows most Linux systems, including Intel powered ChromeOS devices running the Linux Beta/Crostini to play RuneLite.
+The Linux AppImage contains a bundled up combination of Java and RuneLite, that has been established to work well together. It is preferred to running a native Java installation. The AppImage allows most Linux systems, including ChromeOS devices running the Linux Beta/Crostini to play RuneLite.
+
+We currently offer AppImages for x86_64 and aarch64 architectures. Run `uname -p` to see which architecture you have. 
 
 Running the following script in a terminal should be enough to download RuneLite and set up the AppImage to appear in your start menu or application trays, from where it should work like any other app.
 ```
 bash -- << EOF
 mkdir -p ~/.icons ~/.local/share/applications
-curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.1.3/RuneLite.AppImage
+curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.1.5/RuneLite.AppImage
+# OR use this for aarch64 systems
+#curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.1.6/RuneLite-aarch64.AppImage
 chmod +x ~/.local/RuneLite.AppImage
 curl -L -o ~/.icons/RuneLite.png https://raw.githubusercontent.com/runelite/launcher/master/appimage/runelite.png
 echo "\
