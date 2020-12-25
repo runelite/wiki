@@ -135,9 +135,10 @@
   * [[Zalcano]]
 
 **Developer's Guide**
-* **Plugin Hub Development**
+* **Plugin Development**
   * [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
-  * [[Plugin Hub Development Logging]]
+  * [[Creating plugin config panels]]
+  * [[Plugin Development Logging]]
 * **RuneLite Core Development**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
@@ -147,7 +148,6 @@
   * [[Git Cheat Sheet]]
   * [[Rebasing your branch from the May 16, 2018 rebase]]
 * [[Working with client scripts]]
-* [[Creating plugin config panels]]
 * [[Using the client developer tools]]
 * [[VarPlayers, VarBits, and VarClients]]
 * [[Running the Runelite HTTP API Service]]
