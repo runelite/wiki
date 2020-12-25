@@ -14,7 +14,7 @@ Keep in mind that INFO level logging will be included in normal user logs,
 so try to avoid excessive logging at this level.
 Information that is only relevant to a developer working on the plugin should be logged at the DEBUG level.
 
-### Changing the default logging behaviour
+### Changing the default logging behaviour - Plugin Hub only
 If you prefer to use an entirely different logging configuration, 
 you can create your own logback-test.xml within your project's src/test/resources folder.
 This file __must__ be a test resource, so that it is not included in your plugin distribution.
