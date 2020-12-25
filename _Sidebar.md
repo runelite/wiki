@@ -138,7 +138,7 @@
 * **Plugin Hub Development**
   * [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
   * [[External Plugin Development Logging]]
-* **Setting up development environment**
+* **RuneLite Core Development**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
 * **Using Git with RuneLite**
