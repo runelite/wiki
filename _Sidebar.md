@@ -137,7 +137,7 @@
 **Developer's Guide**
 * **Plugin Hub Development**
   * [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
-  * [[External Plugin Development Logging]]
+  * [[Plugin Hub Development Logging]]
 * **RuneLite Core Development**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
