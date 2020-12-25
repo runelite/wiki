@@ -3,7 +3,7 @@ RuneLite uses logback-classic, with a configuration to log to to `%userprofile%/
 This configuration also only logs at the INFO level.
 
 ### Changing the default logging behaviour
-To enable DEBUG level logging, you can use the --debug CLI flag, as described in [Using the client developer tools](https://github.com/runelite/runelite/wiki/Using-the-client-developer-tools).
+To enable DEBUG level logging, you can use the --debug CLI flag, as described in [[Using the client developer tools]].
 
 If you prefer to use an entirely different logging configuration, 
 you can create your own logback-test.xml within your project's src/test/resources folder.
