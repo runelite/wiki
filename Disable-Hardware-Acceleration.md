@@ -19,11 +19,15 @@ You can create desktop shortcut with ` --mode=OFF` at the end of the target box.
 
 ### Method 2: Creating .bat file
 
-Copy the text below, save as a .bat file and run.
+Copy the text below, paste it into notepad, save as a .bat file and run.
 ```
 start "" "%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --mode=OFF
 exit
 ```
+Be sure to change "Save as type" to "All Files"
+
+![](https://i.imgur.com/SeTB5Tl.png)
+
 
 ### Method 3: Starting the launcher with HW accel disabled from CMD
 
