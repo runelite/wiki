@@ -7,7 +7,7 @@ The Chat Notifications plugin can highlight and send notifications upon certain 
 
 ### Highlight own name
 
-Hightlights any instance of your username in chat
+Highlights any instance of your username in chat
 
 ### Highlight words
 
