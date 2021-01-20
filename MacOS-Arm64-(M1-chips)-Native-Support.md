@@ -1,11 +1,4 @@
-Native support for the newer Apple chips is still a work in progress that isn't fully under RuneLite's hands, having said that it is currently possible to run RuneLite natively on this new architecture with a few caveats.
-
-## Known Issues
-* GPU plugin is not functional
-
-## Notes
-
-Currently there are no pre-compiled binary offerings, the only way is to install a JVM manually and use **RuneLite's jar launcher**, which is available on the [main page](https://runelite.net), by clicking the arrow on the `Download` button and selecting `Download for all platforms`. Because of this, getting this setup working **might require some technical skills**.
+Native support for the newer Apple chips is still a work in progress, and there is not a native launcher available. However you can manually install a native JRE and use **RuneLite's jar launcher**, which is available on the [main page](https://runelite.net), by clicking the arrow on the `Download` button and selecting `Download for all platforms`. Because of this, getting this setup working **might require some technical skills**.
 
 ## Installing Azul's JVM
 
