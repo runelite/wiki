@@ -105,3 +105,11 @@ Currently, only rasterization is supported due to lack of feature support from v
 
 ## Green stripes are appearing on my screen
 This bug seems to be caused by changes in the Intel graphics drivers. the `27.20.100.xxxx` drivers can produce green lines at the time of writing. Downgrading back to the `26.20.100.xxxx` drivers seems to be resolving this problem.
+
+## My game is flickering
+
+Open the Nvidia Control Panel, open "Manage 3D Settings" under the 3D settings group, select "Program Settings", add RuneLite (it can be easily found under your recently-opened programs), apply the following settings, and relaunch RuneLite:
+
+* Monitor Technology: Fixed Refresh Rate
+* OpenGL Rendering GPU: _Set to your graphics card_
+* Vertical Sync: Off
