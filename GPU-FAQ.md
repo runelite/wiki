@@ -113,3 +113,11 @@ Open the Nvidia Control Panel, open "Manage 3D Settings" under the 3D settings g
 * Monitor Technology: Fixed Refresh Rate
 * OpenGL Rendering GPU: _Set to your graphics card_
 * Vertical Sync: Off
+
+# Card Specific Issues
+
+## AMD Radeon RX 5700 XT
+
+Symptom: GPU driver crash (black screen) when turning on or using the GPU plugin
+
+Solution: Disable hardware acceleration using method 2 found here https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-2-creating-bat-file
