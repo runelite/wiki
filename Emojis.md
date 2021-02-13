@@ -6,24 +6,87 @@ Substitutes typed emoticons to display emojis in the game chat panel and above p
 
 | Emoji | Trigger | Emoji | Trigger | Emoji | Trigger |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![slight_smile](https://user-images.githubusercontent.com/2979691/57862390-2e0d7100-77f0-11e9-9c91-f0c58f7a0b48.png)  | :)  | ![joy](https://user-images.githubusercontent.com/2979691/57862407-31a0f800-77f0-11e9-839b-17db0414bc59.png) | =') | ![cowboy](https://user-images.githubusercontent.com/2979691/57862435-39609c80-77f0-11e9-9d93-405508c5db5a.png) | 3:) |
-| ![blush](https://user-images.githubusercontent.com/2979691/57862444-3d8cba00-77f0-11e9-9b79-633abb67864f.png) | ^\_^ | ![smile](https://user-images.githubusercontent.com/2979691/57862389-2d74da80-77f0-11e9-8dc3-8116a7521ae6.png) | :D | ![grinning](https://user-images.githubusercontent.com/2979691/57862414-336abb80-77f0-11e9-9131-969b16333183.png) | =D |
-| ![wink](https://user-images.githubusercontent.com/2979691/57862366-26e66300-77f0-11e9-8c62-c818c5384e69.png) | ;) | ![stuck_out_tongue_closed_eyes](https://user-images.githubusercontent.com/2979691/57862380-29e15380-77f0-11e9-8e8a-4d8e9006080b.png) | X-P | ![stuck_out_tongue](https://user-images.githubusercontent.com/2979691/57862383-2c43ad80-77f0-11e9-9ab4-b648f50dda61.png) | :P |
-| ![yum](https://user-images.githubusercontent.com/2979691/57862365-26e66300-77f0-11e9-9c02-b2e2e9a37058.png) | =P~ | ![hugging](https://user-images.githubusercontent.com/2979691/57862410-32d22500-77f0-11e9-81ed-8c1ec65e0cb5.png) | >:D< | ![triumph](https://user-images.githubusercontent.com/2979691/57862372-28b02680-77f0-11e9-952a-68f8b7314c29.png) | :> |
-| ![thinking](https://user-images.githubusercontent.com/2979691/57862376-2948bd00-77f0-11e9-80e1-7d7d25e75778.png) | :‑? | ![confused](https://user-images.githubusercontent.com/2979691/57862438-3a91c980-77f0-11e9-863c-da4432041554.png) | :/ | ![neutral_face](https://user-images.githubusercontent.com/2979691/57862405-31086180-77f0-11e9-83cb-3b2e63dec2e5.png) | =\| |
-| ![expressionless](https://user-images.githubusercontent.com/2979691/57862426-3665ac00-77f0-11e9-8b19-f3070259dd75.png) | :\| | ![unamused](https://user-images.githubusercontent.com/2979691/57862369-277ef980-77f0-11e9-88cd-48efff7b4f0a.png) | :-\| | ![slight_frown](https://user-images.githubusercontent.com/2979691/57862392-2e0d7100-77f0-11e9-9045-e4f59dbb34db.png) | :( |
-| ![frowning2](https://user-images.githubusercontent.com/2979691/57862416-336abb80-77f0-11e9-8b94-af45fc77e3c5.png) | =( | ![cry](https://user-images.githubusercontent.com/2979691/57862429-36fe4280-77f0-11e9-9e21-276fbba57f4b.png) | :'( | ![sob](https://user-images.githubusercontent.com/2979691/57862384-2c43ad80-77f0-11e9-9279-1ebd264ada88.png) | :\_(  |
-| ![flushed](https://user-images.githubusercontent.com/2979691/57862423-3665ac00-77f0-11e9-820e-683fad2a3adf.png) | :$ | ![zipper_mouth](https://user-images.githubusercontent.com/2979691/57862364-26e66300-77f0-11e9-9398-d5d693a4deee.png) | :-# | ![persevere](https://user-images.githubusercontent.com/2979691/57862401-2fd73480-77f0-11e9-8210-af725b968d94.png) | >_< |
-| ![sunglasses](https://user-images.githubusercontent.com/2979691/57862379-2948bd00-77f0-11e9-980c-61648817ea84.png) | 8-) | ![innocent](https://user-images.githubusercontent.com/2979691/57862408-32d22500-77f0-11e9-9c0a-f7e24d7e4e8c.png) | O:) | ![smiling_imp](https://user-images.githubusercontent.com/2979691/57862387-2d74da80-77f0-11e9-8696-e09479689ab7.png) | >:) |
-| ![rage](https://user-images.githubusercontent.com/2979691/57862398-2ea60780-77f0-11e9-99d6-b81968a1a6aa.png) | >:( | ![hushed](https://user-images.githubusercontent.com/2979691/57862409-32d22500-77f0-11e9-81fe-981c9962b3e8.png) | :‑O | ![open_mouth](https://user-images.githubusercontent.com/2979691/57862403-2fd73480-77f0-11e9-9b60-32587a9074dc.png) | :O |
-| ![scream](https://user-images.githubusercontent.com/2979691/57862396-2ea60780-77f0-11e9-853c-7df0462a67cf.png) | :-@ | ![see_no_evil](https://user-images.githubusercontent.com/2979691/57862394-2e0d7100-77f0-11e9-9a49-e5cd96852c27.png) | X_X | ![dancer](https://user-images.githubusercontent.com/2979691/57862428-36fe4280-77f0-11e9-9f1e-c7823b78bbb3.png) | \\:D/ |
-| ![ok_hand](https://user-images.githubusercontent.com/2979691/57862404-31086180-77f0-11e9-8cd3-2d3fa940b069.png) | (Ok) | ![thumbsup](https://user-images.githubusercontent.com/2979691/57862373-28b02680-77f0-11e9-8c72-376c76c5f828.png) | (Y) | ![thumbsdown](https://user-images.githubusercontent.com/2979691/57862375-28b02680-77f0-11e9-8081-dfde1303b3f9.png) | (N) |
-| ![hearts](https://user-images.githubusercontent.com/2979691/57862412-32d22500-77f0-11e9-98a6-b6979c260c3c.png) | <3 | ![broken_heart](https://user-images.githubusercontent.com/2979691/57862440-3b2a6000-77f0-11e9-951b-68c0290851bb.png) | </3 | ![zzz](https://user-images.githubusercontent.com/2979691/57862363-26e66300-77f0-11e9-8439-4190ca5b4373.png) | Zzz |
-| ![fish](https://user-images.githubusercontent.com/2979691/57862424-3665ac00-77f0-11e9-8b84-ad3dcf266dfd.png) | <>< | ![cat](https://user-images.githubusercontent.com/2979691/57862439-3b2a6000-77f0-11e9-828b-afdd28664c02.png) | :3 | ![dog](https://user-images.githubusercontent.com/2979691/57862427-36fe4280-77f0-11e9-9601-0d47098373f3.png) | =3 |
-| ![crab](https://user-images.githubusercontent.com/2979691/57862433-38c80600-77f0-11e9-81d7-c9d292e86007.png) | V(;,;)V | ![fork_and_knife](https://user-images.githubusercontent.com/2979691/57862421-35cd1580-77f0-11e9-9e2e-f2e5d47bffa5.png) | --E | ![cooking](https://user-images.githubusercontent.com/2979691/57862436-39609c80-77f0-11e9-9905-34680d0ee695.png) | --(o) |
-| ![party_popper](https://user-images.githubusercontent.com/2979691/57862402-2fd73480-77f0-11e9-9b59-dcb196e0e1c1.png) | @@@ | ![sweat](https://user-images.githubusercontent.com/2979691/57862378-2948bd00-77f0-11e9-9ffe-efa04b0b28d1.png) | ;; | ![eyes](https://user-images.githubusercontent.com/2979691/57862425-3665ac00-77f0-11e9-84e6-74a602c640e5.png) | O.O |
-| ![pile_of_poo](https://user-images.githubusercontent.com/2979691/57862399-2fd73480-77f0-11e9-9878-b588c8f2b480.png) | \~@\~ | ![fire](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/fire.png) |(/\\) | ![alien](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/alien.png) | (@.@) |
-| ![eggplant](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/eggplant.png) | 8=D | ![wave](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/wave.png) | (^_^)/ | ![heart eyes](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/heart_eyes.png) | (\*.\*) |
-|![facepalm](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/facepalm.png) | M-) |![pensive](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/pensive.png) | V_V | ![acorn](https://raw.githubusercontent.com/runelite/runelite/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/acorn.png) | <D~ | 
-![gorilla](https://user-images.githubusercontent.com/54762282/85215206-547ed380-b343-11ea-93bc-6a4b6771bf40.png) | :G | ![pleading](https://raw.githubusercontent.com/OneProGoober/runelite/emoji-additions/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/pleading.png) | (n_n) | ![XD](https://raw.githubusercontent.com/OneProGoober/runelite/emoji-additions/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/xd.png) | Xd |
-| ![spoon](https://raw.githubusercontent.com/Broooklyn/runelite/9e8d8ada470005521362770e0b24ec4b40722f6d/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/spoon.png) | --o | ![weary face](https://github.com/WolffTech/runelite/raw/80e5d442432fe220acefeb485842e0831c35774a/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/weary_face.png) | Dx | | |
+| ![slight_smile] | :) | ![joy] | =') | ![cowboy] | 3:) |
+| ![blush] | ^\_^ | ![smile] | :D | ![grinning] | =D |
+| ![wink] | ;) | ![stuck_out_tongue_closed_eyes] | X-P | ![stuck_out_tongue] | :P |
+| ![yum] | =P~ | ![hugging] | >:D< | ![triumph] | :> |
+| ![thinking] | :‑? | ![confused] | :/ | ![neutral_face] | =\| |
+| ![expressionless] | :\| | ![unamused] | :-\| | ![slight_frown] | :( |
+| ![frowning2] | =( | ![cry] | :'( | ![sob] | :\_(  |
+| ![flushed] | :$ | ![zipper_mouth] | :-# | ![persevere] | >_< |
+| ![sunglasses] | 8-) | ![innocent] | O:) | ![smiling_imp] | >:) |
+| ![rage] | >:( | ![hushed] | :‑O | ![open_mouth] | :O |
+| ![scream] | :-@ | ![see_no_evil] | X_X | ![dancer] | \\:D/ |
+| ![ok_hand] | (Ok) | ![thumbsup] | (Y) | ![thumbsdown] | (N) |
+| ![hearts] | <3 | ![broken_heart] | </3 | ![zzz] | Zzz |
+| ![fish] | <>< | ![cat] | :3 | ![dog] | =3 |
+| ![crab] | V(;,;)V | ![fork_and_knife] | --E | ![cooking] | --(o) |
+| ![party_popper] | @@@ | ![sweat] | ;; | ![eyes] | O.O |
+| ![pile_of_poo] | \~@\~ | ![fire] |(/\\) | ![alien] | (@.@) |
+| ![eggplant] | 8=D | ![wave] | (^_^)/ | ![heart_eyes] | (\*.\*) |
+| ![facepalm] | M-) |![pensive] | V_V | ![acorn] | <D~ | 
+| ![gorilla] | :G | ![pleading] | (n_n) | ![xd] | Xd |
+| ![spoon] | --o | ![weary_face] | Dx | | |
+
+[slight_smile]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/slight_smile.png
+[joy]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/joy.png
+[cowboy]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/cowboy.png
+[blush]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/blush.png
+[smile]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/smile.png
+[grinning]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/grinning.png
+[wink]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/wink.png
+[stuck_out_tongue_closed_eyes]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/stuck_out_tongue_closed_eyes.png
+[stuck_out_tongue]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/stuck_out_tongue.png
+[yum]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/yum.png
+[hugging]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/hugging.png
+[triumph]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/triumph.png
+[thinking]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/thinking.png
+[confused]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/confused.png
+[neutral_face]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/neutral_face.png
+[expressionless]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/expressionless.png
+[unamused]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/unamused.png
+[slight_frown]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/slight_frown.png
+[frowning2]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/frowning2.png
+[cry]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/cry.png
+[sob]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/sob.png
+[flushed]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/flushed.png
+[zipper_mouth]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/zipper_mouth.png
+[persevere]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/persevere.png
+[sunglasses]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/sunglasses.png
+[innocent]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/innocent.png
+[smiling_imp]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/smiling_imp.png
+[rage]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/rage.png
+[hushed]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/hushed.png
+[open_mouth]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/open_mouth.png
+[scream]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/scream.png
+[see_no_evil]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/see_no_evil.png
+[dancer]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/dancer.png
+[ok_hand]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/ok_hand.png
+[thumbsup]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/thumbsup.png
+[thumbsdown]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/thumbsdown.png
+[hearts]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/hearts.png
+[broken_heart]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/broken_heart.png
+[zzz]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/zzz.png
+[fish]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/fish.png
+[cat]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/cat.png
+[dog]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/dog.png
+[crab]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/crab.png
+[fork_and_knife]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/fork_and_knife.png
+[cooking]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/cooking.png
+[party_popper]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/party_popper.png
+[sweat]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/sweat.png
+[eyes]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/eyes.png
+[pile_of_poo]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/pile_of_poo.png
+[fire]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/fire.png
+[alien]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/alien.png
+[eggplant]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/eggplant.png
+[wave]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/wave.png
+[heart_eyes]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/heart_eyes.png
+[facepalm]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/facepalm.png
+[pensive]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/pensive.png
+[acorn]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/acorn.png
+[gorilla]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/gorilla.png
+[pleading]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/pleading.png
+[xd]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/xd.png
+[spoon]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/spoon.png
+[weary_face]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/weary_face.png
