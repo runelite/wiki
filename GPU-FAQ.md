@@ -100,9 +100,6 @@ In Windows Powershell run the following command:
 (Get-Content $env:userprofile\.runelite\settings.properties).replace('runelite.gpuplugin=true', 'runelite.gpuplugin=false') | Set-Content $env:userprofile\.runelite\settings.properties
 ```
 
-## Why can't I turn on Compute Shaders and get extended draw distance on MacOS?
-Currently, only rasterization is supported due to lack of feature support from versions of OpenGL offered on MacOS. We are still interested in bringing feature parity to all platforms, including MacOS, in time. [Any progress we make toward that goal is noted on our issue tracker.](https://github.com/runelite/runelite/issues/6482)
-
 ## Green stripes are appearing on my screen
 This bug seems to be caused by changes in the Intel graphics drivers. the `27.20.100.xxxx` drivers can produce green lines at the time of writing. Downgrading back to the `26.20.100.xxxx` drivers seems to be resolving this problem.
 
