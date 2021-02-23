@@ -34,6 +34,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Any new high-end PvM boss plugins
 * GE Tracker: There's no way to validate that any of the data coming from the client is legitimate, thus allowing for easy spoofing and price manipulation.
 * Hiscores for PBs and other information not on the hiscores: Same as the GE Tracker, the data could easily be spoofed, rendering it useless. 
+* Presets for Camera yaw/pitch/position
 
 #### Menu Entry Swapping
 * `Pickpocket`: [see Jagex statement](https://secure.runescape.com/m=news/a=13/another-message-about-unofficial-clients?oldschool=1)
