@@ -13,11 +13,9 @@
 
 # Getting started
 
-**NOTE**: IntellJ 2020.3 is widely reported to us as not working. Use 2020.2 instead.
-
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
 
-You can build RuneLite locally using [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (or above) as the codebase supports language features up to Java 8.
+You can build RuneLite locally using [JDK 11](https://adoptopenjdk.net) or newer. Note the codebase supports language features up to Java 8.
 
 ## Importing the project
 
