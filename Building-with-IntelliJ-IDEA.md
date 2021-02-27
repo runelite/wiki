@@ -102,7 +102,7 @@ If you are getting error about `git.exe` (or `git` on linux and mac) missing, yo
 
 ## Missing JDK
 
-If you are getting errors about missing JDK, make sure to install JDK 8 (see start of this page) and then navigate to *File* -> *Project Structure* like this:
+If you are getting errors about missing JDK, make sure to install JDK 11 (see start of this page) and then navigate to *File* -> *Project Structure* like this:
 
 ![missing-jdk-project-structure](https://i.imgur.com/IzAKzOH.png)
 
