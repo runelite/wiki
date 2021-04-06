@@ -32,6 +32,6 @@ Clicking on the status button will cycle through displaying unlocked, locked, an
 
 (Default Off) Mute prayer activation and deactivation sounds
 
-### 1. Granular volume sliders
+### 6. Granular volume sliders
 
 (Default On) Make the volume sliders allow better control of volume
