@@ -152,7 +152,7 @@ This is caused by having SOCKS proxy enabled on your network settings
 
 ## UnsatisfiedLinkError: javaaccessbridge-32.dll: Can't find dependent libraries
 
-Delete the `accessibility.properties` file in your home directory (this is found at `C:/Users/<user>/` or `%userprofile%`)
+Updating to Launcher version 2.1.7 should resolve this problem. Otherwise, delete the `accessibility.properties` file in your home directory (this is found at `C:/Users/<user>/` or `%userprofile%`)
 
 ## Misaligned Tooltips
 If your mouseover tooltips are misaligned, confirm whether or not you are using a [RuneLite Account](https://github.com/runelite/runelite/wiki/Account), and then follow the appropriate steps:
