@@ -20,7 +20,7 @@ Simply create a new `Maven` run configuration, and set the command line to `-Dch
 
 You can also install the Checkstyle-IDEA plugin, and it will checkstyle as you type. To install the plugin, go to File->Settings->Plugins. Click Browse Repositories, search for Checkstyle-IDEA, and install it.
 
-After installing and restarting IDEA, then go to File->Settings->Other Settings->Checkstyle. Under Configuration File, click +, and select the checkstyle.xml from your RuneLite folder. Make sure you check the Active box next to your checkstyle to enable it.
+After installing and restarting IDEA, then go to File->Settings->Tools->Checkstyle. Under Configuration File, click +, and select the checkstyle.xml from your RuneLite folder. Make sure you check the Active box next to your checkstyle to enable it.
 ![checkstyle location](https://i.imgur.com/9gWqQjm.png)
 
 ## Imports
