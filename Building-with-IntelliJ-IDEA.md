@@ -9,7 +9,7 @@
 * [Troubleshooting](#troubleshooting)
   - [Missing git](#missing-git)
   - [Missing JDK](#missing-jdk)
-  - [Client failing to start](client-failing-to-start--client-stuck-while-loading--client-crashes-while-playing)
+  - [Client failing to start](#client-failing-to-start--client-stuck-while-loading--client-crashes-while-playing)
 
 # Getting started
 
