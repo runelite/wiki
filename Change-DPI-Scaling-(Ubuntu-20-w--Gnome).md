@@ -28,3 +28,8 @@ Categories=X-Runescape;Game;X-Scaled;X-GDK;RolePlaying;AdventureGame;
 GenericName=RuneLite
 
 ```
+
+# Known Issues
+
+* GPU
+    * AntiAliasing of any setting while scaled breaks graphics as of this writing
