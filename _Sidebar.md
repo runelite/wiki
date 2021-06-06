@@ -5,6 +5,7 @@
 * [[Troubleshooting problems with the client]]
 * [[Disable Hardware Acceleration]]
 * [[Change DPI Scaling (Windows)]]
+* [[Change-DPI-Scaling-(Ubuntu-20-w--Gnome)]]
 * [[Information about the Plugin Hub]]
 * [[General Features]]
 * **Plugin Configuration**
