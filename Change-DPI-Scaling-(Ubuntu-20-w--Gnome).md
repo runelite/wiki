@@ -17,13 +17,14 @@ GDK_SCALE=2 GDK_DPI_SCALE=0.5 /usr/local/bin/RuneLite.AppImage
 ```
 [Desktop Entry]
 Name=RuneLite
-Exec=GDK_SCALE=2 GDK_DPI_SCALE=0.5 /usr/local/bin/RuneLite.AppImage
-TryExec=RuneLite.AppImage
+Exec=env GDK_SCALE=2 GDK_DPI_SCALE=0.5 "/usr/local/bin/RuneLite.AppImage"
+TryExec=/usr/local/bin/RuneLite.AppImage
 StartupNotify=true
 Terminal=false
 Type=Application
-Icon=/usr/share/icons/custom/runelite.svg
+Icon=/home/ccorbett/Downloads/runelite.svg
 Comment=RuneLite ubuntu 20 with gnome scaled launcher
 Categories=X-Runescape;Game;X-Scaled;X-GDK;RolePlaying;AdventureGame;
 GenericName=RuneLite
+
 ```
