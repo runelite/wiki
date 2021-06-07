@@ -1,5 +1,5 @@
 # Ubuntu + Gnome Scaling
-There is a fairly simple way to scale applications on Ubuntu 20 with Gnome. RuneLite, specifically, is a GDK application (QT applications use a different set of environment variables, and so forth)
+There is a fairly simple way to scale applications on Ubuntu 20 with Gnome
 
 Please note in my examples, I placed RuneLite.AppImage in `/usr/local/bin` and already gave it executable permissions (`chmod +x`)
 
