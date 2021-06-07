@@ -28,6 +28,10 @@ Categories=X-Runescape;Game;X-Scaled;X-GDK;RolePlaying;AdventureGame;
 GenericName=RuneLite
 
 ```
+# Screeshot
+
+![](https://i.imgur.com/IdT1pKD.png)
+
 
 # Known Issues
 
