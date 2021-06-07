@@ -33,3 +33,7 @@ GenericName=RuneLite
 
 * GPU
     * AntiAliasing of any setting while scaled breaks graphics as of this writing
+
+# My personal best visual
+
+With this setup, I personally use stretched modern with integer scaling and scale at 0% - in full screen
