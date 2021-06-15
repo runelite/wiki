@@ -4,11 +4,11 @@ The twitch plugin allows you to view twitch chat and send messages from RuneLite
 
 ## Usage
 
-Messages will show up as a clan chat message, allowing you to filter them as you would regular clan chat messages. Messages can be sent to the channel by prefixing with `//`. 
+Messages will show up as a clan chat message, allowing you to filter them as you would regular clan chat messages. Messages can be sent to the channel by prefixing with `/t `. 
 
 For example:
 ```
-//hi twitch
+/t hi twitch
 ```
 
 ## Settings
