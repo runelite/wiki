@@ -27,10 +27,6 @@ Configure the colour of the area lines.
 
 # Common problems
 
-### Why isn't the plugin working?
-
-Untick the [Hide overlay hint](https://github.com/runelite/runelite/wiki/NPC-Aggression-Timer#hide-overlay-hint-not-recommended) option. If an overlay pops up telling you to teleport, then do as it says to get it to go away and the plugin will begin working. If no overlay pops up, then see [Always active](https://github.com/runelite/runelite/wiki/NPC-Aggression-Timer#always-active) or [NPC names](https://github.com/runelite/runelite/wiki/NPC-Aggression-Timer#npc-names).
-
 ### Rock crabs, sand crabs and ammonite crabs
 
 If using the [NPC names](https://github.com/runelite/runelite/wiki/NPC-Aggression-Timer#npc-names) option then you need to enter the name of the NPC's rock form into the input box e.g. `fossil rock`.
