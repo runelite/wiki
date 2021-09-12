@@ -72,7 +72,7 @@ Standard maven goal is *Install* so let's run that. Locate *Runelite (root)* pro
 ![run-maven-install](https://i.imgur.com/MxTMK6o.png)
 
 If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
-You can now save this build step as *Run configuration*, just right click *Install* again and select *Create..*, window like this should pop-up, so just hit *Ok* (you can append `-DskipTests` for faster builds):
+You can now save this build step as *Run configuration*, just right click *Install* again and select *Create..* (*Modify Run Configuration...* in IntelliJ 2021.2), window like this should pop-up, so just hit *Ok* (you can append `-DskipTests` for faster builds):
 
 ![project-maven-install-save](https://i.imgur.com/vdJoJ7L.png)
 
