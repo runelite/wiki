@@ -28,24 +28,25 @@ You can create desktop shortcut with ` --mode=OFF` at the end of the target box.
 
 [![Client View](https://thumbs.gfycat.com/DamagedWealthyKoalabear-size_restricted.gif)](https://gfycat.com/DamagedWealthyKoalabear)
 
-### Method 2: Creating .bat file
-
-Copy the text below, paste it into notepad, save as a .bat file and run.
-```
-start "" "%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --mode=OFF
-exit
-```
-Be sure to change "Save as type" to "All Files"
-
-![](https://i.imgur.com/SeTB5Tl.png)
-
-
-### Method 3: Starting the launcher with HW accel disabled from CMD
+### Method 2: Starting the launcher with HW accel disabled from CMD
 
 Run cmd.exe (Windows Key + R) and paste this into the command prompt:
 ```
 "%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --mode=OFF
 ```
+
+
+You can create a batch file to run this automatically when executed.  Copy the text below, paste it into notepad, and save as a .bat file.  
+```
+start "" "%localappdata%/runelite/jre/bin/java.exe" -jar "%localappdata%/runelite/runelite.jar" --mode=OFF
+exit
+``` 
+
+Be sure to change "Save as type" to "All Files"
+
+![](https://i.imgur.com/SeTB5Tl.png)
+
+
 
 # All platforms
 
