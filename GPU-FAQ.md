@@ -134,4 +134,4 @@ For Nvidia drivers go into `NVIDIA Control Panel -> Manage 3D settings` for mana
 
 Symptom: GPU driver crash (black screen) when turning on or using the GPU plugin
 
-Solution: Disable hardware acceleration using method 2 found here https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-2-creating-bat-file
+Solution: Disable hardware acceleration using method 2 found here https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-2-starting-the-launcher-with-hw-accel-disabled-from-cmd
