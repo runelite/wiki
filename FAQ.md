@@ -67,9 +67,9 @@ Running the following script in a terminal should be enough to download RuneLite
 ```
 bash -- << EOF
 mkdir -p ~/.icons ~/.local/share/applications
-curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.1.5/RuneLite.AppImage
+curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.2.0/RuneLite.AppImage
 # OR use this for aarch64 systems
-#curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.1.6/RuneLite-aarch64.AppImage
+#curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.2.0/RuneLite-aarch64.AppImage
 chmod +x ~/.local/RuneLite.AppImage
 curl -L -o ~/.icons/RuneLite.png https://raw.githubusercontent.com/runelite/launcher/master/appimage/runelite.png
 echo "\
