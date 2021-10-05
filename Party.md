@@ -28,7 +28,9 @@ If you're using the DPS Counter plugin, the Party plugin will allow you to see t
 
 To start a party, you need at least 2 people.
 
-First, have one player ask another to join their party. This is done by clicking on their Discord avatar, or by going to their profile. You must be friends with that user on Discord to be able to do this.
+First, create a party from within the 'Party' plugin in the sidebar.
+
+Then, have one player ask another to join their party. This is done by clicking on their Discord avatar, or by going to their profile. You must be friends with that user on Discord to be able to do this.
 
 ![Ask to join](https://runelite.net/img/blog/1.5.11-Release/discord-join.png)
 
