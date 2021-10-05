@@ -91,6 +91,7 @@ Some boss names can be substituted for shorthand versions:
 `prime` -> `Dagannoth Prime`  
 `wt` -> `Wintertodt`  
 `barrows` -> `Barrows Chests`  
+`cg` -> `Corrupted Gauntlet`  
 `dusk`, `dawn`, `gargs` -> `Grotesque Guardians`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `zuk`, `inferno`, -> `TzKal-Zuk`  
