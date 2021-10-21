@@ -19,6 +19,7 @@ Many GPU overlay programs cause this problem, usually removing them is the best 
 * Sonic Studio
 * MSI Afterburner
 * Sonic radar 3
+* GPU TWEAK III - ASUS
 
 ## Disabling hardware acceleration
 
