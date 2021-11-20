@@ -103,7 +103,6 @@
   * [[Random Events]]
   * [[Regeneration Meter]]
   * [[Report Button]]
-  * [[Rogues' Den]]
   * [[Run Energy]]
   * [[Rune Pouch]]
   * [[RuneLite]]
