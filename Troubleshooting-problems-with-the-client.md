@@ -47,6 +47,8 @@ If you see `Error loading RS!` in the `client.log` you are unable to get the osr
 The error will be accompanied by an exception
 - `SocketTimeoutException: timeout` - this means the connection took too long to either connect or receive any data, most of the time caused by a slow or inconsistent internet connection, you can try resetting your network or maybe using a VPN.
 
+In some cases, having special rules in your environment settings that affect `java_options` can prevent your runelite launcher from launching.
+
 ## Problems with accessing API
 
 If you see `SSLException` in `client.log` this probably means that you do not have your Java certificates properly set-up. Workaround is [here](https://stackoverflow.com/a/50103533).
