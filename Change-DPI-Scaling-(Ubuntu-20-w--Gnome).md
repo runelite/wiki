@@ -1,7 +1,7 @@
 # Ubuntu + Gnome Scaling
 There is a fairly simple way to scale applications on Ubuntu 20 with Gnome
 
-Please note in my examples, I placed RuneLite.AppImage in `/usr/local/bin` and already gave it executable permissions (`chmod +x`)
+In these examples, RuneLite.AppImage is present in `/usr/local/bin` and has executable permissions (`chmod +x`)
 
 
 # CLI Solution
@@ -37,7 +37,3 @@ GenericName=RuneLite
 
 * GPU
     * AntiAliasing of any setting while scaled breaks graphics as of this writing
-
-# My personal best visual
-
-With this setup, I personally use stretched modern with integer scaling and scale at 0% - in full screen
