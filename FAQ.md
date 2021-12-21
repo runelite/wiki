@@ -14,6 +14,7 @@
 - [Why does the GPU plugin do X?](#why-does-the-GPU-plugin-do-X)
 - [How do I use the Linux AppImage](#Linux-AppImage)
 - [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
+- [I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"](#i-get-the-error-this-program-can-only-be-installed-on-versions-of-windows-designed-for-the-following-processor-architectures)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -92,3 +93,7 @@ EOF
 * Make a .bat file which includes `java -Duser.home=client-home -Djava.io.tmpdir=client-tmp -jar RuneLite.jar --nojvm`. You will probably have to replace `java` with the full path to `java.exe` that was unzipped on the drive.
 
 Now run the .bat file to launch the client. If GPU doesn't work, try adding `-Djogamp.gluegen.UseNativeExeFile=true`
+
+## I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"
+
+If you have an ARM laptop running Windows, you need to install Microsoft OpenJDK from https://github.com/microsoft/openjdk-aarch64/releases/download/jdk-11.0.12-ga/microsoft-jdk-11.0.12.7.1-windows-aarch64.msi and then download and run the `All Platforms` version of RuneLite from https://runelite.net 
