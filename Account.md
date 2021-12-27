@@ -18,3 +18,10 @@ This plugin enables the green login button on the right-hand or top-side part of
 
 ## Playing with multiple accounts
 For information on how to play with multiple accounts, see [General Features](https://github.com/runelite/runelite/wiki/General-Features#playing-with-multiple-accounts).
+
+## Items not synced
+
+Some things are not synced using the feature such as 
+
+1. Screenshots
+2. Some plugin data such as data for the bank history plugin
