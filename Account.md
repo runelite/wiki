@@ -24,4 +24,4 @@ For information on how to play with multiple accounts, see [General Features](ht
 Some things are not synced using the feature such as 
 
 1. Screenshots
-2. Some plugin data such as data for the bank history plugin
+2. Data for some hub plugins
