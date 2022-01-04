@@ -13,7 +13,7 @@ The following are some common mistakes not covered by the code style check:
 
 ## IntelliJ Integration
 
-The easiest way to follow our style is to use IntelliJ's formatter. To install it, simply download [this xml](http://ix.io/1jNP) and [follow this guide](https://www.jetbrains.com/help/idea/copying-code-style-settings.html) to import it into your IDE. Then you can press `Ctrl+Alt+L` to format the current document.
+The easiest way to follow our style is to use IntelliJ's formatter. To install it, simply download [this xml](http://ix.io/1jNP) and [follow this guide](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-code-style) to import it into your IDE. Then you can press `Ctrl+Alt+L` to format the current document.
 
 If you don't like tools formatting your code for you, you can add a maven run configuration that runs checkstyle.
 Simply create a new `Maven` run configuration, and set the command line to `-Dcheckstyle.skip=false checkstyle:check`
