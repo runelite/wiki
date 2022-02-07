@@ -11,3 +11,7 @@ Automatically updates your stats on crystalmathlabs.com when you log out
 ### TempleOSRS
 
 Automatically updates your stats on templeosrs.com when you log out
+
+### Wise Old Man
+
+Automatically updates your stats on wiseoldman.net when you log out
