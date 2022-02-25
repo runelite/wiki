@@ -14,7 +14,7 @@ Many GPU overlay programs cause this problem, usually removing them is the best 
 * LogiOverlay
 * NZXT CAM (must be closed and computer restarted)
 * Wallpaper engine
-* NVIDIA Settings tray application
+* NVIDIA GeForce Experience
 * Nahimic
 * Sonic Studio
 * MSI Afterburner
