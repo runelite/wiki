@@ -1,7 +1,11 @@
-RuneLite automatically enables hardware acceleration for Java 2D rendering. This can cause artifacting of the side panel, particilarly on Windows, and can be fixed by doing one of the following:
+RuneLite automatically enables hardware acceleration for Java 2D rendering. This can cause artifacting of the side panel, particularly on Windows, and can be fixed by doing one of the following:
 
 
 # Windows
+
+## Update the launcher
+
+Launcher version 2.4.0+ blocks common applications which cause the artifacting issue, updating to it by redownloading RuneLite from https://runelite.net may fix the problem. If you still experience the issue after installing a launcher newer than 2.4.0, tell us in `#support` on https://runelite.net/discord and we will look into it further.
 
 ## Removing external programs that interfere with RuneLite
 
