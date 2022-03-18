@@ -96,4 +96,4 @@ Now run the .bat file to launch the client. If GPU doesn't work, try adding `-Dj
 
 ## I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"
 
-If you have an ARM laptop running Windows, you need to install Microsoft OpenJDK from https://github.com/microsoft/openjdk-aarch64/releases/download/jdk-11.0.12-ga/microsoft-jdk-11.0.12.7.1-windows-aarch64.msi and then download and run the `All Platforms` version of RuneLite from https://runelite.net 
+If you have an ARM laptop running Windows, you need to install Microsoft OpenJDK from https://github.com/microsoft/openjdk-aarch64/releases/download/jdk-11.0.12-ga/microsoft-jdk-11.0.12.7.1-windows-aarch64.msi and then download and run the `All Platforms` version of RuneLite from https://runelite.net. This also requires the Microsoft Visual C++ Redistributables be installed, which if you do not already have, can be downloaded from https://aka.ms/vs/17/release/vc_redist.arm64.exe
