@@ -26,6 +26,7 @@ To find logs, do one of the following things:
 - [Misaligned tooltips](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#misaligned-tooltips)
 - [Client is outdated](https://github.com/runelite/runelite/wiki/Troubleshooting-problems-with-the-client#client-is-outdated)
 - [SSLHandshakeException: PKIX path building failed](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
+- [Notifications don't work on linux](#notifications-dont-work-on-linux)
 
 ## Launcher stuck at 0%
 
@@ -182,3 +183,7 @@ Usually this means that the game has just updated and RuneLite hasn't yet been u
 ## `javax.net.ssl.SSLHandshakeException: PKIX path building failed`
 
 Some software or certificate installed on your computer is interrupting the secure connection to download the launcher bootstrap. This may be caused by antivirus software, a root certificate (such as those which may be installed on computers used for work), or any number of other sources. To circumvent this, you can try adjusting your antivirus settings or disabling them temporarily or, if no other workaround will work, by using the `--insecure-skip-tls-verification` launcher flag. (see our page on [disabling hardware acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration) to see how to add a launcher flag)
+
+## Notifications don't work on linux
+
+RuneLite calls `notify-send` for notifications, which is installed via the `libnotify-bin` package. Be sure to have this package installed for desktop notifications to work.
