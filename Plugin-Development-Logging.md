@@ -18,7 +18,8 @@ Information that is only relevant to a developer working on the plugin should be
 If you prefer to use an entirely different logging configuration, 
 you can create your own logback-test.xml within your project's src/test/resources folder.
 This file __must__ be a test resource, so that it is not included in your plugin distribution.
-As an example, the following logback-test.xml file would log only to console, with the DEBUG level:
+As an example, the following logback-test.xml file would log only to console, with the INFO level,
+excluding any specified packages that would log at DEBUG level:
 ```xml
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
@@ -26,10 +27,14 @@ As an example, the following logback-test.xml file would log only to console, wi
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-    <root level="INFO">
+
+    <!-- configure debug level packages here -->
+    <logger name="my.plugin.package.here" level="DEBUG" />
+
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
 ```
 
-More information on configuring logback-classic can be found in [the logback-classic docs](http://logback.qos.ch/manual/configuration.html).
+More information on configuring logback-classic can be found in [the logback-classic docs](https://logback.qos.ch/manual/configuration.html).
