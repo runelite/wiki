@@ -103,6 +103,9 @@ In Windows Powershell run the following command:
 ## Green stripes are appearing on my screen
 This bug seems to be caused by changes in the Intel graphics drivers. the `27.20.100.xxxx` drivers can produce green lines at the time of writing. Downgrading back to the `26.20.100.xxxx` drivers seems to be resolving this problem.
 
+## Client has low FPS during background compute operations
+Disable Compute Shaders from the GPU plugin options and toggle the plugin off and back on. Use of mining software or video rendering are common GPU compute loads.
+
 ## My game is flickering
 
 Open the Nvidia Control Panel, open "Manage 3D Settings" under the 3D settings group, select "Program Settings", add RuneLite (it can be easily found under your recently-opened programs), apply the following settings, and relaunch RuneLite:
