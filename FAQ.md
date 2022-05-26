@@ -81,7 +81,7 @@ Exec=$HOME/.local/RuneLite.AppImage
 Terminal=false
 Type=Application
 Icon=RuneLite.png
-Categories=Games;
+Categories=Game;
 " > ~/.local/share/applications/RuneLite.desktop
 EOF
 ```
