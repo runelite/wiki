@@ -4,11 +4,11 @@ Enables you to change the default left-click and shift-click options that are di
 
 ## Item Swaps
 
-### Customizable shift-click
+### Customizable inventory item swaps
 
-Enter Shift-click Configuration mode by right-clicking on the Inventory icon and selecting "Configure Shift-click". When in shift click configuration mode you will notice a * next to one option on every item. This is the shift click default. Simple click on an option to change the default. Make sure to exit configuration mode the same way you got into it.
+Enter Left-click or Shift-click configuration mode by right-clicking the Inventory icon and selecting the respective option. When in configuration mode you will notice a * next to one option on every item. This is the default for left-click or shift-click. Simply click on an option to change the default. Make sure to exit configuration mode the same way you got into it.
 
-![menuDemo](https://puu.sh/zVEcD/aff42db5c7.gif)
+![inventory item option configuration](https://user-images.githubusercontent.com/2199511/172227527-56dd4eb2-997e-47f4-bd8f-ee0f5188ab9f.gif)
 
 ### Bank Deposit 
 
@@ -105,6 +105,13 @@ Swap `Talk-to` with `Trade` (e.g., Shop keeper).
 Swap `Talk-to` with `Travel`, `Take boat`, `Pay-fare`, `Charter` (e.g., Squire, Monk of Entrana, Customs Officer).
 
 ## Object Swaps
+
+### Customizable object swaps
+
+Objects with multiple options can have another option selected as the left-click option by holding Shift and selecting the "Swap" menu option that appears. Once this is done, a chat message will be printed that shows the new left-click option of that object.
+
+![object left-click swap](https://user-images.githubusercontent.com/2199511/172227952-d9cd44be-8a9e-4db7-a7fe-adcb7b3669ce.gif)
+
 
 ### Admire
 
