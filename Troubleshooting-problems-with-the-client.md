@@ -9,7 +9,6 @@ To find logs, do one of the following things:
 - [Client not launching](#client-not-launching)
 - [Problems with accessing API](#problems-with-accessing-api)
 - [Launcher immediately closing](#launcher-immediately-closing)
-- [Settings being reset](#settings-being-reset)
 - [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
 - [Adding an exception to the Windows Firewall](#adding-an-exception-to-the-windows-firewall)
@@ -65,10 +64,6 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 ## Launcher immediately closing
 
 If you see `ConnectionException` in `launcher.log` this most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th 2018, redownload it from https://runelite.net.
-
-## Settings being reset
-
-If you see something like `IllegalArgumentException: Malformed \uxxxx` in `client.log` and your client is not launching (launcher closing immediately but nothing opens) open `%userprofile%\.runelite\settings.properties` on **Windows** or `$HOME/.runelite/settings.properties` on **macOS** and **Linux** and check if it contains weird `\u0000` symbols at bottom. If yes, delete them and save the file.
 
 ## Client freezing
 
