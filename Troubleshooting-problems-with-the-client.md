@@ -9,7 +9,6 @@ To find logs, do one of the following things:
 - [Client not launching](#client-not-launching)
 - [Problems with accessing API](#problems-with-accessing-api)
 - [Launcher immediately closing](#launcher-immediately-closing)
-- [Client freezing](#client-freezing)
 - [Client closing when loading](#client-closing-when-loading)
 - [Adding an exception to the Windows Firewall](#adding-an-exception-to-the-windows-firewall)
 - [FPS problems, screen flickering or artifacts](#fps-problems-screen-flickering-or-artifacts)
@@ -64,12 +63,6 @@ sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
 ## Launcher immediately closing
 
 If you see `ConnectionException` in `launcher.log` this most likely means that launcher is trying to use Ipv6 instead of Ipv4 when connecting to RuneLite repository. If you downloaded launcher before July 7th 2018, redownload it from https://runelite.net.
-
-## Client freezing
-
-A [Java bug](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8202580) can result in freezes when users are using the All Platform version of RuneLite (.jar) with Java 10. Try using Java 8, *or* Java 11 and newer. [Related issue is here](https://github.com/runelite/runelite/issues/3999).
-
-Ubuntu 18.04 users should install openjdk-8-jre. Arch Linux users should install jre8-openjdk or jre-openjdk.
 
 ## Client closing when loading
 
