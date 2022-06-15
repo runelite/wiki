@@ -1,0 +1,18 @@
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Deploy to Wiki
+        run: |
+          eval "$(ssh-agent -s)"
+          ssh-add - <<<"${{secrets.DEPLOY_KEY}}"
+          git push git@github.com:runelite/runelite.wiki master
