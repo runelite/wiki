@@ -1,7 +1,3 @@
-The Party plugin allows up to 15 users to group together.
-
-Note: This feature requires the [Discord](Discord) plugin to be active
-
 # Features
 
 You'll be able to see your party member's Health and Prayer
@@ -26,32 +22,55 @@ If you're using the DPS Counter plugin, the Party plugin will allow you to see t
 
 # How to Create a Party
 
-To start a party, you need at least 2 people.
+1. Make sure the `Party` plugin is enabled.
 
-First, create a party from within the 'Party' plugin in the sidebar.
+![Config panel](https://user-images.githubusercontent.com/2979691/174498169-7d7e32e3-6bbf-4d31-81ef-b1666230b5a6.png)
 
-Then, have one player ask another to join their party. This is done by clicking on their Discord avatar, or by going to their profile. You must be friends with that user on Discord to be able to do this.
+2. Click the Party panel icon in the sidebar.
 
-![Ask to join](https://runelite.net/img/blog/1.5.11-Release/discord-join.png)
+![Party Panel with arrow](https://user-images.githubusercontent.com/2979691/174498521-d1cd709c-c88d-400a-ac30-9b1144b80fe5.png)
 
-Once the request has been sent, the user who's being joined must accept the request. This is done at the top of the Discord client
+3. Click `Create party`.
 
-![Accept request](https://user-images.githubusercontent.com/2979691/55595901-f06fef80-573d-11e9-9b2a-ffe00d28b447.png)
+![Create Party button](https://user-images.githubusercontent.com/2979691/174498689-5f13a4a7-54af-488b-aaae-d1684d67f4f9.png)
 
-Once the request has been accepted, the requester must press the `Launch and Join` button at the top of their Discord to be added to the party.
 
-![Launch and Join](https://user-images.githubusercontent.com/2979691/55595902-f239b300-573d-11e9-8cba-ced5e24637c2.png)
+4. Congratulations, the party is now created! :tada: Click `Copy passphrase` and paste the phrase to your friends to allow them to join.
 
-Congratulations! You have created a party!
+![Copy passpharse button](https://user-images.githubusercontent.com/2979691/174498763-84bf1fc1-e071-483b-aea0-11a3eda470f3.png)
 
-But why stop there? To add more users to the party, either get them to join the same person the first one joined, or click the `+` to the left of the chatbox in Discord to send an open invite to a channel.
 
-![Channel invite](https://user-images.githubusercontent.com/2979691/55595904-f36ae000-573d-11e9-8c9f-c151dc44590f.png)
+# How to Join a Party
 
-**Note: Channel invites can only be used after a party has been created. Always start by having someone join someone else directly**
+1. Make sure the `Party` plugin is enabled.
 
-To leave, shift right click on the party interface and select `Leave`
+![Config panel](https://user-images.githubusercontent.com/2979691/174498169-7d7e32e3-6bbf-4d31-81ef-b1666230b5a6.png)
 
-### Example
+2. Click the Party panel icon in the sidebar.
 
-The users Alice, Bob, Carol, and Dave want to make a party together. In this example, Carol asks to join Bob. Once they're in the party, Alice and Dave must ask Bob if they can join the party. They then all go off and stab the Corporeal Beast.
+![Party Panel with arrow](https://user-images.githubusercontent.com/2979691/174498521-d1cd709c-c88d-400a-ac30-9b1144b80fe5.png)
+
+3. Click `Join party`.
+
+![Join Party button](https://user-images.githubusercontent.com/2979691/174498633-253a6361-af62-4320-8d49-f134ab7d884a.png)
+
+4. In the popup box, enter the passphrase that the party creator gave you.
+
+![Passpharse entry box](https://user-images.githubusercontent.com/2979691/174498802-c7776453-7b0e-42f1-94e0-a5fd236e9e70.png)
+
+5. Congratulations, you are now in the party! :tada:
+
+Note: If you are trying to rejoin a party you just left (e.g. if you had to restart your client), you can simply press the `Join previous party` button instead of having to enter the passphrase again.
+
+![Rejoin party button](https://user-images.githubusercontent.com/2979691/174498837-744ab2ee-bde3-4e3d-917b-f148bb6382cd.png)
+
+
+# How to Leave a Party
+
+1. Click the Party panel icon in the sidebar.
+
+![Party Panel with arrow](https://user-images.githubusercontent.com/2979691/174498521-d1cd709c-c88d-400a-ac30-9b1144b80fe5.png)
+
+2. Click the `Leave` button.
+
+![Leave button](https://user-images.githubusercontent.com/2979691/174498865-25f304ec-9022-49e9-ba7e-21ac2036a86f.png)
