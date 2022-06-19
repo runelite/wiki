@@ -1,10 +1,6 @@
 # Features
 
-You'll be able to see your party member's Health and Prayer
-
-![Stats](https://runelite.net/img/blog/1.5.11-Release/party-overlay.png)
-
-Party Members can Shift Left Click to "ping" a tile, which will show up for all party members.
+Party Members can "ping" a tile, which will show up for all party members. Requires setting the ping hotkey in the plugin configuration.
 
 ![Ping](https://runelite.net/img/blog/1.5.11-Release/ping.gif)
 
@@ -12,7 +8,7 @@ Party Members will show up on the world map
 
 ![World Map](https://runelite.net/img/blog/1.5.11-Release/tilemap.png)
 
-If you're using the Special Attack Counter plugin, the Party plugin will track the special attacks done by your party members
+If you're using the Special Attack Counter plugin, it will show the special attacks done by your party members. Including adding them to infoboxes, and showing spec drops.
 
 ![Spec](https://runelite.net/img/blog/1.5.18-Release/party-specs.gif)
 
