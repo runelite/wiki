@@ -86,6 +86,8 @@ Categories=Game;
 EOF
 ```
 
+If your system is aarch64 architecture, you will need to additionally install `zlib1g-dev` due to an appimage [bug](https://github.com/AppImage/AppImageKit/issues/964)
+
 ## I want to run RuneLite from a USB drive
 
 * Download the latest AdoptOpenJDK JRE version 11 from https://adoptopenjdk.net/ and unzip it onto the drive
