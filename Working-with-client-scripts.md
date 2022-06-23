@@ -43,4 +43,4 @@ This would output `1, string, 2, 3` as a debug log.
 
 ### RuneStar
 
-As you may have gathered by now, `rs2asm` is not the most pleasant thing to read through. Another project, RuneStar, has created a decompiler for client scripts that can decompile them into a format similar to how they're written at Jagex. A repository is kept updated with all current decompiled scripts [here](https://github.com/RuneStar/cs2-scripts).
+As you may have gathered by now, `rs2asm` is not the most pleasant thing to read through. Another project, RuneStar, has created a decompiler for client scripts that can decompile them into a format similar to how they're written at Jagex. A fork of the original repository is kept updated with all current decompiled scripts [here](https://github.com/Joshua-F/cs2-scripts).
