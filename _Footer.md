@@ -1,1 +1,1 @@
-Please join our [Discord](https://discord.gg/mePCs8U) if you notice anything wrong or would like to discuss an addition to the wiki.
+Please join our [Discord](https://discord.gg/mePCs8U) if you notice anything wrong or would like to discuss an addition to the wiki. Changes can be [submitted to our wiki repository](https://github.com/runelite/wiki).
