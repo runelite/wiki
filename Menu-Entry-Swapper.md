@@ -4,11 +4,11 @@ Enables you to change the default left-click and shift-click options that are di
 
 ## Item Swaps
 
-### Customizable inventory item swaps
+### Customizable inventory and equipped item swaps
 
-Enter Left-click or Shift-click configuration mode by right-clicking the Inventory icon and selecting the respective option. When in configuration mode you will notice a * next to one option on every item. This is the default for left-click or shift-click. Simply click on an option to change the default. Make sure to exit configuration mode the same way you got into it.
+Hold the shift key and right-click the item to set its left- or shift-left-click options.
 
-![inventory item option configuration](https://user-images.githubusercontent.com/2199511/172227527-56dd4eb2-997e-47f4-bd8f-ee0f5188ab9f.gif)
+![inventory item option configuration](https://cdn.discordapp.com/attachments/909197220883095653/994416998157127680/RuneLite_NuAlcrESdp.gif)
 
 ### Bank Deposit 
 
