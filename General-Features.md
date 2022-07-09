@@ -18,24 +18,13 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 ![](https://thumbs.gfycat.com/BraveWideeyedAiredaleterrier-max-1mb.gif)
 
 ## Playing with multiple accounts
-Different accounts want different plugins and settings enabled, and this feature allows you to do just that!
-
-If you are logged into the client, passing `--sessionfile=<path/to/the/new/session/file>` will allow you to log in with a different Google account, and thus have a separate set of settings whilst retaining all the benefits of logging in.
-
-If you are not logged in, instead pass `--config=<path/to/the/new/config/file>`, and your client will use that config file instead of the usual one.
-
-The paths can be relative or absolute. If the path is relative, it'll use `.runelite` as the base.
-
-Eg. `--config="example.properties"` will make a file in `<you home directory>/.runelite/examples.properties`
-
-## Examples
+Different accounts want different plugins and settings enabled, and this feature allows you to launch a second client with a different set of settings/runelite account logins.
 
 ### Windows:
+Create a new RuneLite shortcut, right-click it and select properties, and change the "Target" field under "Shortcut" to:
 ```
-RuneLite.exe --clientargs "--config=settings2.properties --sessionfile=session2"
+%localappdata%\RuneLite\RuneLite.exe --clientargs "--config=settings2.properties --sessionfile=session2"
 ```
-You can edit your shortcut to add this, similar to how `--mode=OFF` is added when disabling [Hardware Acceleration](https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-1-creating-a-shortcut). Note that `config` and `sessionfile` are *client arguments* and not *launcher arguments* and so must be forwarded to the client through the launcher by passing them through `--clientargs`.
-
 
 ### Linux:
 ```
@@ -46,3 +35,12 @@ You can edit your shortcut to add this, similar to how `--mode=OFF` is added whe
 ```
 /Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--config=settings2.properties --sessionfile=session2"
 ```
+
+### Explanation
+
+Passing the above arguments to the client causes it to use a different pair of files to determine your settings.
+By launching one client this way and another client normally, they will have different settings.
+Remember that if you are using a runelite account, you may have to do a 1-time log-in, wait 30 seconds, and restart your client to make sure all account data has been loaded properly.
+
+You can use different filenames (e.g. `ironman.properties`). You can also use absolute paths if you want the file to be outside of the `.runelite` folder for some reason.
+If you plan to log in with a runelite account, you may optionally omit the `--config` argument.
