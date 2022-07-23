@@ -41,7 +41,7 @@ If you have just found a new Var using the above methods you first need to add i
  - [`Varbits`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/Varbits.java)
  - [`VarPlayers`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/VarPlayer.java)
 
-Once the enum contains the value, you just need to call `Client.getVar` with the key you added to the enum.
+Once the enum contains the value, you just need to call `Client.getVarcStrValue`, `Client.getVarcIntValue`, `Client.getVarbitValue` or `Client.getVarpValue` with the key you added to the enum.
 
 How VarBits work internally
 ----------------
