@@ -64,4 +64,4 @@ public int getVar(RSVarbit varbit)
 	int mask = (1 << ((msb - lsb) + 1)) - 1;
 	return (value >> lsb) & mask;
 }
-``` 
+```
