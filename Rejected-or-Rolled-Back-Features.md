@@ -30,6 +30,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Any new high-end PvM boss plugins
 * Hiscores for PBs and other information not on the hiscores: Same as the GE Tracker, the data could easily be spoofed, rendering it useless. 
 * Presets for Camera yaw/pitch/position
+* Auto-rejoin for parties: Would put undue strain on the party servers.
 
 #### Menu Entry Swapping
 * `Build/Remove` on POH hotspots: [see Jagex statement.](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1) (Try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
