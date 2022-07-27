@@ -5,6 +5,8 @@ As of RuneLite Launcher 1.5.2, RuneLite uses its own DPI settings. Before making
 
 (If "System (enhanced)" didn't have the desired effect, try also "System" and "Application")
 
+If running the `.jar` version of the launcher, you can try the same override on your `java.exe` executable.
+
 # High DPI sharp/integer scaling
 To avoid the client looking "blurry" it's recommended to enable High DPI Integer scaling:
 * in the windows "RuneLite Properties" High DPI settings `{"High DPI scaling override": "Application"}`
