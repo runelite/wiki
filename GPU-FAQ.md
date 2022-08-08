@@ -122,7 +122,7 @@ This can be caused by multiple things
 Launcher versions 2.0+ are dpi aware and will scale with your system scaling settings, these issues can by fixed by doing one of the following
 * On windows these settings are called `Scale and Layout` under the `Display` tab of the control panel, you can set this to 100%
 * Download and run the [1.6 version of the launcher](https://github.com/runelite/launcher/releases/tag/1.6.0) (not recommended since there are stability fixes in the 2.0+ version)
-* Launch the client with `"%localappdata%/Runelite/jre/bin/javaw.exe" -Xmx512m -Xss2m -Dsun.java2d.uiScale=1.0 -jar "%localappdata%/Runelite/RuneLite.jar" --nojvm` to set the uiscale to 1
+* Launch the client with `"%localappdata%/Runelite/jre/bin/javaw.exe" -Xmx512m -Xss2m -Dsun.java2d.uiScale=1.0 -jar "%localappdata%/Runelite/RuneLite.jar" --nojvm` to set the uiscale to 1.  As of launcher versions 2.4+ this can be accomplished instead by running the much more simple `%localappdata%/RuneLite/RuneLite.exe --scale=1`.
 
 ### Graphics drivers forcing AntiAliasing
 Drivers can force certain AA levels or types, and when the GPU plugin is on it will be forced to use those, making the ui look different than normal.
