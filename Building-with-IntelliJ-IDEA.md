@@ -2,7 +2,6 @@
 
 * [Getting started](#getting-started)
   - [Importing the project](#importing-the-project)
-  - [Installing Lombok](#installing-lombok)
   - [Building the project](#building-the-project)
   - [Running the project](#running-the-project)
   - [Conclusion](#conclusion)
@@ -42,20 +41,6 @@ After the cloning process is done you should be greeted with prompt asking you i
 If everything went well, you should be able to see something like this:
 
 ![after-clone-fresh-project](https://i.imgur.com/JOAFeMi.png)
-
-## Installing Lombok
-
-When first viewing the project in IntelliJ IDEA you may come across this error:
-
-![missing-lombok-errors](https://i.imgur.com/a1YDonV.png)
-
-This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
-
-Navigate to the **Plugins** tab under the **File > Settings** menu (**IntelliJ IDEA > Preferences** for Mac). Click the **Marketplace** button and search for **Lombok** to find it. Install the plugin and restart IntelliJ IDEA.
-
-![installing-lombok](https://i.imgur.com/PxzpCcO.png)
-
-Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
 
 ## Building the project
 
