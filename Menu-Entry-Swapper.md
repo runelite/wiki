@@ -10,21 +10,13 @@ Hold the shift key and right-click the item to set its left- or shift-left-click
 
 ![inventory item option configuration](https://cdn.discordapp.com/attachments/909197220883095653/994416998157127680/RuneLite_NuAlcrESdp.gif)
 
-### Bank Deposit 
-
-Swaps the behavior of shift-click on items in your inventory while banking.
-
-### Bank Withdrawal
-
-Swaps the behavior of shift-click on items in your bank.
-
 ### Bury
 
 Swap `Bury` with `Use` on Bones.
 
 ### Teleport Item
 
-Swap `Wear`/`Weild` with `Rub`/`Teleport` on teleport items.
+Swap `Wear`/`Wield` with `Rub`/`Teleport` on teleport items.
 
 ## NPC Swaps
 
@@ -40,22 +32,6 @@ Swap `Talk-to` with `Bank` on Bank NPCs.
 
 Allows you to left-click your cat to `Chase`.
 
-### Claim Slime
-
-Swap `Talk-to` with `Claim slime` for Morytania diaries.
-
-### Contract
-
-Swap `Talk-to` with `Contract` on Guildmaster Jane.
-
-### Decant
-
-Swap `Talk-to` with `Decant` for Bob Barter and Murky Matt at the Grand Exchange.
-
-### Enchant
-
-Swap `Talk-to` with `Enchant` for Eluned.
-
 ### Essence Mine Teleport
 
 Swap `Talk-to` with `Teleport` for NPCs that teleport you to the Essence mine.
@@ -64,33 +40,13 @@ Swap `Talk-to` with `Teleport` for NPCs that teleport you to the Essence mine.
 
 Swap `Talk-to` with `Exchange` (e.g., Grand Exchange Clerk, Tool Leprechaun, Void Knight).
 
-### Hardwood Grove Send-Parcel
-
-Swap `Send parcel` at the Hardwood grove.
-
 ### Help
 
 Swap `Talk-to` with `Help` on Arceuus library customers.
 
-### Nets
-
-Swap `Talk-to` with `Nets` on Annette.
-
 ### Pay
 
 Swap `Talk-to` with `Pay` (e.g., Elstan, Heskel, Fayeth).
-
-### Pyramid Plunder Start-minigame
-
-Swap `Talk-to` with `Start-minigame` for the Guardian mummy.
-
-### Repairs
-
-Swap `Talk-to` with `Repairs` for the Dark Mage.
-
-### Task
-
-Swap `Talk-to` with `Task` for Captain Khaled in Port Piscarilius.
 
 ### Teleport to Abyss
 
@@ -121,17 +77,9 @@ Swap `Admire` with `Teleport`, `Spellbook`, and `Perks` (max cape) for mounted s
 
 Swap `Interact` with `Empty` for birdhouses on Fossil Island.
 
-### Corrupted Gauntlet
-
-Swap `Enter` with `Enter-corrupted` when entering The Gauntlet.
-
 ### Fairy Ring
 
 Swap `Zanaris` with `Last-destination` or `Configure` on Fairy rings.
-
-### Hardwood Grove Quick-Pay
-
-Swap `Quick-Pay(100)` at the Hardwood Grove.
 
 ### Harpoon
 
@@ -140,10 +88,6 @@ Swap `Cage`, `Big Net` with `Harpoon` on Fishing spots.
 ### Home
 
 Swap `Enter` with `Home`, `Build`, or `Friend's house` on POH Portal.
-
-### House Advertisement
-
-Swap `View` with `Add-House` or `Visit-Last` on House Advertisement board.
 
 ### Jewellery Box
 
@@ -161,15 +105,19 @@ Swap `Shared` with `Private` on the Chambers of Xeric storage units.
 
 Swap `Pass` with `Quick-Pass`, `Open` with `Quick-Open`, `Ring` with `Quick-Start` and `Talk-to` with `Quick-Travel`.
 
-### Quick-Leave
-
-Swap `Leave Tomb` with `Quick-Leave` at Pyramid Plunder.
-
 ### Reset
 
 Swap `Check` with` Reset` on box traps.
 
 ## UI Swaps
+
+### Bank Deposit 
+
+Swaps the behavior of shift-click on items in your inventory while banking.
+
+### Bank Withdrawal
+
+Swaps the behavior of shift-click on items in your bank.
 
 ### GE Abort
 
@@ -178,14 +126,6 @@ Swap `abort offer` on Grand Exchange offers when shift-clicking.
 ### GE Item Collect
 
 Swap `Collect-notes`, `Collect-items`, or `Bank` options from GE offer.
-
-### NPC Contact
-
-Swap `NPC Contact` with last contacted NPC when shift-clicking.
-
-### Shift-click teleport spells
-
-Swap teleport spells that have a second destination on shift (e.g., Varrock/Grand Exchange).
 
 ### Shop Buy Shift-Click
 
