@@ -1,14 +1,19 @@
 # Rune Pouch
 
-This plugin will show an overlay on your screen displaying the contents of your rune pouch in different ways.
+Display the type and number of runes in your rune pouch as an overlay on the item, and also in a tooltip.
+
+![Runepouch screenshot](https://i.imgur.com/hVuTURL.png)
 
 ## Options
 
 ### Font Color
-This changes the color of the text that is displayed.
-
-### Show Rune Icons
-This toggles whether to show the rune icon next to the amount of that rune in the overlay.
+The text color in the tooltip and overlay.
 
 ### Display mode
-This configures where the display will be located. Either In your inventory only, on mouse hover only, or both.
+Whether to display the item overlay (`Inventory`), the tooltip (`Mouse hover`), or both.
+
+## Divine rune pouch
+When you have 4 different runes in your rune pouch, the overlay changes to use a bar to show how many runes you have.
+The bar is green when you have more than 1000 runes of a type, and turns red when you go below 1000 runes.
+
+n.b. the green bar displays as full anytime you have more than 10k runes.
