@@ -33,7 +33,7 @@ If you're using the DPS Counter plugin, the Party plugin will allow you to see t
 
 4. Congratulations, the party is now created! :tada: Click `Copy passphrase` and paste the phrase to your friends to allow them to join.
 
-![Copy passpharse button](https://user-images.githubusercontent.com/2979691/174498763-84bf1fc1-e071-483b-aea0-11a3eda470f3.png)
+![Copy passpharse button](https://user-images.githubusercontent.com/2979691/188455471-5846685f-f849-421a-a9cb-818a0d8ce701.png)
 
 
 # How to Join a Party
@@ -69,4 +69,4 @@ Note: If you are trying to rejoin a party you just left (e.g. if you had to rest
 
 2. Click the `Leave` button.
 
-![Leave button](https://user-images.githubusercontent.com/2979691/174498865-25f304ec-9022-49e9-ba7e-21ac2036a86f.png)
+![Leave button](https://user-images.githubusercontent.com/2979691/188455078-4a5cfa73-a934-4940-a2df-3f223f59ef54.png)
