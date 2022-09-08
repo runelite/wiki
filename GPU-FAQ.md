@@ -138,3 +138,82 @@ For Nvidia drivers go into `NVIDIA Control Panel -> Manage 3D settings` for mana
 Symptom: GPU driver crash (black screen) when turning on or using the GPU plugin
 
 Solution: Disable hardware acceleration using method 2 found here https://github.com/runelite/runelite/wiki/Disable-Hardware-Acceleration#method-2-starting-the-launcher-with-hw-accel-disabled-from-cmd
+
+# RuneLite using Integrated Graphics rather than Dedicated Graphics Card
+
+This assumes that you have a dedicated graphics card and the latest graphics card drivers (NVIDIA) installed on your system. 
+
+## Linux (NVIDIA)
+
+RuneLite is packaged as an `.appimage` for Linux, and when executing the binary file from the command line may result in Runelite utilizing an integrated graphics card rather than the dedicated graphics card installed in your system.
+
+### Launching RuneLite from command line to verify the integrated graphics is being used by the GPU / 117 HD plugin
+
+First, ensure that the `RuneLite.appimage` has the appropriate permissions to be executed. 
+
+Navigate to the directory you placed your executable, and assign the appropriate permissions.
+
+```
+~$ cd ~/Games/
+
+~/Games$ sudo chmod +x RuneLite.AppImage 
+```
+
+Launching RuneLite from the command line will give us verbose output of the .log file. You can confirm from the output what graphics card the application is using.
+
+```
+~/Games$ ./RuneLite.AppImage 
+
+[RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 6978ms. Uptime: 10320ms
+[AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,32,811x686,invalid,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,5,25,801x656,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+[Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: Mesa Intel(R) HD Graphics 630 (KBL GT2)
+[Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6 (Compatibility Profile) Mesa 22.0.5
+```
+
+GpuPlugin - Using device: Mesa Intel(R) HD Graphics 630 (KBL GT2)
+
+Rather than modifying your system via the BIOS, or attempting to blacklist the `lspci` device, we can use an applicationed 
+
+We can force RuneLite to use our dedicated graphics card through the use of an application `Lutris` (https://lutris.net/). 
+
+### Configuring Lutris to launch RuneLite
+
+Navigate to the `Preferences` of `Lutris` via the menu button
+
+![Lutris Preferences](https://i.imgur.com/ae5vMS9.png)
+
+Enable the `Linux` option in the Sources tab
+
+![Sources](https://i.imgur.com/yFsYjQP.png)
+
+Turn on `Enable NVIDIA Prime Render Offload`. Save these changes.
+
+![Global Options](https://i.imgur.com/LuPftws.png)
+
+Click the [ + ] button in the top left corner of `Lutris` to access the `Add Game	` wizard
+
+Select the last option `Add locally installed game`
+
+![Add Game](https://i.imgur.com/GyHVbpP.png)
+
+Enter a name for the manual entry "RuneLite" and select the `Linux (runs native games)` option from the Runner dropdown menu
+
+![Add a new game](https://i.imgur.com/nyfGJJj.png)
+
+Navigate to the "Game options" tab and `Browse` for the `RuneLite.appimage` executable saved on your system
+
+![Game options](https://i.imgur.com/r4AID3I.png)
+
+Navigate to the "System options" tab and ensure the `Enable NVIDIA Prime Render Offload` option is enabled and save your changes
+
+![System options](https://i.imgur.com/pL5KARg.png)
+
+This should create a new game entry in `Lutris`
+
+Launch RuneLite by clicking the "Play" button when you have the RuneLite game entry selected
+
+![Lutris - Play game](https://i.imgur.com/NNMF3Rn.png)
+
+RuneLite is now using the dedicated graphics card
+
+![RuneLite using NVIDIA graphics](https://i.imgur.com/6LZmwxF.png)
