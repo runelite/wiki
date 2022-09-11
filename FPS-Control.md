@@ -1,22 +1,24 @@
 # FPS Control Configuration
 
-[![Client View](https://thumbs.gfycat.com/BadPinkIberianemeraldlizard-size_restricted.gif)](https://gfycat.com/BadPinkIberianemeraldlizard)
+Saves computer resources by limiting frames per second, and displays current fps.
 
 ## Settings
 
-### 1. Limit Mode [Never, Unfocused, Always]
+### Limit Global FPS
 
-`Having the 'Unfocused' setting on will benefit users who use laptops or need to save resources when not focusing on the client.`
+Caps frames per second to the `Global FPS target` when `Limit Global FPS` is enabled.
 
-* (Default) The setting 'Never' will never limit the FPS of the client.
-* The setting 'Unfocused' will only limit the FPS when the client isn't in focus.
-* The setting 'Always' will always limit the FPS of the client when in focus or not.
+### Limit FPS Unfocused
 
-### 2. FPS Target [Edit Number]
+Caps frames per second to the `Unfocused FPS target` when the client is not in focus (i.e. in the background), and `Limit FPS Unfocused` is enabled.
 
-* (Default 50) This number is the FPS limit of the client, 50 will limit the client to 50 FPS (Frames per second).
+Good for saving computer resources while doing low intensity activities like fishing.
 
-### 3. Draw FPS indicator
+### Draw FPS indicator
 
-* (Default On) Just like the ::DisplayFPS command, this will display an FPS counter in the top right-hand corner of the client.
+Just like the ::DisplayFPS command, this will display an FPS counter in the top right-hand corner of the client.
+
+## Notes
+
+* This plugin used to be able to extend the logout timer past 5 minutes. This is no longer possible, use the [Logout Timer](Logout-Timer.md) plugin instead.
 
