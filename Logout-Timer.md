@@ -4,5 +4,5 @@ This plugin changes how long you can be idle before the game logs you out. The m
 
 ## Notes
 
-- Runelite can notify you when you are about to be idle logged in the [Idle Notifier](Idle-Notifier.md) plugin.
+- Runelite can notify you when you are about to be idle logged in the [[Idle Notifier]] plugin.
 - The "1fps trick" for extending the logout timer no longer works. Use this plugin instead.
