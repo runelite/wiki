@@ -21,4 +21,5 @@ Just like the ::DisplayFPS command, this will display an FPS counter in the top 
 ## Notes
 
 * This plugin used to be able to extend the logout timer past 5 minutes. This is no longer possible, use the [[Logout Timer]] plugin instead.
+* To increase fps past 50, turn on `Unlock FPS` in the [[GPU]] plugin.
 
