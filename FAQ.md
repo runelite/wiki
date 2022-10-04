@@ -94,7 +94,7 @@ If your system is aarch64 architecture, you will need to additionally install `z
 * Download the latest all-platforms jar launcher from https://runelite.net onto the drive
 * Make a .bat file which includes `java -Duser.home=client-home -Djava.io.tmpdir=client-tmp -jar RuneLite.jar --nojvm`. You will probably have to replace `java` with the full path to `java.exe` that was unzipped on the drive.
 
-Now run the .bat file to launch the client. If GPU doesn't work, try adding `-Djogamp.gluegen.UseNativeExeFile=true`
+Now run the .bat file to launch the client.
 
 ## I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"
 
