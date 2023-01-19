@@ -11,12 +11,14 @@ The Ground Items plugin highlights ground items and/or displays their Grand Exch
 Configures specifically highlighted ground items. 
 
 * **Format:** `item`, `item`
+* **Format:** `item<5`, `item>5` to filter based on quantity
 
 ### Hidden Items
 
 Configures hidden ground items. 
 
 * **Format:** `item`, `item`
+* **Format:** `item<5`, `item>5` to filter based on quantity
 
 ## Settings
 
