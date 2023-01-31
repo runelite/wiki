@@ -113,7 +113,7 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 
 `aa`, `ape atoll` -> `Ape Atoll Agility`  
 `draynor`, `draynor agility` -> `Draynor Village Rooftop`  
-`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility` -> `Al-Kharid Rooftop`  
+`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility` -> `Al Kharid Rooftop`  
 `varrock`, `varrock agility` -> `Varrock Rooftop`  
 `canifis`, `canifis agility` -> `Canifis Rooftop`  
 `fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
