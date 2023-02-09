@@ -119,7 +119,7 @@ Open the Nvidia Control Panel, open "Manage 3D Settings" under the 3D settings g
 This can be caused by multiple things
 
 ### DPI scaling
-The launcher will be automatically scaled by Windows if you have scaling in Windows enabled. You can override the amount that the launcher is scaled by passing the `--scale` argument to the launcher. For example `--scale=1.0` will not scale RuneLite regardless of scaling is on on the system.
+The launcher will be automatically scaled by Windows if you have scaling in Windows enabled. You can override the amount that the launcher is scaled by passing the `--scale` argument to the launcher. For example `--scale=1.0` will cause RuneLite to not be scaled, even if scaling is enabled in Windows.
 
 ### Graphics drivers forcing AntiAliasing
 Drivers can force certain AA levels or types, and when the GPU plugin is on it will be forced to use those, making the ui look different than normal.
