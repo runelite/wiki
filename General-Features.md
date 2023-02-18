@@ -17,25 +17,6 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 ![](https://thumbs.gfycat.com/BraveWideeyedAiredaleterrier-max-1mb.gif)
 
-## Playing with multiple accounts
-Different accounts want different plugins and settings enabled, and this feature allows you to launch a second client with a different set of settings/runelite account logins.
-
-### Windows:
-Create a new RuneLite shortcut, right-click it and select properties, and change the "Target" field under "Shortcut" to:
-```
-%localappdata%\RuneLite\RuneLite.exe --clientargs "--config=settings2.properties --sessionfile=session2"
-```
-
-### Linux:
-```
-./RuneLite.AppImage --clientargs "--config=settings2.properties --sessionfile=session2"
-```
-
-### MacOS:
-```
-/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--config=settings2.properties --sessionfile=session2"
-```
-
 ### Explanation
 
 Passing the above arguments to the client causes it to use a different pair of files to determine your settings.
