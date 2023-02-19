@@ -8,7 +8,6 @@
 * [[Information about the Plugin Hub]]
 * [[General Features]]
 * **Plugin Configuration**
-  * [[Account]]
   * [[Agility]]
   * [[Ammo]]
   * [[Animation Smoothing]]
