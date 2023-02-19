@@ -1,20 +1,20 @@
 # Table of Contents
-- [Common Bugs](#common-bugs)
-- [Feature Requests](#feature-requests)
-- [How do I enable XP drops and zoom unlimiter?](#how-do-i-enable-xp-drops-and-zoom-unlimiter)
-- [How do I use inventory tags?](#how-do-i-use-inventory-tags)
-- [How can I configure shift click or swap menu entries?](#how-can-i-configure-shift-click-or-swap-menu-entries)
-- [What is open source?](#what-is-open-source)
-- [Will using RuneLite get me banned?](#will-using-runelite-get-me-banned)
-- [How often is RuneLite updated?](#how-often-is-runelite-updated)
-- [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
-- [How do I sync local settings to my RuneLite account?](#how-do-i-sync-local-settings-to-my-runelite-account)
-- [How do I build RuneLite?](#how-do-i-build-runelite)
-- [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
-- [Why does the GPU plugin do X?](#why-does-the-GPU-plugin-do-X)
-- [How do I use the Linux AppImage](#Linux-AppImage)
-- [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
-- [I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"](#i-get-the-error-this-program-can-only-be-installed-on-versions-of-windows-designed-for-the-following-processor-architectures)
+- [Table of Contents](#table-of-contents)
+  - [Common Bugs](#common-bugs)
+  - [Feature Requests](#feature-requests)
+  - [How do I enable XP drops and zoom unlimiter?](#how-do-i-enable-xp-drops-and-zoom-unlimiter)
+  - [How do I use inventory tags?](#how-do-i-use-inventory-tags)
+  - [How can I configure shift click or swap menu entries?](#how-can-i-configure-shift-click-or-swap-menu-entries)
+  - [What is open source?](#what-is-open-source)
+  - [Will using RuneLite get me banned?](#will-using-runelite-get-me-banned)
+  - [How often is RuneLite updated?](#how-often-is-runelite-updated)
+  - [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
+  - [How do I build RuneLite?](#how-do-i-build-runelite)
+  - [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
+  - [Why does the GPU plugin do X?](#why-does-the-gpu-plugin-do-x)
+  - [Linux AppImage](#linux-appimage)
+  - [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
+  - [I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"](#i-get-the-error-this-program-can-only-be-installed-on-versions-of-windows-designed-for-the-following-processor-architectures)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -46,9 +46,6 @@ If you're using the launcher, count on seeing updates every week on Thursday. Th
 
 ## Where can I find the logs, screenshots, or configurations?
 To find logs, either open screenshot directory (by right-clicking "Camera" button) and navigate 1 directory up and then open logs folder, or navigate to `%userprofile%\.runelite\logs` on Windows or `$HOME/.runelite/logs` on Linux and macOS.
-
-## How do I sync local settings to my RuneLite account?
-See [[Account]].
 
 ## How do I build RuneLite?
 See [[Building with IntelliJ IDEA]].
