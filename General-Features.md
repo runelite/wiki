@@ -17,11 +17,8 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 ![](https://thumbs.gfycat.com/BraveWideeyedAiredaleterrier-max-1mb.gif)
 
-### Explanation
+### Profiles
 
-Passing the above arguments to the client causes it to use a different pair of files to determine your settings.
-By launching one client this way and another client normally, they will have different settings.
-Remember that if you are using a runelite account, you may have to do a 1-time log-in, wait 30 seconds, and restart your client to make sure all account data has been loaded properly.
+As of the 1.9.11 release, profiles are now available to hold different distinct settings configurations within the same client instance.  By default the profile loaded on startup will be the one that was most recently active, to override this you can pass `--profile=<profilename>` to the launcher and it will load that specific profile on startup.
 
-You can use different filenames (e.g. `ironman.properties`). You can also use absolute paths if you want the file to be outside of the `.runelite` folder for some reason.
-If you plan to log in with a runelite account, you may optionally omit the `--config` argument.
+Advanced users that previously utilized the old method of passing a `--session` and/or `--config` parameter should now instead use `--profile`.  An import feature was included to facilitate taking all the distinct settings created by those and creating profiles from them, simply select to import and navigate to the directory containing the settings and select them individually.
