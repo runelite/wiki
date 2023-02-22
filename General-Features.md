@@ -21,4 +21,6 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 As of the 1.9.11 release, profiles are now available to hold different distinct settings configurations within the same client instance.  By default the profile loaded on startup will be the one that was most recently active, to override this you can pass `--profile=<profilename>` to the launcher and it will load that specific profile on startup.
 
-Advanced users that previously utilized the old method of passing a `--session` and/or `--config` parameter should now instead use `--profile`.  An import feature was included to facilitate taking all the distinct settings created by those and creating profiles from them, simply select to import and navigate to the directory containing the settings and select them individually.
+Advanced users that previously utilized the old method of passing a `--session` and/or `--config` parameter should now instead use `--profile`.  An import feature was included to facilitate taking all the distinct settings created by those and creating profiles from them, simply select to import and navigate to the directory containing the settings and select them individually. 
+
+More info on the importing procedure can be found in [this FAQ entry](https://github.com/runelite/wiki/blob/ab0fe39bb43f992db7e8660f8731a3429d7cb6d2/FAQ.md#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile)
