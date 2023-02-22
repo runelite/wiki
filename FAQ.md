@@ -15,6 +15,7 @@
   - [Linux AppImage](#linux-appimage)
   - [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
   - [I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"](#i-get-the-error-this-program-can-only-be-installed-on-versions-of-windows-designed-for-the-following-processor-architectures)
+  - [How do I convert the previous multi session/setting file to a profile?](https://github.com/runelite/runelite/wiki/FAQ#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
