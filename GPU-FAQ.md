@@ -63,7 +63,7 @@ You can also try disabling any driver settings which override application-specif
 Run cmd.exe (Windows Key + R) and paste the following into the command prompt:
 
 ```
-%localappdata%\runelite\runelite.exe --clientargs --safe-mode
+%localappdata%\runelite\runelite.exe --safe-mode
 ```
 Once RuneLite fully loads, you can close the client and relaunch as normal; GPU will be disabled.
 
@@ -72,7 +72,7 @@ Once RuneLite fully loads, you can close the client and relaunch as normal; GPU 
 Run Terminal.app and paste the following into the Terminal window:
 
 ```
-/Applications/RuneLite.app/Contents/MacOS/RuneLite --clientargs "--safe-mode"
+/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode
 ```
 Once RuneLite fully loads, you can close the client and relaunch as normal; GPU will be disabled.
 
@@ -80,7 +80,7 @@ Once RuneLite fully loads, you can close the client and relaunch as normal; GPU 
 If you are using the AppImage version, open Terminal and run the following, edited as appropriate:
 
 ```
-./path/to/RuneLite.AppImage --clientargs "--safe-mode"
+./path/to/RuneLite.AppImage --safe-mode
 ```
 Once RuneLite fully loads, you can close the client and relaunch as normal; GPU will be disabled.
 
@@ -88,7 +88,7 @@ Once RuneLite fully loads, you can close the client and relaunch as normal; GPU 
 
 If you downloaded the `.jar` version of the launcher, run this:
 ```
-java -jar Location-of-RuneLite.jar --clientargs "--safe-mode"
+java -jar Location-of-RuneLite.jar --safe-mode
 ```
 Once RuneLite fully loads, you can close the client and relaunch as normal; GPU will be disabled.
 
