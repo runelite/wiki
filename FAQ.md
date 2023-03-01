@@ -15,7 +15,7 @@
   - [Linux AppImage](#linux-appimage)
   - [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
   - [I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"](#i-get-the-error-this-program-can-only-be-installed-on-versions-of-windows-designed-for-the-following-processor-architectures)
-  - [How do I convert the previous multi session/setting file to a profile?](https://github.com/runelite/runelite/wiki/FAQ#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile)
+  - [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile)
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -90,7 +90,7 @@ If your system is aarch64 architecture, you will need to additionally install `z
 
 * Download the latest AdoptOpenJDK JRE version 11 from https://adoptopenjdk.net/ and unzip it onto the drive
 * Download the latest all-platforms jar launcher from https://runelite.net onto the drive
-* Make a .bat file which includes `java -Duser.home=client-home -Djava.io.tmpdir=client-tmp -jar RuneLite.jar --nojvm`. You will probably have to replace `java` with the full path to `java.exe` that was unzipped on the drive.
+* Make a .bat file which includes `java -Duser.home=client-home -Djava.io.tmpdir=client-tmp -jar RuneLite.jar --launch-mode=REFLECT`. You will probably have to replace `java` with the full path to `java.exe` that was unzipped on the drive.
 
 Now run the .bat file to launch the client.
 
