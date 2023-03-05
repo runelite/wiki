@@ -16,6 +16,10 @@
   - [I want to run RuneLite from a USB drive](#i-want-to-run-runelite-from-a-usb-drive)
   - [I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"](#i-get-the-error-this-program-can-only-be-installed-on-versions-of-windows-designed-for-the-following-processor-architectures)
   - [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile)
+  - [My plugins are gone or my config profile is missing](#my-plugins-are-gone-or-my-config-profile-is-missing)
+  - [My Loot Tracker data is gone](#my-loot-tracker-data-is-gone)
+  - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
+
 
 ## Common Bugs
 See [[Troubleshooting problems with the client]]
@@ -115,3 +119,49 @@ If you are signed in to a RL account, or used to use the new depricated `--sessi
 If you want the client to load a specific profile on startup use `--profile=<profilename>` ex. `--profile=iron` like below
 
 ![image](https://user-images.githubusercontent.com/14265490/220760950-786855be-af35-425b-a7bd-63e76a9db478.png)
+
+## My plugins are gone or my config profile is missing
+
+1. Make sure you are signed in to the correct RuneLite account if you use one.<br>
+Open the info panel and check if this displays the correct email. The info panel can be enabled via `Configuration` (wrench icon) > `Info panel`. It will be located in the sidebar.<br>
+![info-panel](https://user-images.githubusercontent.com/7191512/222978306-7ad27ef9-4a3d-4538-9ae5-c3e928bb46ec.png)
+
+2. Make sure you are on the correct RuneLite config profile.<br>
+Go to `Configuration` (wrench icon) > `Profiles` (middle tab) > Check if any of the profiles are correct. You can load a profile by clicking on the `>` symbol **twice**. A profile is enabled if there is an orange bar in front of it.<br>
+![profile-selected](https://user-images.githubusercontent.com/7191512/222978314-6d40fc83-4817-43a2-b968-33af2c2cf255.png)
+
+Please try all config profiles. If you find the correct config profile and it shares a name with a different profile, it is recommended to rename the correct one to a unique name.
+
+3. If you were previously using `--config=` or `--session` parameters/clientargs, switch to only using `--profile=profilenamehere`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
+
+4. Reimport your profile.<br>
+Go to the previously mentioned `Profiles` tab and click on the `Import Profile` button. You can find your profiles in `.runelite/profiles2/`. You can find older legacy(pre Feb 18th 2023) profiles either in `.runelite/profiles/<email>` or if you were previously not signed in to RL in `.runelite/`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
+
+5. If your config profile is still missing, join the [RuneLite Discord](https://runelite.net/discord) for further assistance.
+
+## My Loot Tracker data is gone
+
+Loot Tracker data is stored in your RSProfile, not in your RuneLite config profile.
+1. Make sure you are logged in to the correct **OSRS account**. You have to be logged in for Loot Tracker data to show!
+
+2. If you have not killed the specific Npc in a long time, get one kill and restart your client. Loot Tracker only loads so many entires on startup, refreshing the last time a loot was recived from one can make it show up again in the client.
+
+3. Remove duplicate RSProfiles.<br>
+**Close RuneLite**. Go to https://runelite.net/account/home and check for duplicate RuneScape Profiles. Please note that it is normal to have multiple profiles with the same name if they have e.g. a `Deadman` or `Pvp arena` tag.<br>
+Check the content of the duplicate RSProfiles and delete the incorrect one. Reopen RuneLite after deleting the incorrect RSProfile on the website.<br>
+![duplicate-rsprofile](https://user-images.githubusercontent.com/7191512/222978336-f3b7b78b-6024-4802-8c52-2fcd48fe576a.png)
+
+*In this example one of the upper 2 RSProfiles is incorrect and should be deleted.*<br>
+If you can reliably reproduce duplication of RSProfiles or if you know the cause, please report it.
+
+4. If there are no duplicate RSProfiles, check if you are signed in to the same RuneLite account on the website as in the client. To find out what RuneLite account you are logged into in the client, please refer to step 1 of [My plugins are gone or my config profile is missing](#my-plugins-are-gone-or-my-config-profile-is-missing).
+
+5. You could try to restart the client and relog on the website a couple of times, which sometimes makes duplicate RSProfiles visible.
+If your issue has not been resolved at this point, join the [RuneLite Discord](https://runelite.net/discord) for further assistance.
+
+## I want to transfer my settings to another computer
+Make sure RuneLite is **closed** on the system you want to transfer your settings to!
+You can either copy the whole `.runelite` folder to your new computer or you can sync your profile.
+- `.runelite` is located in `%userprofile%` on **Windows** or `$HOME/.runelite/logs` on **Linux** and **macOS**.
+- To sync your profile, go to `Configuration` (wrench icon) > `Profiles` (middle tab). Select the profile you want to sync and click on the cloud icon (`Enable cloud sync`). If the icon is orange, then cloud sync is enabled. You could try to disable and re-enable cloud sync if it does not sync properly.<br>
+![config-profile-sync](https://user-images.githubusercontent.com/7191512/222978342-584d4842-38e4-40f7-8757-7085f016a5ad.png)
