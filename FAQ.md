@@ -122,7 +122,7 @@ If you want the client to load a specific profile on startup use `--profile=<pro
 
 ## My plugins are gone or my config profile is missing
 
-1. Make sure you are logged into the right RuneLite account if you are usually signed in.<br>
+1. Make sure you are logged into the correct RuneLite account if you are usually signed in.<br>
 Open the info panel and check if this displays the correct Gmail account. The info panel can be enabled via `Configuration` (wrench icon) > `Info panel`. It will be located in the sidebar.<br>
 ![image](img/info-panel.png)
 
@@ -132,11 +132,11 @@ Go to `Configuration` (wrench icon) > `Profiles` (middle tab) > Check if any of 
 Please try all config profiles. If you find the correct config profile and it shares a name with a different profile, it is recommended to rename the correct one to a unique name.
 
 3. Reimport your profile.<br>
-Go to the previously mentioned `Profiles` tab and click on the `Import Profile` button. You can find your profiles in `.runelite/profiles2/`. You can find older profiles either in `.runelite/profiles/emailhere@gmail.com` or if you were previously not signed into RL in `.runelite/`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
+Go to the previously mentioned `Profiles` tab and click on the `Import Profile` button. You can find your profiles in `.runelite/profiles2/`. You can find older profiles either in `.runelite/profiles/emailhere@gmail.com` or if you were previously not signed in to RL in `.runelite/`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
 
 4. If you were previously using `--config=` or `--session` parameters/clientargs, switch to only using `--profile=profilenamehere`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
 
-5. If your config profile is still missing, you can post in #support in the RuneLite Discord for further support. Please post a screenshot of your `Profiles` tab and post your `client.log` (drag and drop the file onto Discord). Navigate to `%userprofile%\.runelite\logs` on **Windows** or `$HOME/.runelite/logs` on **Linux** and **macOS**.
+5. If your config profile is still missing, you can post in #support in the RuneLite Discord for further assistance. Please post a screenshot of your `Profiles` tab and post your `client.log` (drag and drop the file onto Discord). Navigate to `%userprofile%\.runelite\logs` on **Windows** or `$HOME/.runelite/logs` on **Linux** and **macOS**.
 
 ## My Loot Tracker data is gone
 
@@ -149,6 +149,9 @@ Check the content of the duplicate RSProfiles and delete the incorrect one. Reop
 ![image](img/duplicate-rsprofile.png)<br>
 *In this example one of the upper 2 RSProfiles is incorrect and should be deleted.*<br>
 If you can reliably reproduce duplication of RSProfiles or if you know the cause, please report it.
+5. If there are no duplicate RSProfiles, check if you are logged into the same RuneLite account on the website as in the client. To find out what RuneLite account you are logged into in the client, please refer to step 1 of [My plugins are gone or my config profile is missing](#my-plugins-are-gone-or-my-config-profile-is-missing).
+6. You could try to restart the client and relog on the website a couple of times, which sometimes makes duplicate RSProfiles visible.
+If your issue has not been resolved at this point, you can post in #support in the RuneLite Discord for further assistance. Please post a screenshot of your RSProfiles on the RuneLite website and post your `client.log` when it is loading the incorrect Loot Tracker data (drag and drop the file onto Discord). Navigate to `%userprofile%\.runelite\logs` on **Windows** or `$HOME/.runelite/logs` on **Linux** and **macOS**.
 
 ## I want to transfer my settings to another computer
 Make sure RuneLite is **closed** on the system you want to transfer your settings to!
