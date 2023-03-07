@@ -1,19 +1,23 @@
-## Bank value in bank title
+# Bank Configuration
+
+[![Client View](https://thumbs.gfycat.com/VigorousAbandonedGnu-size_restricted.gif)](https://gfycat.com/VigorousAbandonedGnu)
+
+## Settings
+
+### Bank value in bank title
 
 Toggles display of the combined Grand Exchange or high alchemy price of the current tab's bank items. There is an option to show the exact value as well.
 This can also be enabled for the seed vault.
 
-[![Client View](https://thumbs.gfycat.com/VigorousAbandonedGnu-size_restricted.gif)](https://gfycat.com/VigorousAbandonedGnu)
+### Disable left click bank inventory and equipment
 
-## Disable left click bank inventory and equipement
+Disables left-click on the bank inventory, equipment, looting bag, and placeholder buttons in the bottom left of the bank and deposit box interface.
 
-Disables left-click on the bank inventory, bank equipment, or bank looting bag buttons in the bottom left of the bank and deposit box interface.
-
-## Keyboard Bankpin
+### Keyboard Bankpin
 
 Allows the use of keyboard keys for bank pin input.
 
-## Advanced searching
+### Advanced searching
 
 - `qty > 10` all stacks with more than 10 items.
 
