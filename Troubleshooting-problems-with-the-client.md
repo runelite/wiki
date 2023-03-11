@@ -10,10 +10,9 @@ To find logs, do one of the following things:
   - [Adding an exception to the Windows firewall](#adding-an-exception-to-the-windows-firewall)
   - [Lag with interacting with the side panel](#lag-with-interacting-with-the-side-panel)
   - [Client bouncing up and down in macOS tray](#client-bouncing-up-and-down-in-macos-tray)
-  - [Client stuck at "Loaded update list" on Linux](#client-stuck-at-loaded-update-list-on-linux)
-  - [PulseAudio forcibly taken over by client](#pulseaudio-forcibly-taken-over-by-client)
+  - [Client stuck at "Loaded update list" (Linux))](#client-stuck-at-loaded-update-list-linux)
+  - [PulseAudio forcibly taken over by client (Linux)](#pulseaudio-forcibly-taken-over-by-client-linux)
   - [Client crashing on login](#client-crashing-on-login)
-  - [java.net.ProtocolException on Mac OSX](#javanetprotocolexception-on-mac-osx)
   - [Client is outdated](#client-is-outdated)
   - [`javax.net.ssl.SSLHandshakeException: PKIX path building failed`](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
   - [Notifications don't work on linux](#notifications-dont-work-on-linux)
@@ -62,7 +61,7 @@ brew install glew
 
 Now the client should launch properly. [Related issue is here](https://github.com/runelite/launcher/issues/17).
 
-## Client stuck at "Loaded update list" on Linux
+## Client stuck at "Loaded update list" (Linux))
 
 This is caused by PulseAudio not being supported for Java. A workaround for this is to use Alsa instead. This can be done by adding the following line to the sound.properties file which is located at $JAVA_HOME/conf/sound.properties:
 
@@ -75,7 +74,7 @@ javax.sound.sampled.TargetDataLine=com.sun.media.sound.DirectAudioDeviceProvider
 
 Your JAVA_HOME is by default located at /usr/lib/jvm/<Java install here>.
 
-## PulseAudio forcibly taken over by client
+## PulseAudio forcibly taken over by client (Linux)
 
 If RuneLite is taking over your entire PulseAudio, then you're likely missing "pulseaudio-alsa". Getting that package should resolve any sound conflicts, you can now listen to sounds and play music on your browser again.
 
@@ -83,10 +82,6 @@ If RuneLite is taking over your entire PulseAudio, then you're likely missing "p
 
 This is probably caused by a 3rd party plugin from the pluginhub. Try launching the client in *safe mode* with `"%localappdata%\RuneLite\RuneLite.exe" --safe-mode` to confirm this.
 If it does not crash when in safe mode, uninstall your pluginhub plugins until the problem goes away.
-
-## java.net.ProtocolException on Mac OSX
-
-This is caused by having SOCKS proxy enabled on your network settings
 
 ## Client is outdated
 

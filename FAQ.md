@@ -19,13 +19,21 @@
   - [My plugins are gone or my config profile is missing](#my-plugins-are-gone-or-my-config-profile-is-missing)
   - [My Loot Tracker data is gone](#my-loot-tracker-data-is-gone)
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
+  - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
+  - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
 
 
 ## Common Bugs
-See [[Troubleshooting problems with the client]]
+The majority of the bug reports we receive are with third party plugins from the plugin hub, and not RuneLite bugs. Plugins from the plugin hub
+are not supported by RuneLite.
+
+If you are unsure if your bug is caused by a third party plugin or not, run the client in *safe mode* and try to reproduce the issue. Safe mode disables
+all plugin hub plugins, and also GPU mode.
+
+You can run in safe mode by either running the `RuneLite (safe mode)` shortcut on Windows (available in launcher 2.6.3), or passing `--safe-mode` to the RuneLite executable.
 
 ## Feature Requests
-See [[Rejected or Rolled Back Features]]
+Feature requets and ideas are taken on [GitHub discussions](https://github.com/runelite/runelite/discussions)
 
 ## How do I enable XP drops and zoom unlimiter?
 We use the game's xp drops and zoom system, so enable those in the game. The zoom unlimiter plugin works by unlimiting the game's zoom feature.  
@@ -42,12 +50,10 @@ RuneLite being open source means that the code can be inspected by anybody.
 Changes to our software, that anyone can submit, are passed through an audit and acceptance process, where we make sure that the changes don't contain any malicious or rule-breaking code. This makes sure that you won't be running such code.
 
 ## Will using RuneLite get me banned?
-No. However, you must be using the official RuneLite client. Be careful of unofficial and malicious clients.  
-Jagex stance on 3rd party clients: https://clips.twitch.tv/AbnegateAbstemiousDogeDatBoi  
-Jagex official statement: http://services.runescape.com/m=news/third-party-client-update?oldschool=1  
+No. RuneLite is officially approved by Jagex, and Jagex does not ban for it. Be careful of unofficial clients claiming to be "RuneLite" that are not from us.
 
 ## How often is RuneLite updated?
-If you're using the launcher, count on seeing updates every week on Thursday. These Thursday releases are done after the game has updated, and can take a few hours if there has been an engine change in the game.
+RuneLite is updated every couple weeks, usually immediately following the Wednesday game update. Sometimes after large game updates, RuneLite will be outdated for a period time. Usually this is 30 mins - 1 hour.
 
 ## Where can I find the logs, screenshots, or configurations?
 To find logs, either open screenshot directory (by right-clicking "Camera" button) and navigate 1 directory up and then open logs folder, or navigate to `%userprofile%\.runelite\logs` on Windows or `$HOME/.runelite/logs` on Linux and macOS.
@@ -70,9 +76,9 @@ Running the following script in a terminal should be enough to download RuneLite
 ```
 bash -- << EOF
 mkdir -p ~/.icons ~/.local/share/applications
-curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.6.1/RuneLite.AppImage
+curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.6.3/RuneLite.AppImage
 # OR use this for aarch64 systems
-#curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.6.1/RuneLite-aarch64.AppImage
+#curl -L -o ~/.local/RuneLite.AppImage https://github.com/runelite/launcher/releases/download/2.6.3/RuneLite-aarch64.AppImage
 chmod +x ~/.local/RuneLite.AppImage
 curl -L -o ~/.icons/RuneLite.png https://raw.githubusercontent.com/runelite/launcher/master/appimage/runelite.png
 echo "\
@@ -165,3 +171,21 @@ You can either copy the whole `.runelite` folder to your new computer or you can
 - `.runelite` is located in `%userprofile%` on **Windows** or `$HOME/.runelite/logs` on **Linux** and **macOS**.
 - To sync your profile, go to `Configuration` (wrench icon) > `Profiles` (middle tab). Select the profile you want to sync and click on the cloud icon (`Enable cloud sync`). If the icon is orange, then cloud sync is enabled. You could try to disable and re-enable cloud sync if it does not sync properly.<br>
 ![config-profile-sync](https://user-images.githubusercontent.com/7191512/222978342-584d4842-38e4-40f7-8757-7085f016a5ad.png)
+
+## RuneLite is making me disconnect!
+
+RuneLite can't make you disconnect. There are rare circumstances where the traffic generated from RuneLite (particularly the ICMP echos used by the world hopper plugin), or the normal RuneScape game traffic, can trigger devices on your network to terminate the connection or crash. This is uncommon, and it is much more likely your internet is not working correctly.
+
+RuneScape relies on a single TCP connection to the game servers for game play. This works very different from other web applications and streaming services you might be used to, and so it is possible to have a degraded network (such as one with packet loss) that appears to behave okay on other applications. Check if you have packet loss, preferably to the game server you are trying to play on, by using `ping`.
+
+## RuneLite is making my computer crash!
+
+RuneLite can't make your computer crash. Modern operating systems, which your computer will be using, use memory protection, which prevents applications from accessing and writing to memory belonging to both other applications and the kernel itself.
+
+Instead, what could be happening may be (but not exclusive to):
+
+Your GPU drivers are crashing, possibly causing your displays to go black
+The kernel is crashing.
+Your hardware is broken.
+
+If you are using Windows, use the Windows Event Viewer to get insight into what is crashing.
