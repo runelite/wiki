@@ -10,7 +10,8 @@ Using the Plugin Hub is very simple
 
 2. Click the plug icon on the top right of the panel.
 
-![Step 2](https://user-images.githubusercontent.com/30322202/228920817-94a9bbf8-b1eb-449c-87cc-a418fedc016e.png)
+![Step 2](https://user-images.githubusercontent.com/30322202/228933817-03cd61cf-8db5-495c-9213-da4132893e74.png)
+
 
 
 3. Find the plugin you want, and click the install button.
