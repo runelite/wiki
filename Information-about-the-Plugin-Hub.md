@@ -4,7 +4,7 @@ The [Plugin Hub](https://runelite.net/plugin-hub) is a feature introduced in Run
 
 Using the Plugin Hub is very simple
 
-1. Open the plugin configuration panel
+1. Open the plugin configuration panel.
 
 ![Step 1](https://user-images.githubusercontent.com/2979691/75092395-f564aa00-556e-11ea-8cd5-f781cfcc6940.png)
 
