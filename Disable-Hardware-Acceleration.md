@@ -27,37 +27,17 @@ Many GPU overlay programs cause this problem, usually removing them is the best 
 
 ## Disabling hardware acceleration
 
-### Method 1: Creating a shortcut
+### Method 1: Using the Configuration window
+(requires launcher version 2.6.3+)
 
-You can create desktop shortcut with ` --mode=OFF` at the end of the target box. make sure there is a space before the `--`! (Video below)
+Select OFF in the dropdown menu for Hardware acceleration inside the confuguration window launched by using the `RuneLite (configure)` shortcut.  For windows this can be quickly found by searching for it in the start menu.
 
-[![Client View](https://thumbs.gfycat.com/DamagedWealthyKoalabear-size_restricted.gif)](https://gfycat.com/DamagedWealthyKoalabear)
-
-### Method 2: Starting the launcher with HW accel disabled from CMD
-(requires launcher version 2.4+)
-
-Run cmd.exe (Windows Key + R) and paste this into the command prompt:
-```
-"%localappdata%\RuneLite\RuneLite.exe" --mode=OFF
-```
+![RuneLite-Configure](https://user-images.githubusercontent.com/7191512/230628788-5aa0cc11-78a3-4c17-beca-04dc6de9b8b9.png)
 
 
-You can create a batch file to run this automatically when executed.  Copy the text below, paste it into notepad, and save as a .bat file.  
-```
-start "" "%localappdata%\RuneLite\RuneLite.exe" --mode=OFF
-exit
-``` 
-
-Be sure to change "Save as type" to "All Files"
-
-![](https://i.imgur.com/SeTB5Tl.png)
+![RuneLite_Configure-HW-accel](https://user-images.githubusercontent.com/7191512/230627233-4df0064a-9fdd-45c2-a758-507ddb9b93c9.png)
 
 
+### Method 2: Passing a cli argument
 
-# All platforms
-
-If you downloaded the `.jar` version of the launcher, run this:
-
-```
-java -jar Location-of-RuneLite.jar --mode=OFF
-```
+`--mode=OFF` can be passed to the launcher to disable HW acceleration directly.  Be that by appending it to the end of the target field of a windows shortcut or through command line, whichever method the client is launched by you.
