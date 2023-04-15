@@ -151,3 +151,4 @@
 * [[VarPlayers, VarBits, and VarClients]]
 * [[Running the Runelite HTTP API Service]]
 * [[Rejected or Rolled Back Features]]
+* [[Jagex Launcher Development]]
