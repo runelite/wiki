@@ -16,6 +16,7 @@ To find logs, do one of the following things:
   - [Client is outdated](#client-is-outdated)
   - [`javax.net.ssl.SSLHandshakeException: PKIX path building failed`](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
   - [Notifications don't work on linux](#notifications-dont-work-on-linux)
+  - [Cannot find drive when installing](#cannot find drive)
 
 ## Client not launching
 
@@ -94,3 +95,13 @@ Some software or certificate installed on your computer is interrupting the secu
 ## Notifications don't work on linux
 
 RuneLite calls `notify-send` for notifications, which is installed via the `libnotify-bin` package. Be sure to have this package installed for desktop notifications to work.
+
+## Cannot find drive
+
+This can happen from manually deleting the installed directory, or having the hard drive its currently installed to become accessible.
+If you are receiving an error when attempting to run the installer/uninstaller such as:
+ - The drive or UNC share you selected does not exist or is not accessible.  Please select another.
+ - D:\Games\RuneLite\unins000.exe The system cannot find the drive specified.
+ - C:\Users\user\RuneLite\unins000.dat file is corrupted. Cannot uninstall.
+ 
+Delete the `Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\RuneLite Launcher_is1` registry key.
