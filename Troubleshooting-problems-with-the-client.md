@@ -16,7 +16,7 @@ To find logs, do one of the following things:
   - [Client is outdated](#client-is-outdated)
   - [`javax.net.ssl.SSLHandshakeException: PKIX path building failed`](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
   - [Notifications don't work on linux](#notifications-dont-work-on-linux)
-  - [Cannot find drive when installing](#cannot find drive)
+  - [Cannot find drive when installing](#cannot-find-drive)
 
 ## Client not launching
 
