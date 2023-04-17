@@ -4,9 +4,10 @@ The RuneLite Launcher Configuration window was added in launcher version 2.6.3, 
 To update your launcher please visit the [RuneLite website](https://runelite.net/) and select to download the setup file for your Operating System then install the launcher using that.
 
 The Configure window can be then opened by selecting the `RuneLite (configure)` start menu entry, on Windows, or if using Mac/Linux by passing the command line argument `--configure` to the launcher
-![](https://raw.githubusercontent.com/wiki/runelite/runelite/img/RuneLite_Configure_shortcut.png)
 
-![](https://raw.githubusercontent.com/wiki/runelite/runelite/img/RuneLite_Launcher_Configuration.png)
+![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Configure_shortcut.png)
+
+![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Launcher_Configuration.png)
 
 The Configuration Window allows all launcher and client arguments to be configured and saved for use on any subsequent launch.
 The configuration is also saved in such a way that when launching RuneLite through the Jagex Launcher they are also applied.
