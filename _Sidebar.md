@@ -2,6 +2,7 @@
 **User Guide**
 * [[FAQ]]
 * [[GPU FAQ]]
+* [[RuneLite Launcher Configuration]]
 * [[Troubleshooting problems with the client]]
 * [[Disable Hardware Acceleration]]
 * [[Change DPI Scaling (Ubuntu 20 w/ Gnome)]]
