@@ -27,7 +27,7 @@ Many GPU overlay programs cause this problem, usually removing them is the best 
 
 ## Disabling hardware acceleration
 
-### Method 1: Using the Configuration window
+### Method 1: Using the [Configuration window](https://github.com/runelite/runelite/wiki/RuneLite-Launcher-Configuration)
 (requires launcher version 2.6.3+)
 
 Select OFF in the dropdown menu for Hardware acceleration inside the confuguration window launched by using the `RuneLite (configure)` shortcut.  For windows this can be quickly found by searching for it in the start menu.
