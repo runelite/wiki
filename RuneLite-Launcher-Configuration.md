@@ -52,7 +52,7 @@ cli: `--safe-mode`
 Various optional arguments passed to the client. One per line.
 
 A popular client argument being `profile` to load a specific settings profile on launch.
-The profile arg can be supplied with a profile name such as `profile=ironman` to load on client launch the settings profile named "ironman".
+The profile arg can be supplied with a profile name such as `--profile=ironman` to load on client launch the settings profile named "ironman".
 
 cli: `--profile=<profile_name>`
 ### JVM arguments
