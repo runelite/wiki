@@ -1,20 +1,21 @@
+<!-- omit in toc -->
 # Table of Contents
 
-* [Getting started](#getting-started)
+- [Getting started](#getting-started)
   - [Importing the project](#importing-the-project)
   - [Building the project](#building-the-project)
   - [Running the project](#running-the-project)
   - [Conclusion](#conclusion)
-* [Troubleshooting](#troubleshooting)
+- [Troubleshooting](#troubleshooting)
   - [Missing git](#missing-git)
   - [Missing JDK](#missing-jdk)
-  - [Client failing to start](#client-failing-to-start--client-stuck-while-loading--client-crashes-while-playing)
+  - [Client failing to start](#client-failing-to-start)
 
 # Getting started
 
 For working with this project, [IntelliJ IDEA](https://www.jetbrains.com/idea/download) is our recommended IDE and the one used by most collaborators. The free community edition has everything you'll need to start testing and contributing real improvements to the project.
 
-You can build RuneLite locally using [JDK 11](https://adoptium.net/). We recommend installing the JDK through IntelliJ and selecting vendor `Eclipse Temurin (AdoptOpenJDK HotSpot)` version `11`. Note the codebase supports language features up to Java 8.
+You can build RuneLite locally using [JDK 11](https://adoptium.net/temurin/releases/?version=11). We recommend installing the JDK through IntelliJ and selecting vendor `Eclipse Temurin (AdoptOpenJDK HotSpot)` version `11`. The codebase supports language features up to Java 11.
 
 ## Importing the project
 
@@ -95,10 +96,11 @@ Then press *+* button and *Add JDK* and locate directory of your installed JDK:
 
 ![missing-jdk-add](https://i.imgur.com/ZRHDAk3.png)
 
-## Client failing to start / Client stuck while loading / Client crashes while playing
+## Client failing to start
 
 If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
 
+<!-- omit in toc -->
 #### Make sure your branch is up to date with master
 
 To sync your fork simply run
@@ -110,25 +112,30 @@ or update the project from IntelliJ:
 
 ![update-project](https://i.imgur.com/69R580v.png) 
 
+<!-- omit in toc -->
 #### Run maven with -U
 
 Typically your arguments will look like `clean install -DskipTests -U`
 
+<!-- omit in toc -->
 #### Make sure IntelliJ is picking up changes from Maven
 
 If you are unsure, run: *Maven Projects* > *Reimport all maven projects* in IntelliJ (or *Ctrl* + *Shift* + *A* and type *Reimport all maven project*).
 
 Happy development!
 
+<!-- omit in toc -->
 #### JDKs 16+
 
 You have to add the following extra VM arguments in order to use these java versions:
 
+<!-- omit in toc -->
 ##### Windows/Linux
 ```
 --add-opens=java.desktop/sun.awt=ALL-UNNAMED
 ```
 
+<!-- omit in toc -->
 ##### Mac
 ```
 --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED
