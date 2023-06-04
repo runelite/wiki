@@ -18,7 +18,7 @@
 
 Do not modify the code, and do not modify any of the other settings.
 
-1. Click `Save`
+4. Click `Save`
 
 Now you can launch RuneLite either directly or via the Jagex Launcher and access the beta worlds.
 
