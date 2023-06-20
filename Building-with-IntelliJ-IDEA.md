@@ -101,6 +101,13 @@ Then press *+* button and *Add JDK* and locate directory of your installed JDK:
 If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
 
 <!-- omit in toc -->
+#### Re-run maven
+
+Various issues are resolved by running maven again using the following command: `clean install -DskipTests -U`  
+Since this is a maven command, it will need to be ran through the maven terminal seen below.
+![mvn-clean-install](https://github-production-user-asset-6210df.s3.amazonaws.com/41973452/246999260-b33934e5-0969-4455-a5ee-adceeaf55f86.png)
+
+<!-- omit in toc -->
 #### Make sure your branch is up to date with master
 
 To sync your fork simply run
@@ -111,11 +118,6 @@ git checkout master && git fetch upstream && git rebase upstream/master && git c
 or update the project from IntelliJ:
 
 ![update-project](https://i.imgur.com/69R580v.png) 
-
-<!-- omit in toc -->
-#### Run maven with -U
-
-Typically your arguments will look like `clean install -DskipTests -U`
 
 <!-- omit in toc -->
 #### Make sure IntelliJ is picking up changes from Maven
