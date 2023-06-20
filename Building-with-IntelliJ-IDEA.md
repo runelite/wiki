@@ -98,14 +98,11 @@ Then press *+* button and *Add JDK* and locate directory of your installed JDK:
 
 ## Client failing to start
 
-If the client fails to boot or if the applet does not appear, try to rebuild the project by running the Maven builder again. If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
-
-<!-- omit in toc -->
-#### Re-run maven
-
-Various issues are resolved by running maven again using the following command: `clean install -DskipTests -U`  
-Since this is a maven command, it will need to be ran through the maven terminal seen below.
+If the client fails to boot or if the applet does not appear, try running the Maven build again with the following command:  
+`clean install -DskipTests -U`
 ![mvn-clean-install](https://github-production-user-asset-6210df.s3.amazonaws.com/41973452/246999260-b33934e5-0969-4455-a5ee-adceeaf55f86.png)
+
+If that also doesn't work, feel free to ask for help in the discord server. Here are few helpful tips:
 
 <!-- omit in toc -->
 #### Make sure your branch is up to date with master
