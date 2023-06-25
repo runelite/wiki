@@ -106,7 +106,7 @@ Now run the .bat file to launch the client.
 
 ## I get the error: "This program can only be installed on versions of Windows designed for the following processor architectures"
 
-If you have an ARM laptop running Windows, you need to install Microsoft OpenJDK from https://github.com/microsoft/openjdk-aarch64/releases/download/jdk-11.0.12-ga/microsoft-jdk-11.0.12.7.1-windows-aarch64.msi and then download and run the `All Platforms` version of RuneLite from https://runelite.net. This also requires the Microsoft Visual C++ Redistributables be installed, which if you do not already have, can be downloaded from https://aka.ms/vs/17/release/vc_redist.arm64.exe
+Make sure you are downloading the correct launcher for your operating system architecture. If you have an ARM64 laptop you need to select the `Download for Windows (ARM64)` option from the dropdown.
 
 ## How do I convert the previous multi session/setting file to a profile?
 
