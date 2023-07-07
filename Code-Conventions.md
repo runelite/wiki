@@ -13,7 +13,77 @@ The following are some common mistakes not covered by the code style check:
 
 ## IntelliJ Integration
 
-The easiest way to follow our style is to use IntelliJ's formatter. To install it, simply download [this xml](http://ix.io/1jNP) and [follow this guide](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-code-style) to import it into your IDE. Then you can press `Ctrl+Alt+L` to format the current document.
+The easiest way to follow our style is to use IntelliJ's formatter. To install it, [follow this guide](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-code-style) to import the xml listed below into your IDE. Once installed, you can press `Ctrl+Alt+L` to format the current document.
+
+<details>
+  <summary>IntelliJ codestyle XML:</summary>
+
+```xml
+<code_scheme name="RuneLite" version="173">
+  <option name="AUTODETECT_INDENTS" value="false" />
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </value>
+  </option>
+  <option name="LINE_SEPARATOR" value="&#xA;" />
+  <JavaCodeStyleSettings>
+    <option name="LAYOUT_STATIC_IMPORTS_SEPARATELY" value="false" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="10" />
+    <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+      <value />
+    </option>
+    <option name="IMPORT_LAYOUT_TABLE">
+      <value>
+        <package name="" withSubpackages="true" static="false" />
+      </value>
+    </option>
+  </JavaCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="JAVA">
+    <option name="BRACE_STYLE" value="2" />
+    <option name="CLASS_BRACE_STYLE" value="2" />
+    <option name="METHOD_BRACE_STYLE" value="2" />
+    <option name="ELSE_ON_NEW_LINE" value="true" />
+    <option name="CATCH_ON_NEW_LINE" value="true" />
+    <option name="FINALLY_ON_NEW_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="3" />
+    <option name="DOWHILE_BRACE_FORCE" value="3" />
+    <option name="WHILE_BRACE_FORCE" value="3" />
+    <option name="FOR_BRACE_FORCE" value="3" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>BY_NAME</order>
+        </group>
+      </groups>
+    </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="Python">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="XML">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
+```
+</details>
 
 If you don't like tools formatting your code for you, you can add a maven run configuration that runs checkstyle.
 Simply create a new `Maven` run configuration, and set the command line to `-Dcheckstyle.skip=false checkstyle:check`
