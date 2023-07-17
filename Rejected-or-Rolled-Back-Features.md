@@ -10,12 +10,10 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * Fight Cave (Jad) Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
 * Cerberus plugin: [see Jagex statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1)
-* Prayer reorder plugin: [see Jagex statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1)
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
-* Spellbook Re-ordering and Hiding: Forbidden by [Jagex's statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1): `Any movement or resizing of click zones for any interface or component under combat options, inventory, worn equipment, prayers or spell book`
-* Prayer Re-ordering and Hiding: Forbidden by Jagex's statement, same as spellbook re-ordering.
+* Spellbook Re-ordering and Hiding: Forbidden by [Jagex's statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1): `Any movement or resizing of click zones for any interface or component under combat options, inventory, worn equipment, or spell book`
 * Highlighting "Offline" Friends (and generic player highlighting): Not included to respect players with their messaging mode set to Private and to avoid harassing players (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
 * Dynamic Puro-Puro Spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful (see [#2371](https://github.com/runelite/runelite/issues/2371))
