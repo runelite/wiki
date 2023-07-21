@@ -195,18 +195,16 @@ If you are using Windows, use the Windows Event Viewer to get insight into what 
 
 ### Without a Jagex account:
 
-Windows: In Command Prompt, run:
-`"%localappdata%\runelite\runelite.exe" --safe-mode`
+Windows: Run the `RuneLite (safe mode)` shortcut.
 
 Mac: In Terminal, run:
 `/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode`
 
 ### With a Jagex account:
 
-Windows: In Command Prompt, run:
-`"%localappdata%\runelite\runelite.exe" --configure`
+Windows: Run the `RuneLite (configure)` shortcut.
 
 Mac: In Terminal, run:
 `/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure`
 
-Both platforms: A configuration window will pop up. Check the "Safe mode" box, then click save. Launch RuneLite from the Jagex Launcher.
+Both platforms: A configuration window will pop up. Check the "Safe mode" box, then click Save. Launch RuneLite from the Jagex Launcher.
