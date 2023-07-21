@@ -21,6 +21,7 @@
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
   - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
   - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
+  - [How do I run RuneLite in Safe Mode?](#how-do-i-run-runelite-in-safe-mode)
 
 
 ## Common Bugs
@@ -30,7 +31,7 @@ are not supported by RuneLite.
 If you are unsure if your bug is caused by a third party plugin or not, run the client in *safe mode* and try to reproduce the issue. Safe mode disables
 all plugin hub plugins, and also GPU mode.
 
-You can run in safe mode by either running the `RuneLite (safe mode)` shortcut on Windows (available in launcher 2.6.3), or passing `--safe-mode` to the RuneLite executable.
+You can run in safe mode by either running the `RuneLite (safe mode)` shortcut on Windows (available in launcher 2.6.3), or passing `--safe-mode` to the RuneLite executable. For more information, see [below](#how-do-i-run-runelite-in-safe-mode).
 
 ## Feature Requests
 Feature requets and ideas are taken on [GitHub discussions](https://github.com/runelite/runelite/discussions)
@@ -189,3 +190,11 @@ The kernel is crashing.
 Your hardware is broken.
 
 If you are using Windows, use the Windows Event Viewer to get insight into what is crashing.
+
+## How do I run RuneLite in Safe Mode?
+
+Windows: In Command Prompt, run:
+`"%localappdata%\runelite\runelite.exe" --safe-mode`
+
+Mac: In Terminal, run:
+`/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode`
