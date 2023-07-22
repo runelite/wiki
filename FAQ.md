@@ -53,7 +53,7 @@ Both platforms: A configuration window will pop up. Check the "Safe mode" box, t
 
 ### Still not working?
 
-Update RuneLite via [the official website](https://runelite.net/). Your configuration will not be lost.
+Update RuneLite via [the official website](https://runelite.net/), then try again. Your configuration will not be lost.
 
 ## Feature Requests
 Feature requests and ideas are taken on [GitHub discussions](https://github.com/runelite/runelite/discussions)
