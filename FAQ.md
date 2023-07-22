@@ -1,6 +1,7 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
   - [Common Bugs](#common-bugs)
+  - [How do I run RuneLite in Safe Mode?](#how-do-i-run-runelite-in-safe-mode)
   - [Feature Requests](#feature-requests)
   - [How do I enable XP drops and zoom unlimiter?](#how-do-i-enable-xp-drops-and-zoom-unlimiter)
   - [How do I use inventory tags?](#how-do-i-use-inventory-tags)
@@ -21,7 +22,6 @@
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
   - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
   - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
-  - [How do I run RuneLite in Safe Mode?](#how-do-i-run-runelite-in-safe-mode)
 
 
 ## Common Bugs
@@ -32,6 +32,28 @@ If you are unsure if your bug is caused by a third party plugin or not, run the 
 all plugin hub plugins, and also GPU mode.
 
 You can run in safe mode by either running the `RuneLite (safe mode)` shortcut on Windows (available in launcher 2.6.3), or passing `--safe-mode` to the RuneLite executable. For more information, see [below](#how-do-i-run-runelite-in-safe-mode).
+
+## How do I run RuneLite in Safe Mode?
+
+### Without a Jagex account:
+
+Windows: Run the `RuneLite (safe mode)` shortcut.
+
+Mac: In Terminal, run:
+`/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode`
+
+### With a Jagex account:
+
+Windows: Run the `RuneLite (configure)` shortcut.
+
+Mac: In Terminal, run:
+`/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure`
+
+Both platforms: A configuration window will pop up. Check the "Safe mode" box, then click Save. Launch RuneLite from the Jagex Launcher.
+
+### Still not working?
+
+Update RuneLite via [the official website](https://runelite.net/). Your configuration will not be lost.
 
 ## Feature Requests
 Feature requests and ideas are taken on [GitHub discussions](https://github.com/runelite/runelite/discussions)
@@ -190,21 +212,3 @@ The kernel is crashing.
 Your hardware is broken.
 
 If you are using Windows, use the Windows Event Viewer to get insight into what is crashing.
-
-## How do I run RuneLite in Safe Mode?
-
-### Without a Jagex account:
-
-Windows: Run the `RuneLite (safe mode)` shortcut.
-
-Mac: In Terminal, run:
-`/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode`
-
-### With a Jagex account:
-
-Windows: Run the `RuneLite (configure)` shortcut.
-
-Mac: In Terminal, run:
-`/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure`
-
-Both platforms: A configuration window will pop up. Check the "Safe mode" box, then click Save. Launch RuneLite from the Jagex Launcher.
