@@ -86,7 +86,6 @@
   * [[Music]]
   * [[NPC Aggression Timer]]
   * [[NPC Indicators]]
-  * [[News Feed]]
   * [[Nightmare Zone]]
   * [[Notes]]
   * [[Object Markers]]
