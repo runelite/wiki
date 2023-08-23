@@ -13,7 +13,7 @@ The following are some common mistakes not covered by the code style check:
 
 ## IntelliJ Integration
 
-The easiest way to follow our style is to use IntelliJ's formatter. To install it, [follow this guide](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-code-style) to import the xml listed below into your IDE. Once installed, you can press `Ctrl+Alt+L` to format the current document.
+The easiest way to follow our style is to use IntelliJ's formatter. To install it, copy and save the xml listed below, then [follow this guide](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-code-style) to import it into your IDE. Once installed, you can press `Ctrl+Alt+L` to format the current document.
 
 <details>
   <summary>IntelliJ codestyle XML:</summary>
