@@ -59,7 +59,7 @@ cli: `--profile=<profile_name>`
 Various optional arguments passed to the JVM. One per line.
 Non exhaustive list: 
 
-`-Xmx1536M` which will  increase the client memory size to 1536 MB.
+`-Xmx1536M` which will increase the client memory size to 1536 MB.
 
 ### Scale
 Scaling factor for Java 2D.  For use overriding scaling performed by your Operating System.
