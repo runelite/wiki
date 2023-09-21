@@ -191,7 +191,7 @@ If your issue has not been resolved at this point, join the [RuneLite Discord](h
 ## I want to transfer my settings to another computer
 Make sure RuneLite is **closed** on the system you want to transfer your settings to!
 You can either copy the whole `.runelite` folder to your new computer or you can sync your profile.
-- `.runelite` is located in `%userprofile%` on **Windows** or `$HOME/.runelite/logs` on **Linux** and **macOS**.
+- `.runelite` is located in `%userprofile%` on **Windows** or `$HOME` on **Linux** and **macOS**.
 - To sync your profile, go to `Configuration` (wrench icon) > `Profiles` (middle tab). Select the profile you want to sync and click on the cloud icon (`Enable cloud sync`). If the icon is orange, then cloud sync is enabled. You could try to disable and re-enable cloud sync if it does not sync properly.<br>
 ![config-profile-sync](https://user-images.githubusercontent.com/7191512/222978342-584d4842-38e4-40f7-8757-7085f016a5ad.png)
 
