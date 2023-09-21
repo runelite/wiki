@@ -141,9 +141,9 @@ Navigate to .runelite (Easy way is to click the HOME icon then go into your wind
 
 ![image](https://user-images.githubusercontent.com/14265490/220759924-c004f0e7-4efb-4c1d-9ea1-b3d4005a82c2.png)
 
-If you used to use `--config=<filename>` ex. `--config=iron.properties`, use that file as your import, make sure the profile is named correctly (as seen in first screen shot) with the rename profile button.
+If you used to use `--config=<filename>` ex. `--config=iron.properties`, use that file as your import, make sure the profile is named correctly (as seen in first screenshot) with the rename profile button.
 
-If you are signed in to a RL account, or used to use the new depricated `--session` parameter to sign in to one automatically, to sync settings; the settings for the account will be found in `.runelite\profiles\<email>` and you will need to import each one from each email.  Then only ever sign in to a single RL account that holds every profile.
+If you are signed in to a RL account, or used to use the new deprecated `--session` parameter to sign in to one automatically, to sync settings; the settings for the account will be found in `.runelite\profiles\<email>` and you will need to import each one from each email.  Then only ever sign in to a single RL account that holds every profile.
 
 If you want the client to load a specific profile on startup use `--profile=<profilename>` ex. `--profile=iron` like below
 
@@ -164,7 +164,7 @@ Please try all config profiles. If you find the correct config profile and it sh
 3. If you were previously using `--config=` or `--session` parameters/clientargs, switch to only using `--profile=profilenamehere`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
 
 4. Reimport your profile.<br>
-Go to the previously mentioned `Profiles` tab and click on the `Import Profile` button. You can find your profiles in `.runelite/profiles2/`. You can find older legacy(pre Feb 18th 2023) profiles either in `.runelite/profiles/<email>` or if you were previously not signed in to RL in `.runelite/`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
+Go to the previously mentioned `Profiles` tab and click on the `Import Profile` button. You can find your profiles in `.runelite/profiles2/`. You can find older legacy (pre Feb 18th 2023) profiles either in `.runelite/profiles/<email>` or if you were previously not signed in to RL in `.runelite/`. Please refer to [How do I convert the previous multi session/setting file to a profile?](#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile) for more info.
 
 5. If your config profile is still missing, join the [RuneLite Discord](https://runelite.net/discord) for further assistance.
 
@@ -173,7 +173,7 @@ Go to the previously mentioned `Profiles` tab and click on the `Import Profile` 
 Loot Tracker data is stored in your RSProfile, not in your RuneLite config profile.
 1. Make sure you are logged in to the correct **OSRS account**. You have to be logged in for Loot Tracker data to show!
 
-2. If you have not killed the specific Npc in a long time, get one kill and restart your client. Loot Tracker only loads so many entires on startup, refreshing the last time a loot was recived from one can make it show up again in the client.
+2. If you have not killed the specific Npc in a long time, get one kill and restart your client. Loot Tracker only loads so many entries on startup, refreshing the last time a loot was received from one can make it show up again in the client.
 
 3. Remove duplicate RSProfiles.<br>
 **Close RuneLite**. Go to https://runelite.net/account/home and check for duplicate RuneScape Profiles. Please note that it is normal to have multiple profiles with the same name if they have e.g. a `Deadman` or `Pvp arena` tag.<br>
