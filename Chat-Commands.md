@@ -133,7 +133,7 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 `prif`, `prifddinas` -> `Prifddinas Agility Course`    
 `hs`, `hs [1-5]`, `ghc` -> `Hallowed Sepulchre`  
 `shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`
-`shaya`, `saac`, `shayadv`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
+`shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
 
 ### Quest Points Commands
 
