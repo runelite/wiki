@@ -8,3 +8,5 @@ If you have converted your account to a Jagex Account and can no longer login di
 4. Click Save
 5. Launch RuneLite via the Jagex launcher. RuneLite will write your launcher credentials to `.runelite/credentials.properties`. **Do not share this file with anyone.**
 6. Launch RuneLite client (eg. via the IDE) and it will use the saved credentials.
+
+Once you've finished development you can delete the `credentials.properties` file to return your Runelite back to normal.
