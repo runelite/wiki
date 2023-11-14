@@ -25,7 +25,7 @@ Current commands include:
 * `!pets`
 
 # Settings
-![image](https://github.com/Felanbird/wiki-1/assets/41973452/bb386045-ab19-4f55-926f-30ca3947aba8)
+![Settings](https://github.com/Felanbird/wiki-1/assets/41973452/bb386045-ab19-4f55-926f-30ca3947aba8)
 
 ### Price Command
 Enables the `!price` command.
