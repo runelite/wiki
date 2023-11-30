@@ -49,16 +49,16 @@ Launches the client in safe mode.  This disables loading of plugins installed fr
 cli: `--safe-mode`
 
 ### Client arguments
-Various optional arguments passed to the client. One per line.
+Optional arguments passed to the client. One per line.
 
 A popular client argument being `profile` to load a specific settings profile on launch.
 The profile arg can be supplied with a profile name such as `--profile=ironman` to load on client launch the settings profile named "ironman".
 
 cli: `--profile=<profile_name>`
 ### JVM arguments
-Various optional arguments passed to the JVM. One per line.
+Optional arguments passed to the JVM. One per line.
 
-One commonly useful option being `-Xmx` to increase heap size, for example `-Xmx1536M` to double the clients available heap space, useful if receiving heap space errors from having too many hub plugins installed.
+This is commonly used to increase the max heap size (the memory limit). This can be done via the `-Xmx` option, for example use `-Xmx1536M` to double the clients available heap size. Some 3rd party plugins use an unbounded amount of memory, and increasing the max heap size only increases the time until the client crashes. In this case, you will likely need to remove the bad plugin(s).
 
 ### Scale
 Scaling factor for Java 2D.  For use overriding scaling performed by your Operating System.
