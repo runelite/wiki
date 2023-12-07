@@ -17,6 +17,7 @@ To find logs, do one of the following things:
   - [`javax.net.ssl.SSLHandshakeException: PKIX path building failed`](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
   - [Notifications don't work on linux](#notifications-dont-work-on-linux)
   - [Cannot find drive when installing](#cannot-find-drive)
+  - [`Socket Exception - Permission Denied: Connect` while using Mullvad VPN](#socket-exception-permission-denied-connect-while-using-mullvad-vpn)
 
 ## Client not launching
 
@@ -105,3 +106,7 @@ If you are receiving an error when attempting to run the installer/uninstaller s
  - C:\Users\user\RuneLite\unins000.dat file is corrupted. Cannot uninstall.
  
 Delete the `Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\RuneLite Launcher_is1` registry key.
+
+## `Socket Exception - Permission Denied: Connect` while using Mullvad VPN
+
+Unfortunately Runelite can't be correctly split-tunneled with Mullvad, disabling split tunneling should resolve this issue.
