@@ -17,7 +17,7 @@ To find logs, do one of the following things:
   - [`javax.net.ssl.SSLHandshakeException: PKIX path building failed`](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
   - [Notifications don't work on linux](#notifications-dont-work-on-linux)
   - [Cannot find drive when installing](#cannot-find-drive)
-  - [`Socket Exception - Permission Denied: Connect` while using Mullvad VPN](#socket-exception-permission-denied-connect-mullvad)
+  - [`Socket Exception - Permission Denied: Connect` while using Mullvad VPN](#socket-exception-permission-denied-connect-while-using-mullvad-vpn)
 
 ## Client not launching
 
@@ -112,5 +112,5 @@ Delete the `Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion
 Some issues have issues loading Runelite while using Mullvad VPN, while this issue does effect users with various other VPNs, the following fix is only known to resolve issues for Mullvad users.
  - Open [Runelite (configure)](https://github.com/runelite/runelite/wiki/RuneLite-Launcher-Configuration)
  - Copy paste `-Djava.net.preferIPv4Stack=true` into the `JVM arguments` box and Save
- - Make sure your Mullvad does not have ___ANY___ applications being split tunneled
+ - Remove Runelite from split tunneling if you previously tried that to resolve the issue
 If both steps are done correctly, Runelite should open normally while Mullvad is enabled.
