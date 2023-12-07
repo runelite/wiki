@@ -109,7 +109,7 @@ Delete the `Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion
 
 ## `Socket Exception - Permission Denied: Connect` while using Mullvad VPN
 
-Some issues have issues loading Runelite while using Mullvad VPN, while this issue does effect users with various other VPNs, the following fix is only known to resolve issues for Mullvad users.
+Some users have issues loading Runelite while using Mullvad VPN, while this issue does effect users with various other VPNs, the following fix is only known to resolve issues for Mullvad users.
  - Open [Runelite (configure)](https://github.com/runelite/runelite/wiki/RuneLite-Launcher-Configuration)
  - Copy paste `-Djava.net.preferIPv4Stack=true` into the `JVM arguments` box and Save
  - Remove Runelite from split tunneling if you previously tried that to resolve the issue
