@@ -17,7 +17,7 @@ To find logs, do one of the following things:
   - [`javax.net.ssl.SSLHandshakeException: PKIX path building failed`](#javaxnetsslsslhandshakeexception-pkix-path-building-failed)
   - [Notifications don't work on linux](#notifications-dont-work-on-linux)
   - [Cannot find drive when installing](#cannot-find-drive)
-  - [`Socket Exception - Permission Denied: Connect` while using Mullvad VPN](#socket-exception-permission-denied-connect-while-using-mullvad-vpn)
+  - [`Socket Exception - Permission Denied: Connect` while using Mullvad VPN](#socket-exception---permission-denied-connect-while-using-mullvad-vpn)
 
 ## Client not launching
 
