@@ -1,6 +1,6 @@
 # Attack Styles Configuration
 
-[![Client View](https://user-images.githubusercontent.com/40111569/55271210-29f4b680-5277-11e9-8292-a2cbbb0f1009.gif)](https://user-images.githubusercontent.com/40111569/55271210-29f4b680-5277-11e9-8292-a2cbbb0f1009.gif)
+![Client View](img/attack-styles/attack_styles_overview.gif)
 
 ## Settings
 
