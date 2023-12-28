@@ -136,6 +136,7 @@
 
 **Developer's Guide**
 * **Plugin Development**
+  * [[Developer Guide]]
   * [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
   * [[Creating plugin config panels]]
   * [[Plugin Development Logging]]
