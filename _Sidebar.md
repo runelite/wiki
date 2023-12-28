@@ -139,6 +139,8 @@
   * [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
   * [[Creating plugin config panels]]
   * [[Plugin Development Logging]]
+  * [API Javadoc](https://static.runelite.net/api/runelite-api/)
+  * [Client Javadoc](https://static.runelite.net/api/runelite-client/)
 * **RuneLite Core Development**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
