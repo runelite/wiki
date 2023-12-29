@@ -24,4 +24,4 @@ In rare occasions, Internet Service Providers have issues on their end preventin
 5) Log in to the game as normal
 6) If you close the client, you'll have to repeat steps 3-5 every time you open RuneLite, at least until the problem has been fixed for your area.
 
-[^1]: This option may not be feasible for Jagex Accounts, as the Jagex launcher is known to prevent VPN usage.
+[^1]: This option may not be possible for Jagex Accounts, as the Jagex launcher is known to prevent VPN usage.
