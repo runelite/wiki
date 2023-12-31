@@ -1,14 +1,14 @@
 # Connection Issues
 
-In rare occasions, Internet Service Providers have issues on their end preventing users from connecting to [Runelite's website](https://runelite.net/), which is a requirement for starting Runelite. While this problem is not the fault of the user, it can often be mitigated with one of the workarounds listed below.
+In rare occasions, Internet Service Providers have issues on their end preventing users from connecting to [RuneLite's website](https://runelite.net/), which is a requirement for starting RuneLite. While this problem is not the fault of the user, it can often be mitigated with one of the workarounds listed below.
 
 #### Unresolved issues:
-`Globe` in The Philippines has had this issue since 2023-12-03
+**Globe** in The Philippines has had this issue since 2023-12-03
 
 #### Previously known issues:
-`Kcom` in The United Kingdom had this issue from 2023-12-20 to 2023-12-21
-`Xfinity/Comcast` on the East coast of The United States had this issue on 2023-06-17
-`Xfinity/Comcast` on the West coast of The United States had this issue on 2023-05-02
+**Kcom** in The United Kingdom had this issue from 2023-12-20 to 2023-12-21
+**Xfinity/Comcast** on the East coast of The United States had this issue on 2023-06-17
+**Xfinity/Comcast** on the West coast of The United States had this issue on 2023-05-02
 
 **__Possible workarounds:__**
 - Use a VPN when launching RuneLite[^1] (it can be turned off before logging in to the game)
@@ -17,7 +17,7 @@ In rare occasions, Internet Service Providers have issues on their end preventin
 - Use the normal OSRS client
 
 **Steps to use a VPN**
-1) Install a free VPN such as ([ProtonVPN](https://protonvpn.com/support/protonvpn-windows-vpn-application/)
+1) Install a free VPN such as [ProtonVPN](https://protonvpn.com/support/protonvpn-windows-vpn-application/)
 2) Set your country to the United States (or UK, or others)
 3) Launch RuneLite with the VPN activated
 4) Disconnect from the VPN before logging in to the game
