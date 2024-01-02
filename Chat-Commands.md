@@ -1,8 +1,5 @@
 # Chat Commands Configuration
 
-
-<img width="391" alt="Screen Shot 2020-06-18 at 3 38 27 AM" src="https://user-images.githubusercontent.com/54762282/84992120-7d218600-b115-11ea-8ea1-107d76fbfc11.png">
-
 The chat commands plugin enables you to quickly access information about your account and items through chat commands.
 
 Current commands include:
@@ -25,21 +22,21 @@ Current commands include:
 * `!pets`
 
 # Settings
-![Settings](https://github.com/runelite/wiki/assets/41973452/76ddaaf1-6e47-45bb-b369-de6440c6c943)
+![Settings](img/chat-commands/chat_commands_config.png)
 
 ### Price Command
 Enables the `!price` command.
 
 Format: `!price [item name]`
 
-![Price command](https://i.imgur.com/aqvfnvj.png)
+![Price command](img/chat-commands/chat_commands_price.png)
 
 ### Level Command
 Enables the `!total` and `!lvl` commands.
 
 Format: `!lvl [skill]`, `!lvl total`, `!total`
 
-![Level command](https://i.imgur.com/oNX0Xq2.png)
+![Level command](img/chat-commands/chat_commands_lvl.png)
 
 
 #### Skill Abbreviations
@@ -61,7 +58,7 @@ Enables the `!clues` command.
 
 Format: `!clues`- total clues, `!clues [tier]` (e.g., `!clues easy`)
 
-<img width="210" alt="Screen Shot 2020-06-18 at 2 59 11 AM" src="https://user-images.githubusercontent.com/54762282/84988309-c8d13100-b10f-11ea-95d3-9a38177b9e50.png">
+![clue command](img/chat-commands/chat_commands_clue.png)
 
 ### Killcount Command
 
@@ -69,7 +66,7 @@ Enables the `!kc` command.
 
 Format: `!kc [boss]`, `!kc [activity]`
 
-<img width="132" alt="Screen Shot 2020-06-18 at 3 02 56 AM" src="https://user-images.githubusercontent.com/54762282/84988570-3c733e00-b110-11ea-9c0b-05709a0b39d0.png">
+![kc command](img/chat-commands/chat_commands_kc.png)
 
 #### Boss Abbreviations
 
@@ -139,7 +136,7 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 
 Enables the `!qp` command.
 
-<img width="109" alt="Screen Shot 2020-06-18 at 3 06 33 AM" src="https://user-images.githubusercontent.com/54762282/84988879-c0c5c100-b110-11ea-9581-aa5f10e28e90.png">
+![qp command](img/chat-commands/chat_commands_qp.png)
 
 
 ### Personal Best Command
@@ -167,13 +164,13 @@ Enables the `!gc` command to show Barbarian Assault High gamble count.
 
 Enables the `!duels` command.
 
-<img width="246" alt="Screen Shot 2020-06-18 at 3 16 34 AM" src="https://user-images.githubusercontent.com/54762282/84989749-24042300-b112-11ea-8c44-220c03df1886.png">
+![duels command](img/chat-commands/chat_commands_duels.png)
 
 ### Bounty Hunter Command
 
 Enables the `!bh` command.
 
-<img width="175" alt="Screen Shot 2020-06-18 at 3 17 42 AM" src="https://user-images.githubusercontent.com/54762282/84989849-4ac25980-b112-11ea-8818-8fe3dff1e93d.png">
+[bh command](img/chat-commands/chat_commands_bh.png)
 
 ### Bounty Hunter Rogue Command
 
@@ -183,7 +180,7 @@ Enables the `!bhrogue` command.
 
 Enables the `!lms` command.
 
-<img width="249" alt="Screen Shot 2020-06-18 at 3 18 55 AM" src="https://user-images.githubusercontent.com/54762282/84989971-79403480-b112-11ea-887a-d1291982253f.png">
+[lms command](img/chat-commands/chat_commands_lms.png)
 
 ### Clear Single Word
 
