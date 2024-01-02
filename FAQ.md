@@ -60,7 +60,7 @@ Feature requests and ideas are taken on [GitHub discussions](https://github.com/
 
 ## How do I enable XP drops and zoom unlimiter?
 We use the game's xp drops and zoom system, so enable those in the game. The zoom unlimiter plugin works by unlimiting the game's zoom feature.  
-See [[XP Drop]] and [[Camera Zoom]]
+See [[XP Drop]] and [[Camera]]
 
 ## How do I use inventory tags?
 See [[Inventory Tags]]
