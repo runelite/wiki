@@ -1,6 +1,6 @@
 # Entity Hider Configuration
 
-[![Client View](https://thumbs.gfycat.com/ValidTenseGonolek-size_restricted.gif)](https://gfycat.com/ValidTenseGonolek)
+![image](img/entity-hider/entity_hider_display.gif)
 
 ## Settings
 
