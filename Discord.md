@@ -1,9 +1,7 @@
 ## Discord Plugin Configuration
 This plugin integrates the RuneLite client with Discord, showing your status and activity in the Discord user panel  
 
-![Discord plugin](https://i.imgur.com/IOJ4MgX.png)  
-
-![Discord plugin](https://i.imgur.com/vBI7aFM.png)  
+![Discord plugin](img/discord/discord_example.png)
 
 ## Settings
 ### New action delay (seconds)
