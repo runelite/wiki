@@ -60,13 +60,13 @@ Feature requests and ideas are taken on [GitHub discussions](https://github.com/
 
 ## How do I enable XP drops and zoom unlimiter?
 We use the game's xp drops and zoom system, so enable those in the game. The zoom unlimiter plugin works by unlimiting the game's zoom feature.  
-See [XP Drop](XP-Drop.md) and [Camera](Camera.md).
+See [[XP Drop]] and [[Camera]].
 
 ## How do I use inventory tags?
-See [Inventory Tags](Inventory-Tags.md).
+See [[Inventory Tags]].
 
 ## How can I configure shift click or swap menu entries?
-See [Menu Entry Swapper](Menu-Entry-Swapper.md).
+See [[Menu Entry Swapper]].
 
 ## What is open source?
 RuneLite being open source means that the code can be inspected by anybody.  
@@ -82,13 +82,13 @@ RuneLite is updated every couple weeks, usually immediately following the Wednes
 To find logs, either open screenshot directory (by right-clicking "Camera" button) and navigate 1 directory up and then open logs folder, or navigate to `%userprofile%\.runelite\logs` on Windows or `$HOME/.runelite/logs` on Linux and macOS.
 
 ## How do I build RuneLite?
-See [Building with IntelliJ IDEA](Building-with-IntelliJ-IDEA.md).
+See [[Building with IntelliJ IDEA]].
 
 ## Will there be a Runelite mobile client?
 No. [See this](https://twitter.com/RuneLiteClient/status/1057301530569777154).
 
 ## Why does the GPU plugin do X?
-See [GPU FAQ](GPU-FAQ.md).
+See [[GPU FAQ]].
 
 ## Linux AppImage
 The Linux AppImage contains a bundled up combination of Java and RuneLite, that has been established to work well together. It is preferred to running a native Java installation. The AppImage allows most Linux systems, including ChromeOS devices running the Linux Beta/Crostini to play RuneLite.
