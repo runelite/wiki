@@ -20,6 +20,7 @@
   - [My plugins are gone or my config profile is missing](#my-plugins-are-gone-or-my-config-profile-is-missing)
   - [My Loot Tracker data is gone](#my-loot-tracker-data-is-gone)
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
+  - [The Jagex launcher is stuck on Install on macOS](#the-jagex-launcher-is-stuck-on-install-on-macos)
   - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
   - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
 
@@ -194,6 +195,9 @@ You can either copy the whole `.runelite` folder to your new computer or you can
 - `.runelite` is located in `%userprofile%` on **Windows** or `$HOME` on **Linux** and **macOS**.
 - To sync your profile, go to `Configuration` (wrench icon) > `Profiles` (middle tab). Select the profile you want to sync and click on the cloud icon (`Enable cloud sync`). If the icon is orange, then cloud sync is enabled. You could try to disable and re-enable cloud sync if it does not sync properly.<br>
 ![config-profile-sync](https://user-images.githubusercontent.com/7191512/222978342-584d4842-38e4-40f7-8757-7085f016a5ad.png)
+
+## The Jagex launcher is stuck on Install on macOS
+Unlike on Windows where the Jagex launcher can check where your RuneLite is installed, on macOS it expects RuneLite to be in the applications folder. Moving it to the applications folder will resolve your issue.
 
 ## RuneLite is making me disconnect!
 
