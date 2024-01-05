@@ -1,6 +1,6 @@
 # Low Detail Configuration
 
-[![Client View](https://thumbs.gfycat.com/WholeInfiniteBarracuda-size_restricted.gif)](https://gfycat.com/WholeInfiniteBarracuda)
+![](img/low-detail/low_detail_display.gif)
 
 (Default Off) The game will run in low detail, reducing memory usage. When enabled, ground decorations (like pebbles and grass), and some textures are turned off.
 
