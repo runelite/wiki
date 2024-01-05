@@ -1,5 +1,5 @@
 # Login Screen Configuration
-![Login Screen](https://i.imgur.com/kp9TQU7.png)
+![Login Screen](img/login-screen/login_screen_screen.png)
 
 ## Settings
 ### Ctrl-V Paste
