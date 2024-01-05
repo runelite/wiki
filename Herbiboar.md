@@ -1,6 +1,6 @@
 # Herbiboar Configuration
 
-![](https://user-images.githubusercontent.com/35824069/38765515-7892135e-3fc3-11e8-9339-53a4857e42bf.png)
+![](img/herbiboar/herbiboar_overlay.png)
 
 Highlights starting rocks, trails and the 2 objects to search at the end of each trail.
 
