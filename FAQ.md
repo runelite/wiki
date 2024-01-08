@@ -199,7 +199,7 @@ You can either copy the whole `.runelite` folder to your new computer or you can
 
 # Wrong username and password after starting via the Jagex Launcher on Windows
 After you've migrated to a Jagex account, you are no longer required to type your username and password in to login. If you are still prompted for this info, it's very likely your RuneLite is running as admin, which breaks 1-click login.  
-You can fix this by un-checking the `Run this program as administrator` box in Windows Properties settings.
+You can fix this by un-checking the `Run this program as an administrator` box in Windows Properties settings.
 ![](img/faq/faq_disable_admin.png)
 
 ## The Jagex launcher is stuck on Install on macOS
