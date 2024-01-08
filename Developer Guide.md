@@ -18,6 +18,7 @@ There are also several external resources for client information:
 - [mejrs's world map](https://mejrs.github.io/osrs) - for finding world map coordinates
 - [Polar's cs2 scripts](https://github.com/Joshua-F/cs2-scripts/) - decompiled client scripts
 - [Runescape Wiki tools](https://chisel.weirdgloop.org/) - e.g. [MOID](https://chisel.weirdgloop.org/moid/) item/npc/object database
+- [OSRS Wiki](https://oldschool.runescape.wiki/w/Old_School_RuneScape_Wiki) - after logging in, enable ``Preferences`` > ``Gadgets`` > ``Display advanced data in infoboxes, such as item IDs.`` to display item/npc/object ids
 
 ### Basic Plugin architecture
 
