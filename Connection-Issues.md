@@ -3,7 +3,7 @@
 In rare occasions, Internet Service Providers have issues on their end preventing users from connecting to [RuneLite's website](https://runelite.net/), which is a requirement for starting RuneLite. While this problem is not the fault of the user, it can often be mitigated with one of the workarounds listed below.
 
 #### Previously known issues:
-**Globe** in The Philippines has had this issue in December of 2023
+**Globe** in The Philippines had this issue in December of 2023
 **Kcom** in The United Kingdom had this issue from 2023-12-20 to 2023-12-21
 **Xfinity/Comcast** on the East coast of The United States had this issue on 2023-06-17
 **Xfinity/Comcast** on the West coast of The United States had this issue on 2023-05-02
