@@ -20,6 +20,8 @@
   - [My plugins are gone or my config profile is missing](#my-plugins-are-gone-or-my-config-profile-is-missing)
   - [My Loot Tracker data is gone](#my-loot-tracker-data-is-gone)
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
+  - [Wrong username and password after starting via the Jagex Launcher](#wrong-username-and-password-after-starting-via-the-jagex-launcher-on-windows)
+  - [The Jagex launcher is stuck on Install on macOS](#the-jagex-launcher-is-stuck-on-install-on-macos)
   - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
   - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
 
@@ -56,17 +58,17 @@ Both platforms: A configuration window will pop up. Check the "Safe mode" box, t
 Update RuneLite via [the official website](https://runelite.net/), then try again. Your configuration will not be lost.
 
 ## Feature Requests
-Feature requests and ideas are taken on [GitHub discussions](https://github.com/runelite/runelite/discussions)
+Feature requests and ideas are taken on [GitHub discussions](https://github.com/runelite/runelite/discussions).
 
 ## How do I enable XP drops and zoom unlimiter?
 We use the game's xp drops and zoom system, so enable those in the game. The zoom unlimiter plugin works by unlimiting the game's zoom feature.  
-See [[XP Drop]] and [[Camera Zoom]]
+See [[XP Drop]] and [[Camera]].
 
 ## How do I use inventory tags?
-See [[Inventory Tags]]
+See [[Inventory Tags]].
 
 ## How can I configure shift click or swap menu entries?
-See [[Menu Entry Swapper]]
+See [[Menu Entry Swapper]].
 
 ## What is open source?
 RuneLite being open source means that the code can be inspected by anybody.  
@@ -85,7 +87,7 @@ To find logs, either open screenshot directory (by right-clicking "Camera" butto
 See [[Building with IntelliJ IDEA]].
 
 ## Will there be a Runelite mobile client?
-No. [See this.](https://twitter.com/RuneLiteClient/status/1057301530569777154)
+No. [See this](https://twitter.com/RuneLiteClient/status/1057301530569777154).
 
 ## Why does the GPU plugin do X?
 See [[GPU FAQ]].
@@ -117,12 +119,12 @@ Categories=Game;
 EOF
 ```
 
-If your system is aarch64 architecture, you will need to additionally install `zlib1g-dev` due to an appimage [bug](https://github.com/AppImage/AppImageKit/issues/964)
+If your system is aarch64 architecture, you will need to additionally install `zlib1g-dev` due to an appimage [bug](https://github.com/AppImage/AppImageKit/issues/964).
 
 ## I want to run RuneLite from a USB drive
 
-* Download the latest AdoptOpenJDK JRE version 11 from https://adoptopenjdk.net/ and unzip it onto the drive
-* Download the latest all-platforms jar launcher from https://runelite.net onto the drive
+* Download the latest AdoptOpenJDK JRE version 11 from https://adoptopenjdk.net/ and unzip it onto the drive.
+* Download the latest all-platforms jar launcher from https://runelite.net onto the drive.
 * Make a .bat file which includes `java -Duser.home=client-home -Djava.io.tmpdir=client-tmp -jar RuneLite.jar --launch-mode=REFLECT`. You will probably have to replace `java` with the full path to `java.exe` that was unzipped on the drive.
 
 Now run the .bat file to launch the client.
@@ -133,11 +135,11 @@ Make sure you are downloading the correct launcher for your operating system arc
 
 ## How do I convert the previous multi session/setting file to a profile?
 
-On the side panel navigate to the profile section, and select Import Profile
+On the side panel navigate to the profile section, and select Import Profile.
 
 ![image](https://user-images.githubusercontent.com/14265490/220759603-be614ade-022d-4b5f-bf91-8d40e62159ac.png)
 
-Navigate to .runelite (Easy way is to click the HOME icon then go into your windows name and then click into .runelite)
+Navigate to .runelite (Easy way is to click the HOME icon then go into your windows name and then click into .runelite).
 
 ![image](https://user-images.githubusercontent.com/14265490/220759924-c004f0e7-4efb-4c1d-9ea1-b3d4005a82c2.png)
 
@@ -195,6 +197,14 @@ You can either copy the whole `.runelite` folder to your new computer or you can
 - To sync your profile, go to `Configuration` (wrench icon) > `Profiles` (middle tab). Select the profile you want to sync and click on the cloud icon (`Enable cloud sync`). If the icon is orange, then cloud sync is enabled. You could try to disable and re-enable cloud sync if it does not sync properly.<br>
 ![config-profile-sync](https://user-images.githubusercontent.com/7191512/222978342-584d4842-38e4-40f7-8757-7085f016a5ad.png)
 
+# Wrong username and password after starting via the Jagex Launcher on Windows
+After you've migrated to a Jagex account, you are no longer required to type your username and password in to login. If you are still prompted for this info, it's very likely your RuneLite is running as admin, which breaks 1-click login.  
+You can fix this by un-checking the `Run this program as an administrator` box in Windows Properties settings.
+![](img/faq/faq_disable_admin.png)
+
+## The Jagex launcher is stuck on Install on macOS
+Unlike on Windows where the Jagex launcher can check where your RuneLite is installed, on macOS it expects RuneLite to be in the applications folder. Moving it to the applications folder will resolve your issue.
+
 ## RuneLite is making me disconnect!
 
 RuneLite can't make you disconnect. There are rare circumstances where the traffic generated from RuneLite (particularly the ICMP echos used by the world hopper plugin), or the normal RuneScape game traffic, can trigger devices on your network to terminate the connection or crash. This is uncommon, and it is much more likely your internet is not working correctly.
@@ -207,7 +217,7 @@ RuneLite can't make your computer crash. Modern operating systems, which your co
 
 Instead, what could be happening may be (but not exclusive to):
 
-Your GPU drivers are crashing, possibly causing your displays to go black
+Your GPU drivers are crashing, possibly causing your displays to go black.
 The kernel is crashing.
 Your hardware is broken.
 
