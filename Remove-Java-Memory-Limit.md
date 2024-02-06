@@ -5,23 +5,23 @@ If you are experiencing frame drops or client freezes, it may be due to a system
 To remove this limit, search for `env` in the start menu and click on `Edit the system environment variables`.<br>
 If your system language is not English, the option may have a different name.
 
-![image](https://user-images.githubusercontent.com/831317/187771891-d2185b89-41e2-4ee4-9148-5b26e11a4c5a.png)
+![image](img/remove-java-memory-limit/remove_java_memory_limit_env_search.png)
 
 In the window that pops up, click on the `Environment Variables...` button in the lower right corner:
 
-![image](https://user-images.githubusercontent.com/831317/187771906-39278c65-aea4-49c5-b4a9-733f3d4581a4.png)
+![image](img/remove-java-memory-limit/remove_java_memory_limit_system_properties.png)
 
 Finally, in the window that pops up, look at the top list for `User variables`, and see if you have a variable called `_JAVA_OPTIONS`.
 If you see this variable with a value of `-Xmx256M`, click on it to select it, then click the `Delete` button, and afterwards click on `Ok`.
 
-![image](https://user-images.githubusercontent.com/831317/187771922-769bcac0-c943-4041-b8fd-4eced56c7dcd.png)
+![image](img/remove-java-memory-limit/remove_java_memory_limit_env_vars.png)
 
 After `_JAVA_OPTIONS` has been deleted, you need to restart RuneLite for the change to take effect.
 If you are using the Jagex launcher, make sure to exit out of it in the system tray,
 otherwise RuneLite may inherit this environment variable from the already running Jagex launcher.
 Another alternative is to restart your computer.
 
-![image](https://user-images.githubusercontent.com/831317/187775510-dacc53e9-2b37-4656-ab96-e8b8a1b42aae.png)
+![image](img/remove-java-memory-limit/remove_java_memory_limit_jagex_launcher.png)
 
 
 
