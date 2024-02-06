@@ -1,6 +1,6 @@
 # Time Tracking Configuration
 
-[![Client View](https://thumbs.gfycat.com/ShorttermCooperativeGalapagosmockingbird-size_restricted.gif)](https://gfycat.com/ShorttermCooperativeGalapagosmockingbird)
+![Client View](img/time-tracking/time_tracking_panel.png)
 
 ## Settings
 
