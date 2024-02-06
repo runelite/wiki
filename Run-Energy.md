@@ -1,7 +1,7 @@
 # Run Energy Configuration
 Display player weight and run time remaining in the run energy orb.
 
-![Run energy info](https://i.imgur.com/SH6GXwR.png)
+![Run energy info](img/run-energy/run_energy_example.png)
 
 ## Settings
 ### 1. Replace orb text with run time left
