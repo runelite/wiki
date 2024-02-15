@@ -157,9 +157,9 @@ Personal best times are stored for bosses and activities that keep personal best
 `!pb galvek`    
 `!pb gargs`, `!pb grotesque guardians`    
 `!pb hydra`, `!pb alchemical hydra`    
-`!pb chambers`, `!pb cox`, `!pb cox cm`, `!pb cox cm [1-24]`
-`!pb tob`, `!pb tob hard`, `!pb hmt [1-5]`
-`!pb toa`, `!pb toa [1-8]`, `!pb toa expert`, `!pb toa expert [1-8]`
+`!pb chambers`, `!pb cox`, `!pb cox cm`, `!pb cox cm [1-24]`  
+`!pb tob`, `!pb tob hard`, `!pb hmt [1-5]`  
+`!pb toa`, `!pb toa [1-8]`, `!pb toa expert`, `!pb toa expert [1-8]`  
 `!pb hs`, `!pb hs [1-5]`    
 
 
