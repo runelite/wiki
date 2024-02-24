@@ -205,6 +205,7 @@ You can fix this by un-checking the `Run this program as an administrator` box i
 
 ## The Jagex launcher is stuck on Install on macOS
 Unlike on Windows where the Jagex launcher can check where your RuneLite is installed, on macOS it expects RuneLite to be in the applications folder. Moving it to the applications folder will resolve your issue.
+![](img/faq/faq_macos_applications_install.gif)
 
 ## I get the error: "You can't open the application "RuneLite" because this application is not supported on this Mac."
 
