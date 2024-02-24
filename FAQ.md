@@ -22,6 +22,7 @@
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
   - [Wrong username and password after starting via the Jagex Launcher](#wrong-username-and-password-after-starting-via-the-jagex-launcher-on-windows)
   - [The Jagex launcher is stuck on Install on macOS](#the-jagex-launcher-is-stuck-on-install-on-macos)
+  - [I get the error: "You can't open the application "RuneLite" because this application is not supported on this Mac."](#i-get-the-error-you-cant-open-the-application-runelite-because-this-application-is-not-supported-on-this-mac)
   - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
   - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
 
@@ -204,6 +205,12 @@ You can fix this by un-checking the `Run this program as an administrator` box i
 
 ## The Jagex launcher is stuck on Install on macOS
 Unlike on Windows where the Jagex launcher can check where your RuneLite is installed, on macOS it expects RuneLite to be in the applications folder. Moving it to the applications folder will resolve your issue.
+
+## I get the error: "You can't open the application "RuneLite" because this application is not supported on this Mac."
+
+This error appears when you've downloaded the wrong version of RuneLite for your mac. You can open the `About this Mac` prompt and see what `Chip` your Mac uses.  
+If it's `Intel` select `Download for macOS (Intel)`, if it's `Apple` select `Download for macOS (Apple)`
+![](img/faq/faq_macos_chipset.png)
 
 ## RuneLite is making me disconnect!
 
