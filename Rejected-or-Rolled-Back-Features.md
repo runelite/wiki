@@ -27,6 +27,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Presets for Camera yaw/pitch/position
 * Auto-rejoin for parties: Would put undue strain on the party servers.
 * Touchscreen/Controller plugins: Any plugin-hub implementations of this would likely trigger Jagex's macro detection, and thus won't be accepted.  
+* ID based plugins: Plugins that use player provided IDs for the entirety of their functionality can cause moderation issues and outcomes that break Jagex's plugin rules. Due to this fact we will not be accepting any new ID based plugins. Plugins that use a specific set of IDs but do not allow user input will still be accepted. (e.g. plugins like Vardorvis Projectiles which only allows you to change a specific projectile to a set list of projectiles.)  
 
 #### Menu Entry Swapping
 * `Build/Remove` on POH hotspots: [see Jagex statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1) (Try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
