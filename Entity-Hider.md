@@ -1,5 +1,7 @@
 # Entity Hider Configuration
 
+![](img/entity-hider/entity_hider_display.gif)
+
 ## Settings
 
 ### 1. Hide Others
