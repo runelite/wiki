@@ -42,20 +42,6 @@ After cloning is done you will be presented with a `Trust and open Project ’ru
 
 Press `Trust Project`. **Runelite is now cloned**.
 
-We also need to check out to a stable RuneLite version. to do that we first need to get the latest stable tag from https://github.com/runelite/runelite/tags.
-At the moment of writing this is ```runelite-parent-1.10.23.2```
-
-![check_runelite_branch.png](img%2Fbuilding-with-intellij%2Fcheck_runelite_branch.png)
-
-Click on the branch manager at the top left corner and then click on `Checkout Tag or Revision...`.
-
-![checkout_tag.png](img%2Fbuilding-with-intellij%2Fcheckout_tag.png)
-
-Enter the tag name and press `OK`
-
-![enter_tag_name.png](img%2Fbuilding-with-intellij%2Fenter_tag_name.png)
-
-
 ## Installing Lombok
 
 When first viewing the project in IntelliJ IDEA you may come across this error:
@@ -137,6 +123,24 @@ Success! You can now rebuild RuneLite by pressing the green play button near the
 ## Missing git
 
 If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [go here and select your OS version](https://git-scm.com/downloads).
+
+## Building on master branch fails
+
+It is possible that when you pull the master branch it will fail to build. In this case to rule out any other possible issues, you will need to check out to a stable branch. **Remember that you will need to checkout back to master before you start working on any contributions.**
+
+First need to get the latest stable tag from https://github.com/runelite/runelite/tags.
+At the moment of writing this is ```runelite-parent-1.10.23.2```
+
+![check_runelite_branch.png](img%2Fbuilding-with-intellij%2Fcheck_runelite_branch.png)
+
+Click on the branch manager at the top left corner and then click on `Checkout Tag or Revision...`.
+
+![checkout_tag.png](img%2Fbuilding-with-intellij%2Fcheckout_tag.png)
+
+Enter the tag name and press `OK`
+
+![enter_tag_name.png](img%2Fbuilding-with-intellij%2Fenter_tag_name.png)
+
 
 ## Client failing to start
 
