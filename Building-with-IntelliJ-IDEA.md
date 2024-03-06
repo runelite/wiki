@@ -4,6 +4,8 @@
 - [Getting started](#getting-started)
   - [Importing the project](#importing-the-project)
   - [Installing Lombok](#installing-lombok)
+  - [Configuring the project](#configuring-the-project)
+  - [(Optional) Skipping tests](#optional-skipping-tests)
   - [Building the project](#building-the-project)
   - [Running the project](#running-the-project)
   - [Conclusion](#conclusion)
@@ -20,7 +22,7 @@ You can build RuneLite locally using [JDK 11](https://adoptium.net/temurin/relea
 
 ## Importing the project
 
-You will now need to clone RuneLite repository from git. After launching IntelliJ IDEA for first time, you will see IntelliJ welcome window. click on `Get from VCS`.
+You will now need to clone RuneLite repository from git. You can do so in IntelliJ IDEA. After the you open the IDE for first time, you will see the IntelliJ welcome window. click on `Get from VCS`.
 
 ![get_from_vcs.png](img%2Fbuilding-with-intellij%2Fget_from_vcs.png)
 
@@ -29,15 +31,16 @@ If you're presented with the editor instead of the welcome screen, click on on  
 ![new_project_from_vcs.png](img%2Fbuilding-with-intellij%2Fnew_project_from_vcs.png)
 
 After clicking on that you will be greeted with prompt. You can either enter the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.
+
+**NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
+
 You can also specify a directory where you'd like to save RuneLite and press `Clone`.
 
 ![clone_runelite.png](img%2Fbuilding-with-intellij%2Fclone_runelite.png)
 
 After cloning is done you will be presented with a `Trust and open Project ’runelite’?`
 
-Press `Trust Project`.
-
-**Runelite is now cloned**.
+Press `Trust Project`. **Runelite is now cloned**.
 
 We also need to check out to a stable RuneLite version. to do that we first need to get the latest stable tag from https://github.com/runelite/runelite/tags.
 At the moment of writing this is ```runelite-parent-1.10.23.2```
@@ -52,7 +55,6 @@ Enter the tag name and press `OK`
 
 ![enter_tag_name.png](img%2Fbuilding-with-intellij%2Fenter_tag_name.png)
 
-**NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
 
 ## Installing Lombok
 
@@ -80,6 +82,16 @@ Go to `Project Structure > Project Settings > Project` and select Java 11 as the
 ![select_java.png](img%2Fbuilding-with-intellij%2Fselect_java.png)
 
 If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
+
+## (Optional) Skipping tests
+
+If you'd like to disable tests, go to `File > Settings`.
+
+![access_settings.png](img%2Fbuilding-with-intellij%2Faccess_settings.png)
+
+Search for **Maven** and click on `Build, Execution, Deployment > Build Tools > Maven > Runner`, tick `Skip Tests` and click `OK`.
+
+![set_maven_skip_tests.png](img%2Fbuilding-with-intellij%2Fset_maven_skip_tests.png)
 
 ## Building the project 
 
@@ -125,16 +137,6 @@ Success! You can now rebuild RuneLite by pressing the green play button near the
 ## Missing git
 
 If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [go here and select your OS version](https://git-scm.com/downloads).
-
-## Missing JDK
-
-If you are getting errors about missing JDK, make sure to install JDK 11 (see start of this page) and then navigate to *File* -> *Project Structure* like this:
-
-![missing-jdk-project-structure](https://i.imgur.com/IzAKzOH.png)
-
-Then press *+* button and *Add JDK* and locate directory of your installed JDK:
-
-![missing-jdk-add](https://i.imgur.com/ZRHDAk3.png)
 
 ## Client failing to start
 
