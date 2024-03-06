@@ -99,7 +99,7 @@ At this point, it should start the build, which might take a while. Once the pro
 
 ![successful_build.png](img%2Fbuilding-with-intellij%2Fsuccessful_build.png)
 
-Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). `Generate Sources and Update folders for all projects`
+We now need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). `Generate Sources and Update folders for all projects`
 
 ![generate_sources.png](img%2Fbuilding-with-intellij%2Fgenerate_sources.png)
 
