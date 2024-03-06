@@ -116,7 +116,7 @@ If you are having any issues with this step see [Troubleshooting](#troubleshooti
 
 ## Conclusion
 
-Success! You can now rebuild RuneLite by pressing the green play button at the top right side of the IDE.
+Success! You can now rebuild RuneLite by pressing the green play button near the top right corner of IntelliJ.
 
 ![quick_run_runelite.png](img%2Fbuilding-with-intellij%2Fquick_run_runelite.png)
 
