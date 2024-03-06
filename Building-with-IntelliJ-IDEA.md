@@ -20,29 +20,39 @@ You can build RuneLite locally using [JDK 11](https://adoptium.net/temurin/relea
 
 ## Importing the project
 
-After launching IntelliJ IDEA for first time, you will see IntelliJ welcome window. You will now need to clone RuneLite repository from git:
+You will now need to clone RuneLite repository from git. After launching IntelliJ IDEA for first time, you will see IntelliJ welcome window. click on `Get from VCS`.
 
-![welcome-import-git](https://i.imgur.com/bALnvDY.png)
+![get_from_vcs.png](img%2Fbuilding-with-intellij%2Fget_from_vcs.png)
+
+If you're presented with the editor instead of the welcome screen, click on on  `File > New > Project from Version Control…`
+
+![new_project_from_vcs.png](img%2Fbuilding-with-intellij%2Fnew_project_from_vcs.png)
 
 After clicking on that you will be greeted with prompt. You can either enter the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.
+You can also specify a directory where you'd like to save RuneLite and press `Clone`.
+
+![clone_runelite.png](img%2Fbuilding-with-intellij%2Fclone_runelite.png)
+
+After cloning is done you will be presented with a `Trust and open Project ’runelite’?`
+
+Press `Trust Project`.
+
+**Runelite is now cloned**.
+
+We also need to check out to a stable RuneLite version. to do that we first need to get the latest stable tag from https://github.com/runelite/runelite/tags.
+At the moment of writing this is ```runelite-parent-1.10.23.2```
+
+![check_runelite_branch.png](img%2Fbuilding-with-intellij%2Fcheck_runelite_branch.png)
+
+Click on the branch manager at the top left corner and then click on `Checkout Tag or Revision...`.
+
+![checkout_tag.png](img%2Fbuilding-with-intellij%2Fcheckout_tag.png)
+
+Enter the tag name and press `OK`
+
+![enter_tag_name.png](img%2Fbuilding-with-intellij%2Fenter_tag_name.png)
 
 **NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
-
-The prompt should look something like this (if you have issues with finding git.exe see [Troubleshooting](#troubleshooting) section):
-
-![welcome-clone-project](https://i.imgur.com/bQTTpV0.png)
-
-Click *Test* to verify if your entered URL is correct and then click on *Clone*. Now IntelliJ should start cloning the repository:
-
-![welcome-cloning-project](https://i.imgur.com/3jv107G.png)
-
-After the cloning process is done you should be greeted with prompt asking you if you want to open the project, just click *Yes*:
-
-![after-clone-yes-no](https://i.imgur.com/EvIbCBS.png)
-
-If everything went well, you should be able to see something like this:
-
-![after-clone-fresh-project](https://i.imgur.com/JOAFeMi.png)
 
 ## Installing Lombok
 
@@ -52,48 +62,63 @@ When first viewing the project in IntelliJ IDEA you may come across this error:
 
 This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
 
-Navigate to the **Plugins** tab under the **File > Settings** menu (**IntelliJ IDEA > Preferences** for Mac). Click the **Marketplace** button and search for **Lombok** to find it. Install the plugin and restart IntelliJ IDEA.
+Navigate to the `Plugins` tab under the `File > Settings` menu (`IntelliJ IDEA > Preferences` for Mac). Click the `Marketplace` button and search for **Lombok** to find it. Install the plugin and restart IntelliJ IDEA.
 
-![installing-lombok](img/building-with-intellij/installing_lombok.png)
+![installing_lombok.png](img%2Fbuilding-with-intellij%2Finstalling_lombok.png)
 
 Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
 
-## Building the project
+
+## Configuring the project
+
+We need to make sure that the correct SDK is selected for RuneLite. To do that go to `File > Project Structure…`
+
+![project_structure.png](img%2Fbuilding-with-intellij%2Fproject_structure.png)
+
+Go to `Project Structure > Project Settings > Project` and select Java 11 as the SDK. Then press Ok to close the window.
+
+![select_java.png](img%2Fbuilding-with-intellij%2Fselect_java.png)
+
+If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
+
+## Building the project 
 
 RuneLite is using [Maven](https://maven.apache.org/) as build tool. It is used for dependency management, resource generation, running tests and any other tooling needed to properly build, run and deploy RuneLite.
 
 So, to actually run RuneLite, we first need to invoke Maven.
 
-Locate *Maven* on right-side of the screen until you open something like this:
+Locate *Maven* on right-side of the screen. Press on `Reload All Maven Projects`.
 
-![project-maven-view](https://i.imgur.com/xIRxBN1.png)
+![reload_maven.png](img%2Fbuilding-with-intellij%2Freload_maven.png)
 
-Standard maven goal is *Install* so let's run that. Locate *Runelite (root)* project in dropdown and navigate to `RuneLite (root) -> Lifecycle -> Install` and right-click the option and select `Run Maven Build`:
+Click on `Runelite > Lifecycle` and right click `install` and press `Run Maven Build`:
 
-![run-maven-install](https://i.imgur.com/MxTMK6o.png)
+![run_maven_build.png](img%2Fbuilding-with-intellij%2Frun_maven_build.png)
 
-If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
-You can now save this build step as *Run configuration*, just right click *Install* again and select *Create..* (*Modify Run Configuration...* in IntelliJ 2021.2), window like this should pop-up, so just hit *Ok* (you can append `-DskipTests` for faster builds):
+At this point, it should start the build, which might take a while. Once the process is done, you should see a message to let you know that the build was successful:
 
-![project-maven-install-save](https://i.imgur.com/vdJoJ7L.png)
+![successful_build.png](img%2Fbuilding-with-intellij%2Fsuccessful_build.png)
 
-Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). So, still in same Maven window, just click the Refresh icon:
+Now, we need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). `Generate Sources and Update folders for all projects`
 
-![project-maven-refresh](https://i.imgur.com/L2SmWtF.png)
+![generate_sources.png](img%2Fbuilding-with-intellij%2Fgenerate_sources.png)
 
 ## Running the project
 
-Now locate *Project* in sidebar and click that open project view, and expand the tree to `runelite/runelite-client/src/main/java/net/runelite/client`. And all you need to do now is right-click `RuneLite` class and select run, and you are done, RuneLite should open:
+Now locate `Project` in sidebar and click that open project view, and expand the tree to `runelite/runelite-client/src/main/java/net/runelite/client`. 
+And all you need to do now is right-click the `RuneLite` class and select `run ‘RuneLite.main()’`
 
-![project-view-run-main](https://i.imgur.com/RXkMc48.png)
+![run_runelite.png](img%2Fbuilding-with-intellij%2Frun_runelite.png)
+
+And you are done! RuneLite should open.
 
 If you are having any issues with this step see [Troubleshooting](#troubleshooting) section.
 
 ## Conclusion
 
-Success! You can switch between running the client and building the Maven project by switching between the **RuneLite** configuration and your custom Maven configuration (should be named *runelite-parent [install]* by default):
+Success! You can now rebuild RuneLite by pressing the green play button at the top right side of the IDE.
 
-![select-run-config](https://i.imgur.com/zKSqojU.png)
+![quick_run_runelite.png](img%2Fbuilding-with-intellij%2Fquick_run_runelite.png)
 
 # Troubleshooting
 
