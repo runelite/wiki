@@ -5,7 +5,7 @@
   - [Importing the project](#importing-the-project)
   - [Installing Lombok](#installing-lombok)
   - [Configuring the project](#configuring-the-project)
-  - [(Optional) Skipping tests](#optional-skipping-tests)
+  - [Skipping tests](#optional-skipping-tests)
   - [Building the project](#building-the-project)
   - [Running the project](#running-the-project)
   - [Conclusion](#conclusion)
@@ -69,7 +69,9 @@ Go to `Project Structure > Project Settings > Project` and select Java 11 as the
 
 If you are having issues with missing JDK see [Troubleshooting](#troubleshooting) section.
 
-## (Optional) Skipping tests
+## Skipping tests
+
+**Note**: This step is optional, but if you're having troubles building runelite you might want to try disabling tests.
 
 If you'd like to disable tests, go to `File > Settings`.
 
@@ -124,22 +126,9 @@ Success! You can now rebuild RuneLite by pressing the green play button near the
 
 If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [go here and select your OS version](https://git-scm.com/downloads).
 
-## Building on master branch fails
+## RuneLite fails to build
 
-It is possible that when you pull the master branch it will fail to build. In this case to rule out any other possible issues, you will need to check out to a stable branch. **Remember that you will need to checkout back to master before you start working on any contributions.**
-
-First need to get the latest stable tag from https://github.com/runelite/runelite/tags.
-At the moment of writing this is ```runelite-parent-1.10.23.2```
-
-![check_runelite_branch.png](img%2Fbuilding-with-intellij%2Fcheck_runelite_branch.png)
-
-Click on the branch manager at the top left corner and then click on `Checkout Tag or Revision...`.
-
-![checkout_tag.png](img%2Fbuilding-with-intellij%2Fcheckout_tag.png)
-
-Enter the tag name and press `OK`
-
-![enter_tag_name.png](img%2Fbuilding-with-intellij%2Fenter_tag_name.png)
+ Make sure that you don't have any changes in the code and make sure to pull the lastest changes from master. Try restarting the editor. At this point, if you've followed all instructions and [Skipping tests](#optional-skipping-tests) doesn't work, ask for help in the [Runelite Discord](https://discord.gg/runelite)
 
 
 ## Client failing to start
