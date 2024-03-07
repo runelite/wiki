@@ -26,7 +26,7 @@ After launching IntelliJ IDEA for first time, you will see the IntelliJ welcome 
 
 ![get_from_vcs.png](img%2Fbuilding-with-intellij%2Fget_from_vcs.png)
 
-If you're presented with the editor instead of the welcome screen, click on on  `File > New > Project from Version Control…`
+If you're presented with the editor instead of the welcome screen, click `File > New > Project from Version Control…`.
 
 ![new_project_from_vcs.png](img%2Fbuilding-with-intellij%2Fnew_project_from_vcs.png)
 
