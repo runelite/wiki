@@ -40,7 +40,6 @@ You can also specify a directory where you'd like to save RuneLite and press `Cl
 
 After cloning is done you will be presented with a `Trust and open Project ’runelite’?`
 
-Press `Trust Project`. **Runelite is now cloned**.
 
 ## Installing Lombok
 
