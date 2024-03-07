@@ -127,8 +127,7 @@ If you are getting error about `git.exe` (or `git` on linux and mac) missing, yo
 
 ## RuneLite fails to build
 
- Make sure that you don't have any changes in the code and make sure to pull the lastest changes from master. Try restarting the editor. At this point, if you've followed all instructions and [Skipping tests](#optional-skipping-tests) doesn't work, ask for help in the [Runelite Discord](https://discord.gg/runelite)
-
+If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or [Skipping tests](#optional-skipping-tests)
 
 ## Client failing to start
 
@@ -173,3 +172,7 @@ You have to add the following extra VM arguments in order to use these java vers
 ```
 --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED
 ```
+
+## Other suggestions
+
+Make sure that you don't have any changes in the code and make sure to pull the lastest changes from master. Try restarting the editor. At this point if it still doesn't work, ask for help in the [Runelite Discord](https://discord.gg/runelite).
