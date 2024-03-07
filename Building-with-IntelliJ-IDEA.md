@@ -70,7 +70,7 @@ If you are having issues with missing JDK see [Troubleshooting](#troubleshooting
 
 ## Skipping tests
 
-**Note**: This step is optional, but if you're having troubles building runelite you might want to try disabling tests.
+**Note**: This step is optional, but if you're having troubles building RuneLite you might want to try disabling tests.
 
 If you'd like to disable tests, go to `File > Settings`.
 
