@@ -146,7 +146,7 @@ If you are having any issues with this step see  the [Troubleshooting](#troubles
 
 Success! You can switch between running the client and building the Maven project by switching between the ``RuneLite`` configuration and your custom Maven configuration (e.g. ``runelite-parent [install]``):
 
-![quick_run_runelite.png](img%2Fbuilding-with-intellij%2Fquick_run_runelite.png)
+![select_run_config](https://github.com/runelite/wiki/assets/7929021/821fc616-3e5b-4bf7-954c-3aa5ca5c8b79)
 
 # Troubleshooting
 
