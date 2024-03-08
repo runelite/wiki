@@ -62,7 +62,15 @@ We need to make sure that the correct SDK is selected for RuneLite. To do that g
 
 ![project_structure.png](img%2Fbuilding-with-intellij%2Fproject_structure.png)
 
-Go to `Project Structure > Project Settings > Project` and select Java 11 as the SDK. Then press Ok to close the window.
+Go to the `Project Settings > Project` tab and open the ``SDK`` dropdown menu. Click on ``Download JDK...``
+![download_jdk](https://github.com/runelite/wiki/assets/7929021/98df0b18-5016-4af5-899b-38a9398c1f20)
+
+Choose ``version`` ``11`` and ``vendor`` ``Eclipse Temurin (AdoptOpenJDK Hotspot)``. Then press ``Download`` to download the JDK.
+![download_jdk](https://github.com/runelite/wiki/assets/7929021/1a7cacca-078b-4af0-b0b5-5113718d004d)
+
+Set the ``Language level`` to 11 and press ``OK`` to save the changes.
+![project_structure](https://github.com/runelite/wiki/assets/7929021/7a1f0bba-5bba-4c42-98a7-2d6adf43118f)
+
 
 ![select_java.png](img%2Fbuilding-with-intellij%2Fselect_java.png)
 
