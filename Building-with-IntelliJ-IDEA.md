@@ -137,7 +137,7 @@ And all you need to do now is right-click the `RuneLite` class and select `Run â
 
 And you are done! RuneLite should open.
 
-If you are having any issues with this step see [Troubleshooting](#troubleshooting) section.
+If you are having any issues with this step see  the [Troubleshooting](#troubleshooting) section.
 
 ## Conclusion
 
