@@ -133,7 +133,7 @@ Success! You can now rebuild RuneLite by pressing the green play button near the
 
 If you are getting error about `git.exe` (or `git` on linux and mac) missing, you will need to first download and install Git for your OS. Git is version control software and implementation that RuneLite uses to store and track history of it's source code. To download git, just [go here and select your OS version](https://git-scm.com/downloads).
 
-## RuneLite fails to build
+## Tests are failing
 
 If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or [Skipping tests](#optional-skipping-tests)
 
