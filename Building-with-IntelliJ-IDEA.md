@@ -129,6 +129,13 @@ Success! You can switch between running the client and building the Maven projec
 
 ![select_run_config](img%2Fbuilding-with-intellij%2Fselect-run-config.png)
 
+
+### WARNING: An illegal reflective access operation has occurred <!-- omit in toc -->
+You can ignore this.
+
+### Hot reloading
+Check out [JetBrains's official documentation on hot reloading](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes).
+
 # Troubleshooting
 
 ## Missing git
@@ -182,9 +189,3 @@ You have to add the following extra VM arguments in order to use these java vers
 ```
 --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED
 ```
-
-### WARNING: An illegal reflective access operation has occurred
-You can ignore this.
-
-## Hot reloading
-Check out [JetBrains's official documentation on hot reloading](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes).
