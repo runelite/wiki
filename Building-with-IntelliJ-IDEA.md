@@ -182,3 +182,9 @@ You have to add the following extra VM arguments in order to use these java vers
 ```
 --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED
 ```
+
+### WARNING: An illegal reflective access operation has occurred
+You can ignore this.
+
+## Hot reloading
+Check out [JetBrains's official documentation on hot reloading](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes).
