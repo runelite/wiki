@@ -35,11 +35,10 @@ You can also specify a directory where you'd like to save the RuneLite files to 
 
 **NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
 
-You can also specify a directory where you'd like to save RuneLite and press `Clone`.
 
 ![clone_runelite.png](img%2Fbuilding-with-intellij%2Fclone_runelite.png)
 
-After cloning is done you will be presented with a `Trust and open Project ’runelite’?`
+After cloning is done you will be presented with a `Trust and open Project ’runelite’?` popup. Click `Trust Project`.
 
 
 ## Installing Lombok
