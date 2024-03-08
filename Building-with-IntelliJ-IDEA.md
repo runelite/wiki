@@ -102,7 +102,7 @@ Navigate to ``RuneLite`` (parent) > ``Lifecycle``,right click ``install``, and p
 
 ![run_maven_build.png](img%2Fbuilding-with-intellij%2Frun_maven_build.png)
 
-At this point, it should start the build, which might take a while. Once the process is done, you should see a message to let you know that the build was successful:
+At this point, it should start the build, which might take a while. Once the process is done, you should see a message to let you know the final status of the build. Don't worry if there are build or test failures. We can fix those later.
 
 ![successful_build.png](img%2Fbuilding-with-intellij%2Fsuccessful_build.png)
 
