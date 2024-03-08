@@ -22,7 +22,7 @@ You can build RuneLite locally using [JDK 11](https://adoptium.net/temurin/relea
 
 ## Importing the project
 
-After launching IntelliJ IDEA for first time, you will see the IntelliJ welcome window. You will now need to clone RuneLite repository from git, to do this you can click the `Get from VSC` button.
+After launching IntelliJ IDEA for first time, you will see the IntelliJ welcome window. You will now need to clone the RuneLite repository from git; to do this you can click the `Get from VSC` button.
 
 ![get_from_vcs.png](img%2Fbuilding-with-intellij%2Fget_from_vcs.png)
 
