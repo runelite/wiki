@@ -31,7 +31,7 @@ If you're presented with the editor instead of the welcome screen, click `File >
 ![new_project_from_vcs.png](img%2Fbuilding-with-intellij%2Fnew_project_from_vcs.png)
 
 After clicking on that you will be greeted with a prompt. You can either enter the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.  
-You can also specify a directory where you'd like to save the RuneLite files to in this prompt.
+You can also specify a directory where you'd like to save the RuneLite files to in this prompt. If Git is not installed, click on ``Download and install`` to install Git.
 
 **NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
 
