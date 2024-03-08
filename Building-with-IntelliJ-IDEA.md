@@ -98,7 +98,7 @@ Locate *Maven* on right-side of the screen. Press on `Reload All Maven Projects`
 
 ![reload_maven.png](img%2Fbuilding-with-intellij%2Freload_maven.png)
 
-Click on `Runelite > Lifecycle` and right click `install` and press `Run Maven Build`:
+Navigate to ``RuneLite`` (parent) > ``Lifecycle``,right click ``install``, and press ``Run Maven Build``:
 
 ![run_maven_build.png](img%2Fbuilding-with-intellij%2Frun_maven_build.png)
 
