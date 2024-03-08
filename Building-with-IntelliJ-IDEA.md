@@ -139,7 +139,7 @@ If you are getting error about `git.exe` (or `git` on linux and mac) missing, yo
 
 If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or skipping the tests by running a custom run configuration as outlined in [Building the project](#building-the-project).
 
-## Client failing to start / General troubleshooting
+## Client failing to start
 
 If the client fails to boot or if the applet does not appear, try running the Maven build again with the following command:  
 `clean install -DskipTests -U`
