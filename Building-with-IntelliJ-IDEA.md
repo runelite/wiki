@@ -135,7 +135,7 @@ If you are getting error about `git.exe` (or `git` on linux and mac) missing, yo
 
 ## Tests are failing
 
-If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or [Skipping tests](#optional-skipping-tests)
+If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or skipping the tests by running a custom run configuration as outlined in [Building the project](#building-the-project).
 
 ## Client failing to start
 
