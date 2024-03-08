@@ -106,7 +106,25 @@ At this point, it should start the build, which might take a while. Once the pro
 
 ![successful_build.png](img%2Fbuilding-with-intellij%2Fsuccessful_build.png)
 
-We now need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). `Generate Sources and Update folders for all projects`
+It is highly recommended to create custom ``Run Configurations``. In the Maven window, right-click on ``RuneLite`` > ``Lifecycle`` > ``install``, and select ``Modify Run Configuration...``
+
+![modify_run_configuration](https://github.com/runelite/wiki/assets/7929021/26c46be6-68ea-426f-b9de-ca914a74ddb3)
+
+Here you can choose a name, such as ``runelite-parent [install] skip tests``, and add a Maven command. For faster builds, try ``install -DskipTests``. This will skip the tests (and test failures).
+
+![install_skip_tests](https://github.com/runelite/wiki/assets/7929021/57ed5b7e-cf80-464d-8d2a-b82dd349719d)
+
+Press ``OK``. You can now easily run your run configurations in the Maven window by right-clicking ``RuneLite`` (parent) > ``Run Configurations`` > ``runelite-parent [install] skip tests`` and selecting ``Run``.  
+Alternatively, you can select your run configuration in the dropdown box at the top and hit the ``Run`` button.
+
+![custom_configuration_top](https://github.com/runelite/wiki/assets/7929021/7bc1cb5f-4062-4e9e-b685-c982913ce103)
+
+Other useful run configurations include:  
+``clean install -DskipTests -U``  which is your first troubleshooting step that you should run multiple times in case of a build failures  
+``-Dcheckstyle.skip=false checkstyle:check`` to only run checkstyle without building the client  
+``surefire:test`` to only run the tests without building the client  
+
+We now need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). Click on `Generate Sources and Update folders for all projects` in the Maven window.
 
 ![generate_sources.png](img%2Fbuilding-with-intellij%2Fgenerate_sources.png)
 
