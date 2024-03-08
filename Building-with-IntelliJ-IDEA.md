@@ -144,7 +144,7 @@ If you are having any issues with this step see  the [Troubleshooting](#troubles
 
 ## Conclusion
 
-Success! You can now rebuild RuneLite by pressing the green play button near the top right corner of IntelliJ.
+Success! You can switch between running the client and building the Maven project by switching between the ``RuneLite`` configuration and your custom Maven configuration (e.g. ``runelite-parent [install]``):
 
 ![quick_run_runelite.png](img%2Fbuilding-with-intellij%2Fquick_run_runelite.png)
 
