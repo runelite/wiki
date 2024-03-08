@@ -134,6 +134,9 @@ Now locate `Project` in the sidebar, and in the project view expand the tree to 
 And all you need to do now is right-click the `RuneLite` class and select `Run ‘RuneLite.main()’`
 
 ![run_runelite.png](img%2Fbuilding-with-intellij%2Frun_runelite.png)
+If you receive a notification regarding Lombok's annotation processing, press ``Enable annotation processing``.
+
+![lombok_annotation_processing](https://github.com/runelite/wiki/assets/7929021/95cb4c22-59b6-48d0-8ca6-28f56553f01b)
 
 And you are done! RuneLite should open.
 
