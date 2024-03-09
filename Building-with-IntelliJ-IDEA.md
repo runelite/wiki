@@ -23,11 +23,11 @@ You can build RuneLite locally using [JDK 11](https://adoptium.net/temurin/relea
 
 After launching IntelliJ IDEA for first time, you will see the IntelliJ welcome window. You will now need to clone the RuneLite repository from git; to do this you can click the `Get from VCS` button.
 
-![get_from_vcs.png](img%2Fbuilding-with-intellij%2Fget_from_vcs.png)
+![get_from_vcs.png](img/building-with-intellij/get_from_vcs.png)
 
 If you're presented with the editor instead of the welcome screen, click `File > New > Project from Version Control…`.
 
-![new_project_from_vcs.png](img%2Fbuilding-with-intellij%2Fnew_project_from_vcs.png)
+![new_project_from_vcs.png](img/building-with-intellij/new_project_from_vcs.png)
 
 After clicking on that you will be greeted with a prompt. You can either enter the RuneLite repository `https://github.com/runelite/runelite` or your own GitHub fork, if you've created one.  
 You can also specify a directory where you'd like to save the RuneLite files to in this prompt. If Git is not installed, click on ``Download and install`` to install Git.
@@ -35,7 +35,7 @@ You can also specify a directory where you'd like to save the RuneLite files to 
 **NOTE**: If you plan to make a Pull Request, you must fork the RuneLite repository, and clone from your fork.
 
 
-![clone_runelite.png](img%2Fbuilding-with-intellij%2Fclone_runelite.png)
+![clone_runelite.png](img/building-with-intellij/clone_runelite.png)
 
 After cloning is done you will be presented with a `Trust and open Project ’runelite’?` popup. Click `Trust Project`.
 
@@ -44,13 +44,13 @@ After cloning is done you will be presented with a `Trust and open Project ’ru
 
 When first viewing the project in IntelliJ IDEA you may come across this error:
 
-![missing-lombok-errors](img%2Fbuilding-with-intellij%2Fmissing-lombok-errors.png)
+![missing-lombok-errors](img/building-with-intellij/missing-lombok-errors.png)
 
 This is because you do not have the [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin) installed.
 
 Navigate to the `Plugins` tab under the `(Main Menu) > File > Settings` menu (`IntelliJ IDEA > Preferences` for Mac). Click the `Marketplace` button and search for **Lombok** to find it. Install the plugin and restart IntelliJ IDEA.
 
-![installing_lombok.png](img%2Fbuilding-with-intellij%2Finstalling_lombok.png)
+![installing_lombok.png](img/building-with-intellij/installing_lombok.png)
 
 Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot resolve method`` errors.
 
@@ -59,16 +59,16 @@ Success! You should no longer be getting ``Cannot resolve symbol`` or ``Cannot r
 
 We need to make sure that the correct SDK is selected for RuneLite. To do that go to `File > Project Structure…`
 
-![project_structure.png](img%2Fbuilding-with-intellij%2Fproject_structure.png)
+![project_structure.png](img/building-with-intellij/project_structure.png)
 
 Go to the `Project Settings > Project` tab and open the ``SDK`` dropdown menu. Click on ``Download JDK...``
-![select-download-jdk](img%2Fbuilding-with-intellij%2Fselect-download-jdk.png)
+![select-download-jdk](img/building-with-intellij/select-download-jdk.png)
 
 Choose ``version`` ``11`` and ``vendor`` ``Eclipse Temurin (AdoptOpenJDK Hotspot)``. Then press ``Download`` to download the JDK.
-![download-jdk](img%2Fbuilding-with-intellij%2Fdownload-jdk.png)
+![download-jdk](img/building-with-intellij/download-jdk.png)
 
 Set the ``Language level`` to 11 and press ``OK`` to save the changes.
-![language-level](img%2Fbuilding-with-intellij%2Flanguage-level.png)
+![language-level](img/building-with-intellij/language-level.png)
 
 ## Building the project 
 
@@ -78,24 +78,24 @@ So, to actually run RuneLite, we first need to invoke Maven.
 
 Locate *Maven* on the right-side of the screen. Then navigate to ``RuneLite`` (parent) > ``Lifecycle``, right-click ``install``, and press ``Run Maven Build``:
 
-![run_maven_build.png](img%2Fbuilding-with-intellij%2Frun_maven_build.png)
+![run_maven_build.png](img/building-with-intellij/run_maven_build.png)
 
 At this point, it should start the build, which might take a while. Once the process is done, you should see a message to let you know the final status of the build. Don't worry if there are build or test failures. We can fix those later.
 
-![successful_build.png](img%2Fbuilding-with-intellij%2Fsuccessful_build.png)
+![successful_build.png](img/building-with-intellij/successful_build.png)
 
 It is highly recommended to create custom ``Run Configurations``. In the Maven window, right-click on ``RuneLite`` > ``Lifecycle`` > ``install``, and select ``Modify Run Configuration...``
 
-![modify-run-configuration](img%2Fbuilding-with-intellij%2Fmodify-run-configuration.png)
+![modify-run-configuration](img/building-with-intellij/modify-run-configuration.png)
 
 Here you can choose a name, such as ``runelite-parent [install] skip tests``, and add a Maven command. For faster builds, try ``install -DskipTests``. This will skip the tests (and test failures).
 
-![install_skip_tests](img%2Fbuilding-with-intellij%2Finstall-skip-tests.png)
+![install_skip_tests](img/building-with-intellij/install-skip-tests.png)
 
 Press ``OK``. You can now easily run your run configurations in the Maven window by right-clicking ``RuneLite`` (parent) > ``Run Configurations`` > ``runelite-parent [install] skip tests`` and selecting ``Run``.  
 Alternatively, you can select your run configuration in the dropdown box at the top and hit the ``Run`` button.
 
-![custom_configuration_top](img%2Fbuilding-with-intellij%2Fcustom-configuration-top.png)
+![custom_configuration_top](img/building-with-intellij/custom-configuration-top.png)
 
 Other useful run configurations include:  
 ``clean install -DskipTests -U`` which is your first troubleshooting step that you should run multiple times in case of a build failures  
@@ -104,18 +104,18 @@ Other useful run configurations include:
 
 We now need to tell IntelliJ to pick up changes based on Maven build (it should do that automatically, but sometimes it doesn't). Click on `Generate Sources and Update folders for all projects` in the Maven window.
 
-![generate_sources.png](img%2Fbuilding-with-intellij%2Fgenerate_sources.png)
+![generate_sources.png](img/building-with-intellij/generate_sources.png)
 
 ## Running the project
 
 Now locate `Project` in the sidebar, and in the project view expand the tree to `runelite/runelite-client/src/main/java/net/runelite/client`. 
 And all you need to do now is right-click the `RuneLite` class and select `Run ‘RuneLite.main()’`
 
-![run_runelite.png](img%2Fbuilding-with-intellij%2Frun_runelite.png)
+![run_runelite.png](img/building-with-intellij/run_runelite.png)
 
 If you receive a notification regarding Lombok's annotation processing, press ``Enable annotation processing``:
 
-![lombok_annotation_processing](img%2Fbuilding-with-intellij%2Flombok-annotation-processing.png)
+![lombok_annotation_processing](img/building-with-intellij/lombok-annotation-processing.png)
 
 After enabling annotation processing you will need to rebuild Maven as mentioned in [Building the project](#building-the-project), and then run `Runelite.main()` again.
 
@@ -127,7 +127,7 @@ If you are having any issues with this step see the [Troubleshooting](#troublesh
 
 Success! You can switch between running the client and building the Maven project by switching between the ``RuneLite`` configuration and your custom Maven configuration (e.g. ``runelite-parent [install]``):
 
-![select_run_config](img%2Fbuilding-with-intellij%2Fselect-run-config.png)
+![select_run_config](img/building-with-intellij/select-run-config.png)
 
 
 ### WARNING: An illegal reflective access operation has occurred <!-- omit in toc -->
