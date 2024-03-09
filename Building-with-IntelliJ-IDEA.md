@@ -98,7 +98,7 @@ Alternatively, you can select your run configuration in the dropdown box at the 
 ![custom_configuration_top](img%2Fbuilding-with-intellij%2Fcustom-configuration-top.png)
 
 Other useful run configurations include:  
-``clean install -DskipTests -U``  which is your first troubleshooting step that you should run multiple times in case of a build failures  
+``clean install -DskipTests -U`` which is your first troubleshooting step that you should run multiple times in case of a build failures  
 ``-Dcheckstyle.skip=false checkstyle:check`` to only run checkstyle without building the client  
 ``surefire:test`` to only run the tests without building the client  
 
