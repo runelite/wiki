@@ -11,7 +11,7 @@
 - [Troubleshooting](#troubleshooting)
   - [Missing git](#missing-git)
   - [Tests are failing](#tests-are-failing)
-  - [Client failing to start / General troubleshooting](#client-failing-to-start--general-troubleshooting)
+  - [Client failing to start](#client-failing-to-start)
 
 # Getting started
 
