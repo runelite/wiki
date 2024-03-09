@@ -117,7 +117,8 @@ If you receive a notification regarding Lombok's annotation processing, press ``
 
 ![lombok_annotation_processing](img/building-with-intellij/lombok_annotation_processing.png)
 
-After enabling annotation processing you will need to rebuild Maven as mentioned in [Building the project](#building-the-project), and then run `Runelite.main()` again.
+In case of errors regarding missing classes, click the ``Reload All Maven Projects`` in the Maven tab.
+![reload_maven_projects](img/building-with-intellij/reload_maven_projects.png)
 
 And you are done! RuneLite should open.
 
