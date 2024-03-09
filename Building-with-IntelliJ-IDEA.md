@@ -76,7 +76,7 @@ RuneLite is using [Maven](https://maven.apache.org/) as build tool. It is used f
 
 So, to actually run RuneLite, we first need to invoke Maven.
 
-Locate *Maven* on right-side of the screen and navigate to ``RuneLite`` (parent) > ``Lifecycle``,right click ``install``, and press ``Run Maven Build``:
+Locate *Maven* on the right-side of the screen. Then navigate to ``RuneLite`` (parent) > ``Lifecycle``, right-click ``install``, and press ``Run Maven Build``:
 
 ![run_maven_build.png](img%2Fbuilding-with-intellij%2Frun_maven_build.png)
 
