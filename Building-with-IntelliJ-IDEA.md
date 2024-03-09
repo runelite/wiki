@@ -121,7 +121,7 @@ After enabling annotation processing you will need to rebuild Maven as mentioned
 
 And you are done! RuneLite should open.
 
-If you are having any issues with this step see  the [Troubleshooting](#troubleshooting) section.
+If you are having any issues with this step see the [Troubleshooting](#troubleshooting) section.
 
 ## Conclusion
 
