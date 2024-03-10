@@ -1,6 +1,6 @@
 The World Map plugin adds a number of teleport location icons to the world map along with expanding some icon tooltips to give more information.
 
-![world map plugin example](https://user-images.githubusercontent.com/597053/39715512-c71d7516-51ea-11e8-87f7-8a145f990efc.png)
+![world map plugin example](img/world-map/world_map_example.png)
 
 ## Settings
 
