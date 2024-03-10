@@ -136,9 +136,12 @@
 
 **Developer's Guide**
 * **Plugin Development**
+  * [[Developer Guide]]
   * [Creating Plugin Hub Plugins](https://github.com/runelite/plugin-hub/blob/master/README.md)
   * [[Creating plugin config panels]]
   * [[Plugin Development Logging]]
+  * [API Javadoc](https://static.runelite.net/api/runelite-api/)
+  * [Client Javadoc](https://static.runelite.net/api/runelite-client/)
 * **RuneLite Core Development**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
@@ -146,10 +149,8 @@
   * [[Beginner's Guide To Git]]
   * [[Submitting a Pull Request]]
   * [[Git Cheat Sheet]]
-  * [[Rebasing your branch from the May 16, 2018 rebase]]
 * [[Using Jagex Accounts]]
 * [[Working with client scripts]]
 * [[Using the client developer tools]]
 * [[VarPlayers, VarBits, and VarClients]]
-* [[Running the Runelite HTTP API Service]]
 * [[Rejected or Rolled Back Features]]

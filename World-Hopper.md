@@ -22,3 +22,7 @@ Toggles whether to hop to a PVP/high risk world when quick-hopping
 Toggles whether the world hopper panel should be added to the sidebar
 
 ![world hopper sidebar](img/world-hopper/world_hopper_sidebar.png)
+### Quick-hop Chat Command
+
+`::hop <world-number>` can be typed into the games chatbox to hop to the specified world (e.g. `::hop 321` to hop to world 321)
+>>>>>>> upstream/master

@@ -8,6 +8,10 @@ Remember that sending XP update requests to external services necessarily sends 
 
 Automatically updates your stats on crystalmathlabs.com when you log out
 
+### RuneTracker
+
+Automatically updates your stats on runetracker.org when you log out
+
 ### TempleOSRS
 
 Automatically updates your stats on templeosrs.com when you log out
