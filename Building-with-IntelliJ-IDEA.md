@@ -62,12 +62,15 @@ We need to make sure that the correct SDK is selected for RuneLite. To do that g
 ![project_structure.png](img/building-with-intellij/project_structure.png)
 
 Go to the `Project Settings > Project` tab and open the ``SDK`` dropdown menu. Click on ``Download JDK...``
+
 ![select-download-jdk](img/building-with-intellij/select_download_jdk.png)
 
 Choose ``version`` ``11`` and ``vendor`` ``Eclipse Temurin (AdoptOpenJDK Hotspot)``. Then press ``Download`` to download the JDK.
+
 ![download-jdk](img/building-with-intellij/download_jdk.png)
 
 Set the ``Language level`` to 11 and press ``OK`` to save the changes.
+
 ![language-level](img/building-with-intellij/language_level.png)
 
 ## Building the project 
@@ -90,7 +93,7 @@ It is highly recommended to create custom ``Run Configurations``. In the Maven w
 
 Here you can choose a name, such as ``runelite-parent [install] skip tests``, and add a Maven command. For faster builds, try ``install -DskipTests``. This will skip the tests (and test failures).
 
-![install_skip_tests](img/building-with-intellij/install-skip-tests.png)
+![install_skip_tests](img/building-with-intellij/install_skip_tests.png)
 
 Press ``OK``. You can now easily run your run configurations in the Maven window by right-clicking ``RuneLite`` (parent) > ``Run Configurations`` > ``runelite-parent [install] skip tests`` and selecting ``Run``.  
 Alternatively, you can select your run configuration in the dropdown box at the top and hit the ``Run`` button.
@@ -118,6 +121,7 @@ If you receive a notification regarding Lombok's annotation processing, press ``
 ![lombok_annotation_processing](img/building-with-intellij/lombok_annotation_processing.png)
 
 In case of errors regarding missing classes, click the ``Reload All Maven Projects`` in the Maven tab.
+
 ![reload_maven_projects](img/building-with-intellij/reload_maven_projects.png)
 
 And you are done! RuneLite should open.
