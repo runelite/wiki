@@ -1,5 +1,5 @@
 # Implings Configuration
-![imp](https://user-images.githubusercontent.com/2388657/39968766-6f4544b2-56a0-11e8-8e87-9cdf793e9e95.png)
+![imp](img/implings/implings_overlay.png)
 
 The Implings plugin can highlight nearby implings on the minimap and on-screen, as well as be configured to send a notification when selected implings come into view.
 

@@ -38,11 +38,11 @@ In some cases, having certain environment variables set such as `JAVA_OPTS` can 
 In case the log file contains the `ConnectException: Connection timed out` error you can try adding an exception to the Windows firewall for RuneLite:
 Open the `Windows Security` app and Select `Firewall & network protection`:
 
-![](https://user-images.githubusercontent.com/7499230/90973578-8f5bde00-e523-11ea-8259-fc2343e3b7b8.png)
+![](img/troubleshooting/troubleshooting_problems_with_the_client_firewall_options.png)
 
 Click `Allow an app through the firewall`:
 
-![](https://user-images.githubusercontent.com/7499230/90973579-8f5bde00-e523-11ea-82e5-427fcd01df65.png)
+![](img/troubleshooting/troubleshooting_problems_with_the_client_firewall_settings.png)
 
 Click `Change Settings` followed by `Allow another app...` and select `Browse...` in the window that opens. Select your RuneLite shortcut on your desktop or select RuneLite.exe in `"%localappdata%/runelite/`. Click Add and press `OK` and RuneLite will be whitelisted in the Windows Firewall.
 

@@ -8,7 +8,7 @@ Enables you to change the default left-click and shift-click options that are di
 
 Hold the shift key and right-click the item to set its left- or shift-left-click options.
 
-![inventory item option configuration](https://cdn.discordapp.com/attachments/909197220883095653/994416998157127680/RuneLite_NuAlcrESdp.gif)
+![inventory item option configuration](img/menu-entry-swapper/menu_entry_swapper_objects.gif)
 
 ### Bury
 
@@ -66,7 +66,7 @@ Swap `Talk-to` with `Travel`, `Take boat`, `Pay-fare`, `Charter` (e.g., Squire, 
 
 Objects with multiple options can have another option selected as the left-click option by holding Shift and selecting the "Swap" menu option that appears. Once this is done, a chat message will be printed that shows the new left-click option of that object.
 
-![object left-click swap](https://user-images.githubusercontent.com/2199511/172227952-d9cd44be-8a9e-4db7-a7fe-adcb7b3669ce.gif)
+![object left-click swap](img/menu-entry-swapper/menu_entry_swapper_shift_click.gif)
 
 
 ### Admire

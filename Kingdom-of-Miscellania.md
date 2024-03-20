@@ -1,6 +1,5 @@
 # Kingdom of Miscellania Configuration
 
-[![Client View](https://thumbs.gfycat.com/FlashyYawningDwarfmongoose-size_restricted.gif)](https://gfycat.com/FlashyYawningDwarfmongoose)
+![](img/kingdom-of-miscellania/kingdom_of_miscellania_display.png)
 
 Enabling this plugin will display the amount of favour you have when entering Miscellania in the top left-hand corner.
-

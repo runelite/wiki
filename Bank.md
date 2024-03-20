@@ -1,6 +1,6 @@
 # Bank Configuration
 
-[![Client View](https://thumbs.gfycat.com/VigorousAbandonedGnu-size_restricted.gif)](https://gfycat.com/VigorousAbandonedGnu)
+![Client View](img/bank/bank_overview.gif)
 
 ## Settings
 

@@ -2,19 +2,19 @@
 ### Display elapsed raid time
 Displaying the elapsed raid time will result in a small infobox being shown on screen that tracks the current time spent in the raid. Hovering over it will display how long the floors have taken.
 
-![Raid timer](https://user-images.githubusercontent.com/35824069/36212678-df0a63e0-11a4-11e8-9a8a-137d74629931.png)
+![](img/chambers-of-xeric/chambers_of_xeric_time_infobox.png)
 
 ### Display points in chatbox after raid
 Displaying the detailed message after a raid will result in the following message being shown:
 
-![](https://user-images.githubusercontent.com/35824069/35762634-54e6c1e4-089a-11e8-8aba-cdfc39523d6a.png)
+![](img/chambers-of-xeric/chambers_of_xeric_points.png)
 
 This calculates your points participation percentage and displays the total and personal points in the chatbox.
 
 ### Show scout overlay
 Showing the scout overlay will enable the use of the raids scouter that will aid you while scouting your raid.
 
-![](https://user-images.githubusercontent.com/35824069/36713836-c378264a-1b8f-11e8-868d-21d5e9d49526.png)
+![](img/chambers-of-xeric/chambers_of_xeric_scout_overlay.png)
 
 Enabling the scout overlay outside lobby will allow you to leave the lobby (if you need to bank, for example) and have the overlay still active.
 

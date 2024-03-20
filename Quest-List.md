@@ -1,6 +1,6 @@
 Adds search and filter for the quest list
 
-![Quest List plugin filter button](https://user-images.githubusercontent.com/10108473/55356973-3d4c8f80-54cc-11e9-84eb-7b9318573656.png)
+![Quest List plugin filter button](img/quest-list/quest_list_filter.png)
 
 ## Usage
 

@@ -1,7 +1,7 @@
 ## XP Globes Configuration
 Configures whether to show XP globes for the respective skill when XP is gained  
 
-![Globes preview](https://i.imgur.com/rq3D5gs.png)
+![Globes preview](img/xp-globes/xp_globes_example.png)
 
 ## Warning
 The XP Tracker plugin **must** be enabled in order for XP Globes to work. If XP Globes is not working as intended, please check your list of enabled plugins to ensure that XP Tracker is enabled before submitting a bug report.
@@ -11,22 +11,22 @@ The XP Tracker plugin **must** be enabled in order for XP Globes to work. If XP 
 Shows a detailed tooltip with level, current XP, and XP to level when hovering on a globe  
 	XP Left, Actions left, and XP/hr can bo toggled on or off for display in the tooltip
 
-![Enable Tooltips](https://i.imgur.com/3nBEOWN.png)
+![Enable Tooltips](img/xp-globes/xp_globes_tooltip.png)
 
 ### Progress colors
 The XP globe colors can be fully customized with the 3 options given: arc color, outline color, background color
   
-![Progress colors](https://i.imgur.com/MuFVdeq.png)
+![Progress colors](img/xp-globes/xp_globes_color_picker.png)
 
 ### Progress arc width
 Changes the thickness of the arc in the XP globe  
 
-![Progress arc width](https://i.imgur.com/33bpqvB.png)
+![Progress arc width](img/xp-globes/xp_globes_arc_width.png)
 
 ### Size of orbs
 Resizes the XP globes (lower value is smaller)  
 
-![Size of orbs](https://i.imgur.com/ocKD2fI.png)
+![Size of orbs](img/xp-globes/xp_globes_size.png)
 
 ### Center orbs
 Chooses where to center the XP globes  

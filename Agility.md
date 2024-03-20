@@ -1,6 +1,6 @@
 # Agility Configuration
 
-![Client View](https://user-images.githubusercontent.com/40111569/55203968-6521b780-519b-11e9-8708-81f96f18f4e1.gif)
+![Client View](img/agility/agility_overview.gif)
 
 ## Settings
 

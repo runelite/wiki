@@ -1,7 +1,5 @@
 # Fairy Rings Configuration
 
-[![Client View](https://thumbs.gfycat.com/CaringEntireGourami-size_restricted.gif)](https://gfycat.com/CaringEntireGourami)
+![image](img/fairy-rings/fairy_rings_display.png)
 
 This plugin, when enabled displays the location of the fairy ring teleport on the bottom scroll of the fairy ring interface.
-
-

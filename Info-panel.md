@@ -6,4 +6,4 @@ The Info panel shows various information such as:
 * Login status (Cloud sync settings status)
 * A link to report an issue on GitHub  
 
-![Infopanel Configuration](https://i.imgur.com/2UydgJq.png)
+![Infopanel Configuration](img/info-panel/info_panel_config.png)

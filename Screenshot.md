@@ -1,6 +1,6 @@
 # Screenshot Configuration
 
-![Screenshot button](https://i.imgur.com/1urgNte.png)
+![Screenshot button](img/screenshot/screenshot_button.png)
 
 Enables the screenshot button. The screenshot folder can be accessed by right clicking the screenshot button.
 
@@ -17,7 +17,7 @@ If deselected, the screenshot will only include the game window.
 ### Display Date
 Configures whether the report button will be changed to the current date when taking a screenshot.
 
-![Screenshot date example](https://i.imgur.com/jlO5rF4.png)
+![Screenshot date example](img/screenshot/screenshot_date.png)
 
 ### Notify When Taken
 RuneLite will send a system notification when a screenshot is taken.

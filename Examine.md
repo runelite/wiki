@@ -2,7 +2,7 @@
 
 Indicates the average GE and high-alch values of an item when examined
 
-[![Client View](https://thumbs.gfycat.com/AdventurousSoulfulFishingcat-size_restricted.gif)](https://gfycat.com/AdventurousSoulfulFishingcat)
+![image](img/examine/examine_display.png)
 
 ## Settings
 

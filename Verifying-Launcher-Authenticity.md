@@ -9,8 +9,8 @@ you can verify its authenticity by doing the following:
 
 Right click `RuneLiteSetup32.exe` or `RuneLiteSetup.exe` and click `Properties`
 
-![](https://raw.githubusercontent.com/wiki/runelite/runelite/img/properties.png)
+![](img/verifying-launcher/verifying_launcher_authenticity_properties.png)
 
 Click `Digital signatures` and verify that `Name of signer` is `Alexander Henne` or `Thomas Alexander Henne`
 
-![](https://raw.githubusercontent.com/wiki/runelite/runelite/img/signatures.png)
+![](img/verifying-launcher/verifying_launcher_authenticity_signatures.png)

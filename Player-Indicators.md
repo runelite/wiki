@@ -1,12 +1,12 @@
 # Player Indicators Configuration
 
-![playerindicators](https://user-images.githubusercontent.com/2388657/39968780-9c918dd6-56a0-11e8-96d0-a162af5eafcb.png)
+![playerindicators](img/player-indicators/player_indicators_example.png)
 
 Highlight players on-screen and/or on the minimap.
 
 ## Settings
 
-<img width="241" alt="Screen Shot 2020-06-12 at 2 25 14 AM" src="https://user-images.githubusercontent.com/54762282/84471765-05a2b100-ac54-11ea-8a87-11f03ae9a1a7.png">
+<img width="241" alt="Screen Shot 2020-06-12 at 2 25 14 AM" src="img/player-indicators/player_indicators_config.png">
 
 ### Draw tiles under players
 

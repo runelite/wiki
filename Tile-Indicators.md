@@ -1,8 +1,8 @@
 ## Tile Indicators Configuration
 
-![Setting bar](https://i.imgur.com/eDipbE9.png)
+![Setting bar](img/tile-indicators/tile_indicators_plugin.png)
 
-![Skill icon enabled](https://i.imgur.com/73agl2H.gif)
+![Skill icon enabled](img/tile-indicators/tile_indicators_example.gif)
 
 
 ## Settings

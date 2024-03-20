@@ -1,5 +1,5 @@
 # Notes Configuration
 
-[![Client View](https://thumbs.gfycat.com/ReadyThunderousCrayfish-size_restricted.gif)](https://gfycat.com/ReadyThunderousCrayfish)
+![](img/notes/notes_panel.png)
 
 This plugin allows you to store notes that are saved in the mysterious cloud wooo.

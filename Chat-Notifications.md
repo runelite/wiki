@@ -1,7 +1,7 @@
 The Chat Notifications plugin can highlight and send notifications upon certain text appearing in chat messages, even from non-player chat messages.
 
-![chat notifications example 1](https://user-images.githubusercontent.com/2979691/40986121-524fd260-68dd-11e8-9c81-bd642a99b502.png)
-![chat notifications example 2](https://user-images.githubusercontent.com/2979691/40986110-4f9faad6-68dd-11e8-932b-7f4a356ec8fa.png)
+![chat notifications example 1](img/chat-notifications/chat_notifications_example_1.png)
+![chat notifications example 2](img/chat-notifications/chat_notifications_example_2.png)
 
 ## Settings
 

@@ -1,4 +1,4 @@
-![Emojis displaying in the game chat panel](https://user-images.githubusercontent.com/8920674/57576663-cd83da00-7465-11e9-97e5-92787c31c30f.png)
+![Emojis displaying in the game chat panel](img/emojis/emojis_example.png)
 
 Substitutes typed emoticons to display emojis in the game chat panel and above players' heads.
 

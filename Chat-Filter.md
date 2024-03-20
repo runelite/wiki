@@ -1,5 +1,5 @@
 # Chat Filter Configuration
-![Client View](https://i.imgur.com/Nfo01SQ.png)
+![Client View](img/chat-filter/chat_filter_config.png)
 
 ## Settings
 
@@ -54,22 +54,22 @@ Collapses repeated game chat messages.
 
 **Disabled:**
 
-![](https://i.imgur.com/5O0BVLq.png)
+![](img/chat-filter/chat_filter_disabled_collapse_game.png)
 
 **Enabled:**
 
-![](https://i.imgur.com/hF49xkN.png)
+![](img/chat-filter/chat_filter_enabled_collapse_game.png)
 
 ### Collapse Player Chat
 Collapses repeated player chat messages.
 
 **Disabled:**
 
-![](https://i.imgur.com/yOAF1Ns.png)
+![](img/chat-filter/chat_filter_disabled_collapse_player.png)
 
 **Enabled:**
 
-![](https://i.imgur.com/PwxLCT9.png)
+![](img/chat-filter/chat_filter_enabled_collapse_player.png)
 
 ### Max repeated public chats:
 Block player chat message if repeated this many times. `0` to disable.

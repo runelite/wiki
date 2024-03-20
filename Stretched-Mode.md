@@ -1,6 +1,6 @@
 # Stretched Mode Configuration
 
-[![Client View](https://thumbs.gfycat.com/PoshPalatableHogget-size_restricted.gif)](https://gfycat.com/PoshPalatableHogget)
+![Client View](img/stretched-mode/stretched_mode_example.gif)
 
 ## Settings
 

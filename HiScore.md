@@ -1,14 +1,14 @@
 ## HiScore Configuration
 Displays a button to open the Hiscore panel.
 
-![hiscore panel](https://user-images.githubusercontent.com/29353990/59306036-5a9f9600-8c93-11e9-8c5f-1a30808070db.png)
+![hiscore panel](img/hiscore/hiscore_panel.png)
 
 ## Features
 ### Self-lookup
 
 Double-click the magnifying glass in the search bar to lookup your own character.
 
-![magnifying glass](https://user-images.githubusercontent.com/29353990/59305408-1e1f6a80-8c92-11e9-9934-0774b5062f2a.png)
+![magnifying glass](img/hiscore/hiscore_magnifying_glass.png)
 
 ### HiScores for different game modes
 
@@ -18,14 +18,14 @@ Click the tabs along the top to switch between different game modes such as Iron
 
 Hover over any stat to see more details. For example, a breakdown of the cluescrolls by type.
 
-![clue hiscores](https://user-images.githubusercontent.com/29353990/59305779-d3522280-8c92-11e9-899b-e384d5e18b9e.png)
+![clue hiscores](img/hiscore/hiscore_clues.png)
 
 ## Settings
 ### Player option
 
 Shows the lookup option when right clicking another player.
 
-![Hiscore Configuration](https://i.imgur.com/RXD9Vkt.png)
+![Hiscore Configuration](img/hiscore/hiscore_lookup.png)
 
 ### Menu option
 

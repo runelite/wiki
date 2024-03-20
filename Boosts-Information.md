@@ -1,6 +1,6 @@
 # Boost Information Configuration
 
-![Boost Information](https://user-images.githubusercontent.com/54762282/83594247-be6a4100-a52c-11ea-9428-09680d5cb69b.png)
+![Boost Information](img/boosts-info/boosts_information_absolute.png)
 ## Settings
 
 ### Display Boosts
@@ -11,13 +11,13 @@ Configures which skill boosts to display.
 
 Displays your boosted stat levels as a measure of how much they are boosted (e.g., +4).
 
-![Relative Boosts](https://user-images.githubusercontent.com/54762282/83594605-a6df8800-a52d-11ea-8c14-a2fa659f34c7.png)
+![Relative Boosts](img/boosts-info/boosts_information_relative.png)
 
 ### Display as infoboxes.
 
 Displays your boosts as icon boxes rather than a text box.
 
-![Boost indicators](https://user-images.githubusercontent.com/54762282/83594526-6aac2780-a52d-11ea-8da4-1c029329ddb0.png)
+![Boost indicators](img/boosts-info/boosts_information_infobox.png)
 
 ### Display next change
 
