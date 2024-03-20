@@ -16,6 +16,12 @@ When in **resizable mode**, always stack the interface tiles regardless of scree
 
 ![](https://i.imgur.com/CmNynn4.png)
 
+### Condense player options
+When enabled player options will be collapsed into a submenu for each player.
+
+![](https://runelite.net/img/blog/1.10.23-Release/player-menus.png)
+
+
 ### Gameframe
 The style of the game interfaces.
 
