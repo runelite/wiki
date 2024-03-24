@@ -35,8 +35,6 @@ If you have a program called playstv, turn it off.
 ## Client is freezing after enabling GPU plugin
 If you are on Linux, update Mesa to version 19.1.3 or later.
 
-If you are on Windows, open task manager and kill any `jogamp_exe_tst` processes **twice** (they will have random numbers after the `tst`).  This may need to be done during RuneLite startup if the GPU plugin is still set to enabled.
-
 ## Why can't I click as far as I saw before?
 Click distance has been limited to 45 tiles.
 
