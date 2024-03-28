@@ -40,14 +40,14 @@ You can run in safe mode by either running the `RuneLite (safe mode)` shortcut o
 
 ### Without a Jagex account:
 
-Windows: Run the `RuneLite (safe mode)` shortcut.
+Windows: Run the `RuneLite (safe mode)` shortcut in your Windows Start menu.
 
 Mac: In Terminal, run:
 `/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode`
 
 ### With a Jagex account:
 
-Windows: Run the `RuneLite (configure)` shortcut.
+Windows: Run the `RuneLite (configure)` shortcut in your Windows Start menu.
 
 Mac: In Terminal, run:
 `/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure`
