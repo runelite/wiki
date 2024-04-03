@@ -33,16 +33,6 @@ a VarBit or VarP, along with a table that maps the value of the var to the trans
 try reading clientscripts from the cache, as they can get and set all types of var freely. This can be difficult
 if you are not used to reading assembly or very knowledgeable about the game engine.
 
-Using a Var in a plugin
--------------
-If you have just found a new Var using the above methods you first need to add it to the appropriate enum:
- - [`VarClientStr`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/VarClientStr.java)
- - [`VarClientInt`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/VarClientInt.java)
- - [`Varbits`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/Varbits.java)
- - [`VarPlayers`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/VarPlayer.java)
-
-Once the enum contains the value, you just need to call `Client.getVarcStrValue`, `Client.getVarcIntValue`, `Client.getVarbitValue` or `Client.getVarpValue` with the key you added to the enum.
-
 How VarBits work internally
 ----------------
 A VarBit ID (as seen in [`Varbits`](https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/Varbits.java)) is just a reference to a file in the cache which will contain an instance of this class:
