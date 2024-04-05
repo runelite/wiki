@@ -106,8 +106,13 @@ Some boss names can be substituted for shorthand versions:
 `toa` -> `Tombs of Amascut`  
 `toa expert`, `toa expert mode`, `tombs of amascut - expert` -> `Tombs of Amascut: Expert Mode`  
 `duke` -> `Duke Sucellus`  
-`the leviathan` -> `Leviathan`  
-`the whisperer` -> `Whisperer`  
+`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)` 
+`levi`, `the leviathan` -> `Leviathan`  
+`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`
+`vard` -> `Vardorvis`  
+`vard awakened`, `vardorvis awakened` -> `Vardorvis (awakened)`  
+`wisp`, `whisp`, `the whisperer` -> `Whisperer`  
+`wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`
 
 Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log for RuneLite to register the kill counts.
 
@@ -158,9 +163,9 @@ Personal best times are stored for bosses and activities that keep personal best
 `!pb gargs`, `!pb grotesque guardians`    
 `!pb hydra`, `!pb alchemical hydra`    
 `!pb duke`, `!pb duke sucellus`  
-`!pb leviathan`  
-`!pb vardorvis`  
-`!pb whisperer`  
+`!pb levi`, `!pb leviathan`  
+`!pb vard`, `!pb vardorvis`  
+`!pb whisp`, `!pb whisperer`  
 `!pb chambers`, `!pb cox`, `!pb cox cm`, `!pb cox cm [1-24]`  
 `!pb tob`, `!pb tob hard`, `!pb hmt [1-5]`  
 `!pb toa`, `!pb toa [1-8]`, `!pb toa expert`, `!pb toa expert [1-8]`  
