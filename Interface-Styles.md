@@ -1,6 +1,6 @@
 # Interface Styles Configuration
 
-![](https://i.imgur.com/tdzRuf5.png)
+![](img/interface-styles/display.png)
 
 This plugin allows you to change the interface style, left-click cross animation, health bars, and right-click menu style.
 ## Settings
@@ -10,41 +10,47 @@ When in **resizable mode**, always stack the interface tiles regardless of scree
 
 #### Disabled
 
-![](https://i.imgur.com/Bn6Zqxs.png)
+![](img/interface-styles/stack_bottom_bar_disabled.png)
 
 #### Enabled
 
-![](https://i.imgur.com/CmNynn4.png)
+![](img/interface-styles/stack_bottom_bar_enabled.png)
+
+### Condense player options
+When enabled player options will be collapsed into a submenu for each player.
+
+![](img/interface-styles/player_menus.png)
+
 
 ### Gameframe
 The style of the game interfaces.
 
 #### 2005
 
-![](https://i.imgur.com/knbysql.png)
+![](img/interface-styles/gameframe_2005.png)
 
 #### 2006
 
-![](https://i.imgur.com/j2zgrHP.png)
+![](img/interface-styles/gameframe_2006.png)
 
 #### 2010
 
-![](https://i.imgur.com/lE0uRF9.png)
+![](img/interface-styles/gameframe_2010.png)
 
 ### High Detail health bars
 Replaces health bars with the RuneScape High Detail mode design.
 
-![](https://i.imgur.com/m3Bwnv6.png)
+![](img/interface-styles/hd_healthbars.png)
 
 ### High Detail menu
 Replaces game menu with the RuneScape High Detail mode design.
 
-![](https://i.imgur.com/vNaQcT0.png)
+![](img/interface-styles/hd_menu.png)
 
 ### Menu Alpha
 Configures the transparency of the right-click menu on a `0`-`255` scale.
 
-![](https://runelite.net/img/blog/1.6.17-Release/transparent-menu.gif)
+![](img/interface-styles/transparent_menu.gif)
 
 ### RuneScape cross sprites
 Replaces left-click cross sprites with the ones from RuneScape.
