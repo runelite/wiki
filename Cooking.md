@@ -1,6 +1,6 @@
 The Cooking plugin adds overlays to track your session cooking stats and to display a countdown to wine fermentation when making wines.
 
-![Cooking plugin session overlay](img/cooking/cooking_tracker.png) ![Wine fermentation timer overlay](https://i.imgur.com/ZHcEBhz.gif) // TODO: get a new gif because this one is broken and the jfif the other images are from is also broken
+![Cooking plugin session overlay](img/cooking/cooking_tracker.png) ![Wine fermentation timer infobox](img/cooking/wine_infobox.gif)
 
 ## Settings
 
