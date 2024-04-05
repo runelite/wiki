@@ -11,4 +11,4 @@
 
 Toggles showing an arrow, pointing you in the direction of where to dig and who to talk to
 
-![](img/clue-scroll/clue_scroll_hint_arrows.gif)
+![](img/clue-scroll/clue_scroll_hint_arrows.webp)

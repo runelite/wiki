@@ -1,6 +1,6 @@
 # Camera Configuration
 
-![camera_overview](img/camera/camera_overview.gif)
+![camera_overview](img/camera/camera_overview.webp)
 
 ## Camera
 ### Expand Inner Zoom Limit

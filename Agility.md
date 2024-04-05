@@ -1,6 +1,6 @@
 # Agility Configuration
 
-![Client View](img/agility/agility_overview.gif)
+![Client View](img/agility/agility_overview.webp)
 
 ## Settings
 

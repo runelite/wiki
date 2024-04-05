@@ -1,6 +1,6 @@
 # NPC Indicator Configuration
 
-![](img/npc-indicators/npc_indicators_example.gif)
+![](img/npc-indicators/npc_indicators_example.webp)
 
 ## Settings
 
