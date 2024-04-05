@@ -1,7 +1,7 @@
 # Prayer Configuration
 
 ![](img/prayer/prayer_overview.png)
-<img width="100" alt="orb_flick" src="img/prayer/prayer_orb_flick.gif">
+<img width="100" alt="" src="img/prayer/prayer_orb_flick.gif">
 
 When enabled, this plugin will draw a moving line across your quick prayers icon in time with game ticks  
 To flick accurately, double click your quick prayer icon (or a single prayer) _when the bar "resets"_  
