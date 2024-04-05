@@ -18,7 +18,7 @@ Show recent friend chats when you are not current in one.
 
 Adds a temporary message when friends chat members join or leave.
 
-![](img/chat-channels/chat_channels_join.png)
+<img width="150" alt="" src="img/chat-channels/chat_channels_join.png">
 
 ### Join/Leave rank
 
@@ -50,7 +50,7 @@ The color of the ignored members.
 
 Adds a temporary message when friends chat members join or leave.
 
-![](img/chat-channels/chat_channels_join.png)
+<img width="150" alt="" src="img/chat-channels/chat_channels_join.png">
 
 ### Show Online Member Count
 

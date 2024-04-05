@@ -8,7 +8,7 @@
 
 Displays the first letter of the Barrows Brothers' names on the minimap above their respective hills.
 
-![](img/barrows-brothers/barrows_minimap.png)
+<img width="249" alt="" src="img/barrows-brothers/barrows_minimap.png">
 
 ### Show value of Chests
 

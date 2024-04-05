@@ -1,6 +1,6 @@
 # Fishing Configuration
 
-![](img/fishing/fishing_example_1.png)
+<img width="458" alt="" src="img/fishing/fishing_example_1.png">
 
 ## Settings
 
@@ -10,29 +10,29 @@ Configures whether fishing spots are only displayed for the fish you are current
 
 #### Disabled
 
-![](img/fishing/fishing_disabled_currently_fished.png)
+<img width="536" alt="" src="img/fishing/fishing_disabled_currently_fished.png">
 
 #### Enabled
 
-![](img/fishing/fishing_enabled_currently_fished.png)
+<img width="586" alt="" src="img/fishing/fishing_enabled_currently_fished.png">
 
 ### Display spot tiles
 
 Configures whether the tiles for fishing spots are highlighted.
 
-![](img/fishing/fishing_spot_tiles.png)
+<img width="241" alt="" src="img/fishing/fishing_spot_tiles.png">
 
 ### Display spot icons
 
 Configures whether to display an icon for the fish available in the fishing spot.
 
-![](img/fishing/fishing_spot_icons.png)
+<img width="262" alt="" src="img/fishing/fishing_spot_icons.png">
 
 ### Display spot names
 
 Configures whether names for fishing spots are displayed.
 
-![](img/fishing/fishing_spot_names.png)
+<img width="218" alt="" src="img/fishing/fishing_spot_names.png">
 
 ### Overlay Color
 
@@ -42,13 +42,13 @@ The color of highlighted fishing tiles.
 
 The color of the Minnows fishing spot overlay when a flying fish appears.
 
-![](img/fishing/fishing_minnow_overlay.png)
+<img width="227" alt="" src="img/fishing/fishing_minnow_overlay.png">
 
 ### Aerial Overlay Color
 
 Color of the Aerial Fishing overlay when you are close enough to 1 tick catch.
 
-![](img/fishing/fishing_aerial_overlay.png)
+<img width="630" alt="" src="img/fishing/fishing_aerial_overlay.png">
 
 ### Reset stats
 
@@ -58,7 +58,7 @@ The amount of time until your fishing data is reset and the overlay and infobox 
 
 Displays an infobox with fishing stats.
 
-![](img/fishing/fishing_tracker.png)
+<img width="145" alt="" src="img/fishing/fishing_tracker.png">
 
 ### Show Minnow Movement overlay
 

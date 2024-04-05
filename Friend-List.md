@@ -6,12 +6,12 @@ There are no settings to configure.
 
 ### Enabled
 
-![](img/friend-list/friend_list_friends_enabled.png)
+<img width="208" alt="" src="img/friend-list/friend_list_friends_enabled.png">
 
-![](img/friend-list/friend_list_ignores_enabled.png)
+<img width="208" alt="" src="img/friend-list/friend_list_ignores_enabled.png">
 
 ### Disabled
 
-![](img/friend-list/friend_list_friends_disabled.png)
+<img width="208" alt="" src="img/friend-list/friend_list_friends_disabled.png">
 
-![](img/friend-list/friend_list_ignores_disabled.png)
+<img width="208" alt="" src="img/friend-list/friend_list_ignores_disabled.png">

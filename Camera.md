@@ -33,7 +33,7 @@ Middle-mouse button always opens the menu.
 
 Adds Look South, East, and West to the compass' right-click menu.
 
-![camera_compass](img/camera/camera_compass.png)
+<img width="103" alt="" src="img/camera/camera_compass.png">
 
 ### Invert Yaw
 

@@ -1,6 +1,6 @@
 # Barbarian Assault Configuration
 
-![Barbarian assault config](img/barbarian-assault/barbarian_assault_config.png)
+<img width="242" alt="" src="img/barbarian-assault/barbarian_assault_config.png">
 
 ## Settings
 

@@ -1,6 +1,6 @@
 ## Blast Furnace Configuration
 
-![Blast Furnace](img/blast-furnace/blast_furnace_config.png)
+<img width="238" alt="" src="img/blast-furnace/blast_furnace_config.png">
 
 ![Blast Furnace plugin overlays: a bar interface, a label showing the amount of gold in the Blast Furnace coffer, and an overlay of the conveyor belt's clickbox](img/blast-furnace/blast_furnace_overlay.png)
 

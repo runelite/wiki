@@ -8,7 +8,7 @@ Enables `Press Enter to Chat...` mode in the chat box, preventing text input unl
 
 Configures whether the camera movement uses remapped keys. By default, the keys get remapped to WASD, but they can be reconfigured.
 
-![](img/key-remapping/key_remapping_camera.png)
+<img width="240" alt="" src="img/key-remapping/key_remapping_camera.png">
 
 ## F Key Remapping
 
@@ -16,7 +16,7 @@ Configures whether the camera movement uses remapped keys. By default, the keys 
 
 Configures whether the F-Keys use remapped keys. 
 
-![](img/key-remapping/key_remapping_fkeys.png)
+<img width="240" alt="" src="img/key-remapping/key_remapping_fkeys.png">
 
 ## Other
 

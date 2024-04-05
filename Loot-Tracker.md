@@ -1,6 +1,6 @@
 # Loot Tracker
 
-![](img/loot-tracker/loot_tracker_panel.png)
+<img width="235" alt="" src="img/loot-tracker/loot_tracker_panel.png">
 
 The Loot Tracker plugin adds a sidebar panel which tracks the contents and value of items dropped while killing monsters, other players, and drops from some other activities such as Barrows, Chambers of Xeric, Theatre of Blood, and Clue Scrolls.
 
