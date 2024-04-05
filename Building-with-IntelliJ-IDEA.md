@@ -37,7 +37,7 @@ You can also specify a directory where you'd like to save the RuneLite files to 
 
 ![clone_runelite.png](img/building-with-intellij/clone_runelite.png)
 
-After cloning is done you will be presented with a `Trust and open Project ’runelite’?` popup. Click `Trust Project`.
+After cloning is done you will be presented with a `Trust and open Project 'runelite'?` popup. Click `Trust Project`.
 
 
 ## Installing Lombok
@@ -112,7 +112,7 @@ We now need to tell IntelliJ to pick up changes based on Maven build (it should 
 ## Running the project
 
 Now locate `Project` in the sidebar, and in the project view expand the tree to `runelite/runelite-client/src/main/java/net/runelite/client`. 
-And all you need to do now is right-click the `RuneLite` class and select `Run ‘RuneLite.main()’`
+And all you need to do now is right-click the `RuneLite` class and select `Run 'RuneLite.main()'`
 
 ![run_runelite.png](img/building-with-intellij/run_runelite.png)
 
