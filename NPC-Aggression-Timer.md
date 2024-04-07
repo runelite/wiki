@@ -1,10 +1,10 @@
-![example](img/npc-aggression-timer/npc_aggression_timer_example.png)
+![example](https://user-images.githubusercontent.com/29353990/59309598-e4ebf800-8c9b-11e9-9690-9e885133d8b9.png)
 
 # How it works
 
 You may see this overlay when trying to use the plugin. Follow its instructions to get the timer to start working.
 
-![instructions overlay](img/npc-aggression-timer/npc_aggression_timer_instructions.png)
+![instructions overlay](https://user-images.githubusercontent.com/29353990/59308089-0cd95c80-8c98-11e9-8f10-fdd978d2afaa.png)
 
 The reason for this is that the game remembers 2 tiles. When you move over 10 steps away from both tiles the oldest one is moved to under you and the NPC aggression timer resets. In order for the plugin to figure out where those tiles are you must first teleport away (entering a dungeon also counts as a "teleport") so that you are out of the radius of both those tiles, thus resetting them so that the plugin can begin tracking them.
 
