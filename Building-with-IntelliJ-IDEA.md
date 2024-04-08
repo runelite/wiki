@@ -139,7 +139,7 @@ Success! You can switch between running the client and building the Maven projec
 You can ignore this.
 
 ### Hot reloading
-Check out [JetBrains's official documentation on hot reloading](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes).
+To help enable a faster edit-run-test development loop, check out [JetBrains's official documentation on hot reloading](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes).
 
 # Troubleshooting
 
