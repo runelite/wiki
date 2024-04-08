@@ -9,6 +9,7 @@
   - [Running the project](#running-the-project)
   - [Conclusion](#conclusion)
 - [Troubleshooting](#troubleshooting)
+  - [WARNING: An illegal reflective access operation has occurred](#WARNING-An-illegal-reflective-access-operation-has-occurred)
   - [Missing git](#missing-git)
   - [Tests are failing](#tests-are-failing)
   - [Client failing to start](#client-failing-to-start)
@@ -134,14 +135,13 @@ Success! You can switch between running the client and building the Maven projec
 
 ![select_run_config](img/building-with-intellij/select_run_config.png)
 
-
-### WARNING: An illegal reflective access operation has occurred <!-- omit in toc -->
-You can ignore this.
-
 ### Hot reloading
 To help enable a faster edit-run-test development loop, check out [JetBrains's official documentation on hot reloading](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes).
 
 # Troubleshooting
+
+## WARNING: An illegal reflective access operation has occurred
+You can ignore this.
 
 ## Missing git
 
