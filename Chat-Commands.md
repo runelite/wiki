@@ -116,6 +116,7 @@ Some boss names can be substituted for shorthand versions:
 `vard awakened`, `vardorvis awakened` -> `Vardorvis (awakened)`  
 `wisp`, `whisp`, `the whisperer` -> `Whisperer`  
 `wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`
+`lunar chests`, `moons of peril`, `perilous moon`, `perilous moons` -> `Lunar Chest`
 
 Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log for RuneLite to register the kill counts.
 
