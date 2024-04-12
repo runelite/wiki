@@ -45,15 +45,30 @@ Format: `!lvl [skill]`, `!lvl total`, `!total`
 #### Skill Abbreviations
 
 Some skill names can be substituted for shorthand versions  
-`att` -> `Attack`  
-`def` -> `Defence`  
+`att`, `atk` -> `Attack`  
 `str` -> `Strength`  
-`hp` -> `Hitpoints`  
-`range` -> `Ranged`  
-`wc` -> `Woodcutting`  
-`fm` -> `Firemaking`  
-`rc`, `runecrafting` -> `Runecraft`  
-`con` -> `Construction`
+`def` -> `Defence`  
+`range`, `ranging`, `rng` -> `Ranged`  
+`pray` -> `Prayer`  
+`mage`, `mag` -> `Magic`  
+`rc`, `rune`, `runecrafting` -> `Runecraft`  
+`con`, `construct` -> `Construction`  
+`hp`, `health`, `hit`, `hitpoint` -> `Hitpoints`  
+`agi`, `agil` -> `Agility`  
+`herb`, `hl` -> `Herblore`  
+`thief` -> `Thieving`  
+`craft` -> `Crafting`  
+`fletch` -> `Fletching`  
+`slay` -> `Slayer`  
+`hunt` -> `Hunter`  
+`mine` -> `Mining`  
+`smith` -> `Smithing`  
+`fish` -> `Fishing`  
+`cook` -> `Cooking`  
+`fm`, `fire` -> `Firemaking`  
+`wc`, `wood`, `woodcut` -> `Woodcutting`  
+`farm` -> `Farming`  
+`all`, `total` -> `Overall`
 
 ### Clue Commands
 
