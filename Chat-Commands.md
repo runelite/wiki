@@ -87,7 +87,7 @@ Some boss names can be substituted for shorthand versions:
 `vene` -> `Venenatis`  
 `kbd` -> `King Black Dragon`  
 `vork` -> `Vorkath`  
-`phantom`, `muspah`, `pm` -> `Phantom Muspah`
+`phantom`, `muspah`, `pm` -> `Phantom Muspah`  
 `sire` -> `Abyssal Sire`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `cerb` -> `Cerberus`  
@@ -96,18 +96,18 @@ Some boss names can be substituted for shorthand versions:
 `rex` -> `Dagannoth Rex`  
 `prime` -> `Dagannoth Prime`  
 `barrows` -> `Barrows Chests`  
-`gaunt`, `the gauntlet` -> `Gauntlet`
+`gaunt`, `the gauntlet` -> `Gauntlet`  
 `cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
 `dusk`, `dawn`, `gargs`, `ggs`, `gg` -> `Grotesque Guardians`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `zuk`, `inferno` -> `TzKal-Zuk`  
-`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`
+`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`  
 `sara`, `saradomin`, `zilyana`, `zily` -> `Commander Zilyana`  
 `zammy`, `zamorak`, `kril`, `kril trutsaroth` -> `K'ril Tsutsaroth`  
 `arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
 `nm`, `tnm`, `nmare`, `the nightmare` -> `Nightmare`  
-`pnm`, `phosani`, `phosanis`, `phosani nm`, `phosani nightmare`, `phosanis nightmare` -> `Phosani's Nightmare`
+`pnm`, `phosani`, `phosanis`, `phosani nm`, `phosani nightmare`, `phosanis nightmare` -> `Phosani's Nightmare`  
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
 `cox solo`, `cox duo`, `cox [1-24]`, `cox 24+` -> `Chambers of Xeric [1-24+] players`  
 `cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm`, `chambers of xeric - challenge mode` -> `Chambers of Xeric: Challenge Mode`  
@@ -116,8 +116,8 @@ Some boss names can be substituted for shorthand versions:
 `tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`  
 `tob solo`, `tob duo`, `tob [1-5]` -> `Theatre of Blood [1-5] players`  
 `tob cm`, `tob hm`, `tob hard mode`, `tob hard`, `hmt` -> `Theatre of Blood: Hard Mode`  
-`hmt solo`, `hmt duo`, `hmt [1-5]` -> `Theatre of Blood: Hard Mode [1-5] players`
-`toa entry`, `toa entry mode`, `tombs of amascut - entry` -> `Tombs of Amascut: Entry Mode`
+`hmt solo`, `hmt duo`, `hmt [1-5]` -> `Theatre of Blood: Hard Mode [1-5] players`  
+`toa entry`, `toa entry mode`, `tombs of amascut - entry` -> `Tombs of Amascut: Entry Mode`  
 `toa entry solo`, `toa entry duo`, `toa entry [1-8]` -> `Tombs of Amascut: Entry Mode [1-8] players`  
 `toa` -> `Tombs of Amascut`  
 `toa solo`, `toa duo`, `toa [1-8]` -> `Tombs of Amascut [1-8] players`  
