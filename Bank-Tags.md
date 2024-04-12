@@ -14,11 +14,11 @@ Enable the ability to add tabs to your bank which allow fast access to tags.
 
 When right-clicking items within the bank, an `Edit-tags` menu option is added, showing the number of associated tags (if any).
 
-![](img/bank-tags/bank_tags_setting_tags.png)
+![The right-click options menu of a banked item, showing the added "Edit-tags" entry](img/bank-tags/bank_tags_setting_tags.png)
 
 Upon selecting the `Edit-tags` option, the tags will be displayed in a text input in the chat box. Tags are stored as a comma-separated string (e.g., "tag1,tag2" will set the two tags, _`tag1`_ and _`tag2`_).
 
-![](img/bank-tags/bank_tags_editing_tags.png)
+![The tags editing chatbox displayed after selecting the "Edit-tags" menu option](img/bank-tags/bank_tags_editing_tags.png)
 
 You can tag and un-tag all variations of an item (e.g., all dosages of a particular type of potion, all charges of an Amulet of Glory, all degraded states of a piece of Barrows equipment or crystal equipment, etc.). To do so, drag the item onto a tag tab while holding `Shift` or add `*` to the end of the tag. 
 
@@ -28,8 +28,7 @@ You can tag and un-tag all variations of an item (e.g., all dosages of a particu
 
 When using the bank search feature, tags are automatically included in the search term. To search exclusively for bank tagged items, prefix the search term with `tag:`
 
-![](img/bank-tags/bank_tags_reg_search.png) 
-![](img/bank-tags/bank_tags_tag_search.png)
+![A bank search for the term "rune", displaying the player's runes, runite ore which is tagged "rune", and some rune equipment](img/bank-tags/bank_tags_reg_search.png) ![A bank search for the term "tag:rune", displaying only items tagged "rune"--the player's runes, and a runite ore which is tagged "rune"](img/bank-tags/bank_tags_tag_search.png)
 
 ## Using tag tabs
 
@@ -61,4 +60,4 @@ Tag tabs are a new tagging experience that allows for quick access to individual
 
   ![bank tag tabs: resizing around incinerator](img/bank-tags/bank_tags_tag_tab_incinerator_resizing.gif)  
 
-  ![](img/bank-tags/bank_tags_tag_tab_height_resizing.png)
+  ![bank tag tabs: using space in a tall bank](img/bank-tags/bank_tags_tag_tab_height_resizing.png)
