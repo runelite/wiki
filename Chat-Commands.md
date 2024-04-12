@@ -132,7 +132,7 @@ Some boss names can be substituted for shorthand versions:
 `wisp`, `whisp`, `the whisperer` -> `Whisperer`  
 `wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`
 
-Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log for RuneLite to register the kill counts.
+Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log or the Adventure log (in your own POH), or get another kill for RuneLite to register the kill counts.
 
 #### Agility Course Abbreviations  
 `!kc` can also be used to share your Agility Course lap counts:
