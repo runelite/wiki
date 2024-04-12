@@ -76,42 +76,58 @@ Format: `!kc [boss]`, `!kc [activity]`
 Some boss names can be substituted for shorthand versions:
 
 `corp` -> `Corporeal Beast`  
-`jad` -> `TzTok-Jad`  
+`jad`, `tzhaar fight cave` -> `TzTok-Jad`  
 `kq` -> `Kalphite Queen`  
 `chaos ele` -> `Chaos Elemental`  
 `crazy arch` -> `Crazy Archaeologist`  
 `deranged arch` -> `Deranged Archaeologist`  
 `mole` -> `Giant Mole`  
 `vetion` -> `Vet'ion`  
+`calv`, `calvarion` -> `Calvar'ion`  
 `vene` -> `Venenatis`  
 `kbd` -> `King Black Dragon`  
 `vork` -> `Vorkath`  
+`phantom`, `muspah`, `pm` -> `Phantom Muspah`
 `sire` -> `Abyssal Sire`  
+`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `cerb` -> `Cerberus`  
+`hydra` -> `Alchemical Hydra`  
 `supreme` -> `Dagannoth Supreme`  
 `rex` -> `Dagannoth Rex`  
 `prime` -> `Dagannoth Prime`  
 `wt` -> `Wintertodt`  
 `barrows` -> `Barrows Chests`  
-`cg` -> `Corrupted Gauntlet`  
-`dusk`, `dawn`, `gargs` -> `Grotesque Guardians`  
+`gaunt`, `the gauntlet` -> `Gauntlet`
+`cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
+`dusk`, `dawn`, `gargs`, `ggs`, `gg` -> `Grotesque Guardians`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
-`zuk`, `inferno`, -> `TzKal-Zuk`  
+`zuk`, `inferno` -> `TzKal-Zuk`  
+`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`
 `sara`, `saradomin`, `zilyana`, `zily` -> `Commander Zilyana`  
 `zammy`, `zamorak`, `kril`, `kril trutsaroth` -> `K'ril Tsutsaroth`  
 `arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
 `nm`, `tnm`, `nmare`, `the nightmare` -> `Nightmare`  
+`pnm`, `phosani`, `phosanis`, `phosani nm`, `phosani nightmare`, `phosanis nightmare` -> `Phosani's Nightmare`
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
-`cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm` -> `Chambers of Xeric: Challenge Mode`  
-`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`    
-`tob cm`, `tob hm`, `htm` -> `Theatre of Blood: Hard Mode`  
+`cox solo`, `cox duo`, `cox [1-24]`, `cox 24+` -> `Chambers of Xeric [1-24+] players`  
+`cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm`, `chambers of xeric - challenge mode` -> `Chambers of Xeric: Challenge Mode`  
+`cox cm solo`, `cox cm duo`, `cox cm [1-24]`, `cox cm 24+` -> `Chambers of Xeric: Challenge Mode [1-24+] players`  
+`tob sm`, `tob story mode`, `tob story`, `tob entry mode`, `tob em`, `tob entry` -> `Theatre of Blood: Entry Mode`  
+`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`  
+`tob solo`, `tob duo`, `tob [1-5]` -> `Theatre of Blood [1-5] players`  
+`tob cm`, `tob hm`, `tob hard mode`, `tob hard`, `hmt` -> `Theatre of Blood: Hard Mode`  
+`hmt solo`, `hmt duo`, `hmt [1-5]` -> `Theatre of Blood: Hard Mode [1-5] players`
+`toa entry`, `toa entry mode`, `tombs of amascut - entry` -> `Tombs of Amascut: Entry Mode`
+`toa entry solo`, `toa entry duo`, `toa entry [1-8]` -> `Tombs of Amascut: Entry Mode [1-8] players`  
 `toa` -> `Tombs of Amascut`  
+`toa solo`, `toa duo`, `toa [1-8]` -> `Tombs of Amascut [1-8] players`  
 `toa expert`, `toa expert mode`, `tombs of amascut - expert` -> `Tombs of Amascut: Expert Mode`  
+`toa expert solo`, `toa expert duo`, `toa expert [1-8]` -> `Tombs of Amascut: Expert Mode [1-8] players`  
 `duke` -> `Duke Sucellus`  
-`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)` 
+`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)`  
 `levi`, `the leviathan` -> `Leviathan`  
-`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`
+`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`  
 `vard` -> `Vardorvis`  
 `vard awakened`, `vardorvis awakened` -> `Vardorvis (awakened)`  
 `wisp`, `whisp`, `the whisperer` -> `Whisperer`  
@@ -141,9 +157,9 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 `werewolf` ->  `Werewolf Agility`  
 `skullball` -> `Werewolf SkullBall`  
 `wildy`, `wildy agility` -> `Wilderness Agility`  
-`prif`, `prifddinas` -> `Prifddinas Agility Course`    
+`prif`, `prifddinas` -> `Prifddinas Agility Course`  
 `hs`, `hs [1-5]`, `ghc` -> `Hallowed Sepulchre`  
-`shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`
+`shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`  
 `shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
 
 ### Quest Points Commands
@@ -158,13 +174,13 @@ Enables the `!qp` command.
 Enables the `!pb` command.
 
 Personal best times are stored for bosses and activities that keep personal best data in game. If applicable, you can pull these numbers from an Adventure Log's "Counters" section in your POH.    
-`!pb zulrah`    
-`!pb hespori`    
-`!pb jad`    
-`!pb inferno`    
-`!pb galvek`    
-`!pb gargs`, `!pb grotesque guardians`    
-`!pb hydra`, `!pb alchemical hydra`    
+`!pb zulrah`  
+`!pb hespori`  
+`!pb jad`  
+`!pb inferno`  
+`!pb galvek`  
+`!pb gargs`, `!pb grotesque guardians`  
+`!pb hydra`, `!pb alchemical hydra`  
 `!pb duke`, `!pb duke sucellus`  
 `!pb levi`, `!pb leviathan`  
 `!pb vard`, `!pb vardorvis`  
@@ -172,7 +188,7 @@ Personal best times are stored for bosses and activities that keep personal best
 `!pb chambers`, `!pb cox`, `!pb cox cm`, `!pb cox cm [1-24]`  
 `!pb tob`, `!pb tob hard`, `!pb hmt [1-5]`  
 `!pb toa`, `!pb toa [1-8]`, `!pb toa expert`, `!pb toa expert [1-8]`  
-`!pb hs`, `!pb hs [1-5]`    
+`!pb hs`, `!pb hs [1-5]`
 
 
 ### GC Command
