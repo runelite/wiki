@@ -139,11 +139,11 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 
 `aa`, `ape atoll` -> `Ape Atoll Agility`  
 `draynor`, `draynor agility` -> `Draynor Village Rooftop`  
-`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility` -> `Al Kharid Rooftop`  
+`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility`, `alkharid agility` -> `Al Kharid Rooftop`  
 `varrock`, `varrock agility` -> `Varrock Rooftop`  
 `canifis`, `canifis agility` -> `Canifis Rooftop`  
 `fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
-`seers`, `seers'`, `seer's`, `seers agility`, etc. -> `Seers' Village Rooftop`  
+`seers`, `seers'`, `seer's`, `seers village`, `seers' village`, `seer's village`, `seers agility`, `seers' agility`, `seer's agility`, `seers village agility`, `seers' village agility`, `seer's village agility` -> `Seers' Village Rooftop`  
 `pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
 `rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
 `ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`  
@@ -154,10 +154,10 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 `gnome stronghold` -> `Gnome Stronghold Agility`  
 `penguin` -> `Penguin Agility`  
 `werewolf` ->  `Werewolf Agility`  
-`skullball` -> `Werewolf SkullBall`  
+`skullball` -> `Werewolf Skullball`  
 `wildy`, `wildy agility` -> `Wilderness Agility`  
 `prif`, `prifddinas` -> `Prifddinas Agility Course`  
-`hs`, `hs [1-5]`, `ghc` -> `Hallowed Sepulchre`  
+`hs`,`hs[1-5]`, `hs [1-5]`, `ghc`, `sepulchre` -> `Hallowed Sepulchre`  
 `shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`  
 `shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
 
