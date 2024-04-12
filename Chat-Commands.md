@@ -95,7 +95,6 @@ Some boss names can be substituted for shorthand versions:
 `supreme` -> `Dagannoth Supreme`  
 `rex` -> `Dagannoth Rex`  
 `prime` -> `Dagannoth Prime`  
-`wt` -> `Wintertodt`  
 `barrows` -> `Barrows Chests`  
 `gaunt`, `the gauntlet` -> `Gauntlet`
 `cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
@@ -161,6 +160,14 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 `hs`, `hs [1-5]`, `ghc` -> `Hallowed Sepulchre`  
 `shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`  
 `shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
+
+#### Miscellaneous Abbreviations
+For some miscellaneous activities, the following shorthand versions can be used:
+
+`herbi` -> `Herbiboar`  
+`wt` -> `Wintertodt`  
+`fishingtodt`, `fishtodt` -> `Tempoross`  
+`gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`  
 
 ### Quest Points Commands
 
