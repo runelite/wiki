@@ -194,22 +194,16 @@ Enables the `!qp` command.
 
 Enables the `!pb` command.
 
-Personal best times are stored for bosses and activities that keep personal best data in game. If applicable, you can pull these numbers from an Adventure Log's "Counters" section in your POH.    
+Personal best times are stored for bosses and activities that keep personal best data in game. If applicable, you can pull these numbers from an Adventure Log's "Counters" section in your POH.  
+For potential shorthand versions, refer to the aliases listed [above](#boss-abbreviations).
+
+Examples include:  
 `!pb zulrah`  
-`!pb hespori`  
-`!pb jad`  
-`!pb inferno`  
 `!pb galvek`  
-`!pb gargs`, `!pb grotesque guardians`  
-`!pb hydra`, `!pb alchemical hydra`  
-`!pb duke`, `!pb duke sucellus`  
-`!pb levi`, `!pb leviathan`  
-`!pb vard`, `!pb vardorvis`  
-`!pb whisp`, `!pb whisperer`  
-`!pb chambers`, `!pb cox`, `!pb cox cm`, `!pb cox cm [1-24]`  
-`!pb tob`, `!pb tob hard`, `!pb hmt [1-5]`  
-`!pb toa`, `!pb toa [1-8]`, `!pb toa expert`, `!pb toa expert [1-8]`  
-`!pb hs`, `!pb hs [1-5]`
+`!pb tob`  
+`!pb toa expert 3`  
+`!pb prif`  
+`!pb hs 5`
 
 
 ### GC Command
