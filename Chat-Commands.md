@@ -90,39 +90,46 @@ Format: `!kc [boss]`, `!kc [activity]`
 
 Some boss names can be substituted for shorthand versions:
 
-`corp` -> `Corporeal Beast`  
-`jad`, `tzhaar fight cave` -> `TzTok-Jad`  
-`kq` -> `Kalphite Queen`  
+`dusk`, `dawn`, `gargs`, `ggs`, `gg` -> `Grotesque Guardians`  
+`sire` -> `Abyssal Sire`  
+`cerb` -> `Cerberus`  
+`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
+`hydra` -> `Alchemical Hydra`  
 `chaos ele` -> `Chaos Elemental`  
 `crazy arch` -> `Crazy Archaeologist`  
 `deranged arch` -> `Deranged Archaeologist`  
-`mole` -> `Giant Mole`  
 `vetion` -> `Vet'ion`  
 `calv`, `calvarion` -> `Calvar'ion`  
 `vene` -> `Venenatis`  
 `kbd` -> `King Black Dragon`  
+`corp` -> `Corporeal Beast`  
+`kq` -> `Kalphite Queen`  
+`mole` -> `Giant Mole`  
 `vork` -> `Vorkath`  
 `phantom`, `muspah`, `pm` -> `Phantom Muspah`  
-`sire` -> `Abyssal Sire`  
-`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
-`cerb` -> `Cerberus`  
-`hydra` -> `Alchemical Hydra`  
-`supreme` -> `Dagannoth Supreme`  
-`rex` -> `Dagannoth Rex`  
-`prime` -> `Dagannoth Prime`  
-`barrows` -> `Barrows Chests`  
-`gaunt`, `the gauntlet` -> `Gauntlet`  
-`cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
-`dusk`, `dawn`, `gargs`, `ggs`, `gg` -> `Grotesque Guardians`  
-`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
-`zuk`, `inferno` -> `TzKal-Zuk`  
-`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`  
+`nm`, `tnm`, `nmare`, `the nightmare` -> `Nightmare`  
+`pnm`, `phosani`, `phosanis`, `phosani nm`, `phosani nightmare`, `phosanis nightmare` -> `Phosani's Nightmare`  
 `sara`, `saradomin`, `zilyana`, `zily` -> `Commander Zilyana`  
 `zammy`, `zamorak`, `kril`, `kril trutsaroth` -> `K'ril Tsutsaroth`  
 `arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
-`nm`, `tnm`, `nmare`, `the nightmare` -> `Nightmare`  
-`pnm`, `phosani`, `phosanis`, `phosani nm`, `phosani nightmare`, `phosanis nightmare` -> `Phosani's Nightmare`  
+`supreme` -> `Dagannoth Supreme`  
+`rex` -> `Dagannoth Rex`  
+`prime` -> `Dagannoth Prime`  
+`duke` -> `Duke Sucellus`  
+`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)`  
+`levi`, `the leviathan` -> `Leviathan`  
+`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`  
+`vard` -> `Vardorvis`  
+`vard awakened`, `vardorvis awakened` -> `Vardorvis (awakened)`  
+`wisp`, `whisp`, `the whisperer` -> `Whisperer`  
+`wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`  
+`barrows` -> `Barrows Chests`  
+`gaunt`, `the gauntlet` -> `Gauntlet`  
+`cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
+`jad`, `tzhaar fight cave` -> `TzTok-Jad`  
+`zuk`, `inferno` -> `TzKal-Zuk`  
+`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`  
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
 `cox solo`, `cox duo`, `cox [1-24]`, `cox 24+` -> `Chambers of Xeric [1-24+] players`  
 `cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm`, `chambers of xeric - challenge mode` -> `Chambers of Xeric: Challenge Mode`  
@@ -137,15 +144,7 @@ Some boss names can be substituted for shorthand versions:
 `toa` -> `Tombs of Amascut`  
 `toa solo`, `toa duo`, `toa [1-8]` -> `Tombs of Amascut [1-8] players`  
 `toa expert`, `toa expert mode`, `tombs of amascut - expert` -> `Tombs of Amascut: Expert Mode`  
-`toa expert solo`, `toa expert duo`, `toa expert [1-8]` -> `Tombs of Amascut: Expert Mode [1-8] players`  
-`duke` -> `Duke Sucellus`  
-`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)`  
-`levi`, `the leviathan` -> `Leviathan`  
-`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`  
-`vard` -> `Vardorvis`  
-`vard awakened`, `vardorvis awakened` -> `Vardorvis (awakened)`  
-`wisp`, `whisp`, `the whisperer` -> `Whisperer`  
-`wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`
+`toa expert solo`, `toa expert duo`, `toa expert [1-8]` -> `Tombs of Amascut: Expert Mode [1-8] players`
 
 Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log or the Adventure log (in your own POH), or get another kill for RuneLite to register the kill counts.
 
