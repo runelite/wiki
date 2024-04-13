@@ -152,29 +152,29 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 #### Agility Course Abbreviations  
 `!kc` can also be used to share your Agility Course lap counts:
 
-`aa`, `ape atoll` -> `Ape Atoll Agility`  
+`gnome stronghold` -> `Gnome Stronghold Agility`  
+`brimhaven`, `brimhavan agility` -> `Agility Arena`  
+`shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`  
 `draynor`, `draynor agility` -> `Draynor Village Rooftop`  
 `al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility`, `alkharid agility` -> `Al Kharid Rooftop`  
-`varrock`, `varrock agility` -> `Varrock Rooftop`  
-`canifis`, `canifis agility` -> `Canifis Rooftop`  
-`fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
-`seers`, `seers'`, `seer's`, `seers village`, `seers' village`, `seer's village`, `seers agility`, `seers' agility`, `seer's agility`, `seers village agility`, `seers' village agility`, `seer's village agility` -> `Seers' Village Rooftop`  
-`pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
-`rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
-`ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`  
-`ap`, `pyramid`, -> `Agility Pyramid`  
-`barb`, `barb outpost` -> `Barbarian Outpost`  
-`brimhaven`, `brimhavan agility` -> `Agility Arena`  
-`dorg`, `dorgesh kaan`, `dorgesh-kaan` -> `Dorgesh-Kaan Agility`  
-`gnome stronghold` -> `Gnome Stronghold Agility`  
-`penguin` -> `Penguin Agility`  
-`werewolf` ->  `Werewolf Agility`  
 `skullball` -> `Werewolf Skullball`  
-`wildy`, `wildy agility` -> `Wilderness Agility`  
-`prif`, `prifddinas` -> `Prifddinas Agility Course`  
+`ap`, `pyramid`, -> `Agility Pyramid`  
+`penguin` -> `Penguin Agility`  
+`varrock`, `varrock agility` -> `Varrock Rooftop`  
+`barb`, `barb outpost` -> `Barbarian Outpost`  
+`canifis`, `canifis agility` -> `Canifis Rooftop`  
+`aa`, `ape atoll` -> `Ape Atoll Agility`  
+`shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`  
+`fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
 `hs`,`hs[1-5]`, `hs [1-5]`, `ghc`, `sepulchre` -> `Hallowed Sepulchre`  
-`shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`  
-`shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
+`wildy`, `wildy agility` -> `Wilderness Agility`  
+`werewolf` ->  `Werewolf Agility`  
+`seers`, `seers'`, `seer's`, `seers village`, `seers' village`, `seer's village`, `seers agility`, `seers' agility`, `seer's agility`, `seers village agility`, `seers' village agility`, `seer's village agility` -> `Seers' Village Rooftop`  
+`dorg`, `dorgesh kaan`, `dorgesh-kaan` -> `Dorgesh-Kaan Agility`  
+`pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
+`prif`, `prifddinas` -> `Prifddinas Agility Course`  
+`rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
+`ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`
 
 #### Miscellaneous Abbreviations
 For some miscellaneous activities, the following shorthand versions can be used:
