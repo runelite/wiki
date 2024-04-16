@@ -22,6 +22,7 @@
   - [I want to transfer my settings to another computer](#i-want-to-transfer-my-settings-to-another-computer)
   - [Wrong username and password after starting via the Jagex Launcher](#wrong-username-and-password-after-starting-via-the-jagex-launcher-on-windows)
   - [The Jagex launcher is stuck on Install on macOS](#the-jagex-launcher-is-stuck-on-install-on-macos)
+  - [I get the error: "You can't open the application "RuneLite" because this application is not supported on this Mac."](#i-get-the-error-you-cant-open-the-application-runelite-because-this-application-is-not-supported-on-this-mac)
   - [RuneLite is making me disconnect!](#runelite-is-making-me-disconnect)
   - [RuneLite is making my computer crash!](#runelite-is-making-my-computer-crash)
 
@@ -39,14 +40,14 @@ You can run in safe mode by either running the `RuneLite (safe mode)` shortcut o
 
 ### Without a Jagex account:
 
-Windows: Run the `RuneLite (safe mode)` shortcut.
+Windows: Run the `RuneLite (safe mode)` shortcut in your Windows Start menu.
 
 Mac: In Terminal, run:
 `/Applications/RuneLite.app/Contents/MacOS/RuneLite --safe-mode`
 
 ### With a Jagex account:
 
-Windows: Run the `RuneLite (configure)` shortcut.
+Windows: Run the `RuneLite (configure)` shortcut in your Windows Start menu.
 
 Mac: In Terminal, run:
 `/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure`
@@ -191,9 +192,9 @@ If you can reliably reproduce duplication of RSProfiles or if you know the cause
 If your issue has not been resolved at this point, join the [RuneLite Discord](https://runelite.net/discord) for further assistance.
 
 ## I want to transfer my settings to another computer
-Make sure RuneLite is **closed** on the system you want to transfer your settings to!
-You can either copy the whole `.runelite` folder to your new computer or you can sync your profile.
-- `.runelite` is located in `%userprofile%` on **Windows** or `$HOME` on **Linux** and **macOS**.
+You can either copy the whole `.runelite` folder to the other computer, or you can sync your profile. If you are setting up a new computer, you should copy `.runelite` instead of doing a profile sync because copying `.runelite` will also include screenshots and other 3rd party plugin settings which wouldn't be included in a profile sync.
+
+- `.runelite` is located in `%userprofile%` on **Windows** (eg `c:\Users\your name`) or `$HOME` on **Linux** and **macOS**. Be sure to close RuneLite on the system you are copying `.runelite` to prior to copying the files.
 - To sync your profile, go to `Configuration` (wrench icon) > `Profiles` (middle tab). Select the profile you want to sync and click on the cloud icon (`Enable cloud sync`). If the icon is orange, then cloud sync is enabled. You could try to disable and re-enable cloud sync if it does not sync properly.<br>
 ![config-profile-sync](https://user-images.githubusercontent.com/7191512/222978342-584d4842-38e4-40f7-8757-7085f016a5ad.png)
 
@@ -204,6 +205,13 @@ You can fix this by un-checking the `Run this program as an administrator` box i
 
 ## The Jagex launcher is stuck on Install on macOS
 Unlike on Windows where the Jagex launcher can check where your RuneLite is installed, on macOS it expects RuneLite to be in the applications folder. Moving it to the applications folder will resolve your issue.
+![](img/faq/faq_macos_applications_install.gif)
+
+## I get the error: "You can't open the application "RuneLite" because this application is not supported on this Mac."
+
+This error appears when you've downloaded the wrong version of RuneLite for your mac. You can open the `About this Mac` prompt and see what `Chip` your Mac uses.  
+If it's `Intel` select `Download for macOS (Intel)`, if it's `Apple` select `Download for macOS (Apple)`
+![](img/faq/faq_macos_chipset.png)
 
 ## RuneLite is making me disconnect!
 

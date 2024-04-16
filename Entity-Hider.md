@@ -1,45 +1,69 @@
 # Entity Hider Configuration
 
-[![Client View](https://thumbs.gfycat.com/ValidTenseGonolek-size_restricted.gif)](https://gfycat.com/ValidTenseGonolek)
+![](img/entity-hider/entity_hider_display.gif)
 
 ## Settings
 
-### 1. Hide Players
+### 1. Hide Others
 
-(Default On) Hides other players.
+(Default On) Hides other players who are not on your friends/ignore list, in your friends/clan chat, or in combat with you.
 
-### 2. Hide Players 2D
+### 2. Hide Others 2D
 
 (Default On) Hides other players' 2D elements such as chat, health bars, and prayers.
 
 ### 3. Hide Friends
 
-(Default Off) If 'Hide Players' isn't checked, this will hide your friends.
+(Default Off) Hides players if they appear online in your friends list.
 
-### 4. Hide Clan Mates
+### 4. Hide Friends Chat members
 
-(Default Off) If 'Hide Players' isn't checked, this will hide your clan mates.
+(Default Off) Hides members of your current friends chat.
 
-### 5. Hide Local Player
+### 5. Hide Clan Chat members
+
+(Default Off) Hides members of your current clan chat.
+
+### 6. Hide Ignores
+
+(Default Off) Hides players on your ignore list.
+
+### 7. Hide Local Player
 
 (Default Off) Hides yourself, similar to the "::renderself" command in OSRS.
 
-### 6. Hide Local Players 2D
+### 8. Hide Local Players 2D
 
-(Default Off) Hides your own 2D elements such as chat, health bars, and prayers
+(Default Off) Hides your own 2D elements such as chat, health bars, and prayers.
 
-### 7. Hide NPC
+### 9. Hide NPCs
 
-(Default On) Hides NPC's.
+(Default Off) Hides NPCs who are not pets, in combat with you, thralls, or random events.
 
-### 8. Hide NPC 2D
+### 10. Hide NPCs 2D
 
-(Default On) Hides NPC's 2D elements such as chat, health bars, and prayers.
+(Default Off) Hides NPC's 2D elements such as chat, health bars, and prayers.
 
-### 9. Hide Attackers
+### 11. Hide Other Players' Pets
 
-(Default Off) Hides NPC's health bar and hitsplats.
+(Default Off) Hides followers, such as pets, which belong to other players.
 
-### 10. Hide Projectiles
+### 12. Hide Attackers
 
-(Default Off) Hides projectiles such as an arrow aiming for the knee.
+(Default Off) Hides players and NPCs who are in combat with you.
+
+### 13. Hide Projectiles
+
+(Default Off) Hides projectiles such as arrows and spells.
+
+### 14. Hide Dead NPCs
+
+(Default Off) Hides NPCs when their HP reaches 0.
+
+### 15. Hide Thralls
+
+(Default Off) Hides Thralls summoned using the Arceuus spellbook's resurrection spells. Applies to Thralls summoned by any player, including your own.
+
+### 16. Hide Random Events
+
+(Default Off) Hides other players' random event NPCs, such as the Mysterious Old Man and Genie, and their overhead chat messages. Does not hide the Strange plant event (it's not currently possible for the client to determine which player the Strange plant has spawned for) or certain quest NPCs who may act similarly to random events, such as the Messengers from various (mini)quests.
