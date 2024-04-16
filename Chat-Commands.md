@@ -45,15 +45,30 @@ Format: `!lvl [skill]`, `!lvl total`, `!total`
 #### Skill Abbreviations
 
 Some skill names can be substituted for shorthand versions  
-`att` -> `Attack`  
-`def` -> `Defence`  
+`att`, `atk` -> `Attack`  
 `str` -> `Strength`  
-`hp` -> `Hitpoints`  
-`range` -> `Ranged`  
-`wc` -> `Woodcutting`  
-`fm` -> `Firemaking`  
-`rc`, `runecrafting` -> `Runecraft`  
-`con` -> `Construction`
+`def` -> `Defence`  
+`range`, `ranging`, `rng` -> `Ranged`  
+`pray` -> `Prayer`  
+`mage`, `mag` -> `Magic`  
+`rc`, `rune`, `runecrafting` -> `Runecraft`  
+`con`, `construct` -> `Construction`  
+`hp`, `health`, `hit`, `hitpoint` -> `Hitpoints`  
+`agi`, `agil` -> `Agility`  
+`herb`, `hl` -> `Herblore`  
+`thief` -> `Thieving`  
+`craft` -> `Crafting`  
+`fletch` -> `Fletching`  
+`slay` -> `Slayer`  
+`hunt` -> `Hunter`  
+`mine` -> `Mining`  
+`smith` -> `Smithing`  
+`fish` -> `Fishing`  
+`cook` -> `Cooking`  
+`fm`, `fire` -> `Firemaking`  
+`wc`, `wood`, `woodcut` -> `Woodcutting`  
+`farm` -> `Farming`  
+`all`, `total` -> `Overall`
 
 ### Clue Commands
 
@@ -75,76 +90,98 @@ Format: `!kc [boss]`, `!kc [activity]`
 
 Some boss names can be substituted for shorthand versions:
 
-`corp` -> `Corporeal Beast`  
-`jad` -> `TzTok-Jad`  
-`kq` -> `Kalphite Queen`  
+`dusk`, `dawn`, `gargs`, `ggs`, `gg` -> `Grotesque Guardians`  
+`sire` -> `Abyssal Sire`  
+`cerb` -> `Cerberus`  
+`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
+`hydra` -> `Alchemical Hydra`  
 `chaos ele` -> `Chaos Elemental`  
 `crazy arch` -> `Crazy Archaeologist`  
 `deranged arch` -> `Deranged Archaeologist`  
-`mole` -> `Giant Mole`  
 `vetion` -> `Vet'ion`  
+`calv`, `calvarion` -> `Calvar'ion`  
 `vene` -> `Venenatis`  
 `kbd` -> `King Black Dragon`  
+`corp` -> `Corporeal Beast`  
+`kq` -> `Kalphite Queen`  
+`mole` -> `Giant Mole`  
 `vork` -> `Vorkath`  
-`sire` -> `Abyssal Sire`  
-`cerb` -> `Cerberus`  
-`supreme` -> `Dagannoth Supreme`  
-`rex` -> `Dagannoth Rex`  
-`prime` -> `Dagannoth Prime`  
-`wt` -> `Wintertodt`  
-`barrows` -> `Barrows Chests`  
-`cg` -> `Corrupted Gauntlet`  
-`dusk`, `dawn`, `gargs` -> `Grotesque Guardians`  
-`smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
-`zuk`, `inferno`, -> `TzKal-Zuk`  
+`phantom`, `muspah`, `pm` -> `Phantom Muspah`  
+`nm`, `tnm`, `nmare`, `the nightmare` -> `Nightmare`  
+`pnm`, `phosani`, `phosanis`, `phosani nm`, `phosani nightmare`, `phosanis nightmare` -> `Phosani's Nightmare`  
 `sara`, `saradomin`, `zilyana`, `zily` -> `Commander Zilyana`  
 `zammy`, `zamorak`, `kril`, `kril trutsaroth` -> `K'ril Tsutsaroth`  
 `arma`, `kree`, `kreearra`, `armadyl` -> `Kree'arra`  
 `bando`, `bandos`, `graardor` -> `General Graardor`  
-`nm`, `tnm`, `nmare`, `the nightmare` -> `Nightmare`  
-`cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
-`cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm` -> `Chambers of Xeric: Challenge Mode`  
-`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`    
-`tob cm`, `tob hm`, `htm` -> `Theatre of Blood: Hard Mode`  
-`toa` -> `Tombs of Amascut`  
-`toa expert`, `toa expert mode`, `tombs of amascut - expert` -> `Tombs of Amascut: Expert Mode`  
+`supreme` -> `Dagannoth Supreme`  
+`rex` -> `Dagannoth Rex`  
+`prime` -> `Dagannoth Prime`  
 `duke` -> `Duke Sucellus`  
-`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)` 
+`duke awakened`, `duke sucellus awakened` -> `Duke Sucellus (awakened)`  
 `levi`, `the leviathan` -> `Leviathan`  
-`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`
+`levi awakened`, `leviathan awakened`, `the leviathan awakened` -> `Leviathan (awakened)`  
 `vard` -> `Vardorvis`  
 `vard awakened`, `vardorvis awakened` -> `Vardorvis (awakened)`  
 `wisp`, `whisp`, `the whisperer` -> `Whisperer`  
-`wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`
+`wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`  
+`barrows` -> `Barrows Chests`  
+`gaunt`, `the gauntlet` -> `Gauntlet`  
+`cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
+`jad`, `tzhaar fight cave` -> `TzTok-Jad`  
+`zuk`, `inferno` -> `TzKal-Zuk`  
+`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`  
+`cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
+`cox solo`, `cox duo`, `cox [1-24]`, `cox 24+` -> `Chambers of Xeric [1-24+] players`  
+`cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm`, `chambers of xeric - challenge mode` -> `Chambers of Xeric: Challenge Mode`  
+`cox cm solo`, `cox cm duo`, `cox cm [1-24]`, `cox cm 24+` -> `Chambers of Xeric: Challenge Mode [1-24+] players`  
+`tob sm`, `tob story mode`, `tob story`, `tob entry mode`, `tob em`, `tob entry` -> `Theatre of Blood: Entry Mode`  
+`tob`, `theatre`, `verzik`, `verzik vitur`, `raids 2` -> `Theatre of Blood`  
+`tob solo`, `tob duo`, `tob [1-5]` -> `Theatre of Blood [1-5] players`  
+`tob cm`, `tob hm`, `tob hard mode`, `tob hard`, `hmt` -> `Theatre of Blood: Hard Mode`  
+`hmt solo`, `hmt duo`, `hmt [1-5]` -> `Theatre of Blood: Hard Mode [1-5] players`  
+`toa entry`, `toa entry mode`, `tombs of amascut - entry` -> `Tombs of Amascut: Entry Mode`  
+`toa entry solo`, `toa entry duo`, `toa entry [1-8]` -> `Tombs of Amascut: Entry Mode [1-8] players`  
+`toa` -> `Tombs of Amascut`  
+`toa solo`, `toa duo`, `toa [1-8]` -> `Tombs of Amascut [1-8] players`  
+`toa expert`, `toa expert mode`, `tombs of amascut - expert` -> `Tombs of Amascut: Expert Mode`  
+`toa expert solo`, `toa expert duo`, `toa expert [1-8]` -> `Tombs of Amascut: Expert Mode [1-8] players`
 
-Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log for RuneLite to register the kill counts.
+Note: if the chat commands for !kc do not work in-game, you first need to open up an in-game Ring of Wealth's boss kill log or the Adventure log (in your own POH), or get another kill for RuneLite to register the kill counts.
 
 #### Agility Course Abbreviations  
 `!kc` can also be used to share your Agility Course lap counts:
 
-`aa`, `ape atoll` -> `Ape Atoll Agility`  
-`draynor`, `draynor agility` -> `Draynor Village Rooftop`  
-`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility` -> `Al Kharid Rooftop`  
-`varrock`, `varrock agility` -> `Varrock Rooftop`  
-`canifis`, `canifis agility` -> `Canifis Rooftop`  
-`fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
-`seers`, `seers'`, `seer's`, `seers agility`, etc. -> `Seers' Village Rooftop`  
-`pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
-`rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
-`ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`  
-`ap`, `pyramid`, -> `Agility Pyramid`  
-`barb`, `barb outpost` -> `Barbarian Outpost`  
-`brimhaven`, `brimhavan agility` -> `Agility Arena`  
-`dorg`, `dorgesh kaan`, `dorgesh-kaan` -> `Dorgesh-Kaan Agility`  
 `gnome stronghold` -> `Gnome Stronghold Agility`  
+`brimhaven`, `brimhavan agility` -> `Agility Arena`  
+`shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`  
+`draynor`, `draynor agility` -> `Draynor Village Rooftop`  
+`al kharid`, `al-kharid`, `alkharid`, `al kharid agility`, `al-kharid agility`, `alkharid agility` -> `Al Kharid Rooftop`  
+`skullball` -> `Werewolf Skullball`  
+`ap`, `pyramid`, -> `Agility Pyramid`  
 `penguin` -> `Penguin Agility`  
-`werewolf` ->  `Werewolf Agility`  
-`skullball` -> `Werewolf SkullBall`  
+`varrock`, `varrock agility` -> `Varrock Rooftop`  
+`barb`, `barb outpost` -> `Barbarian Outpost`  
+`canifis`, `canifis agility` -> `Canifis Rooftop`  
+`aa`, `ape atoll` -> `Ape Atoll Agility`  
+`shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`  
+`fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
+`hs`,`hs[1-5]`, `hs [1-5]`, `ghc`, `sepulchre` -> `Hallowed Sepulchre`  
 `wildy`, `wildy agility` -> `Wilderness Agility`  
-`prif`, `prifddinas` -> `Prifddinas Agility Course`    
-`hs`, `hs [1-5]`, `ghc` -> `Hallowed Sepulchre`  
-`shayb`, `sbac`, `shayzienbasic`, `shayzien basic` -> `Shayzien Basic Agility Course`
-`shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`
+`werewolf` ->  `Werewolf Agility`  
+`seers`, `seers'`, `seer's`, `seers village`, `seers' village`, `seer's village`, `seers agility`, `seers' agility`, `seer's agility`, `seers village agility`, `seers' village agility`, `seer's village agility` -> `Seers' Village Rooftop`  
+`dorg`, `dorgesh kaan`, `dorgesh-kaan` -> `Dorgesh-Kaan Agility`  
+`pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
+`prif`, `prifddinas` -> `Prifddinas Agility Course`  
+`rellekka`, `rellekka agility` -> `Rellekka Rooftop`  
+`ardy`, `ardy agility`, `ardy rooftop`, `ardougne`, `ardougne agility` -> `Ardougne Rooftop`
+
+#### Miscellaneous Abbreviations
+For some miscellaneous activities, the following shorthand versions can be used:
+
+`herbi` -> `Herbiboar`  
+`wt` -> `Wintertodt`  
+`fishingtodt`, `fishtodt` -> `Tempoross`  
+`gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`  
 
 ### Quest Points Commands
 
@@ -157,22 +194,16 @@ Enables the `!qp` command.
 
 Enables the `!pb` command.
 
-Personal best times are stored for bosses and activities that keep personal best data in game. If applicable, you can pull these numbers from an Adventure Log's "Counters" section in your POH.    
-`!pb zulrah`    
-`!pb hespori`    
-`!pb jad`    
-`!pb inferno`    
-`!pb galvek`    
-`!pb gargs`, `!pb grotesque guardians`    
-`!pb hydra`, `!pb alchemical hydra`    
-`!pb duke`, `!pb duke sucellus`  
-`!pb levi`, `!pb leviathan`  
-`!pb vard`, `!pb vardorvis`  
-`!pb whisp`, `!pb whisperer`  
-`!pb chambers`, `!pb cox`, `!pb cox cm`, `!pb cox cm [1-24]`  
-`!pb tob`, `!pb tob hard`, `!pb hmt [1-5]`  
-`!pb toa`, `!pb toa [1-8]`, `!pb toa expert`, `!pb toa expert [1-8]`  
-`!pb hs`, `!pb hs [1-5]`    
+Personal best times are stored for bosses and activities that keep personal best data in game. If applicable, you can pull these numbers from an Adventure Log's "Counters" section in your POH.  
+For potential shorthand versions, refer to the aliases listed [above](#boss-abbreviations).
+
+Examples include:  
+`!pb zulrah`  
+`!pb galvek`  
+`!pb tob`  
+`!pb toa expert 3`  
+`!pb prif`  
+`!pb hs 5`
 
 
 ### GC Command
