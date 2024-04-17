@@ -13,7 +13,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
-* Spellbook Re-ordering and Hiding: Forbidden by [Jagex's statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1): `Any movement or resizing of click zones for any interface or component under combat options, inventory, worn equipment, or spell book`
+* Spellbook resizing: Forbidden by [Jagex's statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1): `Any resizing of click zones for any interface or component under combat options, inventory, worn equipment, or spell book`
 * Highlighting "Offline" Friends (and generic player highlighting): Not included to respect players with their messaging mode set to Private and to avoid harassing players (see [#951](https://github.com/runelite/runelite/pull/951))
 * Mouse Keys: You may only use your operating system's official default mouse keys program. (see [Jagex Statement](https://services.runescape.com/m=news/mouse-keys---changes--clarification?oldschool=1))
 * Dynamic Puro-Puro Spawns:  Not supported by other 3rd party clients. Removed because this could be too powerful (see [#2371](https://github.com/runelite/runelite/issues/2371))
@@ -31,6 +31,5 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Twitch/BTTV/FFZ/7TV emote plugins: Distributing the emotes for these plugins would likely require skirting over the legal agreements of these services, and thus won't be accepted.  
 
 #### Menu Entry Swapping
-* `Build/Remove` on POH hotspots: [see Jagex statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1) (Try [this method](https://www.youtube.com/watch?v=u9AZWsDfo1I) instead)
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
   * Note, as of [Jagex's latest Third Party Client Guidelines](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1), we are now able to offer left-click and shift-click swaps for NPCs. See [our associated release post for info](https://runelite.net/blog/show/2022-06-17-1.8.24-Release)
