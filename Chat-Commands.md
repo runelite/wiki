@@ -142,7 +142,7 @@ Some boss names can be substituted for shorthand versions:
 `hmt solo`, `hmt duo`, `hmt [1-5]` -> `Theatre of Blood: Hard Mode [1-5] players`  
 `toa entry`, `toa entry mode`, `tombs of amascut - entry` -> `Tombs of Amascut: Entry Mode`  
 `toa entry solo`, `toa entry duo`, `toa entry [1-8]` -> `Tombs of Amascut: Entry Mode [1-8] players`  
-`toa` -> `Tombs of Amascut`  
+`toa`, `tombs`, `amascut`, `warden`, `wardens`, `raids 3` -> `Tombs of Amascut`  
 `toa solo`, `toa duo`, `toa [1-8]` -> `Tombs of Amascut [1-8] players`  
 `toa expert`, `toa expert mode`, `tombs of amascut - expert` -> `Tombs of Amascut: Expert Mode`  
 `toa expert solo`, `toa expert duo`, `toa expert [1-8]` -> `Tombs of Amascut: Expert Mode [1-8] players`
