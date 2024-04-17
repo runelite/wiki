@@ -125,6 +125,7 @@ Some boss names can be substituted for shorthand versions:
 `wisp`, `whisp`, `the whisperer` -> `Whisperer`  
 `wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`  
 `barrows` -> `Barrows Chests`  
+`lunar chests`, `moons of peril`, `perilous moon`, `perilous moons` -> `Lunar Chest`
 `gaunt`, `the gauntlet` -> `Gauntlet`  
 `cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
 `jad`, `tzhaar fight cave` -> `TzTok-Jad`  
