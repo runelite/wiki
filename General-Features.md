@@ -19,8 +19,14 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 ### Profiles
 
-As of the 1.9.11 release, profiles are now available to hold different distinct settings configurations within the same client instance.  By default the profile loaded on startup will be the one that was most recently active, to override this you can pass `--profile=<profilename>` to the launcher and it will load that specific profile on startup.
+Profiles are separate sets of plugins and settings that can be switched between at any time. They can be managed under a tab in configuration panel.
+
+![](img/profiles.png)
+
+Below each profile are buttons to interact with them. From left to right, the buttons are: rename, duplicate, export to file, toggle cloud sync, and delete. Cloud sync is available when you are logged in to the client using a runelite.net account. Profiles can be dragged to re-order them.
+
+By default the profile loaded on startup will be the one that was most recently active. To load a specific profile on startup you can pass `--profile=<profilename>` to the launcher.
 
 Advanced users that previously utilized the old method of passing a `--session` and/or `--config` parameter should now instead use `--profile`.  An import feature was included to facilitate taking all the distinct settings created by those and creating profiles from them, simply select to import and navigate to the directory containing the settings and select them individually. 
 
-More info on the importing procedure can be found in [[this FAQ entry | FAQ#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile]]
+More info on the importing procedure can be found in [this FAQ entry](FAQ.md#how-do-i-convert-the-previous-multi-sessionsetting-file-to-a-profile)
