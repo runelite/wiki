@@ -19,7 +19,7 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 ### Profiles
 
-Profiles are separate sets of plugins and settings that can be switched between at any time. They can be managed under a tab in configuration panel.
+Profiles are separate sets of plugins and settings that can be switched between at any time. They can be managed under a tab in the configuration panel.
 
 ![](img/profiles.png)
 
