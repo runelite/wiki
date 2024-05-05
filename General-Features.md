@@ -28,9 +28,9 @@ Below each profile are buttons to interact with them. Toggled buttons will turn 
  2. Duplicate profile
  3. Export profile
  4. Set profile as default for the current RuneScape account
- * Must be logged in to the game using a RuneScape account
+   * Must be logged in to the game using a RuneScape account
  5. Enable cloud sync
- * Must be logged in to the client using a RuneLite.net account
+   * Must be logged in to the client using a RuneLite.net account
  6. Delete profile
  
 Additionally, profiles can be dragged to re-order them.
