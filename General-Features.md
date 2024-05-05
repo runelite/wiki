@@ -23,7 +23,18 @@ Profiles are separate sets of plugins and settings that can be switched between 
 
 ![](img/profiles.png)
 
-Below each profile are buttons to interact with them. From left to right, the buttons are: rename, duplicate, export to file, toggle cloud sync, and delete. Cloud sync is available when you are logged in to the client using a runelite.net account. Profiles can be dragged to re-order them.
+Below each profile are buttons to interact with them. Toggled buttons will turn orange to indicate they are enabled. From left to right, the buttons are: 
+ 1. Rename profile
+ 2. Duplicate profile
+ 3. Export profile
+ 4. Set profile as default for the current RuneScape account
+ * Must be logged in to the game using a RuneScape account
+ 5. Enable cloud sync
+ * Must be logged in to the client using a RuneLite.net account
+ 6. Delete profile
+ 
+Additionally, profiles can be dragged to re-order them.
+
 
 By default the profile loaded on startup will be the one that was most recently active. To load a specific profile on startup you can pass `--profile=<profilename>` to the launcher.
 
