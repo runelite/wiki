@@ -23,7 +23,7 @@ Profiles are separate sets of plugins and settings that can be switched between 
 
 ![](img/profiles.png)
 
-Below each profile are buttons to interact with them. Toggled buttons will turn orange to indicate they are enabled. From left to right, the buttons are: 
+Clicking the arrow to the right of a profile will expand it to reveal the buttons used to interact with the profile. From left to right, the buttons are: 
  1. Rename profile
  2. Duplicate profile
  3. Export profile
@@ -33,8 +33,7 @@ Below each profile are buttons to interact with them. Toggled buttons will turn 
      - Must be logged in to the client using a RuneLite.net account
  6. Delete profile
  
-Additionally, profiles can be dragged to re-order them.
-
+Clicking the arrow to the right of the profile while it is already expanded will select the profile. You can also double-click a profile to select it. Profiles can be re-ordered by dragging them. Toggleable buttons will turn orange to indicate they are enabled. The currently selected profile is indicated by the orange bar highlight on its left.
 
 By default the profile loaded on startup will be the one that was most recently active. To load a specific profile on startup you can pass `--profile=<profilename>` to the launcher.
 
