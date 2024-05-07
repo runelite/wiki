@@ -33,7 +33,7 @@ Clicking the arrow to the right of a profile will expand it to reveal the button
      - Must be logged in to the client using a RuneLite.net account
  6. Delete profile
  
-Clicking the arrow to the right of the profile while it is already expanded will select the profile. You can also double-click a profile to select it. Profiles can be re-ordered by dragging them. Toggleable buttons will turn orange to indicate they are enabled. The currently selected profile is indicated by the orange bar highlight on its left.
+Clicking the arrow to the right of the profile while it is already expanded will activate the profile. You can also double-click a profile to activate it. Profiles can be re-ordered by dragging them. Toggleable buttons will turn orange to indicate they are enabled. The currently activated profile is indicated by the orange bar highlight on its left.
 
 By default the profile loaded on startup will be the one that was most recently active. To load a specific profile on startup you can pass `--profile=<profilename>` to the launcher.
 
