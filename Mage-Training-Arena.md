@@ -16,7 +16,7 @@ The Alchemy room overlay shows you in what cupboard what item is based on the it
 
 The Graveyard room is a lot less complex than the other two. This overlay will add a counter infobox displaying how many fruit your bones will get you and the color changes depending on whether this is enough for a point.The games bones widget is hidden as it is rendered useless by this plugin and may interfere with the counter boxes. This room also has an overlay for your inventory that turns green when the points of the bones in your inventory are enough to get a graveyard point. This overlay is off by default and can be turned on from the config.
 
-![Creature Graveyard overlays demonstration](img/mage-training-arena/mage_training_arena_graveyard.webp)
+![Creature Graveyard overlays demonstration](img/mage-training-arena/mage_training_arena_graveyard.gif)
 
 ## Enchanting Chamber
 

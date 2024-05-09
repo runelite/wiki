@@ -19,7 +19,23 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 ### Profiles
 
-As of the 1.9.11 release, profiles are now available to hold different distinct settings configurations within the same client instance.  By default the profile loaded on startup will be the one that was most recently active, to override this you can pass `--profile=<profilename>` to the launcher and it will load that specific profile on startup.
+Profiles are separate sets of plugins and settings that can be switched between at any time. They can be managed under a tab in the configuration panel.
+
+![](img/profiles.png)
+
+Clicking the arrow to the right of a profile will expand it to reveal the buttons used to interact with the profile. From left to right, the buttons are: 
+ 1. Rename profile
+ 2. Duplicate profile
+ 3. Export profile
+ 4. Set profile as default for the current RuneScape account
+     - Must be logged in to the game using a RuneScape account
+ 5. Enable cloud sync
+     - Must be logged in to the client using a RuneLite.net account
+ 6. Delete profile
+ 
+Clicking the arrow to the right of the profile while it is already expanded will activate the profile. You can also double-click a profile to activate it. Profiles can be re-ordered by dragging them. Toggleable buttons will turn orange to indicate they are enabled. The currently activated profile is indicated by the orange bar highlight on its left.
+
+By default the profile loaded on startup will be the one that was most recently active. To load a specific profile on startup you can pass `--profile=<profilename>` to the launcher.
 
 Advanced users that previously utilized the old method of passing a `--session` and/or `--config` parameter should now instead use `--profile`.  An import feature was included to facilitate taking all the distinct settings created by those and creating profiles from them, simply select to import and navigate to the directory containing the settings and select them individually. 
 
