@@ -1,7 +1,7 @@
 # Music Plugin Configuration
 Adds search and filter for the music list
 
-![Music plugin filtering](img/music/music_filter.png)
+![Music plugin filtering](https://runelite.net/img/blog/1.5.25-Release/music-filter.png)
 
 The plugin will also allow you to control the in-game volume with more granularity.
 
