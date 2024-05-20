@@ -1,6 +1,7 @@
 The Poison plugin displays an infobox with the current amount of poison/venom damage, recolors your HP heart sprite according to your poison type, and displays a tooltip when hovering your HP orb with poison information.
 
-![Poison information infobox](img/poison/poison_infobox.png) ![HP heart sprite recolors according to poison types](img/poison/poison_hp_orb.png) 
+![Poison information infobox](img/poison/poison_infobox.png) ![HP heart sprite recolors according to poison types](img/poison/poison_hp_orb.png)
+
 ![HP orb poison information tooltip](img/poison/poison_orb_tooltip.png)
 
 ## Settings
