@@ -1,6 +1,6 @@
 # RuneLite Configuration
 
-![image](img/runelite/runelite_config.png)
+<img width="241" alt="" src="img/runelite/runelite_config.png">
 
 ## Window Settings
 
