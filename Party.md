@@ -1,4 +1,4 @@
-# Features
+# Party Features
 
 Party Members can "ping" a tile, which will show up for all party members. Requires setting the ping hotkey in the plugin configuration.
 
