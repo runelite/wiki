@@ -1,6 +1,6 @@
 # Camera Configuration
 
-[![Client View](https://thumbs.gfycat.com/RipeCraftyBison-size_restricted.gif)](https://gfycat.com/RipeCraftyBison)
+![camera_overview](img/camera/camera_overview.webp)
 
 ## Camera
 ### Expand Inner Zoom Limit
@@ -33,7 +33,7 @@ Middle-mouse button always opens the menu.
 
 Adds Look South, East, and West to the compass' right-click menu.
 
-<img width="103" src="https://user-images.githubusercontent.com/54762282/83596810-9fbb7880-a533-11ea-940d-5b12877f63c9.png">
+<img width="103" alt="" src="img/camera/camera_compass.png">
 
 ### Invert Yaw
 

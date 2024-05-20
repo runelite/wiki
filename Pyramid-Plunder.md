@@ -1,7 +1,7 @@
 ## Pyramid Plunder Plugin Configuration
 Shows a custom overlay for Pyramid Plunder
 
-![Pyramid Plunder plugin](https://user-images.githubusercontent.com/33374903/83197899-45be4b80-a10c-11ea-9963-84ca9bc7a50c.gif)
+![Pyramid Plunder plugin](img/pyramid-plunder/pyramid_plunder_example.gif)
 
 ## Settings
 ### Hide default timer

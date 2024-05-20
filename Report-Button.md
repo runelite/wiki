@@ -1,6 +1,6 @@
 ## Report Button Configuration
 
-![Report button preview](https://i.imgur.com/mFvT5gD.png)
+![Report button preview](img/report-button/report_button_example.png)
 
 ## Settings
 ### Display Options

@@ -2,7 +2,7 @@
 
 Display information about drift nets
 
-![Drift Net plugin overlay](https://user-images.githubusercontent.com/25151927/75198364-b1d19200-5760-11ea-82bc-64ab3ad2e350.png)
+![Drift Net plugin overlay](img/drift-net/drift_net_overlay.png)
 
 ## Settings
 

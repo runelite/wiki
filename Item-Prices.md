@@ -1,6 +1,6 @@
 # Item Prices Configuration
 
-![](https://i.imgur.com/o3cuKuK.png)
+![](img/item-prices/item_prices_display.png)
 
 Show High Alch and average grand exchange prices on hover for items in your inventory and bank
 

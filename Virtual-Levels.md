@@ -1,6 +1,6 @@
 Shows virtual levels (beyond 99) and virtual skill total on the skills tab.
 
-![Virtual Levels](https://i.imgur.com/50C8uwA.png)
+![Virtual Levels](img/virtual-levels/virtual_levels_example.png)
 
 ## Settings
 
