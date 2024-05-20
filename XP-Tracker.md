@@ -13,8 +13,7 @@ When open, this panel can display the following information about each skill in 
 
 Additionally, you are able to right click your Overall Gained XP or each skill individually for some additional options:
 
-<img width="138" alt="" src="img/xp-tracker/xp_tracker_overall_options.png">
-<img width="138" alt="" src="img/xp-tracker/xp_tracker_singular_options.png">
+<img width="138" alt="" src="img/xp-tracker/xp_tracker_overall_options.png"> <img width="138" alt="" src="img/xp-tracker/xp_tracker_singular_options.png">
 
 ## Settings
 
