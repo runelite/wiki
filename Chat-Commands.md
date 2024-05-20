@@ -73,7 +73,7 @@ Enables the `!clues` command.
 
 Format: `!clues`- total clues, `!clues [tier]` (e.g., `!clues easy`)
 
-![clue command](img/chat-commands/chat_commands_clue.png)
+<img width="210" alt="" src="img/chat-commands/chat_commands_clue.png">
 
 ### Killcount Command
 
@@ -81,7 +81,7 @@ Enables the `!kc` command.
 
 Format: `!kc [boss]`, `!kc [activity]`
 
-![kc command](img/chat-commands/chat_commands_kc.png)
+<img width="132" alt="S" src="img/chat-commands/chat_commands_kc.png">
 
 #### Boss Abbreviations
 
@@ -185,7 +185,7 @@ For some miscellaneous activities, the following shorthand versions can be used:
 
 Enables the `!qp` command.
 
-![qp command](img/chat-commands/chat_commands_qp.png)
+<img width="109" alt="" src="img/chat-commands/chat_commands_qp.png">
 
 
 ### Personal Best Command
@@ -212,13 +212,13 @@ Enables the `!gc` command to show Barbarian Assault High gamble count.
 
 Enables the `!duels` command.
 
-![duels command](img/chat-commands/chat_commands_duels.png)
+<img width="246" alt="" src="img/chat-commands/chat_commands_duels.png">
 
 ### Bounty Hunter Command
 
 Enables the `!bh` command.
 
-[bh command](img/chat-commands/chat_commands_bh.png)
+<img width="175" alt="" src="img/chat-commands/chat_commands_bh.png">
 
 ### Bounty Hunter Rogue Command
 
@@ -228,7 +228,7 @@ Enables the `!bhrogue` command.
 
 Enables the `!lms` command.
 
-[lms command](img/chat-commands/chat_commands_lms.png)
+<img width="249" alt="Screen Shot 2020-06-18 at 3 18 55 AM" src="img/chat-commands/chat_commands_lms.png">
 
 ### Clear Single Word
 
