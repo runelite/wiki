@@ -27,7 +27,7 @@ Controls how thick the border of the tiles are.
 
 ### Draw tiles on the minimap
 
-Displays the marked tiles on the minimap
+Displays the marked tiles on the minimap.
 
 ![minimap](img/ground-markers/ground_markers_minimap.png)
 
