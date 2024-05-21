@@ -21,7 +21,7 @@ The plugin also remembers which tiles you have marked between sessions.
 
 ### Border width
 
-Controls how thick the border of the ground marker is
+Controls how thick the border of the tiles are.
 
 ![thickness](img/ground-markers/ground_markers_width.png)
 
