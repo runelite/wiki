@@ -1,11 +1,10 @@
 # Motherload Mine Configuration
 
-## Settings
-
 We use the default overlay for tracking how much pay-dirt is in the sack.
 
-![pay-dirt sack infobox](img/motherlode-mine/motherlode_mine_sack_half_full.png)  
-![infobox warning that sack is full](img/motherlode-mine/motherlode_mine_sack_full.png)
+![pay-dirt sack infobox](img/motherlode-mine/motherlode_mine_sack_half_full.png) ![infobox warning that sack is full](img/motherlode-mine/motherlode_mine_sack_full.png)
+
+## Settings
 
 ### Reset stats (minutes)
 
