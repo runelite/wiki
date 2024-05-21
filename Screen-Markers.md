@@ -33,7 +33,7 @@ Fills in the box with the selected `Fill Color` from `Edit Fill Color` section.
 
 ## Examples
 ### Agility
-![Agility Markers](https://github.com/runelite/wiki/assets/41973452/ba73a48f-06e3-43fa-8ed7-8f1a7c9d9f30)
+![Agility Markers](img/screen-markers/screen_markers_agility.png)
 ### Bank Standing Skills
 ![Bank Standing](img/screen-markers/screen_markers_bank_standing.png)
 ### Blast Furnace
