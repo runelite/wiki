@@ -1,25 +1,33 @@
 # Cannon Configuration
 
-[![Client View](https://thumbs.gfycat.com/CarefulWillingDrafthorse-size_restricted.gif)](https://gfycat.com/CarefulWillingDrafthorse)
-
 ## Settings
 
-### 1. Show double hit spots
+### Enable cannon notifications
 
-(Default Off) When enabled, this displays the double hit spots next to the cannon placement.
+Sends client notifications when your cannon is low on cannonballs.
 
-### 2. Color of double hit spots [Configurable Box]
+### Low Warning threshold
 
-(Default Red) When enabled, this displays the double hit spots next to the cannon placement.
+Controls how many cannonballs should be left before a notification is sent.
 
-### 3. Show common cannon spots
+### Show cannonball infobox
 
-(Default On) This shows you the most optimal cannon placement location.
+Displays the amount of loaded cannonballs via an infobox.
 
-### 4. Show Cannonball infobox
+![infobox](img/cannon/cannonball_infobox.png)
 
-(Default Off) When enabled, this displays the amount of cannonballs loaded into the cannon.
+### Show double hit spots
 
-### 5. Empty cannon notification
+Displays the double hit spots next to the cannon placement.
 
-(Default On) This alerts you when your cannon is out of cannonballs. 
+![double hit](img/cannon/cannon_double_hit.png)
+
+### Double hit spots
+
+Sets the color of the double hit spot tiles.
+
+### Show common cannon spots
+
+Shows optimal cannon placement locations.
+
+![](img/cannon/cannon_common_spot.png)
