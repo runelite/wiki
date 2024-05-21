@@ -4,11 +4,13 @@ The Ground Markers plugin allows user to mark tiles around the world. Marking ti
 
 You are able to do the following with a marked tile in that same shift right click menu:
 
-- Unmark (delete)
+- Unmark (delete)  
 ![unmark tile](img/ground-markers/ground_markers_unmark.png)
-- Label
+
+- Label  
 ![label tile](img/ground-markers/ground_markers_label.png)
-- Color
+
+- Color  
 ![color tile](img/ground-markers/ground_markers_color.png)
 
 The plugin also remembers which tiles you have marked between sessions.
