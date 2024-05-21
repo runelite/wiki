@@ -1,29 +1,20 @@
 # Motherload Mine Configuration
 
+We use the default overlay for tracking how much pay-dirt is in the sack.
+
+![pay-dirt sack infobox](img/motherlode-mine/motherlode_mine_sack_half_full.png) ![infobox warning that sack is full](img/motherlode-mine/motherlode_mine_sack_full.png)
+
 ## Settings
-
-### Show pay-dirt sack
-
-Configures whether to display the amount of pay-dirt in the sack is or not.  
-
-![pay-dirt sack infobox](img/motherlode-mine/motherlode_mine_sack_half_full.png)  
-![infobox warning that sack is full](img/motherlode-mine/motherlode_mine_sack_full.png)
 
 ### Reset stats (minutes)
 
 Configures the time until statistics are reset.
 
-### Show gems found
+### Show broken struts
 
-Shows gems found during mining session.  
+Shows an overlay when a Water wheel has a Broken strut and needs repair.
 
-![gems found infobox](img/motherlode-mine/motherlode_mine_gems.png)
-
-### Show mining session stats 
-
-Displays pay-dirt mined and pay-dirt/hr.
-
-![mining stats infobox](img/motherlode-mine/motherlode_mine_stats.png)
+![water wheel strut](img/motherlode-mine/motherlode_mine_strut_setting.png)
 
 ### Show current mining state
 
@@ -31,16 +22,33 @@ Shows current mining state if mining session stats are enabled.
 
 ![player is mining](img/motherlode-mine/motherlode_mine_state_active.png)  
 ![player is not mining](img/motherlode-mine/motherlode_mine_state_inactive.png)
-### Show deposits left
 
-Displays the number of deposits before sack is full.  
+### Show mining session stats 
 
-![deposits left infobox](img/motherlode-mine/motherlode_mine_deposits_left.png)  
-![infobox showing 1 deposit left](img/motherlode-mine/motherlode_mine_deposits_left_1.png)  
-![infobox showing 0 deposit left](img/motherlode-mine/motherlode_mine_deposits_left_0.png)
+Displays pay-dirt mined and pay-dirt/hr.
+
+![mining stats infobox](img/motherlode-mine/motherlode_mine_stats.png)
 
 ### Show pay-dirt mining spots
 
-marks pay-dirt veins and rock obstacles.  
+Shows an overlay on the pay-dirt veins.  
 
-![mining spot and obstacle highlighting](img/motherlode-mine/motherlode_mine_overlays.png)
+![mining spot highlight](img/motherlode-mine/motherlode_mine_overlays.png)
+
+### Show rocks obstacles
+
+Shows an overlay on Rockfall's blocking your path around the mine.
+
+![rockfalls](img/motherlode-mine/motherlode_mine_rockfall.png)
+
+### Track gems found
+
+Shows gems found during mining session in the Loot Tracker.  
+
+![gems loot tracker](img/motherlode-mine/motherlode_mine_gems.png)
+
+### Track ores found
+
+Shows ore found during mining session in the Loot Tracker.
+
+![ores loot tracker](img/motherlode-mine/motherlode_mine_ores.png)
