@@ -1,4 +1,6 @@
 <!-- omit in toc -->
+This guide is for core client development. For plugin hub development, see [[Developer Guide]].
+
 # Table of Contents
 
 - [Getting started](#getting-started)
