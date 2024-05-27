@@ -153,6 +153,12 @@ If you are getting error about `git.exe` (or `git` on linux and mac) missing, yo
 
 If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or skipping the tests by running a custom run configuration as outlined in [Building the project](#building-the-project).
 
+## Pluginhub failing to load
+
+This happens because the development versions are configured by default as snapshot versions, whereas pluginhub manifests are only available for stable releases. To get around this, open a stable release of RuneLite, open the Info panel and note the Runelite version. In IntelliJ, modify your run configuration that starts Runelite and add the flag `-Drunelite.pluginhub.version=` followed by the stable version number you noted before, to the vm arguments. For example, if the stable release of Runelite is 1.10.31.2, then the vm arguments might look like `-ea -Drunelite.pluginhub.version=1.10.31.2`
+
+You may want to do this in order to test a conflict one of your plugins' users reports with another plugin that isn't yours, as an example.
+
 ## Client failing to start
 
 If the client fails to boot or if the applet does not appear, try running the Maven build again with the following command:  
