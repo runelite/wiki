@@ -14,6 +14,7 @@ This guide is for core client development. For plugin hub development, see [[Dev
   - [WARNING: An illegal reflective access operation has occurred](#WARNING-An-illegal-reflective-access-operation-has-occurred)
   - [Missing git](#missing-git)
   - [Tests are failing](#tests-are-failing)
+  - [Pluginhub failing to load](#pluginhub-failing-to-load)
   - [Client failing to start](#client-failing-to-start)
 
 # Getting started
