@@ -155,7 +155,7 @@ If you've followed all instructions correctly, try deleting the `%TEMP%/cache-16
 
 ## Pluginhub failing to load
 
-This happens because the development versions are snapshot versions, whereas we only provide builds of pluginhub plugins for stable releases of RuneLite. Usually you can pass -Drunelite.pluginhub.version=<current RL version> as a VM option to load the plugins built against the release into your build, which will work if there are no ABI changes. If there are ABI changes, build the plugins yourself and place them into the sideloaded-plugins directory when running in developer mode.
+This happens because the development versions are snapshot versions, whereas we only provide builds of pluginhub plugins for stable releases of RuneLite. Usually you can pass `-Drunelite.pluginhub.version=<current RL version>` as a VM option to load the plugins built against the release into your build, which will work if there are no ABI changes. If there are ABI changes, build the plugins yourself and place them into the `sideloaded-plugins` directory when running in developer mode.
 
 ## Client failing to start
 
