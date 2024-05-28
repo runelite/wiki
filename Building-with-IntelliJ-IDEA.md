@@ -14,6 +14,7 @@ This guide is for core client development. For plugin hub development, see [[Dev
   - [WARNING: An illegal reflective access operation has occurred](#WARNING-An-illegal-reflective-access-operation-has-occurred)
   - [Missing git](#missing-git)
   - [Tests are failing](#tests-are-failing)
+  - [Pluginhub failing to load](#pluginhub-failing-to-load)
   - [Client failing to start](#client-failing-to-start)
 
 # Getting started
@@ -152,6 +153,10 @@ If you are getting error about `git.exe` (or `git` on linux and mac) missing, yo
 ## Tests are failing
 
 If you've followed all instructions correctly, try deleting the `%TEMP%/cache-165` folder or skipping the tests by running a custom run configuration as outlined in [Building the project](#building-the-project).
+
+## Pluginhub failing to load
+
+This happens because the development versions are snapshot versions, whereas we only provide builds of pluginhub plugins for stable releases of RuneLite. Usually you can pass `-Drunelite.pluginhub.version=<current RL version>` as a VM option to load the plugins built against the release into your build, which will work if there are no ABI changes. If there are ABI changes, build the plugins yourself and place them into the `sideloaded-plugins` directory when running in developer mode.
 
 ## Client failing to start
 
