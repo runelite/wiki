@@ -23,3 +23,4 @@ Customize your timestamp format by using the following characters
 * `hh` : hour in 12 hour format
 * `mm` : minute
 * `ss` : second
+* `a`  : AM/PM
