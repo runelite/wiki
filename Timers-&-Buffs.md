@@ -1,5 +1,5 @@
-## Timers Configuration
-The Timers plugin will show various timers in an infobox to the top left of the game window, and all timers can be switched on or off  
+## Timers & Buffs Configuration
+The Timers & Buffs plugin will show various timers and buffs in an infobox to the top left of the game window, and all timers and buffs can be switched on or off  
 
 The current timers available are:  
 * Antifire (+ extended)
