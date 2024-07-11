@@ -20,7 +20,7 @@ chat message that is being typed, or the tooltip delay.
 
 Finding Vars
 -------
-The easiest way to find a var is to use the Var inspector in DevTools. While the window is open it will log
+The easiest way to find a var is to use the Var inspector in [DevTools](https://github.com/runelite/runelite/wiki/Using-the-client-developer-tools). While the window is open it will log
 all changes to vars. Simply open the window and do an action in game that should change the var. Keep in mind
 that many things change, so always double check that your var is related to what you are doing. If nothing relevant
 shows up it is possible that the var you are trying to find is not shared with the client, or is not a Var at all.
