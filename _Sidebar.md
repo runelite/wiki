@@ -113,6 +113,7 @@
   * [[Slayer]]
   * [[Smelting]]
   * [[Special Attack Counter]]
+  * [[Spellbook]]
   * [[Status Bars]]
   * [[Stretched Mode]]
   * [[Team Capes]]
