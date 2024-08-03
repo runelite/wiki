@@ -25,4 +25,3 @@ Toggles whether the world hopper panel should be added to the sidebar
 ### Quick-hop Chat Command
 
 `::hop <world-number>` can be typed into the games chatbox to hop to the specified world (e.g. `::hop 321` to hop to world 321)
->>>>>>> upstream/master
