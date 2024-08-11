@@ -127,8 +127,8 @@ Some boss names can be substituted for shorthand versions:
 `cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
 `jad`, `tzhaar fight cave` -> `TzTok-Jad`  
 `zuk`, `inferno` -> `TzKal-Zuk`  
-`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`
-`sol`, `colo`, `colosseum`, `fortis colosseum` -> `Sol Heredit`
+`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`   
+`sol`, `colo`, `colosseum`, `fortis colosseum` -> `Sol Heredit`   
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
 `cox solo`, `cox duo`, `cox [1-24]`, `cox 24+` -> `Chambers of Xeric [1-24+] players`  
 `cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm`, `chambers of xeric - challenge mode` -> `Chambers of Xeric: Challenge Mode`  
@@ -180,7 +180,8 @@ For some miscellaneous activities, the following shorthand versions can be used:
 `herbi` -> `Herbiboar`  
 `wt` -> `Wintertodt`  
 `fishingtodt`, `fishtodt` -> `Tempoross`  
-`gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`  
+`gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`   
+`hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`
 
 ### Quest Points Commands
 
