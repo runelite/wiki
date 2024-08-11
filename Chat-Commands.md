@@ -180,7 +180,8 @@ For some miscellaneous activities, the following shorthand versions can be used:
 `herbi` -> `Herbiboar`  
 `wt` -> `Wintertodt`  
 `fishingtodt`, `fishtodt` -> `Tempoross`  
-`gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`  
+`gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`   
+`hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`
 
 ### Quest Points Commands
 
