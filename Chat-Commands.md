@@ -127,7 +127,8 @@ Some boss names can be substituted for shorthand versions:
 `cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
 `jad`, `tzhaar fight cave` -> `TzTok-Jad`  
 `zuk`, `inferno` -> `TzKal-Zuk`  
-`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`  
+`jad 1-6` -> `TzHaar-Ket-Rak's [First-Sixth] Challenge`
+`sol`, `colo`, `colosseum`, `fortis colosseum` -> `Sol Heredit`
 `cox`, `xeric`, `chambers`, `olm`, `raids` -> `Chambers of Xeric`  
 `cox solo`, `cox duo`, `cox [1-24]`, `cox 24+` -> `Chambers of Xeric [1-24+] players`  
 `cox cm`, `xeric cm`, `chambers cm`, `olm cm`, `raids cm`, `chambers of xeric - challenge mode` -> `Chambers of Xeric: Challenge Mode`  
