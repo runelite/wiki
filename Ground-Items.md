@@ -20,6 +20,13 @@ Configures hidden ground items.
 * **Format:** `item`, `item`
 * **Format:** `item<5`, `item>5` to filter based on quantity
 
+## Per-item colors
+
+You are able to change the color of specific items via the shift+right-click menu.
+This feature will highlight the item based on the items ID, so Easy/Medium/Hard/Elite clue highlighting will only highlight that specific step. 
+
+![per-item colors](img/ground-items/ground_items_per_item_colors.png) ![yellow maple logs](img/ground-items/ground_items_maple_logs_yellow.png)
+
 ## Settings
 
 ### Show Highlighted items only
@@ -65,10 +72,6 @@ Configures what to highlight in the right-click menu.
 ### Highlight Value Calculation
 
 Configures which coin value is used to determine highlight color.
-
-### Highlight &gt; Value
-
-Configures highlighted ground items over either GE or HA value.
 
 ### Hide under value
 
@@ -135,3 +138,25 @@ Collapses ground item menu entries together and appends count.
 Shows a green timer ![Green Timer](img/ground-items/ground_items_green_timer.png) that counts down until items dropped or received as loot are visible to other players.
 
 Shows a yellow timer ![Yellow Timer](img/ground-items/ground_items_yellow_timer.png) that counts down until items dropped or received as loot, despawn.
+
+### Text Outline
+
+Use an outline around text instead of a text shadow.
+
+![on](img/ground-items/ground_items_text_outline_on.png) vs ![off](img/ground-items/ground_items_text_outline_off.png)
+
+### Highlighted item lootbeams
+
+Configures lootbeams to show for all items in the `Highlighted Items` section.
+
+### Lootbeam tier
+
+Configures which price tiers will trigger a lootbeam. Tiers valued higher than the option you select will also be included.
+
+### Lootbeam Style
+
+Style of lootbeam to use
+
+### Hotkey
+
+Configures the hotkey used by the plugin for showing/hiding ground items.
