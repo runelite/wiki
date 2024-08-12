@@ -36,7 +36,7 @@ Configures whether or not to show the item quantities in the menu.
 
 ### Recolor Menu Hidden Items
 
-Configures whether or not `hidden items` in right-click menu will be recolored.
+Configures whether or not `hidden items` in the right-click menu will be recolored.
 
 ### Highlight Tiles
 
@@ -46,9 +46,9 @@ Configures whether or not to highlight tiles containing ground items.
 
 Configures whether or not to notify for drops on your highlighted list.
 
-### Notify >= Tier
+### Notify Tier
 
-Configures which price tiers will trigger a notification on item drop.
+Configures which price tiers will trigger a notification on item drop. Tiers valued higher than the option you select will also be included.
 
 ### Price Display Mode
 
@@ -60,7 +60,7 @@ Configures how ground items will be highlighted.
 
 ### Menu Highlight Mode
 
-Configures what to highlight in right-click menu.
+Configures what to highlight in the right-click menu.
 
 ### Highlight Value Calculation
 
@@ -70,7 +70,7 @@ Configures which coin value is used to determine highlight color.
 
 Configures highlighted ground items over either GE or HA value.
 
-### Hide &lt; Value
+### Hide under value
 
 Configures hidden ground items under both GE and HA value.
 
@@ -84,7 +84,7 @@ Configures the color for highlighted items.
 
 ### Hidden items color
 
-Configures the color for hidden items in right-click menu and when holding `Alt`.
+Configures the color for hidden items in the right-click menu and when holding `Alt`.
 
 ### Low value items color
 
@@ -118,20 +118,20 @@ Configures the color for insane value items.
 
 Configures the start price for insane value items.
 
-### Only show loot
+### Only show own items
 
-Only shows drops from NPCs and players.
+Only shows items that are yours or you can pick up.
 
-### Delay for double-tap ALT to hide
+### Double-tap delay
 
-Decrease this number if you accidentally hide ground items often. `0` = Disabled.
+Delay for double-tapping `ALT` to hide. Decrease this number if you accidentally hide ground items often. `0` = Disabled.
 
-### Collapse ground item menu entries
+### Collapse ground item menu
 
 Collapses ground item menu entries together and appends count.
 
-### Show despawn timers
+### Despawn timer
 
 Shows a green timer ![Green Timer](img/ground-items/ground_items_green_timer.png) that counts down until items dropped or received as loot are visible to other players.
 
-Shows a yellow timer ![Yellow Timer](img/ground-items/ground_items_yellow_timer.png) that counts down until items dropped or received as loot despawn.
+Shows a yellow timer ![Yellow Timer](img/ground-items/ground_items_yellow_timer.png) that counts down until items dropped or received as loot, despawn.
