@@ -30,6 +30,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * ID based plugins: Plugins that use player provided IDs for the entirety of their functionality can cause moderation issues and outcomes that break Jagex's plugin rules. Due to this fact we will not be accepting any new ID based plugins. Plugins that use a specific set of IDs but do not allow user input will still be accepted. (e.g. plugins like Vardorvis Projectiles which only allows you to change a specific projectile to a set list of projectiles.)  
 * Twitch/BTTV/FFZ/7TV emote plugins: Distributing the emotes for these plugins would likely require skirting over the legal agreements of these services, and thus won't be accepted.
 * Plugins which expose player information over HTTP.
+* Plugins which are of an adult or overtly sexual nature.
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
