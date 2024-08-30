@@ -120,7 +120,7 @@
   * [[Tears Of Guthix]]
   * [[Tile Indicators]]
   * [[Time Tracking]]
-  * [[Timers]]
+  * [[Timers & Buffs]]
   * [[Tithe Farm]]
   * [[Twitch]]
   * [[Virtual Levels]]
