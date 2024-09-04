@@ -181,7 +181,7 @@ For some miscellaneous activities, the following shorthand versions can be used:
 `wt` -> `Wintertodt`  
 `fishingtodt`, `fishtodt` -> `Tempoross`  
 `gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`   
-`hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`
+`hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`  
 `bird egg`, `bird eggs`, `bird's egg`, `bird's eggs` -> `Bird's egg sacrifices`
 
 ### Quest Points Commands
