@@ -116,7 +116,7 @@
   * [[Spellbook]]
   * [[Status Bars]]
   * [[Stretched Mode]]
-  * [[Team Capes]]
+  * [[Team]]
   * [[Tears Of Guthix]]
   * [[Tile Indicators]]
   * [[Time Tracking]]
