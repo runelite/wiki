@@ -92,8 +92,8 @@ Some boss names can be substituted for shorthand versions:
 `cerb` -> `Cerberus`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `hydra` -> `Alchemical Hydra`  
-`amox` -> `Amoxliatl`
-`huey`, `the hueycoatl` -> `Hueycoatl`
+`amox` -> `Amoxliatl`  
+`huey`, `the hueycoatl` -> `Hueycoatl`  
 `deranged arch` -> `Deranged Archaeologist`  
 `crazy arch` -> `Crazy Archaeologist`  
 `chaos ele` -> `Chaos Elemental`  
