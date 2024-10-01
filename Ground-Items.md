@@ -121,9 +121,9 @@ Configures the color for insane value items.
 
 Configures the start price for insane value items.
 
-### Only show own items
+### Ownership filter
 
-Only shows items that are yours or you can pick up.
+<put words here>
 
 ### Double-tap delay
 
