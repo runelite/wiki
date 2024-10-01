@@ -92,9 +92,11 @@ Some boss names can be substituted for shorthand versions:
 `cerb` -> `Cerberus`  
 `smoke devil`, `thermy` -> `Thermonuclear Smoke Devil`  
 `hydra` -> `Alchemical Hydra`  
-`chaos ele` -> `Chaos Elemental`  
-`crazy arch` -> `Crazy Archaeologist`  
+`amox` -> `Amoxliatl`  
+`huey`, `the hueycoatl` -> `Hueycoatl`  
 `deranged arch` -> `Deranged Archaeologist`  
+`crazy arch` -> `Crazy Archaeologist`  
+`chaos ele` -> `Chaos Elemental`  
 `vetion` -> `Vet'ion`  
 `calv`, `calvarion` -> `Calvar'ion`  
 `vene` -> `Venenatis`  
@@ -122,7 +124,7 @@ Some boss names can be substituted for shorthand versions:
 `wisp`, `whisp`, `the whisperer` -> `Whisperer`  
 `wisp awakened`, `whisp awakened`, `whisperer awakened` -> `Whisperer (awakened)`  
 `barrows` -> `Barrows Chests`  
-`lunar chests`, `moons of peril`, `perilous moon`, `perilous moons` -> `Lunar Chest`
+`lunar chests`, `moons of peril`, `perilous moon`, `perilous moons` -> `Lunar Chest`  
 `gaunt`, `the gauntlet` -> `Gauntlet`  
 `cg`, `cgaunt`, `cgauntlet`, `the corrupted gauntlet` -> `Corrupted Gauntlet`  
 `jad`, `tzhaar fight cave` -> `TzTok-Jad`  
@@ -177,11 +179,12 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 #### Miscellaneous Abbreviations
 For some miscellaneous activities, the following shorthand versions can be used:
 
-`herbi` -> `Herbiboar`  
 `wt` -> `Wintertodt`  
 `fishingtodt`, `fishtodt` -> `Tempoross`  
 `gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`   
-`hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`
+`hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`  
+`herbi` -> `Herbiboar`  
+`bird egg`, `bird eggs`, `bird's egg`, `bird's eggs` -> `Bird's egg sacrifices`
 
 ### Quest Points Commands
 
