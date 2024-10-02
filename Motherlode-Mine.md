@@ -6,28 +6,11 @@ We use the default overlay for tracking how much pay-dirt is in the sack.
 
 ## Settings
 
-### Reset stats (minutes)
-
-Configures the time until statistics are reset.
-
 ### Show broken struts
 
 Shows an overlay when a Water wheel has a Broken strut and needs repair.
 
 ![water wheel strut](img/motherlode-mine/motherlode_mine_strut_setting.png)
-
-### Show current mining state
-
-Shows current mining state if mining session stats are enabled.
-
-![player is mining](img/motherlode-mine/motherlode_mine_state_active.png)  
-![player is not mining](img/motherlode-mine/motherlode_mine_state_inactive.png)
-
-### Show mining session stats 
-
-Displays pay-dirt mined and pay-dirt/hr.
-
-![mining stats infobox](img/motherlode-mine/motherlode_mine_stats.png)
 
 ### Show pay-dirt mining spots
 
