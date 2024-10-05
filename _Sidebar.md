@@ -143,6 +143,7 @@
   * [[Plugin Development Logging]]
   * [API Javadoc](https://static.runelite.net/api/runelite-api/)
   * [Client Javadoc](https://static.runelite.net/api/runelite-client/)
+  * [[Plugin takeover policy]]
 * **RuneLite Core Development**
   * [[Building with IntelliJ IDEA]]
   * [[Code Conventions]]
