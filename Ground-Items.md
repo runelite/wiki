@@ -83,7 +83,7 @@ Configures hidden ground items under both GE and HA value.
 
 ### Default items color
 
-Configures the color for default, non-highlighted items
+Configures the color for default, non-highlighted items.
 
 ### Highlighted items color
 
