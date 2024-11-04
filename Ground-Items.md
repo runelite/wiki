@@ -41,6 +41,10 @@ Configures whether or not untradeable items ignore hiding under settings.
 
 Configures whether or not to show the item quantities in the menu.
 
+### Deprioritize Menu Hidden Items
+
+Deprioritizies the menu options for hidden items, requiring a right-click to pick up.
+
 ### Recolor Menu Hidden Items
 
 Configures whether or not `hidden items` in the right-click menu will be recolored.
