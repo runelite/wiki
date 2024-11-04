@@ -164,7 +164,7 @@ Configures which price tiers will trigger a lootbeam. Tiers valued higher than t
 
 ### Lootbeam Style
 
-Style of lootbeam to use
+Style of lootbeam to use.
 
 ### Hotkey
 
