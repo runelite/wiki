@@ -123,7 +123,12 @@ Configures the start price for insane value items.
 
 ### Ownership filter
 
-<put words here>
+Options for deciding which type of loot displays.
+
+All - All
+Takeable - Any Loot/Items you can pick up, including your (GIM)group loot
+Drops - Enemy drops for you, and your (GIM)group loot
+
 
 ### Double-tap delay
 
