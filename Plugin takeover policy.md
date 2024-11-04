@@ -12,6 +12,8 @@ If a plugin becomes unmaintained, such as due to the author abandoning it, the p
 \
 Becoming a collaborator on an existing plugin is preferred over having the plugin transferred, because it is less work for us, and the plugin ends up with more than a single maintainer.
 
-2. If the author is unavailable, after 7 days send a pull request to the pluginhub changing the plugin to your repository, but *don't change the commit hash*. You can accomplish this via forking the old repository. Mention in the pull request description that you would like to takeover the plugin. We will attempt to contact the author via GitHub, and if they are unavailable, assign the plugin to you after a period of 2 weeks.
+2. If the author is unavailable, after 7 days send a pull request to the pluginhub changing the plugin to your repository, but *don't change the commit hash*. You can accomplish this via forking the old repository. Mention in the pull request description that you would like to takeover the plugin. We will attempt to contact the author via GitHub, and if they are unavailable, assign the plugin to you after a period of 2 weeks.\
+\
+Also make sure you've enabled issues for your fork of the plugin, so users can report problems with the plugin you've taken over. This can be done via the `Settings` tab at the top of the repo, and then scrolling down to the `Features` section, and checking the `Issues` box.
 
 3. As a special exception, plugins which have been deleted or disabled may be immediately claimed. We have source archives of pluginhub plugins, if you need access to the source of a deleted plugin, make a post in `#runelite` on Discord and someone will be able to fetch it for you.
