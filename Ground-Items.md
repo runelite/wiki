@@ -140,9 +140,9 @@ Collapses ground item menu entries together and appends count.
 
 ### Despawn timer
 
-Shows a green timer ![Green Timer](img/ground-items/ground_items_green_timer.png) that counts down until items dropped or received as loot are visible to other players.
+Shows a green timer ![Green Timer pie](img/ground-items/ground_items_green_timer_pie.png) ![Green Timer seconds](img/ground-items/ground_items_green_timer_seconds.png) that counts down until items dropped or received as loot are visible to other players.
 
-Shows a yellow timer ![Yellow Timer](img/ground-items/ground_items_yellow_timer.png) that counts down until items dropped or received as loot, despawn.
+Shows a yellow timer ![Yellow Timer pie](img/ground-items/ground_items_yellow_timer_pie.png) ![Yellow Timer seconds](img/ground-items/ground_items_yellow_timer_seconds.png) that counts down until items dropped or received as loot, despawn.
 
 ### Text Outline
 
