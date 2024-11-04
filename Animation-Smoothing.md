@@ -5,16 +5,7 @@ Off | On
 ![](img/animation-smoothing/animation_smoothing_off.gif) | ![](img/animation-smoothing/animation_smoothing_on.gif)
 
 ## Animation Smoothing
-Each of these options can be disabled individually by unchecking the respective box.
 
-### Smooth Player Animations
+Enables animation smoothing. 
 
-Configures whether the player animations are smooth or not.
-
-### Smooth NPC Animations
-
-Configures whether NPC animations are smooth or not.
-
-### Smooth Object Animations
-
-Configures whether object animations are smooth or not.
+Note: Some animations are excluded since they are broken with animation smoothing applied, such as the Viggora's Chainmace idle animation.
