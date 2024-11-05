@@ -92,12 +92,13 @@ It's not possible to directly change where RuneLite saves screenshots. However, 
 - Move your screenshots folder to where you want to have your screenshots saved, making sure that there is no longer a `screenshots` folder in your `.runelite` folder.
 - Run Command Prompt as administrator and then run:
 
-    ```mklink /J "%userprofile%\.runelite\screenshots" "path\to\new\folder"```
+
+    mklink /J "%userprofile%\.runelite\screenshots" "path\to\new\folder"
 
 ### On Mac/Linux:
 In the terminal, run 
 
-    ```mv $HOME/.runelite/screenshots/ /path/to/new/folder && ln -s /path/to/new/folder $HOME/.runelite/screenshots```
+    mv $HOME/.runelite/screenshots/ /path/to/new/folder && ln -s /path/to/new/folder $HOME/.runelite/screenshots
 
 ## How do I build RuneLite?
 See [[Building with IntelliJ IDEA]].
