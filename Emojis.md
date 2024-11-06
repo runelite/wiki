@@ -27,7 +27,8 @@ Substitutes typed emoticons to display emojis in the game chat panel and above p
 | ![facepalm] | M-) |![pensive] | V_V | ![acorn] | <D~ | 
 | ![gorilla] | :G | ![pleading] | (n_n) | ![xd] | Xd |
 | ![spoon] | --o | ![weary_face] | Dx | ![rocketship] | >==> |
-| ![clown] | :O) | ![cow] | 3:O | ![handshake] | (=) ||
+| ![clown] | :O) | ![cow] | 3:O | ![handshake] | (=) |
+| ![rabbit]| =:3 |||||
 
 [slight_smile]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/slight_smile.png "Slight Smile"
 [joy]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/joy.png "Joy"
@@ -95,3 +96,4 @@ Substitutes typed emoticons to display emojis in the game chat panel and above p
 [clown]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/clown.png "Clown"
 [cow]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/cow.png "Cow"
 [handshake]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/handshake.png "Handshake"
+[rabbit]:https://github.com/runelite/runelite/raw/master/runelite-client/src/main/resources/net/runelite/client/plugins/emojis/rabbit.png "Rabbit"
