@@ -184,11 +184,9 @@ For some miscellaneous activities, the following shorthand versions can be used:
 `gotr`, `runetodt`, `rifts closed` -> `Guardians of the Rift`   
 `hunterrumour`, `hunter contract`, `hunter contracts`, `hunter tasks`, `hunter task`, `rumours`, `rumour` -> `Hunter Rumours`  
 `herbi` -> `Herbiboar`  
-`bird egg`, `bird eggs`, `bird's egg`, `bird's eggs` -> `Bird's egg sacrifices`
-`crystal chest` -> `crystal chest`
+`bird egg`, `bird eggs`, `bird's egg`, `bird's eggs` -> `Bird's egg sacrifices`  
+`larran chest`, `larran's chest`, `larran big chest`, `larran's big chest` -> `Larran's big chest`  
 `larran small chest`, `larran's small chest` -> `Larran's small chest`
-`larran chest`, `larran's chest`, `larran big chest`, `larran's big chest` -> `Larran's big chest`
-`brimstone chest` -> `Brimstone chest`
 
 ### Quest Points Commands
 
