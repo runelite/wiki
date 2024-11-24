@@ -32,6 +32,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Plugins which expose player information over HTTP.
 * Plugins which are of an adult or overtly sexual nature.
 * Plugins that simulate content for any purpose. (e.g. Jagex previously requested Quest Helper's Leviathan simulation be removed.)
+* Plugins which "crowdsource" data about other players, such as player locations, gear, names, etc.
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
