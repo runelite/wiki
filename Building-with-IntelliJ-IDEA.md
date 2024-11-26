@@ -143,6 +143,11 @@ To help enable a faster edit-run-test development loop, check out [JetBrains's o
 
 # Troubleshooting
 
+## Missing classes
+Click the ``Reload All Maven Projects`` in the Maven tab.
+
+![reload_maven_projects](img/building-with-intellij/reload_maven_projects.png)
+
 ## WARNING: An illegal reflective access operation has occurred
 You can ignore this.
 
