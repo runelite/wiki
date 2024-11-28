@@ -166,10 +166,12 @@ Note: if the chat commands for !kc do not work in-game, you first need to open u
 `aa`, `ape atoll` -> `Ape Atoll Agility`  
 `shaya`, `saac`, `shayadv`, `shayadvanced`, `shayzien advanced` -> `Shayzien Advanced Agility Course`  
 `fally`, `fally agility`, `falador`, `falador agility` -> `Falador Rooftop`  
+`wbac`, `cwbac`, `wyrmb`, `wyrmbasic`, `wyrm basic`, `colossal basic`, `colossal wyrm basic` -> `Colossal Wyrm Agility Course (Basic)`  
 `hs`,`hs[1-5]`, `hs [1-5]`, `ghc`, `sepulchre` -> `Hallowed Sepulchre`  
 `wildy`, `wildy agility` -> `Wilderness Agility`  
 `werewolf` ->  `Werewolf Agility`  
 `seers`, `seers'`, `seer's`, `seers village`, `seers' village`, `seer's village`, `seers agility`, `seers' agility`, `seer's agility`, `seers village agility`, `seers' village agility`, `seer's village agility` -> `Seers' Village Rooftop`  
+`waac`, `cwaac`, `wyrma`, `wyrmadvanced`, `wyrm advanced`, `colossal advanced`, `colossal wyrm advanced` -> `Colossal Wyrm Agility Course (Advanced)`  
 `dorg`, `dorgesh kaan`, `dorgesh-kaan` -> `Dorgesh-Kaan Agility`  
 `pollnivneach`, `pollnivneach agility` -> `Pollnivneach Rooftop`  
 `prif`, `prifddinas` -> `Prifddinas Agility Course`  
