@@ -97,8 +97,9 @@ mklink /J "%userprofile%\.runelite\screenshots" "path\to\new\folder"
 
 ### On Mac/Linux:
 In the terminal, run 
-
-    mv $HOME/.runelite/screenshots/ /path/to/new/folder && ln -s /path/to/new/folder $HOME/.runelite/screenshots
+```
+mv $HOME/.runelite/screenshots/ /path/to/new/folder && ln -s /path/to/new/folder $HOME/.runelite/screenshots
+```
 
 ## How do I build RuneLite?
 See [[Building with IntelliJ IDEA]].
