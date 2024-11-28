@@ -10,6 +10,7 @@
   - [Will using RuneLite get me banned?](#will-using-runelite-get-me-banned)
   - [How often is RuneLite updated?](#how-often-is-runelite-updated)
   - [Where can I find the logs, screenshots, or configurations?](#where-can-i-find-the-logs-screenshots-or-configurations)
+  - [How can I change where screenshots get saved?](#how-can-i-change-where-screenshots-get-saved)
   - [How do I build RuneLite?](#how-do-i-build-runelite)
   - [Will there be a Runelite mobile client?](#will-there-be-a-runelite-mobile-client)
   - [Why does the GPU plugin do X?](#why-does-the-gpu-plugin-do-x)
@@ -83,6 +84,22 @@ RuneLite is updated every couple weeks, usually immediately following the Wednes
 
 ## Where can I find the logs, screenshots, or configurations?
 To find logs, either open screenshot directory (by right-clicking "Camera" button) and navigate 1 directory up and then open logs folder, or navigate to `%userprofile%\.runelite\logs` on Windows or `$HOME/.runelite/logs` on Linux and macOS.
+
+## How can I change where screenshots get saved?
+It's not possible to directly change where RuneLite saves screenshots. However, you can create a symlink between the screenshots folder and where you actually want them saved.
+
+### On Windows:
+- Move your screenshots folder to where you want to have your screenshots saved, making sure that there is no longer a `screenshots` folder in your `.runelite` folder.
+- Run Command Prompt as administrator and then run:
+```
+mklink /J "%userprofile%\.runelite\screenshots" "path\to\new\folder"
+```
+
+### On Mac/Linux:
+In the terminal, run 
+```
+mv $HOME/.runelite/screenshots/ /path/to/new/folder && ln -s /path/to/new/folder $HOME/.runelite/screenshots
+```
 
 ## How do I build RuneLite?
 See [[Building with IntelliJ IDEA]].
