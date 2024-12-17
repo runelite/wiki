@@ -177,7 +177,7 @@ Open the info panel and check if this displays the correct email. The info panel
 
 2. Make sure you are on the correct RuneLite config profile.<br>
 Go to `Configuration` (wrench icon) > `Profiles` (middle tab) > Check if any of the profiles are correct. You can load a profile by clicking on the `>` symbol **twice**. A profile is enabled if there is an orange bar in front of it.<br>
-![profile-selected](https://user-images.githubusercontent.com/7191512/222978314-6d40fc83-4817-43a2-b968-33af2c2cf255.png)
+![profile-selected](https://github.com/user-attachments/assets/cbdb1a23-2be3-4b34-8e6f-da42378329e3)
 
 Please try all config profiles. If you find the correct config profile and it shares a name with a different profile, it is recommended to rename the correct one to a unique name.
 
