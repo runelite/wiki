@@ -35,7 +35,7 @@ Select OFF in the dropdown menu for Hardware acceleration inside the confugurati
 ![RuneLite-Configure](https://user-images.githubusercontent.com/7191512/230628788-5aa0cc11-78a3-4c17-beca-04dc6de9b8b9.png)
 
 
-![RuneLite_Configure-HW-accel](https://user-images.githubusercontent.com/7191512/230627233-4df0064a-9fdd-45c2-a758-507ddb9b93c9.png)
+![RuneLite_Configure-HW-accel](https://github.com/user-attachments/assets/07257cd3-1af9-41d8-92d9-a584b06be75c)
 
 
 ### Method 2: Passing a cli argument
