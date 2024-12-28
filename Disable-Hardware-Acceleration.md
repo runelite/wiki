@@ -40,4 +40,4 @@ Select OFF in the dropdown menu for Hardware acceleration inside the confugurati
 
 ### Method 2: Passing a cli argument
 
-`--mode=OFF` can be passed to the launcher to disable HW acceleration directly.  Be that by appending it to the end of the target field of a windows shortcut or through command line, whichever method the client is launched by you.
+`--hw-accel=OFF` can be passed to the launcher to disable HW acceleration directly.  Be that by appending it to the end of the target field of a windows shortcut or through command line, whichever method the client is launched by you.

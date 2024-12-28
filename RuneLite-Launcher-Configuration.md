@@ -75,7 +75,7 @@ Hardware acceleration mode for Java 2D.
 - OPENGL (macOS default) - enables the OpenGL-based pipeline for hardware acceleration
 - METAL - enables the Apple Metal API for hardware acceleration (macOS only)
 
-cli: `--mode=<OPTION>`
+cli: `--hw-accel=<OPTION>`
 
 ### Launch mode
 
