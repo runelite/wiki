@@ -24,19 +24,57 @@ Toggled notifying you when you don't interact with the client for too long.
 
 Choose how long your animation or interaction has to be stopped before sending a notification. Don't set it too low as some animations have long delays.
 
-### 6. Hitpoints Notification Threshold 
+### 6. Six hour logout notification
 
-Choose hp threshold to send a notification. NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite.
+Toggled notifying you when you're about to be logged out due to being online for too long.
 
-### 7. Prayer Notification Threshold
+### 7. Hitpoints Notification
+
+Toggled notifying you when your hitpoints hits the **Hitpoints Notification Threshold**.
+
+NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite settings or customize this notification by clicking the cogwheel next to the checkbox. See further down the page for those settings.
+
+### 8. Hitpoints Notification Threshold
+
+Choose hp threshold to send a notification.
+
+### 9. Prayer Notification
+
+Toggled notifying you when your prayer hits the **Prayer Notification Threshold**.
+
+### 10. Prayer Notification Threshold
 
 Choose prayer threshold to send a notification.
 
-### 8. Oxygen Notification Threshold
+### 11. Low Energy Notification
+
+Toggled notifying you when your run energy hits the **Low Energy Notification Threshold**.
+
+### 12. Low Energy Notification Threshold
+
+The amount of run energy remaining to send a notification at.
+
+### 13. High Energy Notification
+
+Toggled notifying you when your run energy hits the **High Energy Notification Threshold**.
+
+### 14. High Energy Notification Threshold
+
+The amount of run energy reached to send a notification at.
+
+### 15. Oxygen Notification
+
+Toggled notifying you when your oxygen (during underwater activities) hits the **Oxygen Notification Threshold**.
+
+### 16. Oxygen Notification Threshold
 
 Choose oxygen threshold (during underwater activities) below which to send a notification.
 
-### 9. Special Attack Energy Notification Threshold
+### 17. Special Attack Energy Notification
+
+Toggled notifying you when your special attack percentage hits the **Special Attack Energy Notification Threshold**.
+
+### 18. Special Attack Energy Notification Threshold
 
 Choose special attack percentage regeneration threshold at which send a notification.
 
