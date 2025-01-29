@@ -4,77 +4,77 @@ Sends a notification when going idle, or when your hp/prayer reaches a certain t
 
 ## Settings
 
-### 1. Idle Animation Notification
+### Idle Animation Notification
 
 Toggles notifying you when stopping skilling animations such as mining, fletching, or creating battlestaves.
 
-### 2. Idle Interaction Notifications
+### Idle Interaction Notifications
 
 Toggles notifying you when you stop interacting with an NPC which includes combat and fishing.
 
-### 3. Idle Movement Notifications
+### Idle Movement Notifications
 
 Toggles notifying you when your character stops moving and stays idle there
 
-### 4. Idle Logout Notifications
+### Idle Logout Notifications
 
 Toggled notifying you when you don't interact with the client for too long.
 
-### 5. Idle Notification Delay
+### Idle Notification Delay
 
 Choose how long your animation or interaction has to be stopped before sending a notification. Don't set it too low as some animations have long delays.
 
-### 6. Six hour logout notification
+### Six hour logout notification
 
 Toggled notifying you when you're about to be logged out due to being online for too long.
 
-### 7. Hitpoints Notification
+### Hitpoints Notification
 
 Toggled notifying you when your hitpoints hits the **Hitpoints Notification Threshold**.
 
 NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite settings or customize this notification by clicking the cogwheel next to the checkbox. See further down the page for those settings.
 
-### 8. Hitpoints Notification Threshold
+### Hitpoints Notification Threshold
 
 Choose hp threshold to send a notification.
 
-### 9. Prayer Notification
+### Prayer Notification
 
 Toggled notifying you when your prayer hits the **Prayer Notification Threshold**.
 
-### 10. Prayer Notification Threshold
+### Prayer Notification Threshold
 
 Choose prayer threshold to send a notification.
 
-### 11. Low Energy Notification
+### Low Energy Notification
 
 Toggled notifying you when your run energy hits the **Low Energy Notification Threshold**.
 
-### 12. Low Energy Notification Threshold
+### Low Energy Notification Threshold
 
 The amount of run energy remaining to send a notification at.
 
-### 13. High Energy Notification
+### High Energy Notification
 
 Toggled notifying you when your run energy hits the **High Energy Notification Threshold**.
 
-### 14. High Energy Notification Threshold
+### High Energy Notification Threshold
 
 The amount of run energy reached to send a notification at.
 
-### 15. Oxygen Notification
+### Oxygen Notification
 
 Toggled notifying you when your oxygen (during underwater activities) hits the **Oxygen Notification Threshold**.
 
-### 16. Oxygen Notification Threshold
+### Oxygen Notification Threshold
 
 Choose oxygen threshold (during underwater activities) below which to send a notification.
 
-### 17. Special Attack Energy Notification
+### Special Attack Energy Notification
 
 Toggled notifying you when your special attack percentage hits the **Special Attack Energy Notification Threshold**.
 
-### 18. Special Attack Energy Notification Threshold
+### Special Attack Energy Notification Threshold
 
 Choose special attack percentage regeneration threshold at which send a notification.
 
