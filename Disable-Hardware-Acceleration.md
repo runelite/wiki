@@ -32,10 +32,10 @@ Many GPU overlay programs cause this problem, usually removing them is the best 
 
 Select OFF in the dropdown menu for Hardware acceleration inside the confuguration window launched by using the `RuneLite (configure)` shortcut.  For windows this can be quickly found by searching for it in the start menu.
 
-![RuneLite-Configure](https://user-images.githubusercontent.com/7191512/230628788-5aa0cc11-78a3-4c17-beca-04dc6de9b8b9.png)
+!](img/disable-hardware-accel/runelite_configure)
 
 
-![RuneLite_Configure-HW-accel](https://github.com/user-attachments/assets/07257cd3-1af9-41d8-92d9-a584b06be75c)
+![](img/disable-hardware-accel/runelite_configure_hw_accel)
 
 
 ### Method 2: Passing a cli argument
