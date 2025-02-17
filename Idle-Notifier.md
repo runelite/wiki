@@ -101,7 +101,7 @@ Determines what sound to use for system notifications triggered by RuneLite.
 * **Native:** Use default system notification sound
 * **Custom:** The custom notification sound can be placed in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/MacOS. The notification must be called `notification.wav` and be in .wav format.
 
-Additional custom notification sounds can be place in the associated `.runelite/notifications/` directory. These sounds must be in .wav format and will appear in the dropdown as the name of the sound file.
+Additional custom notification sounds can be placed in the associated `.runelite/notifications/` directory. These sounds must be in .wav format and will appear in the dropdown as the name of the sound file.
 
 ### Notification volume
 
