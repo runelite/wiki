@@ -98,7 +98,11 @@ Configures the window focus request type on notification.
 
 Determines what sound to use for system notifications triggered by RuneLite.
 
-You can select **Native** to use the default system notification sound, or place a custom notification sound (must be in .wav format) in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/MacOS and it will be available in this list.
+* **Native:** Use default system notification sound
+* **Custom:** The custom notification sound can be placed in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/MacOS. The notification must be called `notification.wav` and be in .wav format.
+
+Additional custom notification sounds can also be added following the same rules as the **Custom** sound but may use any name. These sounds will appear in the dropdown as their associated file name.
+
 
 ### Notification volume
 
