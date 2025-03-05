@@ -9,7 +9,7 @@ You can also make contributions to the [core client](https://github.com/runelite
 There are some high level guides on this wiki under the "Developer's Guide" section in the side panel. These cover things like 
 working with git, using the developer tools, and concepts like client vars.
 
-Javadoc for the [api](https://static.runelite.net/api/runelite-api/) and [client](https://static.runelite.net/api/runelite-client/) are also available.
+Javadoc for the [api](https://static.runelite.net/runelite-api/apidocs/) and [client](https://static.runelite.net/runelite-client/apidocs/) are also available.
 However, the best way to get an idea of proper API usage is looking at [existing plugins](https://github.com/runelite/runelite/tree/master/runelite-client/src/main/java/net/runelite/client/plugins) that already do something similar. Otherwise, pick one of the more simple plugins and just read through it, such as e.g. agility, woodcutting, or implings. Or just clone the repository into your IDE which will give you easy search capabilities. You can also look at existing plugin hub plugins, although we recommend this as only a secondary option to looking at core plugins, since their API usage is not always correct.
 
 There are also several external resources for client information:
