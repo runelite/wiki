@@ -160,9 +160,9 @@ Hub plugins are not available by default when developing with snapshot versions,
 
 How can you tell if there are ABI changes? If some existing core API changes or is removed e.g. if we remove some `Client` method which a hub plugin uses, the RuneLite client will crash when a hub plugin loaded this way tries to run it. If there are ABI changes, build the plugins yourself and place them into the `sideloaded-plugins` directory when running in developer mode.
 
-## Client failing to start
+## RuneLite app starts, but client failing to start
 
-If the client fails to boot or if the applet does not appear, try running the Maven build again with the following command:  
+If the client fails to boot (e.g. `ERROR injected-client - Client error`) or if the applet does not appear (e.g. sidebar shows, but center panel does not), try running the Maven build again with the following command:  
 `clean install -DskipTests -U`
 ![mvn-clean-install](https://github-production-user-asset-6210df.s3.amazonaws.com/41973452/246999260-b33934e5-0969-4455-a5ee-adceeaf55f86.png)
 
