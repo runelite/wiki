@@ -162,7 +162,7 @@ How can you tell if there are ABI changes? If some existing core API changes or 
 
 ## Client failing to start
 
-If the client fails to boot or if the applet does not appear, try running the Maven build again with the following command:  
+If the client fails to boot, if the applet does not appear, or if the client starts with a white screen, try running the Maven build again with the following command:  
 `clean install -DskipTests -U`
 ![mvn-clean-install](https://github-production-user-asset-6210df.s3.amazonaws.com/41973452/246999260-b33934e5-0969-4455-a5ee-adceeaf55f86.png)
 
