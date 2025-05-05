@@ -188,7 +188,7 @@ For some miscellaneous activities, the following shorthand versions can be used:
 `herbi` -> `Herbiboar`  
 `bird egg`, `bird eggs`, `bird's egg`, `bird's eggs` -> `Bird's egg sacrifices`  
 `larran chest`, `larran's chest`, `larran big chest`, `larran's big chest` -> `Larran's big chest`  
-`larran small chest`, `larran's small chest` -> `Larran's small chest`
+`larran small chest`, `larran's small chest` -> `Larran's small chest`  
 `cw` -> `Castle Wars wins`
 
 ### Quest Points Commands
