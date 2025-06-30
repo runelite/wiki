@@ -37,3 +37,15 @@ Jagex has requested removal of certain features, and current discussion of featu
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
   * Note, as of [Jagex's latest Third Party Client Guidelines](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1), we are now able to offer left-click and shift-click swaps for NPCs. See [our associated release post for info](https://runelite.net/blog/show/2022-06-17-1.8.24-Release)
+
+#### Forbidden language features
+
+For security and reviewability reasons, hub plugins are forbidden from using the following in-code behaviors:
+* [Java reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html)
+* [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface)
+* Execution of external programs (e.g. subprocesses) via any means
+* Downloading or otherwise vendoring external source code at runtime
+
+These technologies prevent us from being able to fully review the source code and therefore the behavior of your plugin.
+
+This list is not necessarily exclusive. **As a rule of thumb, if we cannot review every single line of source code that your plugin will execute, we will not accept it.**
