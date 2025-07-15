@@ -77,11 +77,13 @@ Format: `!clues` or `!clues total` - total clues, `!clues [tier]` (e.g., `!clues
 
 | Tiers |
 | ----- |
+| `beginner` |
 | `easy` |
 | `medium` |
 | `hard` |
 | `elite` |
 | `master` |
+| `total` |
 
 <img width="210" alt="" src="img/chat-commands/chat_commands_clue.png">
 
@@ -205,6 +207,8 @@ For some miscellaneous activities, the following shorthand versions can be used:
 | `Bird's egg sacrifices` | `bird egg`, `bird eggs`, `bird's egg`, `bird's eggs` |
 | `Larran's big chest` | `larran chest`, `larran's chest`, `larran big chest`, `larran's big chest` |
 | `Larran's small chest` | `larran small chest`, `larran's small chest` |
+| `Brimstone chest` | `brimstone chest` |
+| `Crystal chest` | `crystal chest` |
 
 ### Quest Points Commands
 
