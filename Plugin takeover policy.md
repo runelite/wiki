@@ -16,4 +16,4 @@ Becoming a collaborator on an existing plugin is preferred over having the plugi
 \
 Also make sure you've enabled issues for your fork of the plugin, so users can report problems with the plugin you've taken over. This can be done via the `Settings` tab at the top of the repo, and then scrolling down to the `Features` section, and checking the `Issues` box.
 
-3. As a special exception, plugins which have been deleted or disabled may be immediately claimed. We have source archives of pluginhub plugins, if you need access to the source of a deleted plugin, make a post in `#runelite` on Discord and someone will be able to fetch it for you.
+3. As a special exception, plugins which have been deleted, disabled, or incompatible for more than 60 days may be immediately claimed. We have source archives of pluginhub plugins, if you need access to the source of a deleted plugin, make a post in `#runelite` on Discord and someone will be able to fetch it for you.
