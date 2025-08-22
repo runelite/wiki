@@ -34,6 +34,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Plugins that simulate content for any purpose. (e.g. Jagex previously requested Quest Helper's Leviathan simulation be removed.)
 * Plugins which "crowdsource" data about other players, such as player locations, gear, names, etc.
 * Plugins for sending notifications/screenshots of drops, collection log items, level-ups, deaths, etc. to Discord via webhooks. This use case is already well-covered by existing plugins such as [Dink](https://runelite.net/plugin-hub/show/dink).
+* Plugins which allow the user to paste messages into the chatbox. This is considered to be autotyping.
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
