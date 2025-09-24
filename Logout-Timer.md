@@ -1,6 +1,6 @@
 # Logout Timer Configuration
 
-This plugin changes how long you can be idle before the game logs you out. The minimum is 5 minutes, and the maximum is 25 minutes.
+This plugin changes how long you can be idle before the game logs you out. The minimum is 5 minutes, and the maximum is 30 minutes.
 
 ## Notes
 
