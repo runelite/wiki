@@ -179,7 +179,8 @@ Now you can `@Inject YourConfigClass config` elsewhere and call `config.myCheckb
 |    Notification     | Checkbox + Cog Icon Button |                   Allow granular Notification config options specific to this notification.                   |
 |    Set<SomeEnum>    |           JList            |                Allows multi-selection from a list of pre-configured options, shown in a list.                 |
 
-<img width="235" height="443" alt="image" src="https://github.com/user-attachments/assets/a214133b-cba1-4563-890f-c698d4c6b727" />
+<img width="234" height="445" alt="image" src="https://github.com/user-attachments/assets/b5573c1b-c764-4e86-b950-3528689dcbd8" />
+
 
 <details>
 <summary>Code Examples</summary>
