@@ -13,16 +13,6 @@
     * [Putting It All Together](#putting-it-all-together)
   * [Accessing the Config](#accessing-the-config)
   * [Config Option Data Types](#config-option-data-types)
-    * [Boolean](#boolean)
-    * [String](#string)
-    * [Enum](#enum)
-    * [Dimension](#dimension)
-    * [Point](#point)
-    * [Rectangle](#rectangle)
-    * [Instant](#instant)
-    * [Duration](#duration)
-    * [Notification](#notification)
-    * [Color](#color)
 <!-- TOC -->
 
 ## Creating a Basic Config
@@ -189,6 +179,8 @@ Now you can `@Inject YourConfigClass config` elsewhere and call `config.myCheckb
 |    Notification     | Checkbox + Cog Icon Button |                   Allow granular Notification config options specific to this notification.                   |
 |    Set<SomeEnum>    |           JList            |                Allows multi-selection from a list of pre-configured options, shown in a list.                 |
 
+<img width="235" height="443" alt="image" src="https://github.com/user-attachments/assets/a214133b-cba1-4563-890f-c698d4c6b727" />
+
 <details>
 <summary>Code Examples</summary>
 
@@ -349,31 +341,6 @@ default Notification notification() {
 }
 ```
 </details>
-
-### Boolean
-Booleans are also supported. They are rendered as a checkbox.
-
-### String
-
-### Enum
-![image](https://user-images.githubusercontent.com/37604308/38452524-20cd7d50-3a89-11e8-99dd-2bb3f1d868a2.png)
-
-### Dimension
-
-### Point
-
-### Rectangle
-
-### Instant
-
-### Duration
-
-### Notification
-For plugins that want to have notifications, there are special `Notification` types that can be used in a config option. An example of this is the [grand exchange plugin](https://github.com/runelite/runelite/blob/master/runelite-client/src/main/java/net/runelite/client/plugins/grandexchange/GrandExchangeConfig.java). When a config item with this type is given and enabled, a special configuration cog is added to the item to allow for customization of the notification.
-
-### Color
-When a Color type is specified, it will be shown on the config panel as a color picker. This can be used for numerous reasons, such as allowing customizable overlay colors (tile markers, text colors, etc.) An additional feature of this type is that it can be annotated with `@Alpha`, which will provide the color picker with an additional knob to allow customizable opacity. This can be seen in the [agility plugin](https://github.com/runelite/runelite/blob/master/runelite-client/src/main/java/net/runelite/client/plugins/agility/AgilityConfig.java)
-
 
 
 <sup><sub>Somebody write this page properly!</sub><sup>
