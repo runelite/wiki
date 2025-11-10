@@ -42,6 +42,8 @@ Jagex has requested removal of certain features, and current discussion of featu
 
 #### Forbidden language features
 
+Alternative JVM languages such as Kotlin and Scala are not allowed. All plugins **MUST** be written in Java. We do not wish to burden plugin hub reviewers with additional languages, and our build / CI tooling only works with Java.
+
 For security and reviewability reasons, hub plugins are forbidden from using the following in-code behaviors:
 * [Java reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html)
 * [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface)
@@ -50,4 +52,4 @@ For security and reviewability reasons, hub plugins are forbidden from using the
 
 These technologies prevent us from being able to fully review the source code and therefore the behavior of your plugin.
 
-This list is not necessarily exclusive. **As a rule of thumb, if we cannot review every single line of source code that your plugin will execute, we will not accept it.**
+This list is not necessarily exhaustive. **As a rule of thumb, if we cannot review every single line of source code that your plugin will execute, we will not accept it.**
