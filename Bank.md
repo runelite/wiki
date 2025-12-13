@@ -27,6 +27,8 @@ Allows the use of keyboard keys for bank pin input.
 
 - Individual item value search: use `per` to search per item instead of per stack, e.g. `ha per > 1m`.
 
+- To search for a range use `-`, for example `ha per 3k - 50k`
+
 #### Notes
 
 - `i`, `iv`, and `individual` can also be used instead of `per` e.g. `hai>3k`.
