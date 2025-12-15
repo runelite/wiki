@@ -33,7 +33,8 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Plugins which are of an adult or overtly sexual nature.
 * Plugins that simulate content for any purpose. (e.g. Jagex previously requested Quest Helper's Leviathan simulation be removed.)
 * Plugins which "crowdsource" data about other players, such as player locations, gear, names, etc.
-* Plugins which allow the user to paste messages into the chatbox. This is considered to be autotyping.
+* Plugins which programmatically modify the user's chatbox input for any reason (pasting messages, shorthand expansion, clearing the chatbox, etc.). This is considered to be autotyping. The only way text can get into the chatbox is if the user is pressing keys themselves.
+* Plugins which programmatically modify an outgoing chat message after user sends it (same as above).
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
