@@ -10,9 +10,7 @@ The control flow instructions used in `rs2asm` are, for the most part, very simi
 
 Adding new scripts consists of adding the `rs2asm` and a hash of the unmodified script to `runelite-client/src/main/scripts`. The hash of the original script is used to prevent replacing the script if the original script has changed since the modified script was added. 
 
-The `rs2asm` files can be obtained by running `DisassemblerTest` in the `cache` module, but this requires replacing the osrs cache with a current version, and also manually generating a hash file. A much simpler way to obtain them is to use Abextm's [cache dump repository](https://github.com/Abextm/osrs-cache/releases). This contains a dump of the entire osrs cache, but also all disassembled scripts and their respective hash files. 
-
-Any changes to scripts require rebuilding with maven, as the scripts need to be reassembled with the changes. 
+The `rs2asm` files can be obtained by running `DisassemblerTest` in the `cache` module, but this requires replacing the osrs cache with a current version, and also manually generating a hash file. A much simpler way to obtain them is to use Abextm's [cache dump repository](https://github.com/Abextm/osrs-cache/releases). This contains a dump of the entire osrs cache, but also all disassembled scripts and their respective hash files.
 
 ### runelite_callback
 
