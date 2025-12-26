@@ -36,6 +36,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Plugins which "crowdsource" data about other players, such as player locations, gear, names, etc.
 * Plugins which programmatically insert text into the user's chatbox input for any reason (pasting messages, shorthand expansion, etc.). This is considered to be autotyping. The only way text can get into the chatbox is if the user is pressing keys themselves.
 * Plugins which programmatically modify an outgoing chat message after user sends it (same as above).
+* "Credential manager" plugins which directly store account credentials on behalf of the user (e.g. to disk, to profile) rather than through a vetted cryptographic store (e.g. Bitwarden). This constitutes an account security risk we are not willing to accept, and plugins that directly use cryptography to store credentials would require a more intensive review which we are unwilling to perform.
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
