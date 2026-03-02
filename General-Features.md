@@ -4,6 +4,7 @@ The RuneLite settings can be found as a plugin. See [RuneLite](https://github.co
 RuneLite incorporates functions such as:
 * Moving overlays
 * Hiding the sidebar
+* Profiles
 
 ## Moving overlays
 It's possible to move overlays and infoboxes by holding the <kbd>Alt</kbd> key and dragging them to a desired position. Whilst dragging blue squares will show fixed positions where they can be locked in.
@@ -17,7 +18,7 @@ It's possible to hide the sidebar by pressing the left arrow next to the minimiz
 
 ![](img/general-features/general_features_sidebar.gif)
 
-### Profiles
+## Profiles
 
 Profiles are separate sets of plugins and settings that can be switched between at any time. They can be managed under a tab in the configuration panel.
 
