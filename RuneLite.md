@@ -105,19 +105,19 @@ Sets the color of the notification flashes.
 
 ### Dynamic Overlay Font
 
-Choose which font to use for in-game overlays such as player names, ground items, etc. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#Custom-Cursor/Font/Sound/Login-Screen)
+Choose which font to use for in-game overlays such as player names, ground items, etc. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#custom-cursorfontsoundlogin-screen)
 
 ### Tooltip Font
 
-Choose which font is used for in-game tooltips such as food stats and NPC names. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#Custom-Cursor/Font/Sound/Login-Screen)
+Choose which font is used for in-game tooltips such as food stats and NPC names. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#custom-cursorfontsoundlogin-screen)
 
 ### Interface font
 
-Choose which font is used for in-game interface overlays such as opponent info, clue scrolls etc. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#Custom-Cursor/Font/Sound/Login-Screen)
+Choose which font is used for in-game interface overlays such as opponent info, clue scrolls etc. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#custom-cursorfontsoundlogin-screen)
 
 ### Infobox font
 
-Configures what font is used for infoboxes. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#Custom-Cursor/Font/Sound/Login-Screen)
+Configures what font is used for infoboxes. Can be customized, see [Custom Cursor/Font/Sound/Login Screen](https://github.com/runelite/runelite/wiki/General-Features#custom-cursorfontsoundlogin-screen)
 
 ### Tooltip Position
 

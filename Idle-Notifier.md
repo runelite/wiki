@@ -32,7 +32,7 @@ Toggled notifying you when you're about to be logged out due to being online for
 
 Toggled notifying you when your hitpoints hits the **Hitpoints Notification Threshold**.
 
-NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite settings or customize this notification by clicking the cogwheel next to the checkbox. See [Notification-Customization](https://github.com/runelite/runelite/wiki/General-Features#Notification-Customization).
+NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite settings or customize this notification by clicking the cogwheel next to the checkbox. See [Notification-Customization](https://github.com/runelite/runelite/wiki/General-Features#notification-customization).
 
 ### Hitpoints Notification Threshold
 
