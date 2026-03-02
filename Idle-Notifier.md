@@ -32,7 +32,7 @@ Toggled notifying you when you're about to be logged out due to being online for
 
 Toggled notifying you when your hitpoints hits the **Hitpoints Notification Threshold**.
 
-NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite settings or customize this notification by clicking the cogwheel next to the checkbox. See further down the page for those settings.
+NOTICE! By default you will only get notifications when the client is out of focus, to change this see RuneLite settings or customize this notification by clicking the cogwheel next to the checkbox. See [Notification-Customization](https://github.com/runelite/runelite/wiki/General-Features#Notification-Customization).
 
 ### Hitpoints Notification Threshold
 
@@ -77,52 +77,3 @@ Toggled notifying you when your special attack percentage hits the **Special Att
 ### Special Attack Energy Notification Threshold
 
 Choose special attack percentage regeneration threshold at which send a notification.
-
-## Notification Customization
-
-After enabling one of the notifications, a cogwheel will appear next to the checkbox where you can check **Customize notification**, allowing you to customize how the specific notification will show up.
-
-### Tray notification
-
-Enables tray notifications.
-
-### Request focus
-
-Configures the window focus request type on notification.
-
- - **Request**: Requests user attention. Brings window to the front (Windows); Bounces RuneLite dock icon (MacOS).
- - **Taskbar**: Flash the taskbar.
- - **Force**: Forces window to the front.
-
-### Notification sound
-
-Determines what sound to use for system notifications triggered by RuneLite.
-
-* **Native:** Use default system notification sound
-* **Custom:** The custom notification sound can be placed in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/MacOS. The notification must be called `notification.wav` and be in .wav format.
-
-Additional custom notification sounds can be placed in the associated `.runelite/notifications/` directory. These sounds must be in .wav format and will appear in the dropdown as the name of the sound file.
-
-### Notification volume
-
-Configures the volume of custom notifications (does not control native volume).
-
-### Notification timeout
-
-How long notifications will be shown in milliseconds. A value of 0 will make it use the system configuration. (Linux only)
-
-### Game message notification
-
-Adds a notification message to the chatbox.
-
-### Flash
-
-Flashes the game frame as a notification.
-
-### Flash color
-
-The color of the notification flashes.
-
-### Send notifications when focused
-
-Send the notification even when the client is focused.
