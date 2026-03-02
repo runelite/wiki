@@ -28,6 +28,10 @@ Save the position and size of the client after exiting.
 
 Whether or not Runelite should use custom title and border.
 
+### Window opacity
+
+Set the windows opacity.
+
 ### Enable client always on top
 
 The client will stay visible in front of other windows.
@@ -50,6 +54,10 @@ The key that will toggle the current or last opened plugin panel. Accepts modifi
 
 ## Notification Settings
 
+### Enables icon in system tray.
+Disabling this may limit your ability to receive tray notifications.
+Please restart your client after changing this setting.
+
 ### Enable tray notifications
 
 Enables tray notifications.
@@ -68,6 +76,14 @@ Determines what sound to use for system notifications triggered by RuneLite.
 * **Custom:** The custom notification sound can be placed in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/MacOS. The notification must be called `notification.wav` and be in .wav format.
 
 Additional custom notification sounds can be placed in the associated `.runelite/notifications/` directory. These sounds must be in .wav format and will appear in the dropdown as the name of the sound file.
+
+### Notification volume
+
+Configures the volume of custom notifications (does not control native volume).
+
+### Notification timeout
+
+How long notification will be shown in milliseconds. A value of 0 will make it use the system configuration. (Linux only)
 
 ### Enable game message notifications
 
@@ -89,19 +105,19 @@ Sets the color of the notification flashes.
 
 ### Dynamic Overlay Font
 
-Choose which font type to use for in-game overlays such as player names, ground items, etc.
+Choose which font to use for in-game overlays such as player names, ground items, etc.
 
 ### Tooltip Font
 
-Choose which font type is used for in-game tooltips such as food stats and NPC names.
+Choose which font is used for in-game tooltips such as food stats and NPC names.
 
-### Interface overlay font
+### Interface font
 
-Choose which font type is used for in-game interface overlays such as opponent info, clue scrolls etc.
+Choose which font is used for in-game interface overlays such as opponent info, clue scrolls etc.
 
-### Require shift for overlay menu
+### Infobox font
 
-Require shift to be held down to access overlay right-click menus.
+Configures what font is used for infoboxes.
 
 ### Tooltip Position
 
@@ -109,11 +125,15 @@ Configures whether to show the tooltip above or below the cursor.
 
 ### Display infoboxes vertically
 
-Stack infoboxes vertically instead of horizontally.
+Deprecated: use the flip option in the menu when Shift + right clicking an infobox
 
 ### Infobox size(px)
 
 Configures the size of infoboxes in pixels.
+
+### Outline infobox text
+
+Draw a full outline instead of a simple shadow for infobox text.
 
 ### Overlay Color
 
@@ -124,3 +144,11 @@ Configures the background color of infoboxes and overlays.
 ### Block Extra Mouse Buttons
 
 Blocks extra mouse buttons (4 and above).
+
+### Use actively traded price
+
+Use actively traded prices, sourced from the RuneScape wiki, for item prices.
+
+### Drag Hotkey
+
+Configures the hotkey used to drag UI elements around. default: <kbd>Alt</kbd>
