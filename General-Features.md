@@ -4,6 +4,7 @@ The RuneLite settings can be found as a plugin. See [RuneLite](https://github.co
 RuneLite incorporates functions such as:
 * Moving overlays
 * Hiding the sidebar
+* Custom Cursor/Font/Sound/Login Screen
 * Notification Customization
 * Profiles
 
@@ -18,6 +19,16 @@ You can reset an overlay's size and position by holding the <kbd>Alt</kbd> key a
 It's possible to hide the sidebar by pressing the left arrow next to the minimize button. To show the sidebar again press the right arrow. This can also be done using the shortcut keys ctrl+F11.
 
 ![](img/general-features/general_features_sidebar.gif)
+
+## Custom Cursor/Font/Sound/Login Screen
+
+Place the files for the feature you want in `%userprofile%\.runelite` on Windows or `~/.runelite/` on Linux/OSX
+The names and type for the files are:
+* Custom cursor: `cursor.png`
+* Custom font: `<font_name>.ttf` file in `.runelite/fonts`
+* Custom default notification sound: `notification.wav`
+* Custom specific notification sound: `<name>.wav` in `.runelite/notifications`, then select `<name>` in the notification sound dropdown
+* Custom login screen: `login.png` Image size 765 x 503 recommended, larger images will be (simply) scaled down automatically.
 
 ## Notification Customization
 
