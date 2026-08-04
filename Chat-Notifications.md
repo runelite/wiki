@@ -13,6 +13,17 @@ Highlights any instance of your username in chat
 
 Highlights a custom set of words. Entries in this field should be separated by commas. (`, `)
 
+### Highlight regex
+
+List of expressions to be highlighted using regex matching, separated by new lines. Matching is case-insensitive; enter the expression directly, without `/.../` delimiters or flags.
+
+#### Example:
+* **Highlight regex:** `(?:faded away|crumbles to dust)`
+* **Message received:** `Your dodgy necklace crumbles to dust.`
+  - `crumbles to dust` is highlighted
+
+##### To learn more about regex matching rules see a [regex testing website.](https://regexr.com/)
+
 ### Notify on own name
 
 Notifies you whenever your name is mentioned
