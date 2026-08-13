@@ -10,3 +10,16 @@ If you have converted your account to a Jagex Account and can no longer login di
 6. Launch RuneLite client (eg. via the IDE) and it will use the saved credentials.
 
 Once you've finished development you can delete the `credentials.properties` file to return your Runelite back to normal. If for any reason you need to invalidate the credentials, you can use the "End sessions" button under account settings on runescape.com.
+
+### Linux (Bolt Launcher)
+When launching RuneLite via the IDE, it expects the RuneLite directory to be at `~/.runelite`, but when launching via a flatpak Bolt installation, it expects it to be at `~/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite`. This is a problem when `credentials.properties` are written to one location and read from another.
+
+To make the IDE and Bolt both use Bolt's directory:
+
+1. If you already have a directory at `~/.runelite` that you don't need, rename it  or delete it
+2. Create a symlink:
+```bash
+ln -s ~/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite ~/.runelite
+```
+3. Open Bolt, navigate to settings > OSRS, and click "Configure RuneLite" at the top.
+4. Follow the instructions above starting at step 3.
