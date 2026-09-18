@@ -12,6 +12,8 @@ The Configure window can be then opened by selecting the `RuneLite (configure)` 
 The Configuration Window allows all launcher and client arguments to be configured and saved for use on any subsequent launch.
 The configuration is also saved in such a way that when launching RuneLite through the Jagex Launcher they are also applied.
 
+On macOS 14 (Sonoma) and later, saving can fail silently. The launcher writes `settings.json` relative to its working directory, which on macOS can be inside the `RuneLite.app` bundle itself, and macOS blocks writes there unless the app you run the launcher from has been granted App Management permission under System Settings → Privacy & Security. The Configure window closes normally either way. See [[the macOS notes on Using Jagex Accounts | Using-Jagex-Accounts#macos-14-sonoma-and-later]] for how to confirm and work around it.
+
 - [Debug](#Debug)
 - [Disable TLS verification](#Disable-TLS-verification)
 - [Safe mode](#Safe-mode)
