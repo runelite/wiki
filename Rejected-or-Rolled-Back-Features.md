@@ -62,7 +62,6 @@ For security, stability and reviewability reasons, hub plugins are forbidden fro
   * `Client.menuAction`
     * Except for the 1 exception mentioned below
 
-
 * **Forbidden patterns:**
   * Creating your own instance of `Gson`
       * Instead, inject the client's instance and, if needed, use `.newBuilder()` to customize it
