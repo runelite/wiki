@@ -83,9 +83,11 @@ These may cause your plugin to need some additional review whenever you add / mo
 * `Client.menuAction`
     * There is currently only 1 acceptable use case for this function - fetching collection log data: `client.menuAction(-1, InterfaceID.Collection.SEARCH_TOGGLE, MenuAction.CC_OP, 1, -1, "Search", null)`
 * `Client.runScript`
-  * Any scripts that send server actions will not be allowed
+  * Any scripts that send server actions will throw an error by default
 
 #### Extra-sensitive APIs
 We recommend you don't use these APIs at all and the use of them will require your plugin to be manually reviewed.
 
 * `Client.hopToWorld`
+* `Filepath.Unchecked`
+* `ScriptEventBuilder.setCanSendPackets`
