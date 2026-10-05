@@ -89,7 +89,7 @@ These may cause your plugin to need some additional review whenever you add / mo
 * `Client.runScript`
   * Any scripts that send server actions will throw an error by default
 
-#### Extra-sensitive APIs
+#### Restricted APIs
 We recommend you don't use these APIs at all and the use of them will require your plugin to be manually reviewed.
 
 * `Client.hopToWorld`
