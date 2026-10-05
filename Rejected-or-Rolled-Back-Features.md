@@ -54,13 +54,18 @@ For security, stability and reviewability reasons, hub plugins are forbidden fro
 * Execution of external programs (e.g. subprocesses) via any means
 * Downloading or otherwise vendoring external source code at runtime
 
-* **Forbidden function calls:**
+* **Forbidden Java functions & classes:**
   * `Desktop.open` or `LinkBrowser.open`
   * `Desktop.browse`
       * However, `LinkBrowser.browse` is allowed
   * `Thread.interrupt` or `Thread.sleep`
   * `Client.menuAction`
     * Except for the 1 exception mentioned below
+  * Use of `java.io` file APIs
+      * Instead, use [`net.runelite.client.util.Filepath`](https://static.runelite.net/runelite-client/apidocs/net/runelite/client/util/Filepath.html)
+  * Use of `java.lang.Runtime`
+  * Use of `java.awt.KeyboardFocusManager`
+  * Use of any network client other than `OkHttp` (i.e. `HttpURLConnection`, `java.net.http.HttpClient`)
 
 * **Forbidden patterns:**
   * Creating your own instance of `Gson`
@@ -68,13 +73,12 @@ For security, stability and reviewability reasons, hub plugins are forbidden fro
   * Creating your own instance of `OkHttp`
       * Instead, inject the client's instance
   * Using `net.runelite` as your package
-  * Use of any network client other than `OkHttp` (i.e. `HttpURLConnection`, `java.net.http.HttpClient`)
-  * Use of `java.io` file APIs
-      * Instead, use [`net.runelite.client.util.Filepath`](https://static.runelite.net/runelite-client/apidocs/net/runelite/client/util/Filepath.html)
 
 Violating the above requirements will prevent us from being able to fully review the source code and therefore the behavior of your plugin.
 
 This list is not necessarily exhaustive. **As a rule of thumb, if we cannot review every single line of source code that your plugin will execute, we will not accept it.**
+
+Also note that some older plugins are grandfathered into these rules. Just because an existing plugin does something in a certain way does not guarantee it is allowed.
 
 #### Sensitive APIs
 These may cause your plugin to need some additional review whenever you add / modify code related them but are allowed.
