@@ -47,12 +47,51 @@ Jagex has requested removal of certain features, and current discussion of featu
 
 Alternative JVM languages such as Kotlin and Scala are not allowed. All plugins **MUST** be written in Java. We do not wish to burden plugin hub reviewers with additional languages, and our build / CI tooling only works with Java.
 
-For security and reviewability reasons, hub plugins are forbidden from using the following in-code behaviors:
+For security, stability and reviewability reasons, hub plugins are forbidden from using the following language features, functions or patterns:
+
 * [Java reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html)
-* [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface)
+* [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) and JNA
 * Execution of external programs (e.g. subprocesses) via any means
 * Downloading or otherwise vendoring external source code at runtime
 
-These technologies prevent us from being able to fully review the source code and therefore the behavior of your plugin.
+* **Forbidden Java functions & classes:**
+  * `Desktop.open` or `LinkBrowser.open`
+  * `Desktop.browse`
+      * However, `LinkBrowser.browse` is allowed
+  * `Thread.interrupt` or `Thread.sleep`
+  * `Client.menuAction`
+    * Except for the 1 exception mentioned below
+  * Use of `java.io` file APIs
+      * Instead, use [`net.runelite.client.util.Filepath`](https://static.runelite.net/runelite-client/apidocs/net/runelite/client/util/Filepath.html)
+  * Use of `java.lang.Runtime`
+  * Use of `java.awt.KeyboardFocusManager`
+  * Use of any network client other than `OkHttp` (i.e. `HttpURLConnection`, `java.net.http.HttpClient`)
+
+* **Forbidden patterns:**
+  * Creating your own instance of `Gson`
+      * Instead, inject the client's instance and, if needed, use `.newBuilder()` to customize it
+  * Creating your own instance of `OkHttp`
+      * Instead, inject the client's instance
+  * Using `net.runelite` as your package
+
+Violating the above requirements will prevent us from being able to fully review the source code and therefore the behavior of your plugin.
 
 This list is not necessarily exhaustive. **As a rule of thumb, if we cannot review every single line of source code that your plugin will execute, we will not accept it.**
+
+Also note that some older plugins are grandfathered into these rules. Just because an existing plugin does something in a certain way does not guarantee it is allowed.
+
+#### Sensitive APIs
+These may cause your plugin to need some additional review whenever you add / modify code related them but are allowed.
+
+* Network IO
+* `Client.menuAction`
+    * There is currently only 1 acceptable use case for this function - fetching collection log data: `client.menuAction(-1, InterfaceID.Collection.SEARCH_TOGGLE, MenuAction.CC_OP, 1, -1, "Search", null)`
+* `Client.runScript`
+  * Any scripts that send server actions will throw an error by default
+
+#### Restricted APIs
+We recommend you don't use these APIs at all and the use of them will require your plugin to be manually reviewed.
+
+* `Client.hopToWorld`
+* `Filepath.Unchecked`
+* `ScriptEventBuilder.setCanSendPackets`
