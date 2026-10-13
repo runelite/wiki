@@ -10,7 +10,7 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * Fight Cave (Jad) Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
 * Cerberus plugin: [see Jagex statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1)
-* Plugins that remove the inventory pane background or make it click-through. This was abused to trivialize click-intensive skilling methods and triggered Jagex's anti-cheat. (see [plugin-hub/commit/b2eeb03](https://github.com/runelite/plugin-hub/commit/b2eeb03ac46f090d9ebcf105239a5004039b12d2))
+* Plugins that remove the inventory pane background or make it click-through. This was abused to trivialize click-intensive skilling methods. (see [plugin-hub/commit/b2eeb03](https://github.com/runelite/plugin-hub/commit/b2eeb03ac46f090d9ebcf105239a5004039b12d2))
 * Plugins that manipulate the client's window, including, but not limited to, minimizing or changing which window is currently focused: Removed at Jagex's request (see [plugin-hub/commit/1de785b](https://github.com/runelite/plugin-hub/commit/1de785b5c51373f4e769354f540fee16efd7377c))
 * Plugins that predict trap activations in Hallowed Sepulchre: Removed at Jagex's request (see [plugin-hub/commit/baca903](https://github.com/runelite/plugin-hub/commit/baca903c944b7f93b08829dafd5cc53ef6291950))
 
