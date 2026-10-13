@@ -10,8 +10,9 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Barbarian Assault Plugin: Left-click calling removed (see [#859](https://github.com/runelite/runelite/pull/859))
 * Fight Cave (Jad) Plugin: Plugin trivialises the fight against Jad (see [#6724](https://github.com/runelite/runelite/pull/6724))
 * Cerberus plugin: [see Jagex statement](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1)
-* Plugins that remove the inventory pane background or make it click-through. This was abused to trivialize click-intensive skilling methods.
-* Plugins that manipulate the client's window, including, but not limited to, minimizing or changing which window is currently focused.
+* Plugins that remove the inventory pane background or make it click-through. This was abused to trivialize click-intensive skilling methods and triggered Jagex's anti-cheat. (see [plugin-hub/commit/b2eeb03](https://github.com/runelite/plugin-hub/commit/b2eeb03ac46f090d9ebcf105239a5004039b12d2))
+* Plugins that manipulate the client's window, including, but not limited to, minimizing or changing which window is currently focused: Removed at Jagex's request (see [plugin-hub/commit/1de785b](https://github.com/runelite/plugin-hub/commit/1de785b5c51373f4e769354f540fee16efd7377c))
+* Plugins that predict trap activations in Hallowed Sepulchre: Removed at Jagex's request (see [plugin-hub/commit/baca903](https://github.com/runelite/plugin-hub/commit/baca903c944b7f93b08829dafd5cc53ef6291950))
 
 #### Not currently being considered
 * RuneLite XP Drops: The vanilla client already has XP drops that can be repositioned/recolored (see [#1102](https://github.com/runelite/runelite/issues/1102))
@@ -38,6 +39,10 @@ Jagex has requested removal of certain features, and current discussion of featu
 * Plugins which programmatically insert text into the user's chatbox input for any reason (pasting messages, shorthand expansion, etc.). This is considered to be autotyping. The only way text can get into the chatbox is if the user is pressing keys themselves.
 * Plugins which programmatically modify an outgoing chat message after user sends it (same as above).
 * "Credential manager" plugins which directly store account credentials on behalf of the user (e.g. to disk, to profile) rather than through a vetted cryptographic store (e.g. Bitwarden). This constitutes an account security risk we are not willing to accept, and plugins that directly use cryptography to store credentials would require a more intensive review which we are unwilling to perform.
+* Plugins that manipulate the core RuneLite UI such as:
+    * Overlays or info boxes
+    * Overlay/Interface anchors
+    * Swing components such as the root Frame or sidebar
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
