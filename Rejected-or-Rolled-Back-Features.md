@@ -43,6 +43,7 @@ Jagex has requested removal of certain features, and current discussion of featu
     * Overlays or info boxes
     * Overlay/Interface anchors
     * Swing components such as the root Frame or sidebar
+* Plugins which modify other plugin's configs
 
 #### Menu Entry Swapping
 * `Conditional menu entry removing`: This can be overpowered in some cases (hiding attack options on NPCs/players based on some conditions, like it being friend or it being specific type of NPC).
