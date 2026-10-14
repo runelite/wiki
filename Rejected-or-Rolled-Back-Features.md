@@ -101,3 +101,7 @@ We recommend you don't use these APIs at all and the use of them will require yo
 * `Client.hopToWorld`
 * `Filepath.Unchecked`
 * `ScriptEventBuilder.setCanSendPackets`
+
+#### Plugins which interface with paid external services
+
+New plugins as of 10/14/2026 that have significant functionality locked behind paid external services are prohibited. This is enforced at our own discretion, with some exceptions for common services like Spotify, etc.
