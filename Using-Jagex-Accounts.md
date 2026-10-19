@@ -1,12 +1,22 @@
 ### Using Jagex Accounts
 
-If you have converted your account to a Jagex Account and can no longer login directly to RuneLite, but want to do RuneLite development, follow this guide:
+#### Initial setup
 
-1. Make sure your _RuneLite launcher_ is version 2.6.3 or newer
-2. For Windows, run `RuneLite (configure)` from the start menu. Otherwise, pass `--configure` to the launcher (i.e. `/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure` on Mac).
-3. In the `Client arguments` input box add `--insecure-write-credentials`
-4. Click Save
-5. Launch RuneLite via the Jagex launcher. RuneLite will write your launcher credentials to `.runelite/credentials.properties`. These credentials can be used to login into your account directly, bypassing your password. **Do not share this file with anyone.**
-6. Launch RuneLite client (eg. via the IDE) and it will use the saved credentials.
+1. Launch RuneLite client via the IDE in developer mode
+   - If you're launching from a recently generated hub plugin, your plugin's `run` configuration will enable developer mode by default
+   - Otherwise, see: [Using the client developer tools](Using-the-client-developer-tools.md)
+2. Once you've launched the client, click the <img width="16px" src="img/using-jagex-accounts/jagex_auth_sidepanel_icon.png" alt="Jagex auth panel"> button on the sidebar
+3. Click "Add Jagex Account"
+4. Go through the Jagex login process for your account in the window that pops up. Once that has completed you should see your Jagex account and all its associated characters listed in the sidebar panel
+5. Select the character you want to log in with
+6. Click "Play Now" on the login screen
 
-Once you've finished development you can delete the `credentials.properties` file to return your Runelite back to normal. If for any reason you need to invalidate the credentials, you can use the "End sessions" button under account settings on runescape.com.
+#### Subsequent launches
+
+1. Launch RuneLite client via the IDE in developer mode
+2. Select the character you want to log in with
+3. Click "Play Now" on the login screen
+
+### Legacy Jagex Account Setup
+
+If you created a dev setup before the Jagex auth panel was added and still have a `.runelite/credentials.properties` file sitting around, it is recommended to delete it for account security purposes.
