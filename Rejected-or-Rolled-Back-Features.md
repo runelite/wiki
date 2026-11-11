@@ -71,7 +71,7 @@ For security, stability and reviewability reasons, hub plugins are forbidden fro
   * Use of `java.io` file APIs
       * Instead, use [`net.runelite.client.util.Filepath`](https://static.runelite.net/runelite-client/apidocs/net/runelite/client/util/Filepath.html)
   * Use of `java.lang.Runtime`
-  * Use of `java.awt.KeyboardFocusManager`
+  * Use of `java.awt.KeyboardFocusManager` or `java.awt.Robot`
   * Use of any network client other than `OkHttp` (i.e. `HttpURLConnection`, `java.net.http.HttpClient`)
 
 * **Forbidden patterns:**
