@@ -3,9 +3,11 @@
 The RuneLite Launcher Configuration window was added in launcher version 2.6.3, released March 5, 2023.
 To update your launcher please visit the [RuneLite website](https://runelite.net/) and select to download the setup file for your Operating System then install the launcher using that.
 
-The Configure window can be then opened by selecting the `RuneLite (configure)` start menu entry, on Windows, or if using Mac/Linux by passing the command line argument `--configure` to the launcher (e.g. on mac, run `/Applications/RuneLite.app/Contents/MacOS/RuneLite --configure` in Terminal).
+The easiest way to open the configuration window is:
+- **On Windows**: select the `RuneLite (configure)` start menu entry ![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Configure_shortcut.png)
+- **On Linux**: If using the Jagex or Bolt launcher - click the configure RuneLite button in the settings
 
-![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Configure_shortcut.png)
+If you are on Mac or one of the above options does not work, then run the following command in terminal: `curl -fsS https://github.com/ldavid432/runelite-wiki/tree/update-launcher-configuration/scripts/configure.sh | bash`
 
 ![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Launcher_Configuration.png)
 
