@@ -8,7 +8,7 @@ To open the configuration window:
 - **On Linux**: click the `Configure RuneLite` button in the Jagex Launcher settings <br> ![](./img/runelite-launcher-configuration/jagex-launcher-linux-configure.png)
 - **On Mac**: run the following command in terminal: 
 ```bash
-curl -fsS https://raw.githubusercontent.com/runelite/runelite-wiki/main/scripts/configure.sh | bash
+curl -fsSL https://github.com/runelite/runelite/wiki/scripts/configure.sh | bash
 ```
 
 ![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Launcher_Configuration.png)
