@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
 locations=(
-  "$HOME/Library/Application Support/Jagex Launcher/Games/Old School RuneScape/RuneLite/RuneLite.app/Contents/MacOS/RuneLite"
-  "/Applications/RuneLite.app/Contents/MacOS/RuneLite"
+  "$HOME/Library/Application Support/Jagex Launcher/Games/Old School RuneScape/RuneLite/RuneLite.app"
+  "/Applications/RuneLite.app"
 )
 
-for file in "${locations[@]}"; do
-  printf 'Checking: %s\n' "$file"
+for app in "${locations[@]}"; do
+  printf 'Checking: %s\n' "$app"
 
-  if [[ -f "$file" ]]; then
-    printf 'Found: %s\n' "$file"
-    "$file" --configure
+  if [[ -d "$app" ]]; then
+    printf 'Found: %s\n' "$app"
+    open -n -W "$app" --args --configure
     exit $?
   fi
 done
