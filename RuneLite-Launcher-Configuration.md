@@ -6,8 +6,7 @@ To update your launcher please visit the [RuneLite website](https://runelite.net
 The easiest way to open the configuration window is:
 - **On Windows**: select the `RuneLite (configure)` start menu entry ![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Configure_shortcut.png)
 - **On Linux**: If using the Jagex or Bolt launcher - click the configure RuneLite button in the settings
-
-If you are on Mac or one of the above options does not work, then run the following command in terminal: `curl -fsS https://github.com/ldavid432/runelite-wiki/tree/update-launcher-configuration/scripts/configure.sh | bash`
+- **On Mac**:  run the following command in terminal: `curl -fsS https://github.com/runelite/runelite-wiki/tree/main/scripts/configure.sh | bash`
 
 ![](https://raw.githubusercontent.com/runelite/wiki/master/img/RuneLite_Launcher_Configuration.png)
 
