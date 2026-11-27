@@ -6,7 +6,7 @@
 
 ### 1. Hide Others
 
-(Default On) Hides other players who are not on your friends/ignore list, in your friends/clan chat, or in combat with you.
+(Default On) Hides other players who are not on your friends/ignore list or in your friends/clan chat.
 
 ### 2. Hide Others 2D
 
